@@ -4,15 +4,32 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Architecture Overview
 
-This is YouTube Semantic Search - a tool for extracting YouTube subtitles and performing semantic search over them. The system implements natural language search over video content using sentence embeddings and cosine similarity.
+This is Content Semantic Search - a unified tool for extracting and searching content from multiple sources including YouTube videos and EPUB books. The system implements natural language search over textual content using sentence embeddings and cosine similarity.
 
 ### Core Components
 
+**src/core/base.py** - Abstract base classes for content extraction:
+- `ContentExtractor` - Base class for all content extractors
+- `ContentProcessor` - Base class for content processing
+
 **src/core/extractor.py** - YouTube subtitle extraction with `YouTubeExtractor` class that:
 - Downloads subtitles from any YouTube video using yt-dlp
+- Automatically retrieves video titles for organized folder naming
 - Converts VTT format to clean text
 - Handles multiple languages and auto-generated subtitles
 - Removes timing information and duplicates
+
+**src/core/epub_extractor.py** - EPUB text extraction with `EPUBExtractor` class that:
+- Extracts text content from EPUB files
+- Automatically retrieves book titles from metadata
+- Converts XHTML content to clean text
+- Handles proper reading order via EPUB spine
+- Removes HTML formatting and navigation elements
+
+**src/core/extractor_factory.py** - Factory for creating appropriate extractors:
+- Automatically detects content type (YouTube URL vs EPUB file)
+- Creates appropriate extractor instance
+- Provides unified interface for different content types
 
 **src/core/searcher.py** - Semantic search engine with `SemanticSearcher` class that:
 - Loads transcripts from various formats (markdown, text)
@@ -32,9 +49,9 @@ This is YouTube Semantic Search - a tool for extracting YouTube subtitles and pe
 - Manages per-transcript cache directories
 - Validates cache integrity and handles updates
 
-**yt-aprtr** - Main CLI entry point that provides:
-- `extract` - Extract subtitles from YouTube videos
-- `search` - Search existing transcripts
+**css-aprtr** - Main CLI entry point that provides:
+- `extract` - Extract content from YouTube videos or EPUB books
+- `search` - Search existing transcripts or extracted text
 - `auto` - Extract and search in one command
 
 ### Key Files
@@ -54,27 +71,35 @@ source venv/bin/activate
 pip install -e .
 ```
 
-**IMPORTANT FOR CLAUDE CODE**: Always ensure the virtual environment is properly activated before running yt-aprtr commands. If you encounter "ModuleNotFoundError" or dependency issues:
+**IMPORTANT FOR CLAUDE CODE**: Always ensure the virtual environment is properly activated before running css-aprtr commands. If you encounter "ModuleNotFoundError" or dependency issues:
 
 1. First check if venv exists and is properly set up: `ls -la venv/`
 2. If venv is corrupted or missing, recreate it: `rm -rf venv && python3 -m venv venv`
 3. Always activate the virtual environment before running commands: `source venv/bin/activate`
 4. Then install dependencies: `pip install -e .`
-5. All yt-aprtr commands must be prefixed with: `source venv/bin/activate && ./yt-aprtr ...`
+5. All css-aprtr commands must be prefixed with: `source venv/bin/activate && ./css-aprtr ...`
 
 ### Usage Examples
 ```bash
-# Extract subtitles from YouTube
-./yt-aprtr extract "https://youtube.com/watch?v=abc123" -n my_interview
+# Extract YouTube video subtitles with automatic title naming (recommended)
+./css-aprtr extract "https://youtube.com/watch?v=abc123"
 
-# Search existing transcript
-./yt-aprtr search "consciousness artificial intelligence" -t transcript.md -r 10
+# Extract EPUB book text with automatic title naming
+./css-aprtr extract "/path/to/book.epub"
 
-# Extract and search in one command
-./yt-aprtr auto "https://youtube.com/watch?v=xyz789" "neural networks" -r 15
+# Extract with custom name (optional)
+./css-aprtr extract "https://youtube.com/watch?v=abc123" -n my_interview
+./css-aprtr extract "/path/to/book.epub" -n philosophy_book
+
+# Search existing transcript or text
+./css-aprtr search "consciousness artificial intelligence" -t transcript.md -r 10
+
+# Extract and search in one command with automatic naming
+./css-aprtr auto "https://youtube.com/watch?v=xyz789" "neural networks" -r 15
+./css-aprtr auto "/path/to/book.epub" "consciousness" -r 20
 
 # Expand specific result for full context
-./yt-aprtr search "substrate consciousness" -t demis_hassabis_formatted.md --expand 950 --context 4
+./css-aprtr search "substrate consciousness" -t extracted_text.txt --expand 950 --context 4
 ```
 
 ### Configuration
@@ -101,35 +126,47 @@ export YSS_DEFAULT_RESULTS="10"
 
 This tool is designed to work seamlessly with Claude Code and other AI agents. Here are the key workflows:
 
-### Extract Subtitles for AI Analysis
+### Extract Content for AI Analysis
 ```bash
-# Extract subtitles from any YouTube video for AI analysis
-./yt-aprtr extract "https://youtube.com/watch?v=abc123" -n my_video
+# Extract YouTube videos with automatic title naming (recommended) - AI gets meaningful folder names
+./css-aprtr extract "https://youtube.com/watch?v=abc123"
 
-# Extract with custom language for multilingual analysis
-./yt-aprtr extract "https://youtube.com/watch?v=abc123" -l es -n spanish_video
+# Extract EPUB books with automatic title naming
+./css-aprtr extract "/path/to/book.epub"
+
+# Extract with custom name when needed
+./css-aprtr extract "https://youtube.com/watch?v=abc123" -n my_video
+./css-aprtr extract "/path/to/book.epub" -n my_book
+
+# Extract with custom language and automatic title naming (YouTube only)
+./css-aprtr extract "https://youtube.com/watch?v=abc123" -l es
 ```
 
 ### AI-Optimized Semantic Search
 ```bash
-# Search transcripts using natural language - perfect for AI queries
-./yt-aprtr search "artificial intelligence" -t transcript.txt -r 10
+# Search content using natural language - perfect for AI queries
+./css-aprtr search "artificial intelligence" -t transcript.txt -r 10
 
 # Expand specific results with full context for deeper AI analysis
-./yt-aprtr search "consciousness" -t transcript.txt --expand 45 --context 5
+./css-aprtr search "consciousness" -t extracted_text.txt --expand 45 --context 5
 ```
 
 ### One-Step Extract & Analyze
 ```bash
-# Extract and immediately search - ideal for AI-driven exploration
-./yt-aprtr auto "https://youtube.com/watch?v=abc123" "neural networks" -n interview -r 15
+# Extract and immediately search with automatic title naming (recommended)
+./css-aprtr auto "https://youtube.com/watch?v=abc123" "neural networks" -r 15
+./css-aprtr auto "/path/to/book.epub" "consciousness" -r 20
+
+# With custom name when needed
+./css-aprtr auto "https://youtube.com/watch?v=abc123" "neural networks" -n interview -r 15
+./css-aprtr auto "/path/to/book.epub" "philosophy" -n philosophy_book -r 25
 ```
 
 ## Command Line Arguments
 
 ### Extract Command
-- `url`: YouTube video URL (required)
-- `-l, --language`: Subtitle language code (default: en)
+- `source`: YouTube video URL or EPUB file path (required)
+- `-l, --language`: Subtitle language code for YouTube (default: en)
 - `-n, --name`: Custom output filename
 - `-o, --output-dir`: Output directory (default: current)
 
@@ -141,39 +178,56 @@ This tool is designed to work seamlessly with Claude Code and other AI agents. H
 - `-c, --context`: Context chunks for expand (default: 3)
 
 ### Auto Command (Extract + Search)
-- `url`: YouTube video URL (required)
+- `source`: YouTube video URL or EPUB file path (required)
 - `query`: Search query (required)
-- `-l, --language`: Subtitle language code (default: en)
+- `-l, --language`: Subtitle language code for YouTube (default: en)
 - `-n, --name`: Custom output filename
 - `-o, --output-dir`: Output directory (default: current)
 - `-r, --results`: Number of results (default: 10)
 
 ## AI Analysis Examples
 
-### Extract YouTube Videos
+### Extract Content
 ```bash
-./yt-aprtr extract "https://youtube.com/watch?v=dQw4w9WgXcQ" -n rick_roll
-./yt-aprtr extract "https://youtube.com/watch?v=abc123" -l fr -n french_interview
+# YouTube videos with automatic title naming (creates: Rick_Astley_Never_Gonna_Give_You_Up_Official_Video_4K_Remaster_dQw4w9WgXcQ/)
+./css-aprtr extract "https://youtube.com/watch?v=dQw4w9WgXcQ"
+
+# EPUB books with automatic title naming (creates: The_Art_of_War_Sun_Tzu/)
+./css-aprtr extract "/path/to/the_art_of_war.epub"
+
+# French video with automatic title naming
+./css-aprtr extract "https://youtube.com/watch?v=abc123" -l fr
+
+# Custom names when needed
+./css-aprtr extract "https://youtube.com/watch?v=abc123" -n french_interview
+./css-aprtr extract "/path/to/book.epub" -n philosophy_book
 ```
 
 ### Search Content
 ```bash
-./yt-aprtr search "machine learning algorithms" -t extractions/interview/interview.en.txt -r 15
-./yt-aprtr search "startup advice" -t transcript.md --expand 123 --context 4
+./css-aprtr search "machine learning algorithms" -t extractions/interview/interview.en.txt -r 15
+./css-aprtr search "startup advice" -t extracted_text.txt --expand 123 --context 4
+./css-aprtr search "philosophy of war" -t extractions/The_Art_of_War_Sun_Tzu/The_Art_of_War_Sun_Tzu.txt -r 10
 ```
 
 ### One-Step Extract and Search
 ```bash
-./yt-aprtr auto "https://youtube.com/watch?v=abc123" "artificial intelligence" -n ai_talk -r 20
+# With automatic title naming (recommended for organized AI analysis)
+./css-aprtr auto "https://youtube.com/watch?v=abc123" "artificial intelligence" -r 20
+./css-aprtr auto "/path/to/book.epub" "philosophy" -r 15
+
+# With custom name when needed
+./css-aprtr auto "https://youtube.com/watch?v=abc123" "artificial intelligence" -n ai_talk -r 20
+./css-aprtr auto "/path/to/book.epub" "strategy" -n war_book -r 25
 ```
 
 ## AI-Optimized Workflow
 
-1. **Extract**: Use Claude Code to extract subtitles from any YouTube video
-2. **Search**: Ask AI to search transcripts using natural language queries
+1. **Extract**: Use Claude Code to extract content from YouTube videos or EPUB books
+2. **Search**: Ask AI to search extracted content using natural language queries
 3. **Discover**: Let AI discover relevant content through semantic understanding
 4. **Analyze**: Expand interesting results for deeper AI-driven analysis
-5. **Synthesize**: Use AI to synthesize insights across multiple video sources
+5. **Synthesize**: Use AI to synthesize insights across multiple sources (videos and books)
 
 ## Sample Output for AI Analysis
 
@@ -198,7 +252,7 @@ This tool is designed to work seamlessly with Claude Code and other AI agents. H
 ### Expanded Context for Deep Analysis
 ```bash
 # Command to expand context
-./yt-aprtr search "Ruby on Rails" -t transcript.txt --expand 245 --context 3
+./css-aprtr search "Ruby on Rails" -t transcript.txt --expand 245 --context 3
 ```
 
 ```
@@ -240,10 +294,10 @@ This tool is designed to work seamlessly with Claude Code and other AI agents. H
 
 ## Files and Structure
 
-- `extractions/`: Directory containing extracted YouTube subtitles (created on first extraction)
+- `extractions/`: Directory containing extracted content from YouTube videos and EPUB books (created on first extraction)
 - `cache/`: Directory containing cached embeddings (created on first search)
 - `src/core/`: Core functionality modules
-- `yt-aprtr`: Main executable script (use `./yt-aprtr` for all commands)
+- `css-aprtr`: Main executable script (use `./css-aprtr` for all commands)
 
 ## Performance Characteristics for AI
 
@@ -255,7 +309,7 @@ This tool is designed to work seamlessly with Claude Code and other AI agents. H
 
 ## Analysis Documentation Requirement
 
-**IMPORTANT**: When completing video analysis tasks, Claude Code should create a markdown file in the specific video's extraction directory (e.g., `extractions/video_name/analysis.md`) containing:
+**IMPORTANT**: When completing content analysis tasks, Claude Code should create a markdown file in the specific content's extraction directory (e.g., `extractions/video_name/analysis.md` or `extractions/book_name/analysis.md`) containing:
 
 - **Summary of key findings and insights**
 - **Relevant quotes with context and timestamps/IDs**
@@ -266,10 +320,10 @@ This tool is designed to work seamlessly with Claude Code and other AI agents. H
 
 ### Example Analysis File Structure:
 ```markdown
-# Video Analysis: [Video Title]
+# Content Analysis: [Video Title / Book Title]
 
 ## Overview
-Brief summary of the video content and analysis objectives.
+Brief summary of the content and analysis objectives.
 
 ## Key Findings
 
@@ -298,7 +352,7 @@ This ensures analysis is preserved, referenceable, and provides a structured rec
 
 ## Task Management for Video Analysis
 
-**IMPORTANT**: For simple video analysis requests (e.g., "analyze this video and extract main points"), do NOT use the TodoWrite tool or create task lists. These are straightforward single-purpose tasks that should be completed directly without overhead of task management. Only use todo lists for complex multi-step development tasks that require planning and tracking.
+**IMPORTANT**: For simple content analysis requests (e.g., "analyze this video/book and extract main points"), do NOT use the TodoWrite tool or create task lists. These are straightforward single-purpose tasks that should be completed directly without overhead of task management. Only use todo lists for complex multi-step development tasks that require planning and tracking.
 
 ## Common Workflows
 

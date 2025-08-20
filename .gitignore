@@ -52,3 +52,10 @@ MIGRATION.md
 *.transcript.md
 *_transcript_*.md
 *_formatted.md
+
+# Book files - don't commit large EPUB/PDF files
+*.epub
+*.pdf
+*_book.epub
+test_book.epub
+karp_book.epub

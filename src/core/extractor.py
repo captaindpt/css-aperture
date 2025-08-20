@@ -6,14 +6,84 @@ import subprocess
 from pathlib import Path
 from typing import Optional, Tuple
 
+from .base import ContentExtractor
 
-class YouTubeExtractor:
+
+class YouTubeExtractor(ContentExtractor):
     """Extracts subtitles from YouTube videos."""
     
-    def __init__(self, output_dir: str = "."):
-        self.base_output_dir = Path(output_dir)
-        self.extractions_dir = self.base_output_dir / "extractions"
-        self.extractions_dir.mkdir(exist_ok=True)
+    def get_source_type(self) -> str:
+        """Return the type of content this extractor handles."""
+        return "youtube"
+    
+    def get_content_info(self, source: str) -> Tuple[str, str]:
+        """
+        Get YouTube video information for naming.
+        
+        Args:
+            source: YouTube video URL
+            
+        Returns:
+            Tuple of (clean_title, video_id)
+        """
+        return self.get_video_title(source)
+    
+    def get_video_title(self, url: str) -> Tuple[str, str]:
+        """
+        Get the title and ID of a YouTube video.
+        
+        Args:
+            url: YouTube video URL
+            
+        Returns:
+            Tuple of (clean_title, video_id)
+            
+        Raises:
+            RuntimeError: If title retrieval fails
+        """
+        try:
+            info_cmd = [
+                "yt-dlp", 
+                "--get-title", 
+                "--get-id", 
+                url
+            ]
+            result = subprocess.run(info_cmd, capture_output=True, text=True, check=True)
+            lines = result.stdout.strip().split('\n')
+            title = lines[0] if lines else "video"
+            video_id = lines[1] if len(lines) > 1 else "unknown"
+            
+            # Clean title for filename
+            clean_title = re.sub(r'[^\w\s-]', '', title)
+            clean_title = re.sub(r'[-\s]+', '_', clean_title)
+            
+            return clean_title, video_id
+            
+        except subprocess.CalledProcessError as e:
+            raise RuntimeError(f"Failed to get video title: {e.stderr}")
+        except Exception as e:
+            raise RuntimeError(f"Title retrieval failed: {str(e)}")
+    
+    def extract_content(
+        self, 
+        source: str, 
+        output_name: Optional[str] = None,
+        language: str = "en",
+        **kwargs
+    ) -> Tuple[str, str]:
+        """
+        Extract subtitles from YouTube video.
+        
+        Args:
+            source: YouTube video URL
+            output_name: Custom output filename
+            language: Subtitle language code (default: "en")
+            **kwargs: Additional parameters
+        
+        Returns:
+            Tuple of (vtt_file_path, text_file_path)
+        """
+        return self.extract_subtitles(source, language, output_name)
     
     def extract_subtitles(
         self, 
@@ -38,25 +108,13 @@ class YouTubeExtractor:
         try:
             # Get video info to generate filename if not provided
             if not output_name:
-                info_cmd = [
-                    "yt-dlp", 
-                    "--get-title", 
-                    "--get-id", 
-                    url
-                ]
-                result = subprocess.run(info_cmd, capture_output=True, text=True, check=True)
-                lines = result.stdout.strip().split('\n')
-                title = lines[0] if lines else "video"
-                video_id = lines[1] if len(lines) > 1 else "unknown"
-                
-                # Clean title for filename
-                clean_title = re.sub(r'[^\w\s-]', '', title)
-                clean_title = re.sub(r'[-\s]+', '_', clean_title)
+                clean_title, video_id = self.get_video_title(url)
                 output_name = f"{clean_title}_{video_id}"
+                print(f"📺 Video title: {clean_title.replace('_', ' ')}")
+                print(f"📁 Creating folder: {output_name}")
             
             # Create subdirectory for this extraction
-            self.output_dir = self.extractions_dir / output_name
-            self.output_dir.mkdir(exist_ok=True)
+            self.output_dir = self._create_output_directory(output_name)
             
             vtt_file = self.output_dir / f"{output_name}.{language}.vtt"
             

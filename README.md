@@ -12,6 +12,7 @@ A powerful Python tool for extracting YouTube subtitles and performing semantic 
 
 ## Key Features
 
+- **Automatic Title Naming**: Automatically retrieves video title and creates organized folders named after the actual video content
 - **Fast Performance**: File-based embedding cache eliminates redundant processing - first search creates embeddings (~3-5s), subsequent searches are near-instant
 - **Intelligent Chunking**: Transcripts split into 4-6 sentence segments for optimal search granularity
 - **Context Expansion**: View surrounding content for any search result with configurable context windows
@@ -35,15 +36,37 @@ source venv/bin/activate
 pip install -e .
 ```
 
+## Automatic Video Title Naming
+
+When you don't specify a custom name with the `-n` option, yt-aperture automatically:
+
+1. **Retrieves the video title** from YouTube using yt-dlp
+2. **Cleans the title** by removing special characters and normalizing spaces
+3. **Creates a folder** named `{clean_title}_{video_id}` in the `extractions/` directory
+4. **Shows you the title** during extraction for confirmation
+
+Example:
+```bash
+./yt-aprtr extract "https://youtube.com/watch?v=dQw4w9WgXcQ"
+# Output:
+# 📺 Video title: Rick Astley Never Gonna Give You Up Official Video 4K Remaster  
+# 📁 Creating folder: Rick_Astley_Never_Gonna_Give_You_Up_Official_Video_4K_Remaster_dQw4w9WgXcQ
+```
+
+This creates organized, meaningful folder names that make it easy to identify content later, especially when working with multiple videos.
+
 ## Basic Usage
 
 ### Extract Subtitles
 ```bash
-# Extract from YouTube video
+# Extract with automatic title-based folder naming (recommended)
+./yt-aprtr extract "https://youtube.com/watch?v=VIDEO_ID"
+
+# Extract with custom name
 ./yt-aprtr extract "https://youtube.com/watch?v=VIDEO_ID" -n my_video
 
-# With custom language
-./yt-aprtr extract "https://youtube.com/watch?v=VIDEO_ID" -l es -n spanish_video
+# With custom language and automatic title naming
+./yt-aprtr extract "https://youtube.com/watch?v=VIDEO_ID" -l es
 ```
 
 ### Search Content
@@ -57,7 +80,10 @@ pip install -e .
 
 ### Extract and Search Combined
 ```bash
-# One command workflow
+# One command workflow with automatic title naming (recommended)
+./yt-aprtr auto "https://youtube.com/watch?v=VIDEO_ID" "neural networks" -r 15
+
+# With custom name
 ./yt-aprtr auto "https://youtube.com/watch?v=VIDEO_ID" "neural networks" -n interview -r 15
 ```
 

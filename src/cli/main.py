@@ -1,28 +1,41 @@
-"""Main CLI interface for YouTube Semantic Search."""
+"""Main CLI interface for Content Semantic Search."""
 
 import argparse
 import sys
 from pathlib import Path
 from typing import Optional
 
-from ..core.extractor import YouTubeExtractor
+from ..core.extractor_factory import ExtractorFactory
 from ..core.searcher import SemanticSearcher
 from ..config.settings import default_config
 
 
 def extract_command(args):
     """Handle extract subcommand."""
-    extractor = YouTubeExtractor(args.output_dir)
-    
     try:
-        vtt_file, text_file = extractor.extract_subtitles(
-            args.url,
-            args.language,
-            args.name
-        )
-        print(f"✅ Extraction complete:")
-        print(f"   VTT file: {vtt_file}")
-        print(f"   Text file: {text_file}")
+        extractor = ExtractorFactory.create_extractor(args.source, args.output_dir)
+        source_type = extractor.get_source_type()
+        
+        print(f"🎯 Detected source type: {source_type}")
+        
+        # Extract content with appropriate parameters
+        if source_type == "youtube":
+            raw_file, text_file = extractor.extract_content(
+                args.source,
+                args.name,
+                language=getattr(args, 'language', 'en')
+            )
+            print(f"✅ Extraction complete:")
+            print(f"   VTT file: {raw_file}")
+            print(f"   Text file: {text_file}")
+        elif source_type == "epub":
+            raw_file, text_file = extractor.extract_content(
+                args.source,
+                args.name
+            )
+            print(f"✅ Extraction complete:")
+            print(f"   EPUB file: {raw_file}")
+            print(f"   Text file: {text_file}")
         
     except Exception as e:
         print(f"❌ Extraction failed: {e}")
@@ -73,16 +86,24 @@ def search_command(args):
 
 def extract_and_search_command(args):
     """Handle combined extract and search."""
-    # First extract
-    print("🎬 Extracting subtitles from YouTube...")
-    extractor = YouTubeExtractor(args.output_dir)
-    
     try:
-        _, text_file = extractor.extract_subtitles(
-            args.url,
-            args.language,
-            args.name
-        )
+        # First extract
+        extractor = ExtractorFactory.create_extractor(args.source, args.output_dir)
+        source_type = extractor.get_source_type()
+        
+        print(f"🎯 Extracting content from {source_type}...")
+        
+        if source_type == "youtube":
+            _, text_file = extractor.extract_content(
+                args.source,
+                args.name,
+                language=getattr(args, 'language', 'en')
+            )
+        else:
+            _, text_file = extractor.extract_content(
+                args.source,
+                args.name
+            )
         
         # Then search
         print(f"\n🔍 Searching for: {args.query}")
@@ -103,30 +124,34 @@ def extract_and_search_command(args):
 def main():
     """Main CLI entry point."""
     parser = argparse.ArgumentParser(
-        description="YouTube Semantic Search - Extract and search YouTube subtitles",
+        description="Content Semantic Search - Extract and search YouTube videos and EPUB books",
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Examples:
   # Extract subtitles from YouTube video
-  yss extract https://youtube.com/watch?v=abc123 -n my_video
+  css extract https://youtube.com/watch?v=abc123 -n my_video
+
+  # Extract text from EPUB book
+  css extract /path/to/book.epub -n my_book
 
   # Search existing transcript
-  yss search "artificial intelligence" -t transcript.txt -r 10
+  css search "artificial intelligence" -t transcript.txt -r 10
 
   # Extract and search in one command
-  yss auto https://youtube.com/watch?v=abc123 "AI consciousness" -n interview
+  css auto https://youtube.com/watch?v=abc123 "AI consciousness" -n interview
+  css auto /path/to/book.epub "consciousness" -n philosophy_book
 
   # Expand context around specific result
-  yss search "consciousness" -t transcript.txt --expand 45 --context 5
+  css search "consciousness" -t transcript.txt --expand 45 --context 5
         """
     )
     
     subparsers = parser.add_subparsers(dest='command', help='Available commands')
     
     # Extract command
-    extract_parser = subparsers.add_parser('extract', help='Extract subtitles from YouTube')
-    extract_parser.add_argument('url', help='YouTube video URL')
-    extract_parser.add_argument('-l', '--language', default='en', help='Subtitle language (default: en)')
+    extract_parser = subparsers.add_parser('extract', help='Extract content from YouTube or EPUB')
+    extract_parser.add_argument('source', help='YouTube video URL or EPUB file path')
+    extract_parser.add_argument('-l', '--language', default='en', help='Subtitle language for YouTube (default: en)')
     extract_parser.add_argument('-n', '--name', help='Output filename (auto-generated if not provided)')
     extract_parser.add_argument('-o', '--output-dir', default='.', help='Output directory (default: current)')
     extract_parser.set_defaults(func=extract_command)
@@ -142,9 +167,9 @@ Examples:
     
     # Auto command (extract + search)
     auto_parser = subparsers.add_parser('auto', help='Extract and search in one command')
-    auto_parser.add_argument('url', help='YouTube video URL')
+    auto_parser.add_argument('source', help='YouTube video URL or EPUB file path')
     auto_parser.add_argument('query', help='Search query')
-    auto_parser.add_argument('-l', '--language', default='en', help='Subtitle language (default: en)')
+    auto_parser.add_argument('-l', '--language', default='en', help='Subtitle language for YouTube (default: en)')
     auto_parser.add_argument('-n', '--name', help='Output filename (auto-generated if not provided)')
     auto_parser.add_argument('-o', '--output-dir', default='.', help='Output directory (default: current)')
     auto_parser.add_argument('-r', '--results', type=int, default=10, help='Number of results (default: 10)')

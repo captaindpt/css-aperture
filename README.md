@@ -1,22 +1,24 @@
-# YouTube Semantic Search (yt-aperture)
+# Content Semantic Search (css-aperture)
 
-A powerful Python tool for extracting YouTube subtitles and performing semantic search over video content using state-of-the-art sentence transformer models. Built specifically for AI-assisted video content analysis with Claude Code.
+A unified tool for extracting and searching content from multiple sources including YouTube videos and EPUB books using state-of-the-art sentence transformer models. Built specifically for AI-assisted content analysis with Claude Code.
 
 ## What It Does
 
 **Extract YouTube Subtitles**: Downloads and cleans subtitles from any YouTube video using yt-dlp, supporting multiple languages and auto-generated captions.
 
-**Semantic Search**: Performs natural language search over transcript content using sentence embeddings and cosine similarity ranking. Find specific topics, concepts, or discussions without exact keyword matching.
+**Extract EPUB Text**: Extracts text content from EPUB books with automatic title detection and metadata parsing, converting XHTML to clean, searchable text.
 
-**AI-Optimized Workflows**: Designed for Claude Code and AI agents to analyze video content through conversational queries and contextual exploration.
+**Semantic Search**: Performs natural language search over content using sentence embeddings and cosine similarity ranking. Find specific topics, concepts, or discussions without exact keyword matching.
+
+**AI-Optimized Workflows**: Designed for Claude Code and AI agents to analyze video and book content through conversational queries and contextual exploration.
 
 ## Key Features
 
-- **Automatic Title Naming**: Automatically retrieves video title and creates organized folders named after the actual video content
+- **Automatic Title Naming**: Automatically retrieves video or book titles and creates organized folders named after the actual content
 - **Fast Performance**: File-based embedding cache eliminates redundant processing - first search creates embeddings (~3-5s), subsequent searches are near-instant
-- **Intelligent Chunking**: Transcripts split into 4-6 sentence segments for optimal search granularity
+- **Intelligent Chunking**: Content split into 4-6 sentence segments for optimal search granularity
 - **Context Expansion**: View surrounding content for any search result with configurable context windows
-- **Multi-format Support**: Works with speaker-formatted transcripts and plain text
+- **Multi-format Support**: Works with YouTube subtitles, EPUB books, speaker-formatted transcripts, and plain text
 - **CLI Interface**: Simple commands for extraction, search, and combined workflows
 
 ## Technical Architecture
@@ -29,44 +31,56 @@ A powerful Python tool for extracting YouTube subtitles and performing semantic 
 ## Installation
 
 ```bash
-git clone https://github.com/your-org/yt-aperture
-cd yt-aperture
+git clone https://github.com/your-org/css-aperture
+cd css-aperture
 python3 -m venv venv
 source venv/bin/activate
 pip install -e .
 ```
 
-## Automatic Video Title Naming
+## Automatic Content Naming
 
-When you don't specify a custom name with the `-n` option, yt-aperture automatically:
+When you don't specify a custom name with the `-n` option, css-aperture automatically:
 
+### For YouTube Videos:
 1. **Retrieves the video title** from YouTube using yt-dlp
 2. **Cleans the title** by removing special characters and normalizing spaces
 3. **Creates a folder** named `{clean_title}_{video_id}` in the `extractions/` directory
-4. **Shows you the title** during extraction for confirmation
 
-Example:
+### For EPUB Books:
+1. **Extracts the book title** from EPUB metadata
+2. **Cleans the title** by removing special characters and normalizing spaces  
+3. **Creates a folder** named after the book title in the `extractions/` directory
+
+Examples:
 ```bash
-./yt-aprtr extract "https://youtube.com/watch?v=dQw4w9WgXcQ"
-# Output:
-# 📺 Video title: Rick Astley Never Gonna Give You Up Official Video 4K Remaster  
-# 📁 Creating folder: Rick_Astley_Never_Gonna_Give_You_Up_Official_Video_4K_Remaster_dQw4w9WgXcQ
+# YouTube video
+./css-aprtr extract "https://youtube.com/watch?v=dQw4w9WgXcQ"
+# Output: Rick_Astley_Never_Gonna_Give_You_Up_Official_Video_4K_Remaster_dQw4w9WgXcQ/
+
+# EPUB book
+./css-aprtr extract "/path/to/book.epub"
+# Output: The_Art_of_War_Sun_Tzu/
 ```
 
-This creates organized, meaningful folder names that make it easy to identify content later, especially when working with multiple videos.
+This creates organized, meaningful folder names that make it easy to identify content later, especially when working with multiple sources.
 
 ## Basic Usage
 
-### Extract Subtitles
+### Extract Content
 ```bash
-# Extract with automatic title-based folder naming (recommended)
-./yt-aprtr extract "https://youtube.com/watch?v=VIDEO_ID"
+# Extract YouTube video with automatic title-based folder naming (recommended)
+./css-aprtr extract "https://youtube.com/watch?v=VIDEO_ID"
+
+# Extract EPUB book with automatic title-based folder naming
+./css-aprtr extract "/path/to/book.epub"
 
 # Extract with custom name
-./yt-aprtr extract "https://youtube.com/watch?v=VIDEO_ID" -n my_video
+./css-aprtr extract "https://youtube.com/watch?v=VIDEO_ID" -n my_video
+./css-aprtr extract "/path/to/book.epub" -n my_book
 
-# With custom language and automatic title naming
-./yt-aprtr extract "https://youtube.com/watch?v=VIDEO_ID" -l es
+# YouTube with custom language and automatic title naming
+./css-aprtr extract "https://youtube.com/watch?v=VIDEO_ID" -l es
 ```
 
 ### Search Content
@@ -80,11 +94,15 @@ This creates organized, meaningful folder names that make it easy to identify co
 
 ### Extract and Search Combined
 ```bash
-# One command workflow with automatic title naming (recommended)
-./yt-aprtr auto "https://youtube.com/watch?v=VIDEO_ID" "neural networks" -r 15
+# YouTube video: one command workflow with automatic title naming (recommended)
+./css-aprtr auto "https://youtube.com/watch?v=VIDEO_ID" "neural networks" -r 15
 
-# With custom name
-./yt-aprtr auto "https://youtube.com/watch?v=VIDEO_ID" "neural networks" -n interview -r 15
+# EPUB book: extract and search in one step
+./css-aprtr auto "/path/to/book.epub" "philosophy" -r 20
+
+# With custom names
+./css-aprtr auto "https://youtube.com/watch?v=VIDEO_ID" "neural networks" -n interview -r 15
+./css-aprtr auto "/path/to/book.epub" "strategy" -n war_book -r 25
 ```
 
 ## Using with Claude Code
@@ -92,14 +110,14 @@ This creates organized, meaningful folder names that make it easy to identify co
 This tool is specifically designed for AI-assisted analysis. Launch Claude Code in the repository directory:
 
 ```bash
-cd yt-aperture
+cd css-aperture
 claude
 ```
 
 Claude Code can then:
-- Extract subtitles from any YouTube video you provide
-- Search transcript content using natural language queries
-- Analyze themes, extract insights, and synthesize findings
+- Extract content from YouTube videos and EPUB books you provide
+- Search content using natural language queries
+- Analyze themes, extract insights, and synthesize findings across multiple sources
 - Create structured analysis reports in markdown format
 
 **AI Instructions**: Claude Code will automatically read [`CLAUDE.md`](./CLAUDE.md) for detailed usage patterns, command examples, and analysis workflows optimized for AI agents.
@@ -125,24 +143,24 @@ Claude Code can then:
 
 Expand for full context:
 ```bash
-./yt-aprtr search "startup advice" -t transcript.txt --expand 156 --context 2
+./css-aprtr search "startup advice" -t transcript.txt --expand 156 --context 2
 ```
 
 ## Performance Characteristics
 
-- **First Search**: Downloads sentence transformer model (~90MB), creates embeddings for transcript chunks
+- **First Search**: Downloads sentence transformer model (~90MB), creates embeddings for content chunks
 - **Subsequent Searches**: Uses cached embeddings for near-instant results
 - **Memory Usage**: ~2GB RAM recommended for model loading
-- **Cache Storage**: ~5MB per transcript for embeddings and chunks
+- **Cache Storage**: ~5MB per content file for embeddings and chunks
 
 ## Project Structure
 
 ```
-yt-aperture/
-├── src/core/           # Core functionality (extractor, searcher, processor, cache)
-├── extractions/        # Extracted video transcripts (auto-created)
+css-aperture/
+├── src/core/           # Core functionality (extractors, searcher, processor, cache)
+├── extractions/        # Extracted content from videos and books (auto-created)
 ├── cache/             # Embedding cache storage (auto-created)
-├── yt-aprtr           # Main executable script
+├── css-aprtr          # Main executable script
 ├── CLAUDE.md          # AI agent instructions and technical examples
 ├── pyproject.toml     # Python packaging configuration
 └── requirements.txt   # Dependencies
@@ -151,6 +169,8 @@ yt-aperture/
 ## Dependencies
 
 - **yt-dlp**: YouTube video/subtitle downloading
+- **ebooklib**: EPUB book text extraction
+- **beautifulsoup4**: HTML/XHTML content parsing
 - **sentence-transformers**: Semantic embedding generation  
 - **scikit-learn**: Cosine similarity calculations
 - **numpy**: Numerical operations

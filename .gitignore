@@ -59,3 +59,10 @@ MIGRATION.md
 *_book.epub
 test_book.epub
 karp_book.epub
+
+# Personal synthesis and analysis files
+SYNTHESIS*.md
+LOGBOOK.md
+MIGRATION.md
+askell-phd-thesis.*
+analysis.md

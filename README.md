@@ -6,6 +6,8 @@ A unified tool for extracting and searching content from multiple sources includ
 
 **Extract YouTube Subtitles**: Downloads and cleans subtitles from any YouTube video using yt-dlp, supporting multiple languages and auto-generated captions.
 
+**Transcribe Audio/Video**: Uses OpenAI Whisper (local or API) to transcribe any audio/video file - YouTube videos, Instagram, TikTok, podcasts, meetings, etc.
+
 **Extract EPUB Text**: Extracts text content from EPUB books with automatic title detection and metadata parsing, converting XHTML to clean, searchable text.
 
 **Semantic Search**: Performs natural language search over content using sentence embeddings and cosine similarity ranking. Find specific topics, concepts, or discussions without exact keyword matching.
@@ -36,6 +38,15 @@ cd css-aperture
 python3 -m venv venv
 source venv/bin/activate
 pip install -e .
+
+# Optional: Add Whisper support for audio/video transcription
+pip install openai-whisper  # Local model (free, offline)
+# OR
+pip install openai          # API mode (requires OPENAI_API_KEY)
+# OR both for flexibility
+
+# Recommended: Install ffmpeg for better media support
+brew install ffmpeg  # macOS
 ```
 
 ## Automatic Content Naming
@@ -69,15 +80,24 @@ This creates organized, meaningful folder names that make it easy to identify co
 
 ### Extract Content
 ```bash
-# Extract YouTube video with automatic title-based folder naming (recommended)
+# YouTube (subtitles - fast, requires internet)
 ./css-aprtr extract "https://youtube.com/watch?v=VIDEO_ID"
 
-# Extract EPUB book with automatic title-based folder naming
+# YouTube (Whisper local - offline capable)
+./css-aprtr extract "https://youtube.com/watch?v=VIDEO_ID" -w
+
+# YouTube (Whisper API - fast, accurate)
+./css-aprtr extract "https://youtube.com/watch?v=VIDEO_ID" -w --api
+
+# Transcribe local video/audio (requires Whisper)
+./css-aprtr extract video.mp4
+./css-aprtr extract podcast.mp3 --api  # Use OpenAI API
+
+# Extract EPUB book
 ./css-aprtr extract "/path/to/book.epub"
 
-# Extract with custom name
-./css-aprtr extract "https://youtube.com/watch?v=VIDEO_ID" -n my_video
-./css-aprtr extract "/path/to/book.epub" -n my_book
+# With custom name
+./css-aprtr extract video.mp4 -n my_video
 
 # YouTube with custom language and automatic title naming
 ./css-aprtr extract "https://youtube.com/watch?v=VIDEO_ID" -l es

@@ -13,20 +13,34 @@ from ..config.settings import default_config
 def extract_command(args):
     """Handle extract subcommand."""
     try:
-        extractor = ExtractorFactory.create_extractor(args.source, args.output_dir)
+        use_whisper = getattr(args, 'whisper', False)
+        whisper_model = getattr(args, 'whisper_model', 'base')
+        use_api = getattr(args, 'api', False)
+
+        extractor = ExtractorFactory.create_extractor(
+            args.source,
+            args.output_dir,
+            use_whisper=use_whisper,
+            whisper_model=whisper_model,
+            use_api=use_api
+        )
         source_type = extractor.get_source_type()
-        
+
         print(f"🎯 Detected source type: {source_type}")
-        
+        if use_whisper:
+            print(f"🎤 Using Whisper transcription (model: {whisper_model})")
+
         # Extract content with appropriate parameters
-        if source_type == "youtube":
+        if source_type == "youtube" or source_type == "youtube_whisper":
+            # Default to English subtitles when language not provided
+            lang = args.language or 'en'
             raw_file, text_file = extractor.extract_content(
                 args.source,
                 args.name,
-                language=getattr(args, 'language', 'en')
+                language=lang
             )
             print(f"✅ Extraction complete:")
-            print(f"   VTT file: {raw_file}")
+            print(f"   Raw file: {raw_file}")
             print(f"   Text file: {text_file}")
         elif source_type == "epub":
             raw_file, text_file = extractor.extract_content(
@@ -36,7 +50,15 @@ def extract_command(args):
             print(f"✅ Extraction complete:")
             print(f"   EPUB file: {raw_file}")
             print(f"   Text file: {text_file}")
-        
+        elif source_type == "audio/video":
+            raw_file, text_file = extractor.extract_content(
+                args.source,
+                args.name,
+                language=getattr(args, 'language', None)
+            )
+            print(f"✅ Transcription complete:")
+            print(f"   Transcript file: {text_file}")
+
     except Exception as e:
         print(f"❌ Extraction failed: {e}")
         sys.exit(1)
@@ -88,34 +110,52 @@ def extract_and_search_command(args):
     """Handle combined extract and search."""
     try:
         # First extract
-        extractor = ExtractorFactory.create_extractor(args.source, args.output_dir)
+        use_whisper = getattr(args, 'whisper', False)
+        whisper_model = getattr(args, 'whisper_model', 'base')
+        use_api = getattr(args, 'api', False)
+
+        extractor = ExtractorFactory.create_extractor(
+            args.source,
+            args.output_dir,
+            use_whisper=use_whisper,
+            whisper_model=whisper_model,
+            use_api=use_api
+        )
         source_type = extractor.get_source_type()
-        
+
         print(f"🎯 Extracting content from {source_type}...")
-        
-        if source_type == "youtube":
+
+        if source_type in ["youtube", "youtube_whisper"]:
+            # Default to English when language not provided
+            lang = args.language or 'en'
             _, text_file = extractor.extract_content(
                 args.source,
                 args.name,
-                language=getattr(args, 'language', 'en')
+                language=lang
+            )
+        elif source_type == "audio/video":
+            _, text_file = extractor.extract_content(
+                args.source,
+                args.name,
+                language=getattr(args, 'language', None)
             )
         else:
             _, text_file = extractor.extract_content(
                 args.source,
                 args.name
             )
-        
+
         # Then search
         print(f"\n🔍 Searching for: {args.query}")
         searcher = SemanticSearcher(
             model_name=default_config.search.model_name,
             cache_dir=default_config.search.cache_dir
         )
-        
+
         searcher.load_transcript(text_file)
         results = searcher.search(args.query, args.results)
         searcher.print_results(results)
-        
+
     except Exception as e:
         print(f"❌ Failed: {e}")
         sys.exit(1)
@@ -124,36 +164,55 @@ def extract_and_search_command(args):
 def main():
     """Main CLI entry point."""
     parser = argparse.ArgumentParser(
-        description="Content Semantic Search - Extract and search YouTube videos and EPUB books",
+        description="Content Semantic Search - Extract and search content from multiple sources",
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Examples:
-  # Extract subtitles from YouTube video
-  css extract https://youtube.com/watch?v=abc123 -n my_video
+  # Extract subtitles from YouTube video (requires internet)
+  css extract https://youtube.com/watch?v=abc123
+
+  # Transcribe YouTube video using Whisper (works offline if video is downloaded)
+  css extract https://youtube.com/watch?v=abc123 -w -m base
+
+  # Transcribe local audio/video file using Whisper (fully offline)
+  css extract /path/to/video.mp4
+  css extract /path/to/podcast.mp3 -l en
 
   # Extract text from EPUB book
-  css extract /path/to/book.epub -n my_book
+  css extract /path/to/book.epub
 
   # Search existing transcript
   css search "artificial intelligence" -t transcript.txt -r 10
 
   # Extract and search in one command
-  css auto https://youtube.com/watch?v=abc123 "AI consciousness" -n interview
-  css auto /path/to/book.epub "consciousness" -n philosophy_book
+  css auto https://youtube.com/watch?v=abc123 "AI consciousness"
+  css auto /path/to/video.mp4 "machine learning" -w
+  css auto /path/to/book.epub "consciousness"
 
   # Expand context around specific result
   css search "consciousness" -t transcript.txt --expand 45 --context 5
+
+Whisper Models (faster → more accurate):
+  tiny:   ~1GB RAM, fastest, lowest accuracy
+  base:   ~1GB RAM, good balance (default)
+  small:  ~2GB RAM, better accuracy
+  medium: ~5GB RAM, high accuracy
+  large:  ~10GB RAM, best accuracy
+  turbo:  optimized large model, faster
         """
     )
     
     subparsers = parser.add_subparsers(dest='command', help='Available commands')
     
     # Extract command
-    extract_parser = subparsers.add_parser('extract', help='Extract content from YouTube or EPUB')
-    extract_parser.add_argument('source', help='YouTube video URL or EPUB file path')
-    extract_parser.add_argument('-l', '--language', default='en', help='Subtitle language for YouTube (default: en)')
+    extract_parser = subparsers.add_parser('extract', help='Extract content from YouTube, EPUB, or audio/video files')
+    extract_parser.add_argument('source', help='YouTube URL, EPUB file path, or audio/video file path')
+    extract_parser.add_argument('-l', '--language', help='Language code for transcription (e.g., en, es, fr)')
     extract_parser.add_argument('-n', '--name', help='Output filename (auto-generated if not provided)')
     extract_parser.add_argument('-o', '--output-dir', default='.', help='Output directory (default: current)')
+    extract_parser.add_argument('-w', '--whisper', action='store_true', help='Use Whisper for transcription (for YouTube or local media)')
+    extract_parser.add_argument('-m', '--whisper-model', default='base', choices=['tiny', 'base', 'small', 'medium', 'large', 'turbo'], help='Whisper model size (default: base)')
+    extract_parser.add_argument('--api', action='store_true', help='Use OpenAI API instead of local model (requires OPENAI_API_KEY)')
     extract_parser.set_defaults(func=extract_command)
     
     # Search command
@@ -167,12 +226,15 @@ Examples:
     
     # Auto command (extract + search)
     auto_parser = subparsers.add_parser('auto', help='Extract and search in one command')
-    auto_parser.add_argument('source', help='YouTube video URL or EPUB file path')
+    auto_parser.add_argument('source', help='YouTube URL, EPUB file path, or audio/video file path')
     auto_parser.add_argument('query', help='Search query')
-    auto_parser.add_argument('-l', '--language', default='en', help='Subtitle language for YouTube (default: en)')
+    auto_parser.add_argument('-l', '--language', help='Language code for transcription (e.g., en, es, fr)')
     auto_parser.add_argument('-n', '--name', help='Output filename (auto-generated if not provided)')
     auto_parser.add_argument('-o', '--output-dir', default='.', help='Output directory (default: current)')
     auto_parser.add_argument('-r', '--results', type=int, default=10, help='Number of results (default: 10)')
+    auto_parser.add_argument('-w', '--whisper', action='store_true', help='Use Whisper for transcription')
+    auto_parser.add_argument('-m', '--whisper-model', default='base', choices=['tiny', 'base', 'small', 'medium', 'large', 'turbo'], help='Whisper model size (default: base)')
+    auto_parser.add_argument('--api', action='store_true', help='Use OpenAI API instead of local model (requires OPENAI_API_KEY)')
     auto_parser.set_defaults(func=extract_and_search_command)
     
     # Parse arguments

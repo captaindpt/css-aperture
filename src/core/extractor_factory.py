@@ -2,7 +2,7 @@
 
 import re
 from pathlib import Path
-from typing import Union
+from typing import Union, Optional
 
 from .base import ContentExtractor
 from .extractor import YouTubeExtractor
@@ -11,28 +11,49 @@ from .epub_extractor import EPUBExtractor
 
 class ExtractorFactory:
     """Factory for creating appropriate extractors based on source type."""
-    
+
     @staticmethod
-    def create_extractor(source: str, output_dir: str = ".") -> ContentExtractor:
+    def create_extractor(
+        source: str,
+        output_dir: str = ".",
+        use_whisper: bool = False,
+        whisper_model: str = "base",
+        use_api: bool = False
+    ) -> ContentExtractor:
         """
         Create appropriate extractor based on source type.
-        
+
         Args:
-            source: Source identifier (URL for YouTube, file path for EPUB)
+            source: Source identifier (URL for YouTube, file path for EPUB/audio/video)
             output_dir: Output directory for extractions
-            
+            use_whisper: Use Whisper for transcription instead of subtitles
+            whisper_model: Whisper model size (tiny, base, small, medium, large, turbo)
+            use_api: Use OpenAI API for transcription (requires OPENAI_API_KEY)
+
         Returns:
             Appropriate ContentExtractor instance
-            
+
         Raises:
             ValueError: If source type is not supported
         """
         if ExtractorFactory.is_youtube_url(source):
+            if use_whisper:
+                from .whisper_extractor import WhisperYouTubeExtractor
+                return WhisperYouTubeExtractor(output_dir, model=whisper_model, use_api=use_api)
             return YouTubeExtractor(output_dir)
         elif ExtractorFactory.is_epub_file(source):
             return EPUBExtractor(output_dir)
+        elif ExtractorFactory.is_media_file(source):
+            from .whisper_extractor import WhisperExtractor
+            return WhisperExtractor(output_dir, model=whisper_model, use_api=use_api)
         else:
-            raise ValueError(f"Unsupported source type: {source}")
+            raise ValueError(
+                f"Unsupported source type: {source}\n"
+                "Supported types:\n"
+                "  - YouTube URLs\n"
+                "  - EPUB files (.epub)\n"
+                "  - Audio/Video files (.mp3, .mp4, .m4a, .wav, .webm, etc.)"
+            )
     
     @staticmethod
     def is_youtube_url(source: str) -> bool:
@@ -51,15 +72,30 @@ class ExtractorFactory:
         """Check if source is an EPUB file."""
         path = Path(source)
         return path.exists() and path.suffix.lower() == '.epub'
-    
+
+    @staticmethod
+    def is_media_file(source: str) -> bool:
+        """Check if source is an audio/video file."""
+        path = Path(source)
+        if not path.exists():
+            return False
+
+        media_extensions = {
+            # Audio formats
+            '.mp3', '.m4a', '.wav', '.flac', '.aac', '.ogg', '.wma', '.opus',
+            # Video formats
+            '.mp4', '.avi', '.mov', '.mkv', '.webm', '.flv', '.wmv', '.mpeg', '.mpg'
+        }
+        return path.suffix.lower() in media_extensions
+
     @staticmethod
     def get_source_type(source: str) -> str:
         """
         Determine the type of source.
-        
+
         Args:
             source: Source identifier
-            
+
         Returns:
             Source type string
         """
@@ -67,5 +103,7 @@ class ExtractorFactory:
             return "youtube"
         elif ExtractorFactory.is_epub_file(source):
             return "epub"
+        elif ExtractorFactory.is_media_file(source):
+            return "media"
         else:
             return "unknown"

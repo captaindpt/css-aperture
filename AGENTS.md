@@ -69,10 +69,6 @@ This is Content Semantic Search - a unified tool for extracting and searching co
 python3 -m venv venv
 source venv/bin/activate
 pip install -e .
-
-# Optional: Add Whisper transcription support
-pip install openai-whisper  # Local (free, offline)
-pip install openai          # API (requires OPENAI_API_KEY)
 ```
 
 **IMPORTANT FOR CLAUDE CODE**: Always ensure the virtual environment is properly activated before running css-aprtr commands. If you encounter "ModuleNotFoundError" or dependency issues:
@@ -83,45 +79,27 @@ pip install openai          # API (requires OPENAI_API_KEY)
 4. Then install dependencies: `pip install -e .`
 5. All css-aprtr commands must be prefixed with: `source venv/bin/activate && ./css-aprtr ...`
 
-### Whisper Transcription Modes
-
-**Local Mode** (default): Free, offline, runs on your machine
-- Requires: `pip install openai-whisper`
-- Models: tiny, base, small, medium, large, turbo
-- Usage: `./css-aprtr extract video.mp4 -m base`
-
-**API Mode**: Fast, accurate, uses OpenAI API
-- Requires: `pip install openai` and `export OPENAI_API_KEY='your-key'`
-- Usage: `./css-aprtr extract video.mp4 --api`
-
 ### Usage Examples
 ```bash
-# YouTube (subtitles - fast)
+# Extract YouTube video subtitles with automatic title naming (recommended)
 ./css-aprtr extract "https://youtube.com/watch?v=abc123"
 
-# YouTube (Whisper local)
-./css-aprtr extract "https://youtube.com/watch?v=abc123" -w
-
-# YouTube (Whisper API)
-./css-aprtr extract "https://youtube.com/watch?v=abc123" -w --api
-
-# Transcribe local files
-./css-aprtr extract video.mp4              # Local Whisper
-./css-aprtr extract podcast.mp3 --api      # OpenAI API
-./css-aprtr extract instagram.mp4 -l en
-
-# EPUB books
+# Extract EPUB book text with automatic title naming
 ./css-aprtr extract "/path/to/book.epub"
 
-# Search
-./css-aprtr search "consciousness" -t transcript.txt -r 10
+# Extract with custom name (optional)
+./css-aprtr extract "https://youtube.com/watch?v=abc123" -n my_interview
+./css-aprtr extract "/path/to/book.epub" -n philosophy_book
 
-# Extract and search
-./css-aprtr auto video.mp4 "machine learning" -r 15
-./css-aprtr auto podcast.mp3 "philosophy" --api -r 20
+# Search existing transcript or text
+./css-aprtr search "consciousness artificial intelligence" -t transcript.md -r 10
 
-# Expand context
-./css-aprtr search "topic" -t text.txt --expand 950 --context 4
+# Extract and search in one command with automatic naming
+./css-aprtr auto "https://youtube.com/watch?v=xyz789" "neural networks" -r 15
+./css-aprtr auto "/path/to/book.epub" "consciousness" -r 20
+
+# Expand specific result for full context
+./css-aprtr search "substrate consciousness" -t extracted_text.txt --expand 950 --context 4
 ```
 
 ### Configuration

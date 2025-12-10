@@ -1,0 +1,438 @@
+**Transcript extracted from YouTube video**
+
+Kind: captions
+Language: en
+I used to get this feeling that the
+field of AI was just going so fast that
+there's no way I could possibly keep up
+with it. That it seemed like AI would be
+replacing humans left and right in no
+time. And part of this came from hearing
+claims on social media, everything from
+Zuckerberg claiming Meta will have
+mid-level AI engineers by the end of
+2025 to the globs of YouTubers that seem
+to think, or at least want you to think,
+that every new tweet from Sam Alman
+means that AGI is imminent. But perhaps
+even more than all that, what made me
+feel that way was how I would constantly
+hear about this benchmark or that
+benchmark being surpassed by AI. At
+first with GPD4, it was the SAT, AP
+tests, the LSAT. Soon after that, it was
+solving medium and hard programming
+problems on leak code. And now it's
+solving PhD level math and physics
+questions. And I think for anyone to see
+that, the announcements about AI
+breakthroughs and the claims about
+superhuman level performance, it does
+make you pause. It makes you question
+whether AI is really about to start
+replacing humans in many high-skll
+industries. And the reason I'm making
+this video is to tell you that this idea
+of AGI that big tech companies and many
+AI influencers have sold you on is a
+lie. It's AI is still fairly
+far off from being comparable to human
+intelligence. And in at least one key
+way, it's not even headed in the right
+direction. How could that be? How could
+I claim that we're not even headed in
+the right direction when AI can
+outperform humans on such a wide variety
+of tasks? Well, it comes down to how we
+measure progress with benchmarks and how
+those benchmarks influence the direction
+of research. Because not a single
+popular benchmark for LMS out there that
+I know of actually measures
+intelligence. And that's because
+intelligence is not a measure of how
+many tasks you can do. This is the
+definition of intelligence, the ability
+to acquire and apply knowledge and
+skills. Every benchmark out there tests
+the ability of a model to apply
+knowledge. That part's covered. But none
+of them focus on the agents ability to
+acquire that knowledge. And accordingly,
+current frontier models almost entirely
+lack the ability to continually learn.
+Yes, you can train them once, but after
+that, their ability to acquire new
+knowledge is severely limited. And that
+that's a big problem. I doubt everyone
+watching will be sold on my argument
+from this alone. There are in fact a
+number of viable counterarguments to my
+view. You could bring up the point that
+current frontier models do actually
+learn via incontext learning. In
+following that, you could say that
+benchmarks that require incontext
+learning actually do test the
+acquisition of knowledge. And there are
+several other arguments that do have
+some truth to them. And don't worry, I
+will absolutely address those arguments.
+But first, I want to sell you on my
+vision of the future of AI and research
+in the field. Because my view is quite
+different from the popular view and
+understanding why I put such an emphasis
+on learning and why I think the rest of
+the field should too requires first
+developing a shared idea of what AGI
+should be. A definition that hopefully
+you and I can agree on. How we ought to
+define it and what it will look like
+once we have it. And then once we've
+gotten through that vision of the
+future, then we'll talk about the
+problems with the way things are done
+right now and the three key things that
+I think need to change to get to that
+goal. I myself work on AI research. And
+so to start, let me talk about the
+mindset I adopt when I work on my own
+research because when I work on my
+research, I don't think about how I can
+collect enough data and I don't think
+about how I can make an agent big enough
+to know everything. That's simply not
+possible. There is an infinite amount of
+knowledge out there and no agent can
+know it all. Instead, I think about how
+I can make an agent that can learn from
+anything. An agent that has goals and
+can autonomously control its data stream
+and teach itself based on those goals.
+And I find this to be a much more
+compelling but also much harder problem
+because sure AI can learn pretty much
+anything given millions of examples. But
+if it needs millions of examples to
+learn, well then it can't learn
+anything. It can only learn things for
+which millions of examples exist. When I
+work on my research, I imagine creating
+an agent that I can teach just like I
+would a human. That means learning from
+a back and forth interaction rather than
+learning from millions of pre-generated
+examples. And I would also expect such
+an agent to be able to bootstrap that
+knowledge to continually learn on its
+own. It should be able to continue to
+learn autonomously even without a direct
+need for human intervention. And I can
+give you real examples from my own life,
+not just hypotheticals. When I ask
+Chachi PT for help writing a YouTube
+script or for YouTube video ideas, they
+are always awful because they don't fit
+with my personal style. I mean, look at
+these recommendations it's generating.
+AI that can write a best-selling book in
+24 hours. Let's try it. Creating an AI
+that can predict your dream job with
+your personality. I mean, these ideas
+are incredibly bland and perhaps even
+worse, they certainly wouldn't fit in
+with the style of my channel. When I see
+these sorts of failure cases, I want to
+be able to work with the AI, suggest
+changes, and have it learn so that next
+time it's able to give suggestions that
+are better and perhaps more in line with
+the types of content that I make now.
+And when I try to have AI write code in
+my favorite machine learning library,
+Equinox, it never gets it right because
+apparently 2,000 stars on GitHub is just
+not popular enough for sufficient
+training data to exist. So, we're in
+this weird spot where AI can do these
+crazy things. It can ace PhD level
+exams, discover new drugs. It can even
+decode conversations between whales.
+Yeah, that's a pretty cool story if you
+didn't hear about that one. Uh yet, it
+can't even learn the simplest of new
+concepts without at least hundreds, if
+not many thousands of examples and an
+incredibly expensive training process.
+That's the current state of AI. And
+we've come to this point because the
+north star of the field, the most
+prominent notion of AGI is this idea of
+the single all- knowing agent that has
+seen so much data that it can generalize
+to anything. That's unrealistic. And
+that view fails to incorporate the
+importance of learning. Interestingly
+enough, the field was not always this
+way. And you can find examples of
+continual reinforcement learning with a
+real focus on learning all the way back
+to as early as the 1930s with Thomas
+Ross' thinking machine and Steven
+Smith's robotic rat that can learn to
+navigate mazes. There are a lot more of
+these neat examples in an awesome talk
+by Andy Barto I'll link in the
+description, but I think you get the
+point. Early AI was mostly about
+animallike continual learning systems.
+And I can only imagine that that was
+because it was well acknowledged that
+intelligence is fundamentally about the
+ability to learn.
+Now, all of this is not to say that
+modern AI does not learn, because it
+absolutely does. It's to say that
+instead of having these separate phases
+for training, fine-tuning, RHF, testing,
+and finally deployment, after which the
+weights will probably never change
+again, there should instead be a single
+phase where the agent is both learning
+and doing. So while modern AI has gotten
+more general in the sense that one agent
+can do many tasks from things like
+making recipes to writing code with the
+current popular direction of research
+we'll never have an agent that can learn
+any task and that is a big difference.
+So let's say that you're interested in
+this alternative version of AGI that
+I've proposed a general purpose learning
+algorithm inspired by animal learning
+and animals of course includes humans.
+How could we get there? I'd say that
+there are three areas of research we
+need to focus on that are often shied
+away from in popular discourse. Three
+things we can't yet do well enough to
+get to that goalpost. The first one is
+something I've already told you about.
+It's continue learning. And this just
+means that the agent should never stop
+learning. Now, this one's pretty obvious
+given our definition because if an agent
+isn't always learning, then it can't
+learn to do any task. And so, it very
+clearly wouldn't meet our criteria for
+AGI. I do usually still get some push
+back on this point though and it's
+usually from people that claim that
+current LLMs like Chhat GPT or Gemini do
+already learn and they usually point to
+either fine-tuning which is where you
+can train a model on a new task after
+its initial training phase and in
+context learning where you can give a
+model an example of something it hasn't
+seen before say examples of how to use a
+specific programming library and then it
+can use to learn what it has within its
+context. And this point is actually
+correct. Despite what I said, there
+actually are ways for an agent to
+continue to learn after its initial
+training phase. But there are some big
+caveats. Starting with fine-tuning,
+fine-tuning is generally thought of
+something you only do once, not a
+continual process because, well, then
+you just call it continue learning. And
+if you do try to fine-tune the same
+model multiple times, you often run into
+several problems like the model
+forgetting what it previously knew,
+which is referred to as catastrophic
+forgetting, where the model slowly
+losing its ability to learn over time,
+which is referred to as a loss of
+plasticity. There are ways to mitigate
+these sorts of problems, but there is
+more work to be done. The point on in
+context learning is certainly more
+nuanced, and I have a whole video
+talking about why in context learning is
+insufficient for my version of AGI. So,
+I'll link that here if you want to know
+more about that. But the gist of the
+point is that keeping the model's
+parameters frozen limits the types of
+patterns that are learnable with in
+context learning. And anything a model
+does learn in context is only learned
+temporarily until that information exits
+the context window. So that is point
+number one. We still have a ways to go
+when it comes to continue learning, but
+it really is just the start. It also
+brings us to point number two which
+really goes handinhand with continue
+learning and it is the ability to learn
+from a single experiential stream of
+data which I should say is the exact
+opposite of how current large language
+models are trained. When you want to
+train an LM for example you randomly
+sample from billions of disjointed
+segments of text things like passages
+from books articles research papers
+transcripts from YouTube videos and the
+like. and you feed these disjointed
+sequences of text to the LM in enormous
+batches to train. But there's a problem
+with this. If a model only ever learns
+from disjointed sequences, it will never
+gain the ability to reason about how it
+should act over much longer time
+horizons, about how it should act over a
+lifetime of experiences. While the
+severity of this problem is not as
+immediately obvious as it is for a lack
+of continued learning, an example goes a
+long way here. So, I'll give you an
+example directly relevant to this video
+and my own research. Think about how
+this video came to be and how I came to
+care so much about this topic. I promise
+it was not because I asked Chatbt for
+the top 10 video ideas for AI YouTube
+channels. I mean, look at these ideas.
+You saw these ideas earlier. They're
+grossly generic. In contrast, you're
+probably not going to find a surplus of
+videos on YouTube, if any, about the
+importance of continually learning from
+a single stream of experience. And
+that's because I myself have had a
+unique single stream of experiences that
+led me here that no one else has had. I
+started with an interest in self-study
+and reinforcement learning that led me
+to a graduate program where the
+community was acutely aware of the need
+for continual learning. I worked on
+research in the area. I had all sorts of
+interesting conversations with people
+who thought about this in extreme depth
+and I even tried to start a startup that
+failed because of a lack of existing
+continue learning methods. So when I go
+to work on my new research or to make a
+new video, I'm informed by everything
+that's happened in my past, by what I've
+learned, and by the specific events
+recorded in my episodic memory. Without
+experiencing the world through a
+continual stream of observations, like
+we humans do, concepts like episodic
+memory and temporally correlated
+causality become meaningless. And to
+create something like this video or the
+type of niche research I do becomes
+impossible. At some point, if you want
+an agent to be able to deal with
+lifelong sequences of data, it's going
+to need to learn from lifelong sequences
+of data. And the only way to get those
+is for the agent itself to interact with
+the world, and generate those
+experiences. And no matter how hard you
+think, I really don't think there's any
+way to get around this. You can't just
+strap sensors to someone, stick a camera
+on their forehead, and have them run
+around for 10 years like that. I mean,
+it would be hilarious, but it still
+wouldn't be the same. So, that's point
+number two. You need a continual single
+stream of experiences. And with that, we
+finally arrive at the last point, the
+last blind spot we need to turn our
+attention to, and that is scaling with
+compute, or more specifically, designing
+algorithms where more compute always
+leads to better performance. Now, you
+might be thinking, haven't we already
+figured this out? And the answer would
+be yes. We've figured out how to scale
+models to hundreds of billions or even
+trillions of parameters when we use
+giant batches of data sampled randomly
+from massive internet scale data sets.
+But when we go to the continual single
+stream experiential learning setting, we
+absolutely have not figured it out. Do
+you know what happens if you try to
+train one of these massive models
+without a massive static data set or
+when you stop using these massive
+batches of data? Our current learning
+methods completely fail because they've
+been designed with a big data mindset
+from the ground up. And you might be
+surprised by how much those design
+choices impact the ability of these
+algorithms to work on continue learning
+settings. The methods of scaling that
+exist today are not methods that scale
+with just compute. They're methods that
+only scale with a combination of compute
+and data. And they are grossly
+inefficient when it comes to how they
+scale with data. So much so that you may
+have recently heard about insiders at
+tech companies talking about how LLM
+training has been recently running into
+data problems. I mean, think about it.
+After going through basically the
+entirety of the open internet and then
+also their private data sets, they say
+that they're running into data problems.
+Yet, a human could go their whole life
+only occasionally browsing the internet
+or maybe never browsing the internet and
+still be incredibly smart. It's clearly
+not a data problem. It's a problem with
+the approach. What we need are not
+methods that can gobble up more data,
+but methods that when given more compute
+can use that compute to extract more out
+of what they're experiencing moment to
+moment. And while we still have a long
+ways to go on this front, we have made
+some great progress in the past few
+years. And there are a lot of
+interesting ways to do this from
+modelbased RL to auxiliary tasks for
+representation learning to learning
+options and more. This idea of being
+able to scale with compute in the
+continual RL setting is actually my own
+research area of focus. And later this
+year, I'll be starting my PhD to
+continue working on just that. I want to
+make another video soon diving into all
+the ways that scaling with compute is
+possible and talk more about my own new
+research. If that sounds interesting to
+you, you should totally subscribe. I try
+to only post when I have something
+genuinely interesting to share. And if
+you're interested in this area of
+research, you might also be interested
+in this video where I summarize 2 years
+of my own research in just over 10
+minutes. Or you can follow me on X for
+infrequent hot takes. And that is it.
+Thank you for watching.

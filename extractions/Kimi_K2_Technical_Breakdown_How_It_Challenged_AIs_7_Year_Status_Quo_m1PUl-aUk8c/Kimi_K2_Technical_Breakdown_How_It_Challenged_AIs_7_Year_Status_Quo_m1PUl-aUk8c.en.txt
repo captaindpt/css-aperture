@@ -1,0 +1,323 @@
+**Transcript extracted from YouTube video**
+
+Kind: captions
+Language: en
+This relatively new AI lab called
+Moonshot AI literally went to the moon a
+while back with their latest model
+release called Kimi K2 using a brand new
+technique called the Muon. Not only is
+this one trillion parameter model with
+32 billion active parameters the latest
+state-of-the-art open- source
+non-reasoning model maybe for like a
+week only as Quinn's latest model update
+just overtook it by a significant
+margin. But they provided some extremely
+valuable insights that might just change
+the pre-training meta. Most of you that
+are watching this video are probably
+already familiar with this benchmark's
+performance. So, I'll just drop a few
+facts like how Kim K2 was the number one
+model on the EQ bench, which is a
+creative writing benchmark, number one
+on LM Arena for open models, performs
+slightly better than Quen 3205BA22B
+reasoning, and still behind Deepsee R1
+on scientific reasoning around clot for
+Opus level according to Moonshot AI's
+official benchmark, but around the level
+of GPD 4.1 and Quinn 3235B reasoning,
+and just a tiny bit behind Gemini 2.5.
+five flash reasoning on third-party
+benchmarks. To put all these simply, I
+think it was the best open- source
+non-reasoning model on the planet before
+the existence of the new Quinn 3 model.
+So, as the Kimik2 technical report is
+out now along with their developers
+dropping blocks left and right, I think
+I need to do it justice and dive into
+the fascinating journey they shared with
+their $30 million model training run.
+But before I dive into it, with Kim K2
+being a model that also focuses on
+agentic capabilities, learning how to
+utilize the end product is probably more
+applicable for yourself than learning
+how they actually make it. That's why I
+would like to take this chance to share
+with you this free resource from HubSpot
+called Master AI Agents in 2025, the
+strategic advantage. In this free
+resource, you will get two comprehensive
+playbooks. One is a 42-page long guide
+which shows you exactly where AI agents
+can deliver you the biggest ROI and
+another that's a step-by-step checklist
+which will walk you through the AI agent
+rollouts. My favorite section is the
+common pitfalls and how to avoid them in
+the 42page playbook as this is often
+overlooked when building custom AI
+agents. This is especially common under
+an organizational setting as AI agents
+may bear too much expectations or
+contain challenges that can often be
+overlooked. So having these precautions
+can significantly improve your chance of
+success. But of course, it is still a
+crazy power tool. In marketing, AI
+agents now shoulder the repetitive work
+of content repurposing, social
+scheduling, and campaign analytics so
+your creatives can stay focused on big
+ideas. In sales, they handle prospect
+research, meeting prep, and personalized
+follow-ups, buying reps back precious
+time for relationship building. across
+operations. Agents can quietly file
+docs, route requests, and surface
+real-time analytics so your org runs
+like a clockwork. The best part is you
+can download these resources completely
+free right now. So, if you're ready to
+dive into AI agent, check it out using
+the link down the description and thank
+you HubSpot for sponsoring this video.
+Anyways, the highlight of Kim K2 is this
+training loss graph and this is no
+ordinary training loss. It is actually
+using a really new optimizer called Mu1
+which was proposed back in October 2024
+as it caught the eyes of the AI research
+part of Twitter. This promising
+optimizer challenged the most common
+optimizer that we all know and love
+called Adam the blue which has been the
+solid goto optimizer for the past 8
+years. So what exactly changed that they
+decided to use Muon? Well before that
+let us take a look at some basics of
+optimization in AI. In general, training
+an AI model is like spawning in
+Minecraft's amplified world, and your
+mission is to reach the lowest point
+without breaking any blocks. Well, we
+usually visualize this as descending
+from a lost landscape, but who doesn't
+love a good Minecraft analogy? Anyways,
+the lowest point stands for the perfect
+prediction, classify an image of a cat
+as a cat, generate the perfect next
+token, and so on. So, all you want to do
+is somehow descend to the lowest point
+by moving around the world without being
+able to see while only taking one step
+at a time. But you will be able to learn
+the slope whether you are going up or
+downwards after each step. And to
+determine the direction and the stride
+of your step, you would use something
+called an optimizer. For the popular
+optimizer atom the blue, each step
+measures how steep and how jittery its
+last and current step was. If the ground
+has been steep and smooth, you would
+lengthen your stride. If it has been
+bumpy, you would shorten your stride.
+And the same thing goes for the
+direction. You only will want to try to
+step in the steepest direction. When two
+or three steps you took in the same
+direction have the same slope, you would
+feel a stronger momentum, right? But the
+problem of atom W is once you
+accelerate, if that slope starts to turn
+in different directions, the momentum
+will overshoot you and drag you along
+the hill sideways, making you descend
+slower and take longer to readjust back
+to the optimal. As the momentum would
+often overshoot, you can actually
+observe it in the loss graph as it makes
+up those spiky points in the loss curve.
+So, what makes me one different is that
+it doesn't easily give into that
+momentum to let it drag you sideways or
+overshoot in a direction. Right before
+each new stride, it would pause to look
+around, slowing down that momentum and
+twist its momentum to spread it around
+all directions evenly and steadily
+continue, which lets you descend
+accurately. This additional look check
+would cost an extra 0.5% compute per
+step, but it's actually extremely worth
+it empirically because it reduces the
+total training needed by up to 35%.
+Because Adam W would often overshoot and
+the extra time that it takes to readjust
+itself towards the optimal makes muon
+0.5% overhead much more worth it as muon
+reaches the optimal way faster. This is
+why the usual muon training loss looks
+less spiky than a training loss using
+Adam the blue which makes muon a
+technique that might just improve
+pre-training efficiency in general but
+that is if it works on a larger scale of
+course because in Kim K2's early
+experiment they hit a wall few months
+ago they have published research papers
+on experimenting with muon like in this
+paper called muon is scalable for LM
+training which was released back in late
+February they have shown a very
+attractive scaling law that proved muon
+is scalable on a of 16BOE models.
+However, things start to get weird when
+the model size for their new K2 hits a
+trillion total parameters. Right at the
+start of training, there will usually be
+a few tokens that would blow up with a
+gigantic query or key vector. And since
+this is at the start of pre-training,
+big updates tend to happen. But when the
+updates are extremely wrong, the
+learning signal that came back would be
+oversized. While atomw can dampen the
+learning signal for the targeted weights
+right away, muon cannot and it will even
+spread it across every direction too,
+inflating all the weights for the wrong
+reason. So the next learning step would
+produce even bigger error creating an
+insane negative feedback loop that will
+eventually break the training and this
+was not anticipated in the earlier
+scaling law experiments hitting moonshot
+AI's team morale. So as they are
+struggling to find a way out, the person
+that basically invented rope called
+Sujin Ling basically came up with an
+idea. He proposed something called QK
+clip, later known as Muan Clip, which
+fixes the issue by simply adding a
+threshold. It would basically clip out
+the giant query and key norms or the
+resulting logits before muon does its
+thing to the momentum, taming those
+early outliers. And with the muon clip
+in place, the runaway logits flattened.
+Muon's updates stayed extremely stable,
+and K2's trillion parameter training was
+finally able to launch without problems.
+So, it resulted in this absolute beauty
+of a training loss with no loss spikes
+in sight. And this loss graph right here
+cost them $20 million to generate. So,
+you know how important that is,
+especially for an AI startup to get it
+right in the first attempt. Alongside
+this new idea, Muon clip, researchers
+over at Moonshot AI have also done some
+incredible ablazion studies and they
+found some pretty interesting
+observations. First of all, their
+results have shown that the Deep Seek V3
+model design, which is the MLA and the
+MOE, is pretty much perfect and
+impossible to improve upon. From all the
+model architecture modifications they
+have made, nothing else surpasses it in
+their early scaling law experiments. So,
+Deep Sea V3's architecture still remains
+supreme. But researchers at Moonshot
+still made a few neat adjustment of Kim
+and K2's architecture to make it a lot
+more costefficient. First is that they
+added 50% more experts per layer than
+Deepcv V3 yet kept the same active
+parameters per token unchanged. This
+increases the sparity of thee, but they
+were confident to do this because their
+experiments confirm a brand new sparity
+scaling law. As long as each token still
+touches the same number of experts,
+bumping the total experts pool never
+degrades loss. So more experts just
+means there are more options of
+specialized subnetss ready to be routed
+to. Second, they have the attention
+heads because Deep Seek V3's full head
+design is actually pretty pricey. K2
+then drops to 64 heads instead of using
+128, cutting the QKVO projection matrix
+from 10 billion parameters down to 5
+billion parameters. So this is why
+active parameters are now 5 billion
+parameters less than deep seb3 and this
+reduction in heads only showed around 2%
+degradation which is also offset by thee
+gain so the trade is a net win. Third
+only the firste layer goes dense. Both
+Deep Seek V3 and K2 saw router imbalance
+spikes right at the start of the
+sequence. Deep seat V3 then made the
+very first three layers dense. After
+some testing from the moonshot
+researchers, they found that reducing to
+just having the first layer dense is
+already good enough with training
+already becoming noticeably steadier.
+Lastly, they ditched expert grouping and
+used a simple router. Because at the
+trillion parameter scale, each GPU
+basically ends up only holding just one
+expert completely skipping a whole level
+of abstraction that is having multiple
+experts on one GPU during training. Then
+when each GPU hosts only one specialist
+expert network, the old grouping trick
+where the router first pick a basket of
+experts that lived on the same GPU and
+then choose inside that basket no longer
+makes sense because now there's only one
+thing in that basket. So no choice are
+really made. Moonshot then throws the
+grouping layer away and gives the router
+a single flat menu of all 384 experts
+spread across the cluster all at the
+same time. And with the grouping gone,
+the search space is now wider. The
+router can spread tokens across servers
+instead of being trapped inside one GPU.
+And they were also able to have the
+overall utilization stays high even at a
+trillion parameter scale. But yeah, one
+trillion parameter model needs 384 GPUs
+to hold it all at the same time to
+train. Isn't that kind of crazy? And
+yeah, I hope today's video at least
+cleared up their technical side of
+research a bit for you and maybe did
+their immense open source effort a bit
+more justice. And if you like today's
+research breakdown, definitely check out
+my newsletter where I cover the latest
+in the juiciest research weekly on it. I
+will usually cover the best research
+papers from the previous week. So if you
+don't want to miss out, definitely go
+and subscribe. And thank you guys for
+watching. A big shout out to Andrew
+Chelas, Chris Leoo, Degan Gan, News
+Research, Kanan, Robert Zaviasa, Lewis
+Muk, Ben Shainer, Marcelo, Ferraria,
+Zane, Sheep, Poof, and Enu, DX Research
+Group, and many others that support me
+through Patreon or YouTube. Follow me on
+Twitter if you haven't and I'll see
+youall in the next

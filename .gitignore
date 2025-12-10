@@ -38,9 +38,6 @@ ENV/
 .DS_Store
 Thumbs.db
 
-# Extractions directory - contains downloaded YouTube subtitles and transcripts
-extractions/
-
 # Cache directory - contains computed embeddings
 cache/
 
@@ -65,4 +62,3 @@ SYNTHESIS*.md
 LOGBOOK.md
 MIGRATION.md
 askell-phd-thesis.*
-analysis.md

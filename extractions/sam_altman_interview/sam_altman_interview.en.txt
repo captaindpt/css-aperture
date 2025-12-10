@@ -1,0 +1,2909 @@
+**Transcript extracted from YouTube video**
+
+Kind: captions
+Language: en
+Today's guest is uh well, dude's a
+straightup tech lord, let's be honest.
+He's uh he's one of the leaders, the
+world leaders in the development of AI.
+Um he started Open AI, which is known
+for uh having chat GPT.
+Uh we had a fascinating chat about the
+pros and cons, um the fears and hopes,
+everything I could learn about uh about
+artificial intelligence and where we're
+headed. TBD baby. Today's guest is Mr.
+Sam Alman and I'm very thankful for his
+time
+[Music]
+and I will find a song. I will sing it.
+[Applause]
+You know, we had a residential architect
+do this office. We wanted it to feel
+like someone's like really comfortable
+like country house or something like
+that.
+Yeah. Not like the big corporate like
+sci-fi castle.
+Yeah, that's what I was I was like a
+little bit like, oh, is it going to be,
+you know, will there be a drawer bridge?
+Will we be uploaded into a suite? Like
+what will happen to us? You
+don't want that. We going for like
+residential.
+Yeah. I was like, how do we even get
+through the firewall? How many like hit
+points will we need to get through? You
+know, it got very Dungeons and Dragons
+uh in some of my like um imagination
+sometimes.
+Yeah, we want people to feel like super
+comfortable and tried to get pretty far
+in that direction.
+It feels like it. and your staff's very
+sweet, nice people. Um, you have Thanks
+for hanging out, man.
+Absolutely. Thanks for appreciate it.
+Uh, yeah, I haven't seen you since I
+fell out of my chair.
+Fell out of a chair at the inauguration.
+That was really like quite a way to meet
+you.
+Yeah, I felt so embarrassed. And you
+were one of the faces that I looked up
+and saw and I was like, "God." And that
+was my first moment like, "AI build us a
+better chair to be honest with you."
+You and you did nothing, right? You were
+just sitting there and it just
+collapsed. Nothing.
+I remember that.
+And it was just so embarrassing. I was
+like, "Oh, of all people me and here I
+am in this place." And uh
+I think it was perfect because
+everybody's got to have some sto when
+people are like, "Oh, was the
+inauguration?" Like, everybody's got to
+have some story to tell.
+Yeah.
+And that was an incredible story for us
+all to tell.
+That's a good point. I do remember
+looking at people for help, though. And
+oddly, your eyes I I was like, "Oh my
+god, he could help." You did look like a
+beacon of help in the distance.
+I tried to help.
+You have a baby. You have a new Yeah.
+child. It is.
+There have been like a lot of
+experiences in life where everyone tells
+you something's going to be great and
+then it's like, okay, the people are
+right, the consensus is right, it's like
+even better than I thought it was going
+to be. But this has been the strongest
+example of that ever.
+Like I knew it was going to be great and
+it's like way way better. It's
+impossible to describe. There's nothing
+I can say that's not like very cliche
+and it's totally amazing.
+What is like one of your And it's a you
+have a young boy. Yeah. And what's
+something like that you think is like
+neat or like what's one thing that kind
+of like is bringing you joy with it?
+Watching
+the speed with which he like learns new
+things or gains new capabilities. Yeah.
+Is just unbelievable. It's like every
+day it's like oh man
+he just couldn't do that before and now
+he's like grabbing stuff and passing it
+between his hands and
+uh getting to like
+watch it dayto day is just an amazing
+rate of change. And then I don't like
+again I realize it's like
+you know I realize that like everything
+about babies are very finely tuned over
+a long period of evolution to make us
+like love them and be fascinated by them
+and it's like a neurochemical hack. But
+I love it. It's great. It's so strong.
+It's so intense.
+So it's really like almost like a coffee
+for your heart or something kind of
+I don't even know how to find I've tried
+to like come up with an analogy to tell
+because now I'm like telling everybody
+you got to have a lot of kids. It's
+really important.
+Yeah. Yeah. Yeah.
+And I've been looking for an analogy of
+what to explain and and then I always
+just say like I I don't know how to
+explain this. It's just it is the best
+thing I've ever done by far. I feel like
+a completely changed person. And I was I
+was like thinking the other day like
+there used to be all these other like at
+this point all I do is work and hang out
+with my family. I like I don't
+I don't like really get to do a lot of
+hobbies anymore. It's busy time at work.
+I don't get to hang out with my friends
+that much. Uh
+and I and I don't you know there were
+like all these things where people tell
+you like oh you got to baby come and you
+got to go you know take that spontaneous
+international trip because you're not
+going to be doing that again for a long
+time and I was like oh that is kind of
+sad. In practice you don't do it that
+often. I at least didn't do it that
+often and I don't miss it at all. I like
+remember that that used to be a
+possibility. Now I can see that's not
+going to be a possibility for a long
+time and I'm thrilled with the trade.
+You're moved on.
+I'm so happy.
+Um how old is your child?
+Four months. Oh, that's a funny like at
+five or six months they start to get
+like fun and you can like they're still
+like they can't go anywhere, you know,
+but they're like intrigued and stuff.
+They start to like smile or process
+more. I don't know how you guys say it,
+but um
+yeah, he's totally like turned on
+though, like really aware, understands
+things. It's super cool.
+I have a thought sometimes that this
+will be one of the last like maybe 40
+years that we conceive children in the
+body. Did you have any thoughts about
+that?
+I've definitely heard a lot of people
+say that. Um
+I haven't thought about it hard myself,
+but yeah, I guess it does make sense.
+Like
+I guess that does make sense.
+Like God, you were in your mom's butt.
+It's crazy. You know, you pervert or
+whatever. Like like I think in the
+future people will be it'll be kind of
+done like in a
+in a vet or something.
+Yes. In like a nice vet. You can go see
+it on the weekends or whatever. And like
+doesn't that just feel like off to you?
+Like I can totally intellectually like
+understand that that may be the better
+way to do it.
+Oh yeah. It feels way off to me. I was
+trying to I thought you would like it,
+you know? I thought I thought
+I mean
+like or I thought you that would be like
+a thought like I guess I like that for
+me that's one of like my futuristic
+thoughts, you know,
+like I can totally accept that that will
+be what everybody does and that it's,
+you know, easier and we can like make it
+healthier for the child and the mother,
+you know, the mother doesn't take the
+health risk. But man,
+so intellectually I can say that and
+then like emotionally it feels like ah
+something is off of that. Yeah.
+Oh yeah. Yeah. Cuz then the family like
+on the weekends the parents would come
+and like tinker on the glass or whatever
+or the dad would put like a um you know
+like a go falcon sticker on the thing or
+you know what I'm saying? People would
+like decorate it all up or write little
+messages on there. Um,
+you know, I think there's another like
+another take I have on all of this is
+that there in this world that we're
+heading to of like crazy sci-fi
+technology becoming reality, the the
+sort of like the deeply human things
+will become the most precious, sacred,
+valued things
+and that we'll really care about like
+the human experience more than ever. And
+maybe it won't go that way. I don't
+know.
+Yeah. Do you uh No. And that's some of
+the stuff we want to talk about and
+thanks thanks so much man for sitting
+down. Um, do you think your child will
+go to college? Do you think like what do
+you kind of think that looks like?
+Probably not. Um, if I had to guess,
+like I I think Well, I only went to half
+of college.
+You You did you drop out?
+Yeah,
+dude. You guys all I freaking dropped
+out. I didn't get [&nbsp;__&nbsp;] You dropped out.
+Wang dropped out. Zuckerberg dropped
+out.
+Um,
+probably a lot of other people.
+And you?
+Yeah. Yeah. Okay. Well, hey, we're both
+here, so
+Oh, it worked out fine.
+You're right. You know, you're right.
+Never mind. I'm sorry. I'm being
+self-defeating. Um, yeah. What does that
+look like when you think about that?
+Like, yeah, with AI, with so much new
+information coming online, right? And so
+much like data being collected and like
+um information being uh carpooled and
+and maybe which is a term.
+So, you you and I never grew up in a
+world that didn't have computers, right?
+Like, and our parents were like, "Oh,
+this there weren't computers." And then
+there were and it was this big crazy
+adjustment. It took them a long time to
+figure it out. to us like computers just
+always existed. They were just I mean
+maybe they were kind of new but they
+were always around
+and and then like you know a kid that is
+like
+there was there was this video on
+YouTube I saw like maybe 12 years ago
+something like that that 14 years ago
+that has really stuck with me. It was
+like a little baby in a dentist waiting
+room or something picking up one of
+those old glossy magazines and going
+like this.
+Oh, I remember that. And to that kid, it
+was just like a broken iPad because that
+kid had just like grown up in a world
+where like there were touchscreens
+everywhere.
+And my kid will never grow up will never
+ever be smarter than an AI.
+That will never happen. You know, kid
+born a few years ago, they had a brief
+period of time. My kid never will be
+smarter.
+But also,
+they'll never they'll never know a world
+where like products and services aren't
+way smarter than them and and super
+capable. they can just do whatever you
+need. And in that world, I think
+education's going to feel very
+different. I already think college is
+like maybe not working great for most
+people, but yeah, I think fast forward
+18 years, it's going to look like a
+very, very different thing.
+Yeah. Yeah. Do you think there Oh,
+here's that video right here. This kid.
+Yeah. Yeah. Yeah. All right. I was wrong
+about the dentist. It was Or maybe
+there's a few of these.
+He's like, "Somebody charged this
+magazine." He's yelling. How would you
+recommend to a parent right now to
+prepare their children for like an AI
+future kind of like are there certain
+curtails that you would start to put in
+now? Are there certain like um you know
+adjustments where you like get them in a
+certain training or have them start to
+watch certain models of things online?
+Like what does that you know
+I I actually think the kids will be
+fine. I'm worried about the parents.
+if you look at the history of the world
+here when there's new technology like
+people that grow up with it they're
+always fluent. They always figure out
+what to do. They always learn the new
+kind of jobs. But if you're like a
+50-year-old
+and you have to like kind of learn to do
+things in a very different way, that
+doesn't always work. Yeah.
+So, I think the kids are going to be
+fine. I mean, I do have worry like I do
+have worries about kids in technology.
+Like, I think this scrolling the kind of
+like, you know, short video feed
+dopamine hit, it feels like it's
+probably messing with kids brain
+development in a super deep way. So,
+it's not that I have no worries. I have
+like extremely deep worries about what
+technology is doing to kids. But in
+terms of kids ability to like be
+prepared for the future and use a new
+technology, they seem really good at
+that.
+Yeah.
+Always through history.
+That's a good point actually. Yeah. It's
+like if you just grow up with it, it's
+just like having it's just totally
+normal. It's like having kneecaps or
+whatever. You're just kind of used to
+it.
+You can't imagine the world where it
+doesn't exist. You just
+Yeah.
+Yeah. That's a good point.
+I remember when I was uh in school in
+like junior high and Google first came
+out.
+Mhm. And all the teachers like freaked
+out and they're like, "This is the end
+of education." You know, I get if you
+Why do you have to memorize history
+facts in history class if you can just
+look them up instantly on the internet?
+You don't even have to learn to go to
+the library. And the answer is like,
+yeah, maybe memorization is less
+important, but with these new tools, you
+can think better, come up with new
+ideas, do new stuff. I'm sure the same
+thing happened with the calculator
+before.
+Yeah.
+And you know, now this is like this is
+just a new tool that exists in the tool
+chain. And what about like say if there
+is somebody though that's like learning
+history right now, like they just
+started their second year of college.
+Oh, that Celsius. Yeah, that thing will
+definitely you won't be able to blink
+for a month, homie. That thing will
+Yeah, you'll sneeze and release 5.0,
+dude. You'll freaking Are you guys at
+4.5 already?
+We're 4.5 already. 5.0 is uh I think
+it's going to be great.
+Oh, it'll come out fast if you add that
+Celsius to what I'm saying.
+Maybe the researchers need it, not me.
+But uh you know, we'll get them some.
+Yeah, that thing will get you there,
+man. Um so say there's somebody just for
+example like that's learning history
+right now. They're in their second year
+of college. They're they're taking
+history. Is that are there some subjects
+in like like they they're going to be a
+historian? Is that still a viable space
+of work? Uh as AI moves forward, do you
+think? Honestly,
+I I assume there will be some version of
+it that is uh I I think it's very hard
+to predict exactly how something
+evolves. Um I or predict exactly the
+jobs of the future going to be like the
+you know not that long ago it would have
+been very hard to predict either of our
+jobs if you go back a hundred years the
+idea of like this CEO of an AI company
+or a podcaster like you know probably
+would have been things that didn't seem
+to be the most obvious evolutions of the
+things people were doing at the time.
+Yeah. Hey, you just seemed almost
+probably crazy even in trying to explain
+those to someone.
+You would. And now, in fact, two of the
+job I heard that the job that young
+people most want is some version of your
+job.
+The job that young people most want is
+to be uh, you know, podcast influencer,
+uh, YouTube, they want a YouTube
+channel, like whatever it is, they they
+like six, seven year olds, they don't
+know how to describe it, but that's what
+they want.
+And a lot of people also want my job.
+They want to do like a startup or they
+want to work on AI. And these just
+didn't exist.
+Yeah. So like the rate with which the
+new things come along is is fast and
+also trying to predict what they are. I
+don't know. The thing I say all the time
+is no one knows what happens next. It's
+like we're going to figure this out.
+It's this weird emergent thing. Does the
+current job of a historian exist in the
+same way? I would bet not quite. But
+another thing I believe is that humans
+are obsessed with other people. Like we
+are so deeply wired to care about other
+people, to care about stories and
+history, our own history is extremely
+interesting to us. So I would say
+somehow or other we're still going to
+care about that. There's going to be
+some kind of job doing that.
+Man, that's cool. G I guess I I if
+when I take that avenue of thought like
+okay there will still be this historian
+or somebody it'll be some evolution of
+that. Right. That does seem kind of cool
+to me because there's a level of
+creativity in there. There's a level of
+like faith and spontaneity in there that
+I think is kind of exciting. So yeah, I
+guess I hadn't really thought about
+that. Sometimes I get stuck in this
+doomsday thing like I just see like you
+know like the history book closes and
+they're like we have enough we have all
+the history over here you know it
+you know people used to say like oh
+there's no need for more music we've
+made perfect music like why does anyone
+need anyone to create anymore and that's
+obviously ridiculous or they would say
+there's that famous patent office quote
+everything that humans ever possibly
+need has been invented there's nothing
+left to do
+I have heard that but here we are
+here we are and and like
+someone asked me the other day like you
+know how long is it until you can make
+like a AI AI CEO for OpenAI. And I was
+like, probably not that long. And they
+were like, well, aren't you really sad
+about that? And I was like, no, I think
+it's awesome. I'm for sure going to
+figure out something else to do. I'm
+excited to do that. Like, I think that's
+great.
+Right. So, you could create something
+that would have your job, but then you
+could do something else.
+Totally.
+But then how do you know that you'll
+still get paid for your job? I guess
+like
+Well,
+that's kind of a big question. I I kind
+of think that
+but yeah I guess the framing of that
+question might be better like say there
+are jobs that get curtailed by
+there will be some
+okay
+I think it's important to be honest
+about that there will be some jobs that
+totally go away
+but mostly I think we we we will rely on
+the fact that people's desire for more
+stuff for better experiences for you
+know a higher social status or whatever
+that seems basically limitless human
+creativity seems basically limitless and
+human desire to like be useful to each
+each other and to connect with each
+other and do stuff for each other and
+focus on other people seems pretty
+limitless, too. So, I think throughout
+all of history, there have been these
+predictions like ah, you know, we're
+going to
+we're going to like all be on the beach
+and work an hour a day or hour a week or
+whatever and we're going to have
+unlimited wealth and and I've never
+heard that. I would I love that.
+I mean, they used to say this. They used
+to like the industrial revolution,
+people were like, "Oh, you know, we just
+figured out how to automate like man's
+lot in life. There's nothing left to do.
+We were going to have these machines do
+all the work.
+Makes
+sense probably.
+And you watch these machines doing all
+this stuff that only people used to
+physically do. And everybody panicked
+and said there's going to be no more
+jobs. And we figured out new stuff to
+want. Now, here's an interesting thing.
+If you could go back to that industrial
+revolution time and people before that
+were, you know, really on the grind,
+working super hard trying to like kind
+of have enough food to survive.
+Go back to those people. Look at our
+jobs today. Would those people say we
+have real jobs or would they say you
+have unbelievable abundance,
+unbelievable wealth, so much food to
+eat, incredible luxury, and you guys are
+just like playing a game to entertain
+yourselves. Is that a real job or not?
+And they would probably say where they
+sit, what you guys do is not a real job.
+You guys are, you know, you're too rich.
+You're wasting your time. You're trying
+to like
+Yeah. You guys are a couple of dang zest
+lords out there freaking playing Uno in
+the park or whatever. They They would
+not I don't think my grandfather would
+be like, "You have a job." He would
+still be like, "You need to get a job."
+Yeah. Totally. And when we look forward
+another hundred years of what people are
+doing, they'll probably
+think they're working very hard. It'll
+feel very satisfying, very intense to
+them. They're really like they'll feel
+engaged. They'll be making other people
+happy. They'll be creating value for
+each other. But if we could look forward
+that hundred years at those guys, do you
+think we would say they're working or
+like man, you have like AI doing
+everything for you. You're just trying
+to entertain yourselves.
+Yeah. Like, oh, you guys have it so
+easy, right?
+But I think that's beautiful. I think
+it's great that those people in the past
+think we have it so easy. I think it's
+great that we think those people in the
+future have it so easy. Like that is the
+beautiful story of us all contributing
+to human progress and everybody's lives
+getting better and better.
+say we're able to get to that space,
+right? Like the move like the movement
+that happens with AI and with just
+technology which will advance quicker I
+think which is one thing that AI feels
+like to me it's a fast forward button on
+technology and on uh possibility because
+things can be information can be
+quantified so quick and a lot of like uh
+more menial tasks even though they're
+not really menial in people's lives um
+but menial hypothetically uh can be done
+quicker to get a lot of the framework
+for things done fast. But how will
+people survive? Like how do we adjust
+our structure of finan of like if some
+people own the companies that have the
+AI and then a lot of people um are just
+using the AIS and the agents created by
+AIs to do things for them. How will
+society like societal members still be
+able to financially survive? Will there
+still be money? What is that? Does that
+make any sense? That question.
+It totally makes sense. Uh I don't know.
+Neither does anybody else. But I'll tell
+you my current best guess.
+Okay.
+Well, I'll say two guesses. One, I think
+it is possible that we put, you know,
+GPT7 or whatever in everybody's chat
+GBT. Everybody gets it for free and
+everybody has access to just this like
+crazy thing such that everybody can be
+more productive, make way more money.
+Doesn't actually matter that you don't
+like own the cluster itself, but
+everybody gets to use it. And it turns
+out even getting to use it is enough
+that people are like getting richer
+faster and more distributed than ever
+before. That could happen. I think that
+really is possible.
+There's another version of this where
+the most important things that are
+happening are these systems are
+discovering, you know, new cures for
+diseases, new kinds of energy, new ways
+to make spaceships, whatever. And most
+of that value is acrewing to the like
+cluster owners, us, just so that I'm not
+dodging the question here. And then I
+think society will very quickly say,
+"Okay, we got to have some new some new
+economic model where we share that and
+distribute that to people." Uh, I used
+to be really excited about things like
+UBI. I still am kind of excited like
+universal basic income where you just
+give everybody money.
+Yeah, you hear that term a lot. Yeah,
+universal basic income. Yeah, I heard
+you and Rogan talk about that too a
+while back.
+I still am kind of excited about that.
+But I think people really need agency.
+like they really need to feel like they
+have a voice in governing the future and
+deciding where things go. And I think if
+you just like say okay
+AI is going to do everything and then
+everybody gets like a you know dividend
+from that it's not going to feel good
+and and I don't think it actually would
+be good for people. So I think we need
+to find a way where we're not just like
+if we're in this world where we're not
+just distributing money or wealth like
+actually
+I I don't just want like a check every
+month. What I would want is like a
+ownership share in whatever the AI
+creates so that I feel like I'm
+participating in this thing that's going
+to compound and get more valuable over
+time. So I sort of like universal basic
+wealth better than universal basic
+income. And I think
+I don't like basic either. I want like
+universal extreme wealth for everybody.
+Um but but even then like I think what
+people really want is the agency to kind
+of co-create the future together
+and
+and in a world where it's like the AI is
+mostly coming up with the new scientific
+inventions at least we've got to still
+have humans like invent the new culture
+and have that be a very distributed
+thing.
+Okay. I guess yeah I I I see what you're
+saying but would that be like an
+American thing do you think? like since
+they were invented here or do you think
+I'm just wondering what does that look
+like you know
+the economic model of it all or the
+whole thing?
+Yeah. Or like is there a dividend of the
+company that then is divided up between
+the masses sort of
+I mean a crazy idea but in the spirit of
+crazy ideas is that if the world there's
+like eight roughly eight billion people
+in the world. If the world can generate
+like
+eight quintilion tokens per year, if
+that's the world, actually let's say the
+world can generate 20 trillion quintil
+20 quintillion tokens per year.
+Tokens of
+like uh each word generated by an AI.
+Okay,
+just making up a huge number here. We'll
+say okay 12 of those go to, you know,
+the normal capitalistic system, but
+eight of those eight quintilion tokens
+are going to get divided up equally
+among 8 billion people. So everybody
+gets 1 trillion tokens and that's your
+kind of universal basic wealth globally
+and people can sell those tokens like if
+I don't need mine I can sell them to
+you. We could pull ours together for
+some like new art project we want to do
+but but instead of just like getting a
+check you're get everybody on Earth is
+getting like a slice of the world's AI
+capacity and then we're letting the like
+massively distributed human ingenuity
+and creativity and economic engine do
+its thing. H
+I mean that's like a crazy idea. Maybe
+it's a bad one, but that's the kind of
+thing that I think sounds like someone
+should think about it more.
+One of the big fears is like purpose,
+right? Like human purpose. Like work
+gives us purpose. And also I think the
+idea that we are the ones advancing
+humanity gives us purpose. Like we are
+the
+like yeah like we have some
+control over our own destiny. maybe
+gives us this sense of purpose
+and it feels like that we would lose a
+sense of purpose or that purpose would
+be adjusted like if AI is to really you
+know continue to advance so quickly it
+feels like our sense of purpose would
+start to really disappear.
+Do have you had thoughts about that?
+I worry about this a lot. It's so I
+think people have worried about this
+with every big technological revolution
+but I agree that this time it feels
+different like
+Okay. Yeah. Because if say you had an
+axe and somebody came out with a saw,
+you're like you're like, "Yeah, that's
+it."
+Or even if they come out with like a a
+robot that cuts the tree down, it still
+feels fine. But like
+creativity, intelligence, I think cuts
+so deeply at the core of whatever we are
+and how we how we value ourselves.
+Um,
+one example we can look at this right
+now, I think one area where AI is having
+a big impact is on how people write
+software for a living. And AI is really
+good at that. and it's really changed
+what it means to be a software
+developer.
+I haven't heard any of those software
+developers say they they even though
+their job is different that they don't
+have meaning. They still enjoy it.
+They're operating at a higher level. Um
+and I'm hopeful at least for a long
+time, you know, 100 years from now, who
+knows? But I'm hopeful that that's what
+it'll feel like with AI is even if we're
+asking it to solve huge problems for us.
+Even if we ask it to say like, you know,
+go discover a cure for cancer,
+there will still be a lot of things to
+do in that process
+that feel valuable to a person.
+Mhm.
+You'll still asking it the questions.
+You're still like helping guide it.
+You're still framing it or whatever it
+is. You're still like talking to the
+world about it. And
+and I think all of human history
+suggests that we find a way to put
+ourselves at the center of the story and
+feel really good about it. Like you know
+if you kind of think like
+we used to think that the earth was the
+center of the solar system and then
+we're like very humanentric view and
+then we're like okay fine the sun is the
+center of the solar system but the solar
+system is at least the center of the
+galaxy and now oh man there's a lot of
+galaxies and oh man now we're this like
+tiny speck in this like very huge
+universe
+and
+and yet we still manage to feel all like
+a lot of main character energy. And so I
+somehow think even in a world where AI
+is doing all of this stuff that humans
+used to do, we are going to find a way
+in our own telling of the story to feel
+like the main characters. And I think in
+an important sense, we will be. And
+that's really good. I also like, you
+know, probably already today
+there could be a very compelling version
+of two AIs talking like this.
+And I don't think I would want to watch
+that. Like I think I I really do feel
+deeply wired to like care about the real
+person behind it. I think that's like
+deep in the biology,
+right?
+Yeah. That's the part that I think a lot
+of times it's like even though you can
+get into like these wormholes of like
+possibility and these fear holes of
+possibility or um kind of this dystopian
+ideas that in the end I'm like I'd
+rather probably watch something that's
+real. You know, it's like because I'm
+real. You know what I'm saying? like I
+don't want to talk really to a robot.
+I'd re, you know, Yeah. I think in the
+end there's going to be a part of you
+that wants to continue to just talk to
+um talk to humans. Do you uh
+what's like one of your fears? Like
+what's a fear you have of AI? Like if
+you have like a fearful space that it
+could go like I know you mentioned it a
+little bit
+this morning. I I was testing our new
+model and I got a question. I got
+emailed a question that I didn't quite
+understand. Uh, and I put it in the
+model, this GPT5, and it answered it
+perfectly
+and I really kind of sat back in my
+chair and I was just like a, oh man,
+here it is moment
+and I got over it quickly. I got busy
+onto the next thing, but it was like a I
+mean, this what kind of we were talking
+about. I felt like useless relative to
+the AI in this thing that I felt like I
+should have been able to do and I
+couldn't and it was really hard, but the
+AI just did it like that. Yeah, it
+was it was a weird feeling.
+Yeah, I think that's I think that
+feeling right there that's the feeling a
+lot of people kind of have like what's
+going you know when does it happen?
+What's going to happen? Um but I think
+some of it is it's like you it's hard to
+conceptualize until you're further
+along.
+I I'm all to totally I don't think we
+know quite how that's going to feel. You
+just have to like approach it step by
+step. Another thing I'm afraid of, and
+we had a,
+you know, a a a real problem with this
+earlier, but it can get much worse, is
+just what this is going to mean for
+users mental health. Um, there's a lot
+of people that talk to chatbt all day
+long. There are these sort of new AI
+companions that people talk to like they
+would a a girlfriend or a boyfriend. Um,
+and we were talking earlier about how
+it's probably not been good for kids to
+like grow up like on the dopamine hit of
+scrolling, you know, or whatever.
+Yeah. Do you think that that how do you
+keep like um AI from having that same
+effect like that negative effect that
+social media really has had?
+I I'm I'm scared of that. I don't I
+don't have an answer yet. Uh I don't
+think we know quite the ways in which
+it's going to have those negative
+impacts. Uh, but I feel for sure it's
+going to have some and we'll have to I
+hope we can learn to mitigate it
+quickly.
+Um, can AI can they pull up pornography
+and stuff like that too or No.
+Sure.
+Oh my god.
+God, I didn't know that.
+H No, it's fine. I Yeah, but I just
+Yeah, I don't even need to know that.
+I'm going to have that stricken from my
+own record.
+Crypto is it's kind of blowing up again,
+you know. It's Some people say it's
+back. It's not back. It's one of the
+best things is is it hasn't left. It is
+it has maintained itself as a viable
+form of currency and I'm back in I'm
+back invested and when I need more
+Bitcoin or Salana or XRP, Moonpay
+is always the first app I open. Since
+Moonay works with Apple Pay, Vinmo,
+PayPal, bank accounts, and credit cards,
+it's fast and easy to get what I need in
+a few clicks. And because Moonay has
+been around for six years and is used by
+millions of people, they've also formed
+pretty cool relationships with other
+companies in the crypto space. Yep. Moon
+is partnered now with Trust Wallet, one
+of the most popular self-custody wallets
+in the world. With Trust Wallet, you
+control your crypto fully. No
+compromises. And thanks to Moonay, you
+can fund your wallet instantly using
+your favorite payment methods. It's the
+fastest way to go from cash to crypto,
+all while keeping full control of your
+assets. Remember, while Moonay makes
+buying crypto straightforward, it's
+essential to do your own research and
+understand the risks involved. Crypto
+trading can be volatile and you could
+lose your investment. Moon is a tool to
+facilitate your transactions, not a
+source of financial advice. Trade
+responsibly. What happens when your
+health becomes the punchline? That's my
+question. It feels like that's where
+we're at. From seed oils to stress,
+toxins, pollutants, the modern world is
+screwing with our health at the cellular
+level, leading to exhaustion, brain fog,
+digestive issues, and more. But here's
+the thing. You don't have to settle for
+feeling like garbage 247.
+Armra colostrum is nature's original
+health hack. Packed with over 400
+bioactive nutrients that fortify gut
+integrity, strengthen immunity,
+revitalize hair growth, fuel stamina,
+elevate focus, and help you function
+like a human again. I love using it in
+my smoothies at home. I'll make me a
+little smoothie. Bang. Putting some
+blueberries, spinach,
+hit with a little packet of Armra
+colostrum.
+We've worked out a special offer for our
+audience here. To receive 15% off your
+first order, go to tryarma.com/theo
+or enter t ho to get 15% off your first
+order. That's t r y a r a.como.
+Um what legal system do does AI have to
+work by? Is there like a legal like are
+there like we have laws like in the
+world, right? like in the human world is
+in does AI have to work by any like
+legal laws you know
+yeah so I I think we will certainly need
+a legal or a policy framework for AI um
+one example that we've been thinking
+about a lot this is like a maybe not
+quite what you're asking this is like a
+very human centric version of that
+question people talk about the most
+personal [&nbsp;__&nbsp;] in their lives to chipt
+it's you know people use it young people
+especially like use it as a therapist a
+life coach uh having these relationship
+problems, what should I do? And right
+now, if you talk to a therapist or a
+lawyer or a doctor about those problems,
+there's like legal privilege for it, you
+know, like it's there's doctor patient
+confidentiality, there's legal
+confidentiality, whatever.
+And
+we don't we haven't figured that out yet
+for when you talk to Chat GPT. So, if
+you go talk to Chatt about your most
+sensitive stuff and then there's like a
+lawsuit or whatever, like we could be
+required to produce that. And I think
+that's very screwed up. I think we
+should have like the same concept of
+privacy for your conversations with AI
+that we do with a therapist or whatever.
+And no one had to think about that even
+a year ago. And now I think it's this
+huge issue of like how are we going to
+treat the laws around this?
+Well, do you think there should be like
+kind of like a like a slowing things
+down before we move there kind of cuz
+Yeah, it is kind of wild. That's one of
+the reasons I get scared sometimes to
+use certain AI stuff because um I don't
+know how much personal information I
+want to put in because I don't know
+who's going to have it.
+I think we need this point addressed
+with some urgency. Um and you know the
+policy makers I've talked to about it
+like broadly agree it's just it's new
+and now we got to do it quickly. Do you
+talk to ChachiT?
+I don't talk to it that much. One of the
+one of my
+because of this.
+I think it is. It's because it's like
+I I think it makes sense.
+I to not talk to
+No, no, no. like really want the privacy
+clarity before you use it a lot.
+Yeah.
+Like the legal clarity.
+Yeah. It's scary and it's like well how
+long does it take lawmakers to come up
+with that and then it feels like it's
+moving so fast that it's like it doesn't
+even ma that that sometimes it's like it
+doesn't even really matter. It's like
+are we even waiting for the laws to be
+put around this or or what's going on?
+Does it feel like it's moving too fast
+for you sometimes?
+The last few months have felt very fast.
+It feels faster and faster, but the last
+few months have felt very fast.
+Yeah. Yeah, I was watching this guy um
+Yosua Benjio.
+Yashua Benjio.
+Yosua Benjio. And he's kind of like some
+people call him the father of AI. He may
+be self-proclaimed. I'm not really sure.
+Um but he certainly seemed to be kind of
+like a lifeguard for AI, like thinking
+about like, well, you know, how do we
+keep the pool safe? You know, how much
+water should be in it? You know, the
+chlorine, what, you know, how many
+lifeguards do you need on duty? That
+type of thing, hypothetically. Um, and
+he said and he was saying that some AIs
+they they have like deception techniques
+inside of them like that there were AIs
+that would rather give you an answer
+that was possibly pleasing to the user
+than to give them the factual answer. Uh
+and then he was also saying that there
+were um AIs that were developing some of
+their own languages to communicate with
+each other which would be languages that
+we don't even know. Um what is that how
+how do you guys curtail that when those
+types of things come up? What does that
+even kind of fe feel like to you guys?
+Or are these just problems that happen
+in new spaces and you figure it out as
+you go?
+You know, there are these moments in the
+history of science where you have a
+group of scientists
+look at their creation and just say, you
+know, what what if what have we done?
+What maybe it's great, maybe it's bad,
+but what have we done? Like maybe the
+most iconic example is thinking about
+the scientists working on the Manhattan
+project in 1945 sitting there watching
+the Trinity test and just you know this
+thing that had it was a completely new
+not
+not human scale kind of power and
+everyone knew it was going to reshape
+the world and I do think people working
+on AI have that feeling in a very deep
+way you know we just don't know like we
+think it's going to be There's clearly
+real risks. It kind of feels like you
+should be able to say something more
+than that. But in truth, I think all we
+know right now is that we have
+discovered, invented, whatever you want
+to call it, something extraordinary that
+is going to reshape the course of human
+history.
+Dear God, man. But if you don't know, we
+don't know.
+Well, of course. I mean, I I think no
+one no one can predict the future. Like
+human society is very complex. This is
+an amazing new technology. Maybe a less
+dramatic example than the atomic bomb is
+when they discovered the transistor a
+few years later.
+The transistor radio,
+the little transistor part that you know
+made computers and radios and everything
+else. But we discovered this completely
+new thing that enabled the whole
+computer revolution and is in this
+microphone and those computers and our
+iPhones and like the world would be so
+different if people had not discovered
+that and then over the decades figured
+out how to make them smaller and more
+efficient. And now we don't even think
+about it because the transistors are
+just everything. We have all this modern
+technology from that one scientific
+discovery. And I do think that's what AI
+is going to be like. We had this one
+crazy scientific discovery
+that led to these language models we all
+use now.
+And that is going to change the course
+of society in all kinds of ways. And and
+of course we don't know what they all
+are.
+Damn. I was hoping you knew by the end
+of that sentence or I was hoping you
+would you know like that's what we're
+cuz we don't know you know like that's I
+think the tough thing.
+There's no time in human history at the
+beginning of a century where the people
+ever knew what the end of the century
+was going to be like.
+Yeah.
+So maybe it's I do think it goes faster
+and faster each century.
+Mhm.
+Certainly like you know in 1900 you
+couldn't have predicted what 2000 was
+going to be like. I think in 2000 you
+could even less predict what 2100 was
+going to look like.
+But that's kind of why it's exciting and
+like that's kind of why people get to
+figure out and unfold the story as we
+go.
+It's kind of bizarre because there's a
+part of me that's like this guy's out of
+his mind. This guy is a is a is a wild
+wizard. You know, there's a couple
+different things. But then there's also
+this part of me that's like this guy is
+this hopeful guy what who's like
+involved in this crazy space and he kind
+of has this whimsical energy about the
+future which is in a crazy way a nice
+energy to have about the future
+generally is that something could happen
+or that things are possible. Um, so it
+just, yeah, it's all kind of like I
+don't know. It's fascinating
+to me. Um, Sam to kind of pivot a little
+bit. There's, it feels like there's a
+race right now in AI, right? Would you
+say that there's a race between
+companies in AI?
+It certainly feels that way.
+Yeah. And it almost feels like you guys
+are the new Formula One drivers or you
+guys are like the new like uh it's like
+um Mario Andredy or you guys are the new
+like uh Bubba Watts and all the you know
+it's almost like these are the new race
+cars that everybody's kind of watching
+position themselves. Um
+what is the race for? Because you hear
+about AI and then you hear about AGI
+uh and then you hear about super
+intelligence. What is what is this race
+that's going on? How real is it? And
+what is the race for?
+When I was a kid, the race was like the
+meahertz race and then it became the
+gigahertz race. Everybody wanted a
+computer with a faster processor. Oh
+yeah. You know, Intel would come out
+with this one and then AMD would come
+out with this one
+and every like it turned out that those
+gigahertz measurements eventually were
+not even that helpful. Like you could
+have one that had a lower number and it
+was in practice it was faster. And
+eventually, I think it was Apple that
+realized they should just stop talking
+about the clock speed of their
+computers. And you probably don't even
+know what the processor speed of your
+iPhone is today.
+Yeah, it's true. Yeah, that was a big
+thing and it kind of disappeared.
+And I think the same thing has been
+happening in AI where everybody was
+racing on these benchmarks. You know, I
+score this on this benchmark and this on
+that one. And now people are realizing
+that like, okay, the benchmarks are kind
+of saturated. We went through the
+equivalent of our megahertz race with
+our benchmark race and now people kind
+of don't care about that as much and now
+it's like who's using the model, who's
+getting the value out of it, things like
+that. Um, but
+but I do think people still feel like
+we're heading towards some milestone.
+what the milestone is, they disagree on,
+but maybe it's maybe it's a system
+that's capable of doing its own AI
+research and its own sort of
+self-improvement. Um, maybe it's a
+system that is like smarter than all of
+humans put together, but they feel like
+there is some
+finish line to cross. I actually don't
+quite feel like this, but I think a lot
+of people in the industry that there's
+some finish line that we're going to
+cross. Maybe it's this like
+self-improvement
+moment. Maybe you call that super
+intelligence. Um, and I think there is a
+sort of
+there's like a race to get somewhere,
+but people don't agree on where it's to
+or something.
+What are you racing towards? You feel
+like
+It's a great question. Um, I don't have
+like a finish line in mind. There's
+nothing I could say to I don't think I
+can articulate anything where I would
+say like this is mission complete. But
+if I if I had to give like a self
+referential answer there, you know, the
+moment where we would rather give our
+research cluster like our, you know,
+GPUs that we run all of our AI
+experiments on, the moment where we
+would rather give that to an AI
+researcher rather than our brilliant
+team of human researchers, that does at
+least seem like some kind of very
+different new era.
+Yeah. And at that point, who's even we?
+I feel like it's just you kind of like
+wheeling the stuff across the hall in a,
+you know, like who's going to, you know
+what I'm saying? Like, you know what I'm
+saying? It starts to get this idea like
+if we keep if ever, if things were to
+keep leaving the the people and go to
+the computer,
+you're just shoveling coal into the AI
+hypothetically. You know,
+again, I assume that what will happen,
+like with every other kind of
+technology, is we'll realize like we
+there's this one thing that the tool's
+way better than us at. Now, we got to go
+solve some other problems. So, let's put
+our brain power there. I I somehow don't
+think it'll ever feel like we all just
+get to like push a button and go on
+vacation.
+Got it.
+Um like we will I think as one one
+version of this is as uh as capabilities
+go up because as we get better tools the
+expectation goes way up too. And so
+we've got to like
+yes we get much better tools but we have
+to do way more to remain competitive.
+Well I think there's this hopeful idea.
+Say if you come up with all these
+or maybe not like maybe maybe the AI is
+just better than us at absolutely
+everything and we just sit there being
+like all right that was cool.
+Yeah because well at a certain point if
+something has all the information right
+if something has all the information and
+it can think and and and ponder and uh
+pontificate and serve multi options of
+answers. Aren't we then working for that
+thing? Like that's what I start to
+wonder like if it's the smartest thing
+in the room.
+GPT5 is the smartest thing. GB5 is
+smarter than us in almost every way. you
+know, and yet here we are.
+So, there's like there's something about
+the way the world works. There's
+something about this doesn't mean it's
+true forever, but there's something
+about what humans can do today that is
+so different. There's also something
+about what humans care about today that
+is so different than AI that I don't
+think the simplistic thing quite works.
+Now, again, by the time it's a million
+times smarter than us,
+who knows?
+Is part of you want to kind of get
+there? Like how do we get where like I
+open the door and you and I say excuse
+me sir and it's just my computer in
+there. You know what I'm saying? Like
+you know when
+when I was a kid
+I sort of thought about these
+technological revolutions that happened
+one at a time. There was the agriculture
+revolution a long time ago and that
+freed us up to do these other things.
+And then there was the like there was
+the age of enlightenment and there was
+the industrial revolution and there was
+the computer revolution and all these
+things happened and I thought of them as
+like these distinct things and now I
+view it as just this one long
+compounding exponential where
+all of these things come together. Each
+piece of technology is built
+continuously overlapping on the one that
+comes before
+and we're able to just do more and more.
+And so in some sense AI is this big
+special unique different thing. And in
+some other sense it is just part of this
+long arc of human progress. We talked
+about the transistor earlier but like
+that was way more important in some
+sense to AI happening than the work we
+do now. And all this stuff has to like
+compound compound. You got to build the
+internet. You got to get all this data.
+You got to do all these things. And
+and I want that exponential to keep
+going. There will be things way after
+AI. We'll invent all sorts of new
+things. We'll go colonize space. we'll
+go, you know, build neural interfaces.
+Who knows what else we'll do?
+But I think at some point AI fades into
+that arc of history. We build, we don't
+we don't even think about it. It's like
+transistors, which you don't even think
+about today. It's just another layer in
+the scaffolding that humans collectively
+have built up bit by bit over time. And
+where you sit in our day, you get to
+open that door. You have this like
+computer that only has one interface.
+You just it says, "What do you want?"
+You say whatever you want. It happens.
+and you figure out amazing new things to
+build for the next generation and the
+next and the next and we just keep
+going.
+Yeah. I think the the part that I think
+gets spooky is I can't build any I can
+build some stuff but I can't build like
+any technological stuff. So then I'm
+like dang dude well I'm not going to
+what am I going to build over there?
+Okay. So, right now I can write
+software, maybe you can't
+and I have a little advantage if I want
+to go build some technological thing.
+Very soon you can make any piece of
+software you want cuz you just ask an AI
+in English. You say, "I got an idea for
+an app. Make me this thing."
+And the whole thing just happens.
+So, that's a win for you. Maybe it's a
+little bit of a loss for me. I think
+it's kind of cool for the whole world.
+Yeah.
+But
+like this is this is going to be a
+technology that anybody can use. You can
+just like with natural language you can
+say this is what I want and it goes off
+and writes the code for you, debugs it
+for you, deploys it for you
+and then you can say how do I use what I
+just created.
+Yeah. But if you have a great idea, AI
+will just make it happen for you.
+And this is a new thing. Like this is
+this I think this will make technology
+the most accessible it ever has been.
+Got it. Okay. Then that seems a little
+bit different. I think there's this idea
+in my head that I'm going to have to
+figure out all this coding. I have to
+figure out all of these different ways
+to do things to even have a possibility
+of of use of myself in the future.
+No, I think this is uh without talking
+too much about the future and what we're
+going to launch like the fact that you
+will be able to have an entire piece of
+software created just by like explaining
+your idea is going to be incredible for
+humans getting great new stuff. Cuz
+right now, I think there's like a lot
+more good ideas than people who know how
+to make them. And if AI can do that for
+us, we're really good at coming up with
+creative ideas.
+Yeah. I mean, that's one of the things
+that people like to do. Um, do you think
+right now if if humans, regular average
+humans, most humans could vote to keep
+AI going or to stop AI? What do you
+think that they
+Great question.
+What do you think that they would vote?
+This is like totally kind of I don't
+have any data for this. I would bet most
+people who use chatbt, which is a lot of
+people know, they would say like keep it
+going. And most people who don't would
+say it's scary, stop it.
+What do you think?
+Yeah, I feel like most people would say
+stop it, I think. Or pause it, take the
+wheels off of it for a month, that kind
+of thing. Siphon the gas out of the
+tank, you know, like that kind of thing.
+Put sugar in it. I think there like that
+kind of thing, you know.
+What are you most afraid of with it? Or
+is it just that we're not going to have
+purpose and we don't know how it's all
+going to go?
+Yeah. I mean, those are some of the huge
+parts. But I think like there's like um
+probably that I think that in the end I
+think there's a general feeling of like
+well if all the trucking jobs disappear
+you know if those become automated and
+and like yeah if everything becomes a
+robo tax like you know will that feel
+you know where will those people go for
+jobs will everybody just be dancing on
+TikTok trying to get people to tip them
+for trends and stuff you know like
+there's part of that I had this dream
+years ago that it all ends with
+everybody's driving an Uber and
+literally holding each other at gunpoint
+to be each other's passengers, right?
+Like get in my cuz that's how bad like
+somebody's like I need to fair more than
+you do. You know, my whole family's in
+the back seat sit shotgun we'll get you
+to wherever you know like people are
+literally holding each other at gunpoint
+to subscribe to their Only Fans and
+stuff like it's just that um dystopian
+or whatever. Um, so I guess part of
+that, but then there's a deeper part
+where it's like, yeah, what comes out of
+us if it feels like a lot of the regular
+stuff that gives us purpose that we know
+right now gives us purpose? Is there a
+new evolution of our purpose? Is there
+like a blooming inside of us? Is it this
+utopian place that you almost think of
+as like a heaven idea where you know
+people's are fed and have enough you
+know can take are provided for can take
+care of themselves
+I guess that's that that's it or what
+because purpose gives people work work
+gives people so much of their purpose
+and so for to lose those things what is
+it what happens you know and I know I
+kind of keep asking that over and over
+again you don't really have the answers
+and that's it's okay of course how could
+you we're not in the future
+I mean I think people really do love to
+be useful to each other and people love
+to express their creativity as part of
+that.
+And
+as the long-term trend of society
+getting richer has continued, more
+people I think are able to do get closer
+to sort of expressing themselves in the
+best way that they can. May maybe like
+you know as recently as
+five or six hundred years ago not very
+many people got to be artists. The world
+wasn't that rich. There were a limited
+number of patrons that could like pay
+you to create art but there were more
+than zero. And before that there were
+almost none. And then you got this
+beautiful Italian Renaissance and all of
+this amazing art uh because there was
+like excess capital in the world. And
+now a lot more people can be artists or
+a lot more people can start startups
+which is another like for me that's like
+my expression of creativity
+right
+um or more people can create content.
+Yeah.
+Uh and
+and this idea that
+people can find whatever way they can to
+express themselves, their talent, their
+vision. um for kind of collective love
+of other people and a care for putting
+their brick in society's progress.
+I think that can go really far. Now,
+what art in the future looks like now
+that AI can make art or help make art, I
+don't know. It'll probably be kind of
+different what startups will look like
+in the future when people can kind of
+just say whatever they want to their AI
+and it can make this off of them, right?
+Then it will kind of be different. But
+but I think it's such a bad bet to
+assume that either human creativity or
+human fulfillment from being useful to
+other people ends. I think we're just we
+stay on this exponential and like each
+year, each decade, our collective
+standard of living goes way up. The
+whole world gets way richer. We all get
+more. We all expect more. And
+even over like the course I was thinking
+recently like food is so much better
+than it is when I was a kid. Like the
+world has just figured out how to make
+food better. Like we, you know, know how
+to we figured out organic vegetables or
+whatever it is. I don't know. It just
+tastes much better. And like I think
+that's great. I don't want to go back to
+eating like the frozen carrots or
+whatever.
+Yeah, I guess that's a good point. But
+then there's some like I saw this thing
+the other day. It was like a K. They had
+like one of those robo kitchens or
+whatever. You know when you order food
+from like something Dash or whatever and
+then you uh but it's like Hank's ribs
+and then it's like Marty's Pizza and
+then it's like Susan's salami shop but
+they're all the same place, you know?
+And when you get that from window Dash
+Yeah.
+Uh you don't you don't like you feel
+like something's missing, right? You're
+like, "Ah, this is fake. I can tell. I
+get less enjoyment." You would rather
+get that food from like the dude who's
+been making it and perfecting it on the,
+you know, that little pizza shop on the
+corner for the last 20 years, right?
+Because that's like part of like that
+dude is part of the experience. That
+authenticity is part of the experience.
+I don't think that goes away with the
+like fake robotic thing.
+Okay.
+Yeah. Because I think I start to feel
+like we're in this universe where it's
+like you're walking down the street or
+something and like a Whimo goes by and
+it's like eat now and you're like but
+and you already did eat. It's just got a
+bad reading or something. It's got a bad
+valve in it or something. You're like
+yelling at it. There's nobody in there.
+And you're like, "I already ate." And
+it's like, "Sit down and eat now." And
+it just like [&nbsp;__&nbsp;] uses like a t-shirt
+cannon to just like shoot a burrito at
+you. And then you're sitting there,
+you're eating that, you know? And then
+the GLP car goes by, right?
+It says, "I can help you out."
+Yes. And it's like obviously you've
+overe and you're like, "I didn't even
+want to eat. That thing's messed up,
+right? You're yelling at a car that has
+no driver in it." And then it shoots you
+with three GLP1 darts in the neck. And
+now your wife don't even recognize you
+when you get home or whatever. You know,
+the fact that you find this so
+off-putting, I think is a sign for
+optimism.
+Yeah.
+Like a good point.
+You're wired. You're going to be
+resistant to that. That's not going to
+make you happy. That's not going to make
+other people happy. Now, maybe we get
+tricked. Like social media tricked us
+for a while. We got too addicted to
+feeds, whatever. But we realized like
+actually this is not helping me be my
+best. you know, like doing the
+equivalent of getting the like
+burrito cannon into my mouth on my phone
+at night, like that's not making me
+long-term happy,
+right?
+And that's not helping me like really
+accomplish my true goals in life. And I
+think if AI does that, people will
+reject it. However, if Chhat GBT really
+helps you to figure out what your true
+goals in life are and then accomplish
+those, you know, it says, "Hey, you've
+said you want to be a better father or a
+better, you know, you want to be in
+better shape or you, you know, want to
+like grow your business. Um,
+if you want, we can change that goal and
+I can help you scroll TikTok all night
+or, you know, eat the burritos or
+whatever and I'll give you the GLP1
+shots and I'll make you as healthy as
+you can. But like maybe instead I can
+try to help convince you you should go
+for a run tonight." M
+and I think if AI feels like it is
+helping you try to accomplish your goals
+and be your best that will feel very
+different than the last generation of
+technology.
+Yeah. And you know what and that's where
+I'm like and that's where a kid growing
+up right now to them that would probably
+some young people might be like that
+makes the most sense. I'm a little older
+generation might be like oh that seems a
+little but that's always how things are
+generation to generation.
+Always how it goes.
+Yeah you're right. And maybe this is
+just like a quicker evolution of things
+and for young people it's going to make
+so much sense and for older people it's
+and you're just going to be like get off
+my you know avatar lawn or something you
+know. Um
+but that's the way of societal progress.
+That's just how it goes.
+Good point.
+You know it's an interesting time for
+business.
+Tariff and trade policies are dynamic.
+Supply chains are squeezed. And cash
+flow is tighter than ever. If your
+business can't adapt in real time,
+you're in a world of hurt. You need
+total visibility from global shipments
+to tariff impacts to real-time cash
+flow. That's Netswuite by Oracle, your
+AI powered business management suite.
+Trusted by over 42,000 businesses,
+Netswuite is the number one cloud ERP
+for many reasons. It brings accounting,
+financial management, inventory, HR into
+one suite. You have one source of truth,
+giving you the visibility and control
+you need to make quick decisions.
+Netswuite helps you know what's stuck,
+what it's costing you, and how to pivot
+fast. If I needed this product, this is
+what I would use. Netswuite by Oracle,
+one of the most trusted companies in the
+world. It's one system, full control.
+Tame the chaos with Netswuite. If your
+revenues are at least in the seven
+figures, download the free ebook,
+Navigating Global Trade: Three Insights
+for Leaders, at netswuite.com.
+That's netswuite nesui
+t.comtheo.
+Um there's there's definitely been a lot
+of talk about like tech and governance,
+right? And I know we touched on it a
+little bit earlier. Um, and there were
+people like lobbying in the uh in Trump
+had a big beautiful bill for like a
+10-year ban on uh state legislation
+against AI. Um, what do you think about
+that? Like letting it be this rogue
+space.
+There have to be some rules here. There
+has to be some like guidelines. There
+has to be some sort of regulation at
+some point. I think it'd be a mistake to
+let each state do this kind of crazy
+patchwork of stuff. I think like one
+countrywide approach would be much
+easier for us to be able to innovate and
+still like have some guardrails, but
+there have to be some guardrails.
+Do you have you met with governments and
+like government leaders to have
+discussions like that? Like are they
+meeting with you because they might they
+Yeah. Yeah, they do meet with us. They
+haven't done anything big yet, but
+they're talking about it.
+Do they meet with you to try to keep
+information out of um you guys' data?
+we, you know, for all of the paranoia
+about that, I don't think we've ever had
+someone come say like, I don't want it
+to say this negative thing about this
+politician or this whatever. Uh
+the the concerns are like, what is this
+going to do to our kids? You know, are
+they going to stop learning? There's a
+lot of concerns about that. Um is this
+going to spread fake information? Is
+this going to influence elections? But
+we've never had the like you can't say
+bad things about the president, Trump,
+or whatever.
+Um, what about
+bias is a big like they they do want to
+know like, you know, if it'll say bad
+things about one candidate, it'll say
+bad things about the other.
+Could you guys make it do one or the
+other? Like can you guys favor the back
+end or like
+We totally could. I mean, we don't, but
+we totally could.
+You could.
+Yeah.
+Wow.
+Yeah. I think like I
+How do we know you How do you like do we
+give you guys lie detector tests? Like
+how do we know?
+We have to like test the system. I mean,
+you can anyone can like test the AI and
+say if I say this, does it say this? If
+I say that. Oh, that's a good point. But
+you you touch on a really big point here
+which is like hundreds of millions of
+people talk to ChachiBT every day and it
+probably has like a big impact on
+what they believe and so I think
+society's interest in making sure that
+we are you know a responsible neutral
+party should be huge. Now people do test
+it a lot and I think that's good but
+like we got to be held to a very high
+standard there. But how do we like just
+as regular people or how do like regular
+people just hold you guys to a high
+standard? Like is it the I guess it's
+politicians responsibility or I mean
+these guys are idiots on their like
+80year-old dudes giving thumbs up. That
+one guy couldn't get the Wi-Fi on.
+Remember that guy? That guy couldn't get
+the Wi-Fi on. So I'm like how do we
+I mean there's a huge amount of people
+that test our systems all the time
+looking for any errors, any bias, any
+anything.
+I guess that's a good point is we can
+test this.
+You can tell. Yeah.
+Right. people can test it on this end.
+Um,
+as as AI grows, like how big do data
+centers need to be?
+Is that a concern of you guys?
+I went recently to one of our new data
+centers under construction in Abene,
+Texas.
+This is about like a approximately 1
+gawatt facility. Huge. You know, it'll
+be the biggest data center ever built by
+the time it's done. And you stand in the
+middle of that and the scale of this
+project
+just hits you. so big. That's like one
+little That's like one little part of
+it,
+dude. That's like eight Costco.
+Uh, you know, there's like 5,000 people
+there doing construction on it and this
+thing is just standing up, making
+progress every day.
+And you stand in the middle of this.
+And are you in a chariot or whatever?
+Like, how do you even
+You're like in a little ATV.
+Oh, okay.
+Uh, it's like a dirty kind of
+construction site. Um, but it the scale
+of this thing and then you kind of go in
+every room and you look at all the
+cables, the power, the cooling systems,
+rack after rack after ser of server of
+servers. It's humongous. There's like
+they're standing up these like power
+plants right in the middle of it.
+There's
+Oh, yeah.
+It's crazy.
+It looks It starts to make our planet
+look like um a software board, like a
+It does. You know, when you see it from
+the air, I was really struck by that.
+But I was like, "This looks like the
+motherboard of a computer."
+Yeah, it looks like the motherboard of a
+computer. You start to see like how the
+planets in like a lot of these like uh
+sci-fi movies, a lot of them look have
+that R2-D2 look on the outside of them
+because they've been
+covered in data centers.
+Yeah. Which is kind of wild. Do you know
+where we're going and you're not telling
+us? Do you
+I don't I don't.
+You promise, dude?
+I don't know. I mean, I have all my
+guesses. Like I do guess that a lot of
+the world gets covered in data centers
+over time. Do you really?
+But I don't know cuz maybe we put them
+in space. Like maybe we build a big
+Dyson sphere on the solar system and
+say, "Hey, actually makes no sense to
+put these on Earth."
+Yeah.
+I wish I had like more concrete answers
+for you,
+but like we're stumbling through this.
+We maybe, you know, have a little bit
+higher confidence than the average
+person or can but there's so much we
+don't know yet.
+No, I that's the craziest thing about
+you, Sam. And and I I think this is a
+compliment somehow, dear God. And it
+Yeah, it is a compliment. You're like
+It's like you're like, "Come with me
+through the universe." And you're like,
+people are like, "What's it like?" And
+you're like, "I don't know exactly, but
+and then we're all go." It's like we're
+all going. It's like, um, I don't know.
+You're just somehow the most like uh
+you're this like this charming kind of
+terminator. It feels like, and I hate to
+say Terminator, that's a crazy term, but
+like uh but you're this like I'm like,
+"Okay, I'm curious. You somehow seem so
+optimistic about it. I'm it it adds to
+my curiosity." When I was a kid, I
+assumed that there were always some
+adults in the room. Someone had a plan.
+Someone knew everything that was going
+to happen. Someone had it all figured
+out.
+And I sort of think why people like
+conspiracy theories is it's nice to
+think that someone's got a plan. It's
+nice to think someone that
+uh, you know, has it all figured out.
+And then I got a little bit older and I
+sort of started to suspect there are no
+adults in the room. No one People have
+plans. I have plans, but no one has all
+the answers. No one knows where it's all
+going to go. Uh, and now that I am the
+adult in the room, I can say with
+certainty, no one knows where it's all
+going to go. Like, I'm the guy in the
+room and I have some guesses and I have
+some plans. Uh, and we're working really
+hard. But like, you know, we try to
+always say what we think the
+possibilities are,
+what we think is most likely. Often
+we're right. Sometimes it's in the
+broader set. And sometimes it goes in a
+totally different direction than
+anything we thought. And you know, we
+keep trying to make progress, figure out
+more. We try to tell people, not just
+tell, we try to show people by like
+deploying these systems and say, "You
+can go use it. Don't just take our word
+for it. Try it out. See what it can do."
+Yeah.
+Um, but like I can say with conviction,
+the world needs a lot more processing
+power. But if that looks like tiling
+data centers on Earth, which I think is
+what it looks like in the short term, in
+the long term also, or we do go build
+them in space, I don't know. It sounds
+cool to try to build it in space, but
+also really hard.
+What about like the environmental
+effects of those and stuff? Like there's
+been like, you know, there's been
+articles written and I don't know how
+much of it is real or not real, right?
+Because who knows what to believe, but
+you'd have to think that, you know, it
+takes water to cool them, right? It
+takes power to power them. You know, um
+there's some in like Arizona and Iowa
+that there's been like repercussions
+within the environments there in the
+communities. uh what and and a lot of
+those companies don't have to report
+those things because it's considered
+proprietary, you know. Um what do you
+think about those fears?
+or how do you guys manage that? Like do
+you guys talk about that? Do you meet
+with environmentalists? Like what does
+that all look like?
+I think we need to get to fusion as fast
+as possible.
+Get to what?
+Nuclear fusion. Uh I think that is the
+Oh [&nbsp;__&nbsp;] What is it? where you basically
+knock two small atoms together and it
+makes a bunch of energy but no carbon,
+very clean, doesn't generate, you know,
+doesn't really harm the environment and
+power can become like abundant and
+pretty limitless on Earth and we get out
+of all the current problems we're in.
+Are you guys investing in that?
+We are and I think AI can help us figure
+it out even faster. So that's like a,
+you know, if you have to like burn a
+little bit more gas in the short term,
+but you figure out, you know, the future
+of energy with that AI, it's a huge win.
+And would you guys sell tickets to that
+or what do you think that would be like?
+Yeah, I think we
+are going to watch that [&nbsp;__&nbsp;] I mean,
+yeah, people go to monster trucks. You
+don't think they'll roll up to watch
+those two things hit each other?
+The atoms hit each other. It's pretty
+hard to watch two atoms hit each other,
+but maybe with the, you know, somehow we
+can do it.
+Or what if they did like those sperm
+races where they put them under those
+big things or whatever?
+I love those sperm races.
+Kind of crazy.
+I'm like, dude, there's enough of that
+going on.
+Look, I think the
+uh Yeah, there will be some way to watch
+Fusion. And it'll be awesome and it'll
+be like loud and bright and theatrical
+and it'll be making huge amounts of
+energy. Um even if you can't watch the
+two atoms hit, you'll watch them
+collectively produce a fireworks. Um
+but we're going to need that. Do you
+think if we're going to get to
+I think so.
+If we're going to get to uh AGI or or if
+we're going to get to super
+intelligence, do we need that?
+I bet we can get there without it. But
+to provide it at the scale that humanity
+will demand it, I think we do need it
+because people the the the desire to use
+this stuff, people are just going to
+want more and more and more. And
+eventually like the the two things that
+I think matter most, the two kind of
+critical inputs are intelligence and
+energy. The ability to like have great
+ideas, come up with plans and then
+energy is the ability to like make them
+happen in the world and also to run the
+intelligence. And I think the story of
+the next couple of decades is going to
+be that demand for these goes up and up
+and up to crazy heights. And we better
+find out how to produce a lot.
+Otherwise, someone's going to feel like
+they're getting screwed.
+Yeah.
+Dang, dude. I can't tell if I'm excited
+or scared. Maybe I'm both. And maybe
+it's all the same.
+You have to be both. You have to be
+both. I don't know if it's the same
+thing or not. I think it is kind of like
+they do feel related to me always. Um,
+but I don't think anyone
+could honestly look at the trajectory
+humanity is on and not feel both excited
+and scared.
+Yeah.
+And maybe that's always been the way
+throughout time. And also then this is
+where we are. What are we going what are
+you going to do? You know, like this is
+where we are. And so that's what's going
+on. Um,
+I I saw where you and Joe Rogan spoke
+about there possibly being one day like
+an AI president, you know, where like
+what if you had this one kind of let's
+just use the term supercomputer or this
+agent that was created that knew all the
+information and knew all of the problems
+and knew the best ways to solve them.
+Um,
+I is that do you think that something
+like that is becoming more and more
+possible one day? I don't know
+everything that it takes to be a
+president, but I do know it like takes a
+lot of things that I don't have to do
+and that that people are going to well
+maybe I could reframe it to an AI CEO of
+OpenAI because I do know what that job
+is like.
+Okay,
+that should be possible someday. Maybe
+not even that far. Like I think the idea
+to look at an organization to make
+really good decisions, there's a lot of
+things you can imagine that an AI CEO of
+OpenAI could do that I can't I can't
+talk to every person at OpenAI every
+day. I can't talk to every user of
+CHACHT every day. Um I cannot synthesize
+all that information even if I could.
+But an AI CEO could do that and it would
+have better information, more context.
+It could, you know, massively
+parallelize this. And I think that would
+lead to better decisions in many cases.
+Yeah. Because wouldn't a supercomputer
+something that has all knowledge, which
+you think we'll get there?
+I do.
+You do.
+Or I mean all knowledge is a hard thing
+to say. I think it will have vast vast
+amounts.
+Will it be able to tell us about God or
+anything? Do you think?
+I'm super curious about that. Uh,
+I think it will be able to help us
+answer questions about the nature of the
+universe that we currently can't. And I
+feel very confused and very unsatisfied
+with our current answers. And there is
+clearly, to me at least, something going
+on well beyond our current capability to
+understand. And I would love to know
+what that is.
+Do you think it could help us learn
+more? Yes.
+Would it does I wonder if God has a
+chat GBT or whatever or just wonder he
+got he has the first one or whatever.
+But yeah, I'm just so curious like how
+would that work? Um how does how does
+Open AI make money?
+We sell Chacht. You pay 20 bucks a
+month. Some people pay 200, but very few
+or relatively few
+perverts. I think they are
+uh mostly hopefully they're just working
+super hard and using it for to be more
+productive at their job.
+And then we also sell an API
+so businesses can use and they like pay
+us every time they make an API call.
+Okay. Um
+do you think uh like there's a lot of
+these like kind of tech lords that are
+rocking right now, right? And you get
+thrown in there, you know,
+sometimes I'm like on the periphery.
+Yeah.
+Yeah. Or you get certainly like Yeah.
+like these council these councilmen kind
+of like do you think there's bad artists
+um amongst like these tech lords in
+these in these AI realms? Do you think
+there's bad artists out there?
+What does bad artist mean?
+Just like people that want for evil and
+not for good.
+I think most people
+don't wake up I think very few people
+wake up every morning saying I'm going
+to try to make the world a worse place
+or I'm going to actively try to do evil.
+Clearly some do, but I think most of
+these people running the big tech
+efforts are not in that category. I
+think people get blinded by ambition. I
+think people get blinded by competition.
+I think people
+get caught up like very well-meaning
+people can get caught up in very
+negative incentives. Negative for
+society as a whole.
+Um, and by the way, I include I include
+us in this. Like we can totally get
+caught up in we can be very well-meaning
+but get caught up in some incentive and
+it can lead to a bad outcome. Um, so
+that's kind of what I would say. I think
+people come in with good intentions.
+They clearly sometimes do bad stuff.
+There's a lot of talk about like
+Palunteer and Peter Teal and their
+company about being like a um, you know,
+they got a deal with from Trump about to
+have this surveillance or not a
+surveillance state, but to create a
+database on most of uh, America, but I
+it starts to feel like a surveillance
+state, you know. Um, do you feel like we
+will need something like that in order
+for uh the future? You know, do you feel
+like something like that is included in
+the future?
+So, I don't know about that
+specifically. I I mean, I think
+Palanteer and Peter do a lot of great
+stuff. Uh, but I again, I can't comment
+on this specifically.
+I'll say generally I am worried that the
+more AI in the world we have the more
+surveillance the world is going to want
+cuz the tools so powerful the government
+will say like how do we know people
+aren't using it to make bombs or
+bioweapons or whatever
+and the answer will be more surveillance
+and I'm very afraid of that. So I don't
+I think we really have to defend
+rights to privacy. I don't think those
+are absolute. I'm like totally willing
+to compromise some privacy for
+collective safety, but history is that
+the government takes that way too far
+and I'm really nervous about that.
+Do you guys feel like the new government
+kind of or do you feel like the
+government is still like a real thing?
+I don't feel like the government anyway.
+You don't? when the US government bombed
+Iran recently. I remember waking up that
+morning and seeing that news or whatever
+time it was. Uh,
+and I was like, "Oh,
+that's what actual power looks like."
+You know, that we're in like a maybe
+someday we get there. But it was like a
+really stark reminder of however
+important we think this is. It's like
+there are people that have just like
+this unimaginable power and might and
+can kind of do whatever they want. And
+that's definitely not us. Yeah. Yeah. I
+think that's been a lot in the Middle
+East recently is just like it's just
+such a gross displays over there
+sometimes of inhumity.
+Absolutely.
+It's sad. Um what do you think a guy
+like then like Palanteer or Peter Teal's
+endgame is? Do you think he has an
+endgame? Because I think he seems like a
+dark lord to a lot of us and it's like
+he does you think he has an endgame that
+is like happy?
+I think Peter is one of the most
+brilliant people I've ever met. Uh I
+think
+Oh, he's smarter than me. That's for
+sure.
+I think he does get characterized in the
+media as this like evil mastermind
+as a villain. He does. I never met him.
+I met him. I We're very close friends.
+Uh I
+I should have brought it up then.
+No, it's all good. No, no, no, no. It's
+all good. I I I don't feel that energy
+from him, but I at all like I
+in fact I think he's been one of the
+most important forces at least in my
+life for questioning assumptions about
+the path that society was on and maybe I
+was like oh I thought this was all going
+well but maybe we are in a tax
+stagnation and maybe we really do have
+this huge economic challenge that no
+one's talking about and and so I think
+these people who are just very
+that think very differently. He would
+call it very contrarian is
+super important to a society. Now on the
+other hand um
+you know maybe he
+um maybe he sometimes does things like
+this that don't do him any favors when
+you would prefer the human race to
+endure, right?
+Uh,
+you're hesitant.
+Well, I Yes.
+I don't know. I I would
+I would um
+This is a long hesitation. So many
+longesitation. There's so many questions
+and
+should the human race survive?
+Uh, yes. Okay. But, but
+God, I mean, 22 seconds it took him.
+Yeah. So if he were if he were maybe
+like
+a more typical person, he would have
+just said an immediate yes and then said
+what else he wanted to say. And it took
+me a while with him to understand that
+his brain just works differently.
+And society needs some of that. Like he
+has these super different takes and then
+he doesn't have maybe the circuit in his
+brain that makes him immediately say yes
+and then say what he was going to say.
+But you know
+his processors. Yeah.
+I'm very grateful he exists because he
+thinks of things no one else does. Yeah,
+I you know, yeah, you have you want
+there novel thinkers have changed things
+throughout time. Sometimes for the
+better and sometimes for the worse,
+sometimes for the indifferent, but novel
+thinkers have have you've always like I
+don't know, it's always been part of
+humanity.
+I'm probably super different and super
+weird relative to most people, but you
+know, maybe I have some ideas as part of
+that that are like valuable to society
+collectively. And if I had this sort of
+very standard mindset, I wouldn't.
+That's a good point.
+Yeah. Well, do you think, and I'm just
+going to ask you, bro, honestly, do you
+think a lot of these guys have I mean,
+you know, it's not like, you know, Love
+on the Spectrum is like a big show,
+right? People, you know, it's like, and
+those people are in love [&nbsp;__&nbsp;] Every
+half people I know are just, you know,
+barely, you know, they're crying in
+parking lots or whatever. But, um, you
+know, their spousal issues, whatever.
+But anyway, what I'm saying is, do you
+think that uh some of the creators now
+and some of the the tech lords are
+almost have some tech built into them?
+Like almost a I don't want to say like
+an autism, dude, cuz
+you couldn't say that.
+Okay.
+I think so. I mean, yeah. I I you know,
+to take the kind of like harshest look
+at us collectively, I can, you know, are
+we a little autistic on the whole? I I
+would say probably.
+Okay, dude. I knew that [&nbsp;__&nbsp;]
+But that's all right.
+No, no, that's what I'm saying. years
+ago I was meet first time I ever met
+some people with autism I was like dude
+these guys are computers right like a
+lot of these guys are just you know
+they're some they're kind of like a
+little bit of a cyborg in some way in
+the way that they think right
+you know look I'm you are this like
+impossibly charming cool guy and I'm
+like kind of a lot more computery than
+you
+not much though
+we can have it we can still like
+figure it out
+yeah and I I really don't mean as an
+offense but I think that we may need
+that in people to get whatever's next in
+the world you You think that's
+realistic?
+Yeah. I think society needs like this
+very broad diversity of people. You need
+some people like me. You need some
+people who are more normal than me. You
+don't want too many of me. But like
+Yeah. Yeah. You don't want too many of
+anyone thing. Yeah.
+Yeah. I'm just always I'm like, "God,
+yeah, these people are able to see
+things differently and quantify things
+differently." Do you always feel
+because some tech guys are they just
+have a different understanding of
+possibility, right? A different
+understanding of feeling and thing. Do
+you feel human all the time?
+I do feel human all the time, but I feel
+like I I have noticed that I think
+extremely differently about the future,
+about exponential change, about
+compounding technology than than almost
+anybody else that I kind of come across
+in regular life. So
+that's cool.
+I feel extremely human. I feel like, you
+know, driven by crazy emotions as much
+as anybody. But I am like very aware
+that I have a different lens than a lot
+of people. Have you met some people in
+tech space and you're like, "Whoa, that
+guy is only like six or seven%. He's
+low. He not a lot of human in it."
+Yes.
+Yeah. Okay.
+Um, do you think it's inevitable that AI
+or AGI will merge into our bodies? I
+know you've talked about this before in
+the past. As things go along and advance
+quickly, do you start to see that a
+little bit differently? I know you've
+talked about how you don't think it's
+like a glasses thing or something like
+that.
+I'll tell you a fascinating story.
+Okay. I was with a friend last week
+and did I offend you by asking you that?
+Not at all. I thought that was a great
+answer and I really appreciate it
+because yeah, some of us are we can't
+conceptualize sometimes how you guys are
+thinking. It can't I I can't even like
+we feel like we can't figure it out, you
+know? So, it feels like it's almost like
+a unique it's like are we all evolving
+into this new kind of species and that's
+where we meet the future at anyway and
+you're just like the dang Paul River out
+there, you It's like
+for better or for worse, it's I think
+whenever you see someone who thinks
+differently than you, it's like like I'm
+fascinated by you. I don't quite
+understand how you do your thing. I know
+I couldn't do it. I know you like just
+understand the world differently than
+me, but I think that's cool and I'm just
+like all right, I'm glad.
+Yeah, that's how I feel.
+I think it's just thanks for just
+talking to me about it cuz sometimes I
+think I get afraid to say that.
+I don't think I don't think you should
+be afraid. I don't think anybody would
+be offended by that. Um, I was talking
+to this friend of mine though about how
+he uses CHBT and he's been using it a
+lot for a couple years now and he
+noticed recently that he start he
+started giving it personality tests.
+He'd upload any personality test he
+could find to Chachib and say based on
+what you know about me,
+answer this. And he had never he had
+never like told it here's my
+personality. it had just learned it from
+the questions he asked over the years
+and on everyone he tried it got exactly
+the answer and the exactly the outcome
+he would get
+and so that's not like he didn't get
+uploaded he didn't get merged he didn't
+plug something into his brain but
+somehow like the pattern of him had
+gotten imprinted into this AI
+wow maybe we're not as complex as we
+think we are
+or maybe we are and AI can just learn it
+really well AI can like represent these
+very complex things. One of those two.
+But that was a real moment for me of
+like, wow, you know, the merge maybe can
+happen in a very different way than we
+thought.
+Yeah. Yeah. Because you think of it as
+this thing kind of taking over your
+system and like, you know, your dad
+presses a button and you can't use the
+car, you know, you can't move for a
+month or whatever.
+Yeah. I think it it kind of has that
+sort of energy. Um,
+you just you just finished the
+acquisition of this a little bit more
+like day-to-day business. You just
+finished the acquisition of Johnny Ives
+um hardware company um
+their hardware company. So clearly you
+have some like thoughts or
+interest in how like hardware and AI
+match up for each other in humanity.
+What was that about?
+There have been two revolutions in
+computers in history. There was the
+keyboard, mouse and screen. that thing
+that was invented down the street in I
+think the 70s uh where
+you know the people at Xerox Park
+figured out what has become the modern
+computer interface and then in the early
+to mid the early 2000s I guess Apple
+figured out this idea of touch on a
+device and really those have been the
+two big ones.
+I think now there can be a third. I
+think AI is it so changes the game that
+you can design a new kind of computer
+based off of a really smart AI where you
+can give a complex instruction to a
+system. It can go do it. You'll trust
+that it gets it right. You'll trust it
+to act on your behalf. It could like
+maybe be aware of everything going on in
+this room and it could like kind of not
+just be on or off but like lightly get
+our attention if it wants us to know
+something or maybe more aggressively get
+our attention. It could really be like
+following what we're talking about here
+and remind us both of things later. Um,
+and current hardware just can't do that.
+The current kind of computers we have, I
+don't think are a fair, they don't honor
+what the technology is not really
+capable of. So, I want to make a totally
+new kind of computer that isn't meant
+for this world of AI helping you all the
+time. I'm super excited about it.
+You are?
+Yeah.
+Um,
+I you guys this thing called agent that
+you guys had showed me earlier. I can
+take this out if I mention it. I wasn't
+supposed to. It was pretty fascinating.
+It was cool to see it.
+It is. Yeah. This This is a new thing
+that we just did. Um, but the idea that
+an AI can not just answer questions for
+you, but it can go actually do stuff on
+your behalf as your agent. It can go do
+research for you. It can go book
+something for you. It can go buy
+something for you. It can go like, you
+know, change some things in the world
+for you and think more and use tools.
+Like
+I think most people think of ChachiBT as
+this app that you can ask anything, but
+it'll become this thing that can do
+anything and that'll change how you use
+computers. It'll change how you do
+things in your life, you know, if you
+Yeah, I was watching the guy do it and
+it was just kind of fascinating. He was
+showing like one time he'd went to like
+a website and bought something that he
+needed. And then now moving forward, he
+could just be like, "Hey, go to this and
+make sure to get me these or go to uh go
+here and see go to the restaurants I
+like and see if there's any table
+available for 7:00 p.m. tomorrow." And
+it was able to book it and do
+everything. It was like having a
+secretary right there.
+It totally when I first started using
+it, I was like, it was one of those
+moments where I could tell that, oh man,
+doing this the oldfashioned way is going
+to feel like the stone age so quickly. M
+you know I'm going to like try to tell
+people someday like
+do you remember when if we wanted to do
+something we actually had to go like
+click around the internet and like you
+know look for a table and then if we
+wanted to move it we had to like call
+the restaurant and that's going to be
+unimaginable because of course you just
+tell your AI to do those things for you.
+Yeah. Yeah. You feel like you would
+almost just tell it to go eat too you
+know
+that's the fun part.
+Yeah. Oh yeah. That's
+No one likes booking the table. Everyone
+loves sitting there eating.
+That's a good point. Huh. Yeah. Yeah. It
+won't take away the fun part. That's the
+thing I think you got to remember that
+it won't take away the fun part.
+You're going to do the things you want
+to do. There's a lot of things in your
+life you probably don't love doing. Like
+booking an open table is maybe one of
+them.
+Yeah. And then you'll have like
+oldfashioned be like I'll book it. You
+know, you're like, "Dad, what do you
+mean? Get off the phone or whatever.
+Don't call him you freaking weirdo. Use
+a freaking use your agent."
+Totally.
+Like I'll book it. Um there's there's
+like a lot of like you know Zuckerberg
+recently like kind of was poaching guys
+around town, right? And I'll say it, you
+don't have to say it. allegedly. I'm not
+saying he did. He hired one of my
+buddies. But what I'm saying is um
+there's this hypothetical that he was
+like kind of poaching guys around town.
+Is that did it did that feel like a
+mafioso move in the community? What was
+that like out here on out here in the uh
+tech trenches?
+I mean,
+you know, they want to get into the AI
+game. I understand it. So, and if he's
+going to do this, he needs to hire some
+people. So, bring it. So, bring it.
+So, bring it. Yeah.
+[&nbsp;__&nbsp;] yeah, dude. I'm gonna upload myself
+into this plant in a second. Okay. No,
+but no. Does it do you kind of like the
+competition? Is that fun?
+It is to It's Yeah, compet Like winning
+is fun. Yeah. And I expect to win.
+And you got to love the compet. That's
+part of it, right? It makes it fun.
+I think what it would be like if we
+didn't have competition and drama in the
+world.
+It would be so boring.
+Could uh
+actually, can I say one more thing about
+that? the best improvement I made in my
+life in my like personally in my life
+and for my own happiness over the last
+couple years. A lot of bad [&nbsp;__&nbsp;] has
+happened to us. To me, it's been like a
+crazy intense experience. And I just
+decided that I was going to like learn
+to love the hard parts. I was like, you
+know what? If I'm in this crazy moment,
+if I'm in this like crazy thing, if I
+like feel my emotions are high, I'm
+going to like make myself learn to be
+grateful for that, to love it, to find
+enjoyment in the in the tension, in the
+competition, whatever. And actually it
+worked and it it kind of needed to work
+cuz like so many things go wrong in any
+given day. But I was like thinking about
+you know someday I'll be like retired on
+my ranch. I'll be sitting there watching
+the plants grow and I'll be missing the
+excitement and the drama and the anger
+and the tension and the whatever. And so
+I'm going to be like grateful for it and
+like learn to have fun with it.
+And now it like I cannot believe that
+that mind shift mindset shift worked but
+it did. And were there practices like in
+a moment like say like a moment came up
+like some of the early ones, right?
+Because I agree with you that like
+having some mindset like I used to hate
+traveling like every week traveling for
+work but then one day I was like dude
+you have to travel for work.
+Deal with it.
+You may as well find you may as well
+[&nbsp;__&nbsp;] cuz for years you've been just and
+right there suddenly it wasn't bad
+anymore.
+That happened for me too.
+Was there like a just a practice or was
+it just this verbal reminder like I'm
+going to do this.
+I just kept saying it to myself.
+I was just like someday you'll miss
+these moments. you may as well find a
+way to like find the
+happiness and kind of great gratitude
+for them in the moment.
+Yeah.
+Um, a lot of these guys have bunkers.
+Zucky has a bunky. I know that somewhere
+out in Hawaii. People have bunkers. Do
+you have a bunker?
+I have like underground concrete heavy
+reinforced basements, but I don't have
+anything I would call
+Hold on, hold on, hold on, dude. Look,
+I'll let you I'll let you keep me on the
+ropes in a lot of this conversation, but
+I am going to call that out as a dang
+bunker, dude. Sam, that's a bunker.
+Wasn't there a basement in a bunker? A
+one a place you could hide when it all
+goes off or whatever.
+I No. Yeah, I have been thinking I
+should really do a good version of one
+of those, but I don't I don't have like
+a I don't have what I would call a
+bunker, but it has been on my mind. Not
+because of AI, but just because of like
+people are dropping bombs in the world
+again. And you know, like
+That's a good point. That's a very good
+point. Yeah. Basin right there. Part of
+a house building typically used for
+storage, laundry, extra living, space,
+or utilities. And then bunker built for
+protection. Often military or emergency
+related myth meant to withstand
+explosions.
+We don't have that yet. Do you guys do
+this just for me or do you use chatbt as
+the fact check?
+We did this just for you.
+I appreciate it.
+Um,
+this is nice. If could we ever could we
+ever have instead of so you start to see
+say if AI comes over and there's this
+whole new kind of like um you know I
+believe that one of the things that's
+been happening there's been like a lot
+of like ICE raids and people getting
+like taken out of their homes and um uh
+you know um there's been a lot of
+crackdown cuz part of me believes that
+they're having to get everybody
+documented or online basically because
+they're going to start to have this p
+like uh this like facial recognition
+everywhere. Like I have this idea of
+that. So yes, this stuff had to happen
+because in in a year or year and a half
+you wouldn't even be able to be outdoors
+anywhere anywhere without a drone or
+something noticing you or some camera
+noticing that you're not supposed to be
+there or you're not there with
+documentation, right? Whatever people's
+thoughts are on that. But just so part
+of me starts to see like, oh, okay,
+that's going on. Do you think we could
+ever then down the line have new
+countries like delineated by like almost
+like a new AI landscape? Like remember
+when on Snapchat if you were in a
+certain realm you could put like a
+filter on something and they almost
+created these new like glo like geo
+barriers and stuff. Do you think we
+could potentially be looking at
+something like that one day?
+I I know that what you just said is
+going to happen. I know that we're going
+to have like cameras on, you know, all
+over the place and it's going to make
+the cities way safer because everybody
+like if you commit a crime, they'll have
+like a facial recognition hit on you
+right away. But man, do I find that
+dystopic? Like you do,
+of course. Like I, you know, is it like
+a good trade if it means like people
+stop getting murdered in the streets?
+Yeah, sure. We agree to like give up
+some privacy for that. But it it sits so
+uncomfortably with me, you know, in like
+London or whatever. You see those
+cameras on every street corner
+and you're just like you get used to it
+fast.
+Yeah.
+But you're just like it feels like
+privacy is important and and like you
+you really are like there's nothing I
+can do to live in the world and avoid
+all these cameras and maybe it's worth
+it for society collectively but it it
+it it feels like we really do give up a
+lot to get it.
+But could there one day you think if we
+had that then we could have whole new
+countries kind of that were
+what do you mean by new countries in
+this case?
+Like say if there was this new kind of
+this new like layer right of sur a
+surveillance layer that's kind of in the
+in the air
+then could that be divided into
+different realms? Oh yes, totally. That
+can I think there's all kinds of weird
+ways that that can happen. But but the
+surveillance layer is so uncomfortable.
+Oh yeah, it's going to be a nasty
+blanket. Um is there anything else that
+you wanted to talk about you wanted to
+get out that you want me to ask you
+about?
+No, that was great.
+Oh, why are there Why does Chad UBC have
+that hyphen thing?
+We we got to do something about that.
+Um,
+you know, we have this team that figures
+out what the model's personality should
+be like and how it should behave.
+Mhm.
+And a lot of users like M dashes, so we
+added more m dashes. And now I think we
+have too many M dashes. But that's the
+answer is it was just like users liked
+it, we put more in. Now it's like a
+little bit of a meme and it's kind of
+it's quite annoying to me. We should we
+should fix that.
+But you're thinking about it, too.
+I think we'll get it fixed very soon.
+Okay. Uh before you go, Sam, and thank
+you so much for your time today. It's
+been awesome. We appreciate it, man. Um,
+it's helped me get to understand you, I
+feel like, a lot. I think maybe
+differently than I I don't know if I had
+a perception. I didn't know what to
+think.
+What's the before and after?
+Uh, the before was like a little bit
+like um
+I guess I almost thought kind of like
+not as hopeful,
+but I don't know why. Maybe that's just
+my own I think it's attaching my own
+perceptions of what I think about AI and
+stuff or the possibilities of
+technology, you know, like that kind of
+stuff like that energy. I think I was
+probably attaching it to you and now I
+feel like like more whimsical about it
+kind of like um or not whimsical but
+like
+let's see what can happen,
+right? And so I think
+I think it's not just let's see, it's
+like let's try to make it good but let's
+realize that you have to like you don't
+get to see all the way down the road.
+You kind of got to go one turn at a time
+and you like light up a little bit more.
+Yeah. Yeah. I think Yeah. I don't know.
+I I just I'm really I'm really thankful
+for you. Even let me tell you what I
+thought what what what I was like
+judging and then uh and then sharing
+like kind of where I thought what I
+thought now. Um in 20 years, what do you
+hope your legacy will be?
+I you're going to have one.
+I mean, yeah. I guess I you certainly
+don't
+I don't think anyone sits around while
+they're in like the middle of the game
+thinking about, you know, what the
+review is going to be after. At least I
+don't. Um and
+but this is a big review you'll have.
+I have never been that motivated by like
+what like I want to like play the game
+the best I can. and I want to like, you
+know, do the best work I can, have the
+most fun, have like have the most
+impact, do the most interesting stuff.
+But then, you know, you retire and then
+you die and then like life goes on and
+people as they're supposed to go on with
+life and forget about you and this whole
+thing of like I'm going to live for how
+I'm remembered after I die and my legacy
+and like
+you're dead, you know?
+Do you have one of those deals where you
+saving your heart with those people?
+What do you mean?
+Your brain, sorry, with the people over
+there.
+Cryionics. You have a Cryionic deal?
+No, I uh
+Have you been approached about it?
+I have been approached by it. There was
+like a
+That's You haven't even [&nbsp;__&nbsp;]
+approached me. I haven't asked for
+anything.
+There was this like Y company or company
+that I like helped out a long time ago
+by like giving some small deposit to and
+then like I never followed up on it so I
+don't have anything in place.
+Okay. But maybe a Yeah, maybe just a
+down payment somewhere down there. If
+things get weird, we'll we'll go knock
+on their door. Um yeah, but thank you so
+much, man. James Basher says hello. He's
+a friend of mine. He's a great guy. And
+uh and we just appreciate you so much,
+Sam. Thanks for your time.
+Thanks for thanks for doing this. I
+really enjoyed it.
+Thank you for your time today. I thought
+it was very informative.
+[Music]
+And I feel like I must be corner stone.
+[Music]
+Oh, but when I reach that ground, I'll
+share this piece of mind I found. I can
+feel it in my bones.
+But it's going to take

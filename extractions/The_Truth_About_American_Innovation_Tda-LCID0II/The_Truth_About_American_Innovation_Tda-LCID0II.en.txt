@@ -1,0 +1,329 @@
+**Transcript extracted from YouTube video**
+
+Kind: captions
+Language: en
+Science built America's power. From the
+lightning rod to the atom bomb to
+landing on the moon. Here's the
+question. In a time of pandemics, AI,
+and climate change, how do we make
+American science better?
+To find out, we asked three people who
+study science itself. To understand
+where American science is going, we have
+to understand its eras and the pivot
+that changed everything.
+The first era of American science, I
+would say, really stretches from the
+founding of the country all the way
+through the late 1800s. This is Ben
+Reinhardt, founder of Speculative
+Technologies, a materials and
+manufacturing research organization. To
+a large extent, this era is
+characterized by largely tinkering.
+Scientifically, in the discovering
+knowledge sense, America is very much a
+backwater. We have a lot of inventors,
+not a lot of theory, just a lot of like
+hands-on practical like, okay, how do we
+make this steam engine better?
+&gt;&gt; This is Dr. Caitlin Okconor, philosopher
+of science at UC Irvine.
+&gt;&gt; I mean, yeah, there was a huge change
+pre and post World War II. I mean, one
+of the biggest things that World War II
+did for American science was start this
+expectation that science is going to be
+very, very heavily funded by the
+government and that the government is
+going to be putting all this money into
+science and then also expecting that
+they're going to be all of these
+benefits for technology, especially
+military technology, technologies that
+make a country a dominant world power.
+PreWorld War II, it relied a lot more on
+private patronage.
+&gt;&gt; This is Tom Khalil. He served in the
+White House for both Clinton and Obama
+administrations, where he designed and
+launched dozens of White House science
+and technology initiatives to support
+innovation. Now he's the CEO of
+Renaissance Philanthropy, a firm that
+supports philanthropists and foundations
+in developing and implementing
+strategies to foster science in
+innovation. So individual
+philanthropists supporting science and
+then because of the role that you know
+physics in particular played in winning
+the war there was a sense that the
+federal government should keep
+investing. That shift from private
+philanthropy to government support
+didn't just fund projects. It reshaped
+how science itself was done in America.
+What has American science contributed to
+the world? Well, let's take a look in
+the textbooks. Benjamin Franklin and
+electricity, Thomas Edison and the light
+bulb, Vanavar Bush and the development
+of modern computing and information
+technology. This was written about
+Benjamin Franklin's famous kite and key
+experiment when he was experimenting
+with electricity. As soon as any of the
+thunderclouds come over the kite, the
+pointed wire will draw the electric fire
+from them and the kite with all the
+twine will be electrified and the loose
+filaments of the twine will stand out
+every way and be attracted by an
+approaching finger. When the rain has
+wet the kite and twine so that it can
+conduct the electric fire freely, you
+will find it stream out plentifully from
+the key on the approach of your knuckle.
+This was written about Thomas Edison. He
+and his team tested thousands of
+materials to find a filament that could
+glow for hours without burning out.
+Notwithstanding the enormous amount of
+thought and labor expended on the
+incandescent lamp problem from the
+autumn of 1878 to the winter of 1879, it
+must not be supposed for one moment that
+Edison's whole endeavor and entire
+incentive scale have been given to the
+lamp alone or the dynamo alone. And this
+is about one of the most underrated
+figures in American science, Vanavar
+Bush. Consider a future device for
+individual use which is a sort of
+mechanized private file and library. It
+needs a name and to one at random mech
+will do. A MEX device in which an
+individual stores all his books,
+records, and communications in which is
+mechanized that it can be consulted with
+exceeding speed and flexibility. It is
+an enlarged intimate supplement to his
+memory. Each in their time embodied the
+same spirit. Experiment first, argue
+later. But was that uniquely American or
+just human?
+Guilded Age science, which lasts until
+1945. There's postw World War II science
+and then market university science that
+starts somewhere around 1980.
+&gt;&gt; Three eras, one question. What makes the
+American version special, if it is at
+all?
+&gt;&gt; Science is always so interconnected. You
+know, there's so much communication
+between scientists all over the world. I
+have never thought about science as all
+that divided among countries, especially
+modern science because there is so much
+communication between scientists.
+Science is inherently global. But can
+the argument be made that American
+science is its own thing? Science is a
+quest for discovery for like creating
+new knowledge. I then draw the line
+somewhere around this idea of
+falsifiability. Like at the end of the
+day, can you be wrong? Our culture has
+hustle. Americans have hustle. People
+come to America to do science because of
+the freedoms we afford to scientists. No
+regime can dictate what you can or can't
+study. No mandate that every discovery
+serves the state or the military. It's
+one of the few places where science can
+flourish for its own sake. But that may
+be changing. There are proposed deep
+cuts to our core science agencies. Like
+so the US is making it more difficult
+for smart people from around the world
+who want to come to our universities and
+then stay here to be able to do that. I
+mean I think that is our superpower.
+When you have a system that's predicated
+on a really high rate of growth that all
+of a sudden runs into steady funding
+levels for science, it becomes hyper
+competitive. To a large extent, that
+system also was predicated on the
+existence of corporate research labs
+which have now been gutted. Anything
+that I would call like pre-commercial,
+we expect universities to do basically.
+And then everything early and
+postcommercial, we expect academics to
+do. To a large extent, that's it.
+Professors don't spend most of their
+time doing science. They spend most of
+their time managing grad students and
+writing grants and serving on committees
+and teaching and really don't get to do
+very much science. And if like
+professors don't get to do science, then
+who does? Funding and access to global
+talent are vital for American science.
+When those two elements become
+unavailable, the entire ecosystem of
+doing science in America has to adapt in
+some way. American science has always
+advanced because of builders who dared
+to imagine more. And the sponsor of this
+video, E1 Ventures, is carrying that
+spirit forward today. They partner with
+founders working at the edge of what's
+possible in areas like energy, AI, and
+robotics. Their mission is simple.
+Champion innovation that isn't just
+about progress, but also purpose. If
+you're building something bold and
+looking for investors dedicated to
+backing your vision and journey, reach
+out to E1 today. With that in mind,
+let's return to the story of how
+American science has shaped the world
+and how it's falling short today.
+Wealthy Italian families supported the
+Italian Renaissance by backing
+Michelangelo and Da Vinci. Today's
+philanthropist could be supporting a
+21st century Renaissance. We work with
+over 30 different philanthropists on
+science moonshots that are organized as
+focused research organizations that have
+goals like lowering the cost of single
+cell proteomics by a factor of 100,
+lower the cost of mapping the brain by a
+factor of 100, develop the tools that we
+need for oceanbased carbon dioxide
+removal. Philanthropists have a lot of
+flexibility in terms of how they support
+science and technology. that they could
+invest but with a longer time horizon.
+They could build coalitions for problems
+that can't be solved by a single
+individual organization and they can
+advocate for policy change. Philanthropy
+has the potential to be an enormous help
+to address problems that don't yet have
+an established agency dedicated to the
+cause like NASA, the NIH or the DOE.
+However, it's just one of many possible
+solutions to address the gap. You have
+to say what is the goal that I am trying
+to achieve. The private sector is going
+to underinvest in fundamental science.
+Imagine that you were an entrepreneur
+and you went to a VC and said, "Would
+you give me, you know, $5 million seed
+round? I'd like to understand why
+jellyfish glow in the dark." That would
+be a very short meeting.
+If you held up the iPhone and you said,
+"Where did the advanced transistor
+design come from? Where did GPS come
+from? Where did TCPIP come from?" All
+those came from government funded
+research and then entrepreneurs and
+designers then took all the building
+blocks and turned it into a worldass
+product.
+&gt;&gt; My big hypothesis is that there is no
+one silver bullet. I really think that
+we need to enable what I call
+institutional pluralism and then relax
+cultural expectations and a lot of the
+things that sort of help the
+universities maintain institutional
+monopolies on these different roles and
+give them competition like make it easy
+for people to peel off different pieces
+and then that's how I I think that like
+naturally universities will feel
+pressure to retrench to the core things
+that they're good at.
+Scientists were allowed to be
+visionaries, even mad men. You could
+dream big about what a transistor or a
+new field might become. Today, that kind
+of ambition gets you branded as an
+extremist and pushed out of academia
+entirely. We've told scientists to stop
+dreaming, just turn out the data,
+leaving the bold visions to Silicon
+Valley. And when someone does reach too
+far, like Eric Drexler with
+nanotechnology or even Fineman in his
+time, they're dismissed instead of
+celebrated as pioneers with a bold
+vision for the future. But we can change
+that.
+&gt;&gt; I tend to be kind of a science optimist.
+I think for the most part, American
+science has been going quite well.
+People are coming from all around the
+world to be educated in the US to work
+in scientific labs. Science has been
+self-correcting. It looks at itself. It
+finds out what things are going wrong.
+It tries to fix those things. The
+meta-cience movement is part of the
+self-correction of science.
+&gt;&gt; Long before formal institutions existed,
+American science was driven by curious
+experimenters, freaks in the best sense
+of the word, who tested, tinkered, and
+dreamed. Of course, America isn't the
+only country that's had a burst of
+worldchanging science. History is full
+of these hot spots in innovation. The
+Egyptians developing math, the Chinese
+experimenting with early chemistry and
+alchemy, the Italians of the Renaissance
+pushing physics and astronomy. Even
+Tommy, Capernicus, Newton, each of them
+tied to a cultural moment where science
+took a leap forward. So when we talk
+about American science, we're putting it
+in the same lineage, not as the only
+golden age, but as one of several times
+in history when a country's curiosity
+reshaped the bounds of humanity.
+American science didn't start in a lab.
+It started with curiosity that scaled
+thanks to the systems bold enough to let
+it grow. Today, we've hit the limits of
+an old framework of scientific
+innovation. But that's not the end of
+the story. We don't have one neat answer
+for how to fix American science. But
+it's a problem worth solving because
+curiosity built this country's science
+once. And if we dare to reimagine how we
+teach and how we build, then the next
+great era of science will be ours to
+build.
+Thank you for watching this video. Let
+us know what you think in the comments
+below. Do you think American science is
+a thing or is it just America trying to
+steal the glory of other people's work?
+One thing is for sure in my mind, and
+it's that science is at a crossroads in
+America. It's a perilous time. Things
+are getting defunded and scientists are
+being stifled to do the work and
+research that they think is truth. Thank
+you again for watching this video and as
+always until next time, keep on building
+the future.

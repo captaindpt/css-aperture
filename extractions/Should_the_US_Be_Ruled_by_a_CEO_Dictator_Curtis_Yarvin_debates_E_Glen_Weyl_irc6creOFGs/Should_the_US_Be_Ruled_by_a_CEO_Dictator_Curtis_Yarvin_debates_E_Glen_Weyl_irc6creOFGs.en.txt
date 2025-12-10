@@ -1,0 +1,2023 @@
+**Transcript extracted from YouTube video**
+
+Kind: captions
+Language: en
+[Applause]
+This is open to debate. Welcome
+everybody. I'm John Donban. I wear the
+office of moderator in chief. We're in
+New York City at a club called Racket
+New York City. Normally a music venue,
+but we have taken it over to hold a
+debate in a place that happens to stand
+just a mile or so from an historic site.
+The tavern where in 1783 George
+Washington said farewell to his troops
+after leading them to victory in the
+American Revolution. appropriately close
+given why we are here today and what we
+are debating. But before we get to that,
+I want to remind you that around the
+time of the war's end, there were calls
+made for George Washington to be given a
+crown and proclaimed king, king of the
+new United States. It was a proposal
+that came from some of the officers who
+served under him. They were serious
+about it. They were concerned that the
+operation of the United States
+preconstitution was uh revealing all
+kinds of disorder and confusion. Um but
+they didn't get very much traction with
+the idea. U even though they felt a
+strong hand was needed to take over.
+Washington himself was a very very big
+no on the whole concept. His words about
+it were humanity revolts at the idea.
+This revulsion, it's fair to say, toward
+one man rule, one person rule, towards
+extreme concentration of power, uh, also
+guided the drafters of the constitution,
+which still governs us today. James
+Madison wrote in the federalist paper,
+the accumulation of all powers in the
+same hands may justly be pronounced the
+very definition of tyranny. And so, we
+have the system that we have. Nobody
+says that it's perfect, but we've all
+been taught from a very early age to
+believe that it's pretty good. Um, and
+far better than the alternative,
+especially if that alternative is
+dictatorship.
+Well, one of our debaters takes issue
+with that last premise. And his
+increasing influence in Silicon Valley
+and in some other policy circles has
+been growing for some time. Uh, he was
+the subject of a lengthy piece in a New
+Yorker profile in June of 2025. In July,
+Elon Musk reportedly consulted with him
+on the formation of a new political
+party. He's also been cited admiringly
+by the current US vice president JD
+Vance. His argument of record is that
+the American system of governance, our
+republic that we consider to be in many
+aspects democratic or guided by
+democratic values has failed and that
+it's time for a form of dictatorship as
+the best solution for what ails the
+American body politic. You're about to
+meet him and to hear his arguments.
+You'll also meet his opponent who is
+raring to tell you all that he thinks is
+wrong with such thinking. But allow me
+first to spell out the question which is
+up for debate. It is this. Should the US
+be ruled by a CEO dictator?
+Let's meet our debaters. Arguing that
+the answer to that question should be
+yes, I want to welcome Curtis Yarvin.
+Curtis Yarvin is a computer scientist
+and political phil philosopher. Uh he's
+had many blogs over the years, including
+one under the pseudonym Menches Moldbug
+and most recently his Substack Great
+Mirror. Yarvin has experience as a CEO.
+He founded a startup called Flawn that
+developed a software called Urbbit. And
+although he departed that company in
+2019, he returned last year. He is here
+with us now to debate and make his
+argument. Curtis, welcome to Open to
+Debate.
+[Applause]
+And here to argue the other side that
+the US should not be ruled by a CEO
+dictator. I want to welcome Eglenn while
+Glenn is the founder of the plurality
+institute and a board member of the
+organization radical exchange
+foundation. He's been widely recognized
+for being a pioneer in the field of
+digital democracy and he is currently
+founder and research lead of Microsoft
+research plural technology collabor
+collaboratory which is aimed at making
+sure that technologies are a force for
+diversity and democracy in the world.
+Glenn welcome to open to debate. Thank
+you.
+If the two of you could just for a
+moment come center stage I just want to
+do a little bit of stage craft and ask
+you to shake hands to get us started.
+Thank you. Double-handed.
+Let's get to our opening statements in
+our opening round. And this is where
+each of our debaters has the floor
+exclusively to himself for a few minutes
+to explain their position. Curtis, you
+are up first. You again are arguing that
+the US should be ruled by a CEO
+dictator. Here's your chance, please, to
+tell us why. Thank you so much, guys,
+for being here this beautiful New York
+fall evening. So I have a uh a proposal
+here which many people have um would
+find instinctively
+anathema, horrifying, strange, exotic,
+weird. And to me, when I look at the
+weirdness of this proposal as perceived
+by the mind of the ordinary person at
+this time in the 21st century, I think
+it's sort of a sign of in a way how far
+away from reality
+the mass mind of the 21st century is.
+And I'd like to explain that by simply
+starting and this may sound a little bit
+nerdy but if you replace government with
+X and you say the question is should X
+where X is not X the company but yes
+also X the company. Well, where X is any
+endeavor requiring
+the cooperation of a large or even small
+number of people?
+And the question is, should this group
+of people who are trying to get
+something done be coordinated by a
+single central group uh organization or
+a central structure? The answer is
+almost always yes. And so, for example,
+you probably have an iPhone or a clone
+iPhone. If you look at the box that that
+iPhone came in, it says designed by
+Apple in California, made in China.
+Okay, by my account, that is two
+monarchies, Apple and China, and two one
+party states, China and California. Now
+if we look at the difference between how
+the organizations of China and
+California both of which are sort of
+governing structures operate
+we see very clearly that the the
+government of California the the
+organization of Sacramento could never
+have created the iPhone. Imagine CALR
+the California Department of
+Transportation being asked to create an
+electric car. This idea is absurd. It is
+preposterous. It is out of reality. And
+so we see that basically all of the
+things we use at all times are made by
+these strange things called
+corporations.
+Corporations are monarchies. Sometimes
+they're a diary in Silicon Valley.
+Sometimes we'll do co-founders, but they
+are all monarchies. Capitalism is the
+system of little monarchies, little
+kingdoms
+that um you know solve all these
+beautiful problems for us. If we look
+for example again China, strangely
+enough, China is also a monarchy under
+the beneficent leadership of its ruler
+Xinping. Not necessarily a huge Xinping
+fan, but if you walk around New York
+City and you walk around Shanghai,
+you'll see some differences. For
+example, in Shanghai, you were about as
+likely to be attacked by a tiger as by
+another human being. In New York, that
+is not the case. And so what we see is
+that actually across not only is this
+you know the norm for or all effective
+organizational structures. Go to see a
+movie it has a director this is called
+theory. What isour theory it's
+monarchism. Go to a restaurant a
+restaurant has a chef. Monarchism.
+Again, you'll find structures that are
+oligarchical in nature and collective
+decisionmaking structures are very
+unusual
+in human history, even in the history of
+government. Essentially, the that
+monarchy is the norm is completely
+accepted up until 250 years ago. And so
+when we basically see oh you know uh
+Hitler tyranny despotism and so forth
+the thing we have to bear in mind is
+that we are looking at monarchy in the
+age of democracy and so the question is
+what is going in uh on inside this
+250year
+bubble that is this bubble of like very
+different ideas about government. When
+we look at this period do we seem to see
+governments that work really really
+well? Have we like found the mystery of
+that? Uh you know I really don't think
+so. Actually uh you know when we look at
+the technology available to government
+today and we look at what a poor job
+they do and then we look at a preodern
+government which had 50th as many as
+employees per capita, we see actually
+no, we don't seem to have discovered
+something new and more effective here.
+So how did we even get here? Like what
+are we doing here? because this is not
+normal. Thank you. Curtis Arvin
+[Applause]
+Glenn, you are up next. You disagree.
+You believe the US should not be ruled
+by a CEO dictator. Your chance to tell
+us why.
+Thank you, John. Um I before we get
+started, I just want to express my
+gratitude to open to debate uh for
+putting together this really important
+exchange. Um yeah, round of applause.
+And and I also have to admit to some
+trepidation to encountering uh Mr.
+Yarvin in person. I've long respected
+him as being one of the most influential
+figures of our time intellectually
+uh and responsible as much as anyone for
+some of the challenges that we're
+facing. And you know, in the face of
+that fear, um I have to say that the
+easy approach uh to confronting someone
+who has called for most Americans to be
+put in solitary confinement and for our
+billionaires to be expropriated would be
+moral scorn. But I think confronting it
+in that way would be a disservice to all
+the people who found his arguments so
+persuasive. And so instead, I want to
+meet him on the ground that he stands
+on. The grounds he just occupied of
+historical experience because um as an
+economist and political scientist, if
+there's anything that I've learned from
+study after study, it's how consistently
+democracies outperform autocracies both
+on average and in the stability of the
+growth that they deliver. Um and it's
+been found to be causal. Transitioning
+to democracy increases income by 20% in
+the long run. And if we look beyond um
+you know the average to the extreme
+cases, it becomes even clearer. Almost
+all of the miracles of the last century
+have occurred under relatively
+democratic systems with all their flaws
+against the backdrop of general tyranny.
+Places like Japan and India, uh Estonia
+and um Ireland, Batswana and Maitius.
+And even the exceptions that Mr. Yarvin
+loves to point to uh generally prove the
+rule. Places like Chile, China um and
+Singapore actually had their greatest
+success during periods of relative
+pluralism or as they transitioned
+towards democracy. While almost all of
+the greatest disasters of the last
+hundred years happened under iron
+dictatorships, places like Eratraa,
+North Korea, Iran, Afghanistan and so
+on. And if we look beyond the narrow
+field of economics, it becomes even
+clearer because even for their income
+levels, democracies dramatically
+outperform autocracies in extending
+human life, progressing science,
+preserving the peace, uh extending their
+own stability, protecting the
+environment, reducing social
+inequalities, and on and on and on. The
+past quarter millennium, the only broad
+and consistent period of improvements in
+living standards and reduction in
+violence in human history, occurred as
+democracy spread around the world. Now,
+Mr. Yarvin will likely blame the
+failures of dictatorship, on a poor
+choice of CEO, or on too many checks on
+their power. But I think if recent
+experience and history teach us
+anything, it's how hard it is to find
+someone who absolute power does not
+absolutely corrupt. Take Elon Musk for
+example. For years, Mr. Yarvin and the
+people around him have held him up as
+the perfect CEO monarch. And yet, given
+something like that opportunity earlier
+this year, he was so mired in personal
+distractions, amateurism, and
+administrative chaos that his own agency
+became something of a murderous clown
+show. And um can we really blame that on
+too many checks and balances? Um now
+um Mr. Mr. Yarvin held up corporations
+for you and you know I respect
+corporations as well but let's be clear
+unlike Mr. Yarvin I've actually worked
+for the last decade for one of the most
+successful in history and I can tell you
+that success at that scale does not come
+from an iron fist it comes from
+multistakeholder feedback transparency
+and um and decentralization of power so
+um Mr. is definitely right about one
+thing. Our democracies are in crisis.
+Their people are divided against
+themselves and have lost faith and
+they're stuck in outmoded forms. That's
+why I've devoted my career to radically
+updating democracies for the digital
+age. And that effort is bearing fruit.
+In young and innovative democracies like
+Estonia and Taiwan, we see the adoption
+of digital technologies resulting in
+social cohesion, resilience against
+disasters like pandemics, and rapid
+economic growth. and more mature
+democracies like Japan, India and Brazil
+are taking notice and showing us all how
+a mature adult deals with challenges
+which is with humility, determination
+and a growth mindset. Those are far
+better approaches for us to follow than
+the childish fantasy that if we just act
+out enough, Big Daddy will come and
+rescue us from all of our problems.
+Thank you.
+Thank you very much.
+[Applause]
+I just want to review what I think I've
+heard our two debaters say. Curtis
+Yarvin is arguing that uh US government
+is is working very very poorly that it's
+uh doing a poor job of delivering order
+and prosperity that the uh mass mind as
+he said has lost touch with reality and
+that reality as he explains it is that
+to get something done you do need a
+central figure. He cites corporations uh
+that we're all familiar with as examples
+of where this uh uh principle is in
+operation uh in ways that benefit
+society in terms of the products that
+they deliver that solve problems and
+also add to prosperity. Uh Glenn While
+agrees that our democracy is in crisis
+but he also says that uh by most metrics
+and by most examples uh historically
+democracies outperform autocracies
+economically and also socially. He says
+there's been a correlation over the last
+250 years between the spread of
+democracies and human progress. And also
+he points out that the choice of of some
+individual to have the sort of absolute
+power is not going to end well because
+power always corrupts. So we're going to
+have a discussion. Um as much as
+possible I'd like to segment things into
+small smaller chunks so we can take
+things piece by piece. So I'm asking for
+your permission to interrupt you. I also
+want to tell you our rules are no
+personal attacks, um no uh relentless
+repetition of talking points, please
+stay on point and please listen to what
+each other is actually saying. And I
+will enforce those rules dictatorally.
+good to have a strong leader.
+Yes. And so the debate is conceded.
+[Laughter]
+Curtis, um I I want to come to you since
+um Glenn was the last person to speak,
+but you're making the a case for
+uh corporations as a a model of how of
+how it works. A lot of people would say
+that living in a society is not living
+in a corporation that it's just a
+different animal. that a and that there
+there your opponent also made the point
+that within a corporation he's worked in
+that uh decision-m has often not been
+the result of a single strong leader but
+if you can
+first of all Glenn has worked at uh
+Microsoft which is what we call a big co
+it's not exactly a startup how much
+revenue have your efforts returned to
+Microsoft Glenn how much money have you
+made for them
+I think the way
+bug
+please
+none of Leave
+the out. Please leave. Leave.
+Please leave. Please leave. Get out. Get
+out.
+Please. You You do not represent us.
+Please leave. We're here to have a civil
+debate.
+We don't want you.
+[Applause]
+All right. Off.
+Thank you, security.
+Can you reset the uh clock a little bit
+uh for that?
+Yeah. Yeah. How much we lost? About two
+and a half minutes, I think. Thank you
+very much.
+It's good. It's No, I think we learned
+things. I think we learned things. Uh
+because uh you know that's that's sort
+of uh that's what's left of
+progressivism in America today. And um
+you know,
+all right. All right. We we don't need
+to go down that path right now. All
+right.
+How much did you make for Microsoft was
+the question.
+Yeah. So there's this interesting idea
+that I learned about when I was a kid
+called teamwork.
+And the idea of teamwork is that um a
+bunch of different people play different
+roles and that makes it hard to
+attribute things to individual
+performance.
+So your lab is essentially kind of a um
+not exactly a cash cow for Microsoft
+like you're not under like revenue
+disappoint. What's your point though?
+Uh my point is that basically Microsoft
+at the scale that it's act actually acts
+a lot more like a government. It's very
+unlike the Silicon Valley startup scene
+that is very competitive that I come
+from. Actually, Google has become very
+similar. It's a company with basically
+one sort of giant cash cow that is very
+reminiscent of like a tax flow and like
+and so you're essentially running a
+research lab that is really not part of
+capitalism. So so I I could see us
+spending a lot of time on on this side
+of the conversation and where what I
+really wanted to get to in my question
+to Curtis was uh is is the the body
+politic is political society like a
+corporation or are there differences? In
+other words, does the notion of a CEO
+and you know shareholders etc. apply to
+governance of a nation?
+I mean I do not you know think that
+there is a sharp or categorical
+distinction between these things. I
+think as things grow in size, as they
+grow in power, they become more and more
+like an organization that needs to be
+disciplined by democracy,
+multistakeholder feedback, etc. So, I I
+actually have no particular objection to
+running a debate with a strong leader,
+to running an early stage startup with a
+strong leader. All those things make
+sense, and in fact, many democratic
+theorists like John Dwey talk precisely
+about the necessity of doing that. The
+problem that they have is when something
+gets very big, when it's very hard for
+people to leave, where there when there
+are very few alternatives, it becomes uh
+very problematic to run it as a
+dictatorship.
+How do you feel about Franklin
+Roosevelt?
+I think I think there are good and bad
+things about Franklin Roosevelt. I mean,
+uh Franklin Roosevelt did some I think
+things I think were generally positive
+contribution. and I think he said did
+some things that were really awful and
+that the checks on his power that came
+both from the Supreme Court and from the
+Republican party were critical to
+disciplining some of the worst though
+not all of the worst. So like you know
+the internment of the Japanese that he
+did was was a horrible uh thing that was
+not corrected by any of those
+institutions and that's a stain on on
+our country. Well, you know, I have a
+lot of criticism uh criticisms of FDR,
+but I think it's hard to deny that this
+was a single individual running a very
+very large organization. And I think
+that when you look at, you know, there's
+a saying essentially Microsoft is a
+corporation in essentially peaceime mode
+and it can become more oligarchical. you
+sort of consistently confuse democracy
+with oligarchy, which is something I'd
+like to get into at a certain point, but
+um you know certainly that company was
+created by actually really two monarchs,
+Gates and Balmer. And if you think of
+Steve Balmer as having a colleial style,
+like I don't know what to tell you, man.
+Um you know these
+I could I respond to that point? Um
+please because uh as you may know I
+joined Microsoft at the same time that
+Sati Nadella became president. Um and he
+was known specifically to become CEO. He
+was known specifically for having
+overcome a lot of the challenges that
+the company faced um in the last decade
+because of exactly those issues. He made
+a center point of his time there. Um
+decentralization and cultural change to
+make sure that we included everyone and
+since that time Microsoft's value has
+increased I don't know if anyone's
+tracking it. I haven't seen the latest
+numbers. something like 20 times during
+the time the previous period it was
+declined slightly so you know certainly
+I'm not saying that that means Balmer
+wasn't a great leader he was in many
+ways but uh there are many styles uh at
+a company not all of which are
+dictatorship that have had a lot of
+economic success
+sure but the thing is if you compare the
+way Microsoft works to the way say the
+department of state works or the
+department of energy works you'll see
+that the level of oligarchy even at a
+defense contractor even in a nomally
+nominally private company, the level of
+process and bureaucracy. If you compare
+Microsoft to a startup, Google today to
+a startup, it's like 10x the process,
+10x the bureaucracy. You look at the
+federal government, you've got another
+100x on top of that. Yeah. So, I don't
+think there's anywhere that operates
+without process. Having a dictator is a
+process. Having having a uh you know,
+Microsoft there's a process for
+everything. In other places, the
+question is are they effective processes
+or are they failed processes? And I
+think it takes a process to beat a
+process.
+Do you know that the concept of mission
+orders is used for example in the
+military?
+It's the idea that basically you
+shouldn't micromanage that you know this
+is a German originally military concept.
+The captain says to the lieutenant take
+that hill. He doesn't say how to take
+that hill. And I think that for people
+who haven't had direct contact with
+Washington, the level of distance in not
+just Washington, but any modern western
+government from that basic principle of
+operation is so far away that you can't
+even grasp it. This is why it is so
+inconceivable that the government of
+California could make an electric car. I
+actually strongly agree with your point
+about delegation of authority,
+decentralization of power, giving people
+the ability to, you know, make decisions
+on things. That's why I'm a little bit
+confused by your proposal to put
+cryptographic locks on every gun of
+everyone in the military controlled
+directly by the co dictator. How does
+that give people the ability to achieve
+their mission without
+Well, unless their mission is a military
+coup. Uh, you know, like what? Like this
+is used by nuclear use nuclear weapons
+today. It's called a permiss permissive
+action link. It was put in place so that
+you know General Jack D. Ripper couldn't
+launch a nuclear strike on the Soviet
+Union by himself. And so, you know, I
+don't think you disagree with the idea
+that the president is commander-in-chief
+of the military.
+Curtis, um, again, drawing a distinction
+between corporation and the uh,
+political society.
+Let me answer that in more detail in a
+way because let me get back to your
+original
+Well, let me put it to you this way.
+Yes. In a corporation, the people are
+employees or their customers. In our
+system, the people are voters. What do
+people in this are what would people be
+socially in terms of their political uh
+uh power or or aspirations under CEO
+dictator? The your your plan is that
+there would be one election in which the
+president who says I'm going to run for
+office. I'm going to be a dictator. You
+don't get to do anything else for
+another four years. I'm in charge. There
+won't be any more elections. There won't
+be any government that doesn't answer to
+me. There won't be any media that
+doesn't answer to me. There won't be any
+university that doesn't answer to me.
+What are the people in your vision? Uh
+the people in my vision actually have
+about the same amount of power that they
+have now, which is basically none. So if
+you look for example at the um you know
+I I think one of the most consequential
+policies of our democracy is mass
+immigration. This population has this
+this this policy has never been popular
+in any country. It is completely top
+down driven and people feel that they
+have no voice in it. And they're really
+entirely right. They actually have no
+voice in it. Uh if you look at basically
+the way that public opinion works in in
+our democracy, you see the sort of
+remarkable pattern in which public
+opinion is not a final cause as people
+want it to be.
+So what is their status? Are they
+employees of the government?
+They're subjects. They're subjects. This
+has been basically the principles of the
+law of nations have been well known for
+thousands of years. Uh they were only
+attempted to be revised uh you know in
+the 18th century. They're subjects as
+Charles the first said there's a clean
+difference between a subject and a
+sovereign. They're subjects. And the
+thing about
+let me let me I get your point that they
+would be subjects. I just want to take
+that to your for your response to that
+change in status that we we would all
+become subjects unless one of us gets to
+be the same.
+It's actually the real status. It's just
+that we're pretending.
+I I hear you on that. But but the
+pretense would end.
+I I just think it's important that we be
+clear about what it means to be a
+subject because in some you know context
+you're subject of the king of England.
+You know that you have all kinds of
+rights, Magna Carta, etc. Mr. Yarvin has
+repeatedly said that he believes
+anyone's wealth should be able to be
+expropriated if they are a concern to
+the you know positions of the regime.
+Fact check. Is that is that correct? No.
+Okay.
+So, so you wrote in I can I'm happy to
+quote at length. I have uh your essay
+from March where you tried to clarify uh
+precisely your perspective about this
+but you said that the billionaire's
+money was just uh on a you know in a
+computer somewhere and that root access
+should be seized by the sovereign and
+that it should be limited until it
+wasn't any concern. So that's
+essentially yes of course sovereignty is
+absolute sovereignty is absolute today
+you know essentially a court can issue
+an order saying you the billionaire
+don't have any money you know anymore
+you are a subject of that court the idea
+that the law rules in some sense is the
+sort of 17th century British idea that
+is sort of really completely contrary to
+political science sovereignty is
+conserved you know, if the US Supreme
+Court says that you have to hang upside
+down by your feet from, you know, this
+lighting, you're gonna have to do it.
+So, everyone actually
+I don't think that's the case, but I
+just want
+everyone actually is
+I want to I want to make clear just a
+few other aspects because that's the
+billionaires. On the other side, um he's
+said that uh that
+when this sovereign arrives that they
+should round up anyone who's receiving
+government assistance and put them into
+solitary confinement with a virtual uh
+you know simulation of social
+interaction so that it can be determined
+whether they uh deserve to have
+just to get a fact check as you're the
+source. I'm happy to read I'm happy to
+read read the quote if you'd like. I I
+have a whole set of quotes on on these
+matters.
+You may you may you may read your attack
+quotes if you like. Um what I would say
+is essentially um let me let me let me
+contextualize that if you will. Um the
+way I
+I actually have quite a long context if
+you want. I I I don't I don't I I don't
+believe in quoting people out of
+context. So I I've I've preserved the
+whole thing and you should all feel free
+to go and look at
+we can we can hear it basically if
+there's time. But essentially what I'm
+saying, solitary confinement is a sort
+of strange way to put this. Um
+Well, you you're the one who used those
+words.
+What I'm saying No, I didn't mean
+solitary. Um
+you you literally used the word
+solitary.
+I meant that for actual prisoners. Um
+No, what I meant is that basically
+there's Go ahead. Do you want to Do you
+want to
+No, you did not use it for actual
+prisoners. You you actually you used it
+precisely. I'm I'm very happy to to read
+this for you. So he says um a large
+number of residents are effectively
+dependents of the state. For example,
+those who receive housing subsidies.
+These people need to be repurposed re
+reprocessed to determine whether they
+can be members of a productive society.
+Establish relocation centers with a high
+degree of personal discipline. Modern
+technology can realize the ideal of 19th
+century penalological reformers.
+Universal solitary confinement. In the
+21st century, adequate social
+interaction may be delivered
+electronically. individualized cells.
+Okay. Because there's a lot there. All
+right.
+So, yes. Uh so, so
+may you make very clear that it's not
+criminals. You said entire slums may
+should be
+so so the proper way to basically like
+let's let's contextualize this for a
+moment. So basically you go around the
+world and you see a lot of people living
+in you know extremely inhumane
+conditions. You don't disagree with
+that?
+I I would agree with that. you would
+agree with that, right? And so the
+question of how a technological society
+can basically take these people and
+provide what is essentially a decent and
+human way of living is really you know
+open to question because our society has
+really not solved that. Is that correct
+for like 6 billion people? So when we
+say okay you know how do human beings
+live historically
+just to be clear this was you're
+advocating for the United States and
+anyone receiving housing
+this is so so so this is like I mean
+there's so many different kinds of
+people in the United States
+although I you know you you do talk in
+some of your writings about what should
+be done with third world people you talk
+about Gaza and the notion that all aid
+should be cut off um so that's that's
+that's another example of how
+let's let's again let's Again, let's
+let's address this question of what
+you're going to do with people who are
+um have essentially zero economic value
+to the rest of humanity. You agree that
+there's a lot of zero marginal product
+human beings.
+No.
+In the world, you don't.
+No, you don't. You don't agree with the
+idea of zero marginal product.
+I do not think that there are many zero
+marginal product people out there. I
+think there may be people put in social
+circumstances that make it harder for
+them to contribute productively to
+society. But what should happen? Let's
+say they're there. What what are you
+saying should happen to them?
+So,
+so you've got um um
+when you have people, what do people
+need? They need social community. They
+need basically to live in Dunar
+numbersized groups
+because this is our evolved evolutionary
+environment. They need society. They
+need purpose. They need meaning. They
+need work. These are the things that
+human beings essentially need. Do you
+disagree with me on that?
+I mean I I might prioritize above that
+love uh connection to
+all these things to the deity.
+Absolutely. Absolutely. There are all
+these things that people need. And the
+thing is that basically when you have
+the population of basically you know a
+gigantic you know slum in say Angola and
+you're an advocate of mass migration. I
+believe uh and so the idea that this is
+something that stays in Angola is not
+something you believe in. You don't
+believe that people's human rights as a
+human being should depend on the GPS
+coordinates where they were born, do
+you?
+Well, the first thing I would say is I
+don't think this has anything to do with
+whether you
+can you answer the question. Do you
+believe that your human rights as a
+human being should depend on the GPS
+coordinates where you were born? I think
+probably yes because I think that people
+are part of communities and people
+that's not this is can you can you can
+you circle this directly what I'm saying
+is that this product this problem is
+worldwide
+the problem of what to do with the slums
+of kinshasa is worldwide I don't see our
+present oligarchy solving this problem
+all right has to do with the role of the
+United States
+I I think I think you've reached an
+impass on that point or you're doing
+this. Let let me let me uh bring this to
+you um from the same article uh that
+your opponent is referring to. I found a
+phrase that I found interesting and I it
+leads to a question. You were talking
+about what happens in that first week
+after the uh monarch king is elected and
+I'm quoting ideally within a week every
+law enforcement officer in America is
+wearing a red armband to show that he
+follows the new president's direct
+unconditional command. To me that
+implies the expectation that there would
+be resistance from the public to uh to
+to this agenda.
+We've seen we've seen the resistance.
+Do you do you do you anticipate
+Yeah. Good point. Do you do you
+anticipate a smooth transition?
+I think that I think that Americans have
+been depoliticized
+to an astounding degree. I think if you
+look at the political intensity of the
+response to the first Trump
+administration and the second Trump
+administration where the second Trump
+administration is doing by my book very
+little but clearly like easily 10 times
+as much as the first Trump
+administration the response from people
+like what we saw has been 10x less. And
+you've also want to throw out the
+current US legal system and
+fundamentally functionally put all the
+lawyers out there who have gone to law
+school in the United States out of
+relevance because they won't know the
+system the new system could hurt.
+Um president is above the law the
+monarch is above the law just
+right. Right.
+No, I prefer basically the system of
+Roman or civil law essentially a
+Napoleonic code. Um you want to abolish
+the media, shut down their servers. What
+would happen to a debate program for for
+uh the debate program is just fine. I
+mean the thing is that what we have what
+we have in the existing media is
+something that looks like a private
+institution but enjoys many many many
+privileges of a government organization.
+So for example if you pick up a copy of
+the New York Times you'll see you know
+people are always like you know should
+Peter Teal compete with the New York
+Times? You know, I was talking once to
+uh SPF's girlfriend and he and she was
+like uh you know, maybe he should buy
+the New York Times and I'm like, if you
+buy the New York Times, it's completely
+useless because if you buy the New York
+Times, either you're sponsoring the New
+York Times the way Bezos is sponsoring
+the Post, or you're actually trying to
+mess with it and everyone will quit. And
+actually, if you look at the way the
+Times, which by the way is a fifth
+generation hereditary monarchy, um um
+uh if you look at the way that the New
+York Times is connected, I
+you shouldn't assume I feel any way in
+particular about the New York Times. So,
+so um I feel it's an amazing
+organization, but if you look at if you
+look at the let me finish for a sec. If
+you look at the way the Times is
+connected to the US government, you'll
+notice something astounding, which is
+that easily twothirds of the stories in
+the New York Times on every day
+basically contain information which is
+only available to the New York Times.
+They essentially contain information
+that is stolen from the government that
+is not released through ordinary
+channels that is leaked and everyone
+considers this an ordinary and regular
+way of doing business. In fact, it's a
+subsidy and it's a subsidy that prevents
+anyone from competing with this agency.
+And if you basically called it an agency
+and you said, "Oh, this is actually part
+of the government." You'd be like, "Oh,
+yeah, the Department of Information.
+It's the most powerful organization in
+Washington."
+And and so abolishing that does not mean
+abolishing debates.
+I I mean, look, I think there's a lot of
+interesting things to discuss about the
+New York Times and the way the media
+works and how leaking in the government
+works. I don't think it has anything to
+do with whether one person should come
+in and control everything and stifle as
+much descent as they feel like or don't
+feel like doing and put people in, you
+know, concentration camps. I mean, it
+just seems like those are very different
+questions. I mean, media reform is like
+an interesting question that we can
+debate. It's not the topic we're
+debating.
+How would you go about media reform?
+Because one of the things that you see
+in a lot of these different questions,
+I mean, I can answer your question if
+you'd like.
+Well, you know what? I I I I I see your
+point. I see why you're making your
+case. You're making your case that all
+of these changes need to be made because
+there are so many disperate power
+centers that you feel I think are
+fundamentally corrupt and you want to
+bring in one guy to clean it up and have
+absolute power for four years to do
+that. Your opponent made the point that
+anybody who gets absolute power is going
+to be corrupted anyway by it. That
+there's just something about human
+nature, you can't avoid it. Can you take
+that on? Uh yeah I that's a you know a
+famous uh apherism of Lord Actton. I
+don't believe in it at all. I don't see
+it apply how it applies to Frederick the
+Great, Elizabeth the first. Actually I
+think that the truth is very much the
+opposite which is that um it's actually
+partial power that corrupts because the
+thing is when you have an actual chief
+executive who is aligned with the
+organization he essentially has all of
+that power. He doesn't need to say, "Oh,
+I'm going to do something that's going
+to harm the organization in order to get
+more power." And so when you see
+basically a functioning nation state in
+the days before democracy, the king
+essentially looked, yes, he looked at
+Frederick the Great, absolutely he
+wouldn't use the word CEO. He sees
+himself as the owner of the nation in a
+way. And when the king is the owner of
+the nation, the assets of the king are
+the land and the people of the country.
+and improving and maintaining those
+assets and making those assets flourish
+uh is essentially his role. If you look
+at the way basically the managers of
+China have gone about it, they say, "How
+are we going to increase the market cap
+of China Inc.?" Well, we're going to
+make our people much more educated and
+much more productive and much more
+industrious and all of these things. If
+you look at the managers of United
+States of America, they are not thinking
+that. I just I want to I want to make
+the point Curtis and I don't think that
+you've been doing this deliberately but
+you've had a little bit more speaking
+time than your opponent and that's okay
+but I want to give you a shot of a
+couple minutes
+respond to that because you know you
+often make this argument that you know
+the CEO owns everything so they kind of
+want to maximize the value etc. their
+interests are aligned.
+But the but the thing that confuses me
+about that is that I I understand the
+notion that in a capitalist economy many
+people are to a significant extent
+motivated by maximizing the value of
+their assets because they're a tiny part
+of a giant system. And so kind of almost
+anything they want they could get that
+way. But once you're like really
+powerful almost no one like really who's
+really wealthy spends most of their time
+trying to mostly maximize their wealth.
+They do all kinds of other things. I
+mean, for example, if you have
+unconstrained power, imagine you have a
+thing for kids. That's just your your
+inclination, right? So, so how many kids
+should you be allowed to make your
+personal
+How many cases of that in 2,000 years of
+European history in um you know,
+hundreds of kings have you seen?
+I mean,
+because all of your examples, all of
+your examples of bad monarchs are all
+drawn from inside this democratic
+bubble. And I'd like to answer another
+point that you made there, which is why
+do autocracies, you know, not thrive in
+democracy?
+I just want to answer your you're asking
+me a question and interrupting the
+limited time that I've had. And I'm
+interested in understanding like about
+75% of emperors of Rome, for example,
+died not of natural causes. So that's
+interesting. It's interesting. And you
+know, there's all kinds of colorful
+tales about them. there, you know, there
+there was this monarch I remember in
+England who like beheaded some people
+and then, you know, got married to some
+and then actually made everyone at
+gunpoint change their own religion in
+order so he could do that. And it's like
+President Obama didn't exactly do that
+during his time.
+No, but all our oligarchy is so powerful
+that it makes people change the words
+that they used. Do you use do you
+capitalize the word black? When you
+write the word black, do you capitalize
+it?
+African-American or black? I I generally
+say black. I don't really think about
+that. You capitalize it. Do you
+capitalize it?
+What does What does this have to do with
+you?
+Wait, wait, wait. Seriously. Seriously,
+let me answer your question. Do you
+remember being told by power to change
+the way My point is, if a monarch had
+told you rather than the New York Times
+telling you to capitalize the B in black
+and he had the ability to cut off my
+head, I wouldn't do that. And that's why
+I don't adopt all the trends in
+linguistic stuff. And I and I'm happy to
+do that or not do that.
+There's someone who doesn't want to
+execute me for for for my choices.
+No, they wouldn't they wouldn't execute
+you. They just
+they just they just end your career and
+they just end your career. And how many
+times have you made a choice under the
+pressure of this oligarchy to wait to
+not say what you think? How many times
+have you chosen oh I shouldn't say that?
+Well, I'll give you a good example. I I
+had a position on immigration that you
+were referring to earlier which I've
+actually changed my mind on some and I
+went through a lot of heat and yeah that
+wasn't like the most fun experience of
+my life but I learned some things from
+it. Didn't end my career. I didn't lose
+my job. You know I've I've gone on to
+all sorts of other things. I've met
+different people. That's the great thing
+about a pluralistic society. There's all
+these different little elements and I'm
+really glad there isn't like one person
+in charge that if I cross them in some
+minor way, you know, can say off with my
+head as you're, you know, you relish
+saying that that uh you know, strangely
+enough, there isn't one person in
+charge. And yet the level of freedom
+that we have in this country is much
+lower than the level of of freedom under
+Frederick the Great, whose motto was,
+"They say what they want, I do what I
+want."
+I mean look I I I I I I don't know about
+making comparisons to periods that were
+massively before we had any you know
+digital technology etc. It's very
+very complicated
+industrial technology because it changes
+what can be monitored by a monarch. It
+totally changes what's observable.
+Curtis the the the u the statement we
+often hear nobody should be above the
+law. the president should not be above
+the law.
+Your take on that?
+So when you basically say when when
+Charles I acknowledged that he was not
+above the law, he was shortly to lose
+his head. And if you essentially look at
+pre uh AngloAmerican
+juristprudence, you very clearly see
+what's called the royal prerogative in
+English history, which Carl Schmidt
+called the exception. And the exception
+essentially says that if the king is not
+above the law, the law is above the
+king. And the law does not rule. Law
+cannot rule. People rule. And what you
+said when you said, okay, the law is
+above the king. You said you're actually
+saying these judges are above the king.
+And you're creating a situation that
+classical political science called
+imperium in imperio, namely the con
+conflicting rule. You've created an
+instability. And that instability is
+going to lead to the victory of one side
+or another.
+That what you're calling instability. I
+believe you're you used the phrase in
+the beginning checks and balances.
+I would call it even adaptability. Look
+there there there there's a hypothesis.
+It's very interesting that Mr. Yarvin
+puts forward often that you know you
+kind of carve things up you have
+absolute dictators over everything and
+then there's no violence. And we've
+tried this. I mean there's historical
+experience with this. in the 19th
+century you know there was metick and he
+did all this balance of power and etc
+and just like it's very very clear that
+we've had massive massive reduction in
+death since that period I mean is it
+like that's right that's and from
+violence
+deaths and violence in the 20th century
+were the highest ever and I know you
+blame that on your enemies you know but
+like
+even taking into account all all of
+those things. There were there were
+first of all there's massive technology
+that enabled more extermination. But
+putting put you you you attributed many
+things to technology. But still even
+putting that aside still massively fewer
+violent deaths in the 20th century than
+in the 20th century, World War I, World
+War II, uh what you compare that to the
+cabinet wars of the 18th century.
+Compare that century to the 20th
+century. You're telling me
+certainly certainly after you know the
+end of World War II.
+the most democratic period in history.
+Well, conquering the entire world will
+do that. You know, conquering the entire
+world basically gives you world.
+I thought we had a rival during much of
+the 20th century.
+Uh well, we had the Soviet Union which
+was in a way part of our empire and was
+certainly part of our alliance that
+conquered the world in 1945.
+That's an interesting interpretation
+that we were allied with the Soviet
+Union. That's an interesting
+interpretation.
+That we were all lied to the Soviet
+Union after 1945. No, I didn't say after
+1945. I said in 1945. And so essentially
+like our relationship with the Soviet
+Union was not like a relationship with
+Nazi Germany. Like you know
+well this Soviet Union didn't actually
+try to
+we're we're we're again exploring we're
+again exploring different threads and I
+let me make them very No, I'm sorry. We
+need to take a break because of times.
+It's now time to take some questions
+from the audience. And if you remember,
+uh, I had mentioned
+our protocols for asking questions.
+Thanks for bringing up the lights. Um, I
+see somebody in the very far back row.
+I'm looking at you. If you could stand
+up and we'd appreciate it if you would
+tell us your name and come out to the
+aisle so that the mic can be held in
+front of you but not placed in your
+hand.
+Hi, my name is Connor. Um, I think that
+we have an interesting kind of case
+study today for uh, Mr. Mr. Yarvin's
+ideas in Boule's El Salvador. And I'm
+curious to hear what you would think
+about how, you know, by transitioning
+into what is functionally a monarchy,
+their uh their quality of life seems to
+have improved substantially as a direct
+consequence of that and if that has any
+bearing on your thoughts on the uh I
+guess the broader topic of debate.
+[Applause]
+Is that for uh is that for him?
+Yeah, it's it's a good question. Um,
+Naive Buell has dramatically reduced
+violence in El Salvador. Uh, and that's
+been an incredible boon to the people
+there. Uh, exactly how that happened and
+in what way and for what reason is
+something that our understanding of is
+evolving a lot. There has been a lot of
+evidence coming out that the uh you know
+US intelligence services believe that he
+made a deal with um uh many of the gangs
+there and what that ended up implying
+and what you know the people got. It's a
+very complicated situation. I I think
+that Boulli is not anywhere near the
+kind of iron dictator that uh Mr. Arvin
+is advocating and I think there are
+certainly examples of uh countries that
+at least temporarily have had
+improvements in conditions through
+having a dictator. It's very rare. There
+are many many many many more examples of
+ones that have had total disasters, but
+there are certainly examples that have
+gotten better. Chile is a great example.
+They had a you know elected Marxist
+government and they had a dictator
+temporarily and it ended up leading they
+transitioned back to democracy to better
+conditions. Blly's had a lot of troubles
+uh economically. Um so I I think it's a
+mixed story. I don't I don't think one
+has to like believe that every case has
+ever been bad in order to think that on
+average and you know in the distribution
+democratic systems dramatically
+outperformed
+which is your argument on the whole.
+Okay. Yeah.
+I'd like to let you respond Curtis. I
+think what's remarkable about Boullle is
+basically how little resistance he's
+experienced from the US government
+because I think that you know when you
+basically cherrypick your examples of
+monarchies from the last 250 years
+you're basically dealing with these
+autocracies are all enemies of the
+United States and Great Britain and so
+actually living in a unipolar order
+where you're essentially a rebel against
+that order uh you know from Boule to you
+know the kingdom the two Sicilles which
+Gladstone called the negation of God. I
+think what's remarkable about Boullle is
+that he's basically thumbmed his nose at
+the United States and that's worked and
+that's allowed him to be an effective
+dictator. Another great example of that
+of course is Kagame and Rwanda who we've
+allowed to govern the country out of
+sheer guilt from permitting that
+genocide. And again, I think the record
+shows that when you remove this factor
+of the US trying to destroy these evil
+autocracies in its global democratic
+jihad, they actually do quite well. And
+I think that that's the factor that
+explains the poor performance of
+autocracies since Waterloo.
+Another question. Well, I I just I just
+want to can I respond to that point
+because I I think there are many many
+dictatorships that were actually
+sponsored and in many cases put in power
+by the United States that had equally
+disastrous outcomes in Central America,
+in South America. My wife actually
+happens to be an expert on these things.
+So, I I I think there's there are
+definitely dictatorships that are maybe
+even worse that the US supposed and
+there because on the average I think US
+takes the right side in conflicts on
+average, but not not always, but but but
+more often than not. Give me example.
+I'm going to I'm going to move on
+because of the sake of questions.
+Contras,
+if you could stand up and tell us your
+name, please. Thanks.
+Puja Oliver. Mr. Yarvin, is there any
+part of the Bill of Rights who you think
+is worth preserving?
+Is there any part of the Bill of Rights
+that I think is worth preserving? Uh, I
+think the Bill of Rights is a very good
+set of principles for for good
+governance in a lot of different ways.
+Um, I think that the essentially
+unfortunately we're in a world where the
+the judiciary and the legislative are
+essentially at war against the executive
+principle and unfortunately
+the way that that's been interpreted is
+kind of sort of all or nothing in an
+increasing way. And so I don't know if
+you mean for example the kind of the
+14th amendment incorporation of the bill
+of rights to the states. Would you
+include that? Um I think that the you
+know the whole situation of essentially
+trusting the courts to be apolitical
+actors is completely over. As Justice
+Sotomayor said uh you know appeals
+courts are where policy is set. Uh these
+are the most undemocratic elements of
+our society and that's the way our
+government works.
+Your answer is no.
+Uh my answer is it's the whole system of
+rule of law is an anacronism. So, so
+it's not just the bill of rights but the
+entirety of law that should be
+Yes. I think that actually the idea of
+law because uh our our our judiciary has
+become so completely politicized they
+have called the entire question of rule
+of law into question. Final thought on
+this point?
+No, I I I mean look I I I think I'm glad
+that he's clear about what he believes.
+Okay. I I just want to say I want to say
+one thing. That question was fantastic
+in that it was like one sentence and it
+got us to a really interesting place.
+That's the model for how to do this. So,
+thank you so much for doing it that way.
+Right in the center there. Uh the mic's
+going to come to you if you could stand
+up.
+My name is Don. Uh question to both of
+you. Um
+could you be a little louder, please?
+A question to both of you. My name is
+Don.
+Do we live in a democracy or an
+autotocracy?
+We live absolutely in in an autocracy
+because the uh it's not an autocracy in
+the sense of a monarchy. It's an
+oligarchy. It's one of the three
+extillian forms of government. And
+essentially until the Trump
+administration, and this is mostly even
+true of the Trump administration, the
+effect of voters on the actual
+operations of Washington is essentially
+minimal and has been minimal for many,
+many years. And so I would say yes, we
+live in an oligarchy.
+Look, I think we a lot of the ways we
+talk about democracy do do a real
+disservice to the idea. You know, we get
+these things like this is a total
+democracy. This is like imperfect
+democracy. I think that maybe the US is
+like a 0.01%
+democracy and like other places are
+0.00001%
+democracy. I mean democracy is an ideal.
+It is like a it's an aspiration. It's
+like you know can we go you know fast?
+Well, we can't go the speed of light. We
+can't even go close to the speed of
+light, but we can go a little bit faster
+than we used to be able to go. And
+that's how I think about democracy in in
+it's sort of the same way the Soviets
+thought about communism.
+I can't I'm sorry that I can't see
+everybody.
+Um I'm helping a little bit right down
+front cuz you're near the front. Yes.
+And the mic's coming to you. If you
+could go to the aisle to your uh to your
+uh left.
+That's a lot of climbing over people.
+Sorry.
+Is there a raised hand over there? Okay.
+Hi, I'm Dylan. Uh, this is a question
+for Mr. Yarvin. Uh, so I'm building off
+of your earlier uh you earlier brought
+up the company's uh Google and Microsoft
+as these sort of degenerated, one might
+say, uh, forms of bureaucratic
+centralism. And uh I thought you know in
+in opposition to bureaucratic centralism
+we might say a Troskyist would believe
+in permanent revolution. And how do you
+approach the notion of absolute power
+without falling into this degenerated
+form of bureaucratic centralism? like
+how is it possible for you to on the one
+hand maintain this uh stasis in form
+while at the same time retaining the
+energy of a startup?
+Yeah, excellent, excellent question. I
+think that everything in human affairs
+needs to be under tension and that's why
+I'd be I think a little bit disturbed by
+even the best design for a polity
+becoming global. I think actually
+history shows that the most sort of
+generative times in human history have
+been periods of small competing city
+states. The Italian Renaissance, you
+know, the Mediterranean before the Roman
+Empire and and so I think that that's
+sort of that is one force that basically
+provides discipline and control. I'm
+also basically not a believer in totally
+absolute monarchies. I'm a believer in
+what I call accountable monarchies,
+which is again exactly what you get with
+uh a modern corporation and its board of
+directors and shareholders. Uh or even
+what you get in the New York Times uh
+and it's a class A shares controlled by
+descendants of the Salsberger family or
+even the Saudi monarchy and you know the
+descendants of Eban Saud those have
+proven to be very very effective
+systems.
+I guess my my biggest question about
+that would be you describe the notion of
+like some kind of election after some
+period and then I guess my question is
+how do you organize a free and fair
+election if you've eliminated all
+descent destroyed all civil society and
+eliminated all media?
+So, so uh you know good question. How do
+you organize a free and fair election in
+2020 when you can't even report on uh
+you know Hunter Biden's laptop? I mean,
+you know, the uh you know, we already
+have this, you know, there's no world
+with a fair and independent press.
+What do you mean by such a thing? What
+do you mean by free and fair election?
+Uh, such a thing has never existed.
+Well,
+you you use that word in your you said
+free and fair election.
+Um, yes. And I believe that essentially
+every form of democracy in the modern
+world is a managed democracy. I believe
+that autocracies like Putin's, they sell
+elections in Russia. That's a managed
+democracy. So you consider that a free
+and fair election?
+No, I believe it's a managed democracy,
+but it's also a free and fair election.
+People are voting uh you know and um you
+know essentially
+that's what you mean by a free election.
+I understand there has never been an
+unmanaged democracy.
+That's really helpful.
+There has never been an there has never
+been an unmanaged democracy. If you read
+basically for example Walter Litman's
+public opinion like my god the things
+they did in the 30s for an election. You
+know, Americans voted for president not
+knowing that FDR used a wheelchair. They
+voted in 1940 for Wilki versus
+Roosevelt. Well, he had been a Democrat
+until 6 months before the election,
+right? And so what is this free and fair
+election? I I know of no such thing
+actually.
+But you use that word as as what the
+market.
+So So the thing is that is one of of
+many imperfect ways of basically
+creating an accountability system. think
+all the media and all major civil
+political civil society organizations
+including political parties can be
+eliminated and we can still have a free
+and fair election.
+Yes. Because today those structures are
+all completely synoptic. They all speak
+with entirely one voice. They are all
+within one to get clarification.
+They are all within one echo.
+I'm going to go to another question. I
+kind of wish the protesters had stayed
+to ask a question rather
+rather than the thing. Um I I can't see.
+Are there any women raising hands? Cuz
+yeah.
+Uh yeah. Challenging question these
+days. Sir, I I was okay. I was calling
+on you, but somebody else
+Yeah. Okay. Go ahead. If you could stand
+up.
+Um so your name, please. Uh my name is
+Nidal. So as someone with a little bit
+of computer background just like just
+like you guys, my question is pretty
+simple. It's about this notion of um
+scale. So for you, do you think there is
+you're pointing to Curtis?
+Yeah. Yeah. Okay. Uh do you think there
+is a uh any um like number or scale
+which dictatorship would work? Like can
+we have a galactic dictator residing
+over like one like 10 trillion people?
+And for the other side, you think
+there's a some notion of scale at which
+dictatorship will work. For example, we
+get the question mark and that's a good
+question actually.
+I don't think there's any level at which
+hierarchical organizations fail to
+scale. When we look at Apple, what's it
+60,000 employees, 80,000 employees, uh
+Microsoft similar, Google similar, uh
+you know, Elon Musk and his various
+corporations probably has 50, 100,000
+employees. That's more than enough to
+govern the world.
+That's more than enough to govern the
+world, right? Uh it's I mean we have a
+lot more people in government today, but
+that's because our governments are so
+terrible and inefficient. If you look at
+the ratios of govern of civil service
+employees to you know people governed,
+the best ratios were probably under the
+Indian Raj the Indian civil service
+governed hundreds of millions of people
+with like 2,300
+3,000 Englishmen something like that. So
+yeah actually I believe these systems
+don't you know have any trouble in
+scaling.
+So you got the opposite question. Is
+there a scale is there a scale on the
+opposite end I don't know commune
+something like that where uh somebody
+could have sole authority over the
+decisions.
+Yeah I mean look I I have no problem at
+small scales with uh organizations that
+have strong and narrow leadership
+because there's a lot of opportunity to
+leave. Now, if you have absolute control
+over those people, that becomes slavery.
+And I don't believe in that. I don't
+believe in having one person be able to
+like cut off the heads of anyone, you
+know, in some organization, then they're
+in. But if they have a limited scope
+where they're allowed to like manage the
+production of something or whatever,
+absolutely.
+Who enforces those limits?
+Law.
+Law. And who who law and And how does
+that work? It it means that people have
+a general understanding of a set of
+moral principles that I mean this is
+what Oliver Wendel Holmes wrote about
+the common law. The common law which is
+the opposite of the civil law and I
+think is one of the things that's made
+the US such a successful polity as well
+as the UK is based on the principle of
+what a jury would say more or less. It's
+like what is the common understanding of
+something and yeah the judges play a
+role but juries are I think ultimately
+more important.
+Have you have you ever been on a jury?
+Yes,
+I have. I have twice. Uh actually it was
+a crazy experience. Have you ever been
+involved in a lawsuit, a legal
+proceeding, anything like that?
+Uh once. Yeah.
+Was your experience that you had a very
+efficient and effective legal system?
+I don't think the question is one of
+I think it's a reasonable I think it's
+quite a reasonable question. Like does
+the system work well?
+I I think it works a heck of a lot
+better than most other systems that have
+ever been used on that scale to address
+problems like that.
+The Napoleonic code, the Inquisitorial
+system. How do you feel about the
+compromise?
+I mean, there's massive evidence that
+common law systems outperform in pretty
+much every metric of of, you know, like
+economic outcomes on average, civil law
+systems, you know, there's a huge
+literature in economics about that.
+Curtis and your opponent mentioned
+slavery and this reminds me that one of
+the things that is said about your
+viewpoint is that you and I just want to
+get this corrected for the record if it
+needs correction that you you favorably
+cite Aristotle that the relationship
+between u master and slave is a natural
+human relationship. So uh if do you know
+the etmology of the word family? It
+comes from the Latin formulus meaning
+slave. Actually, we use the word
+emancipation, which comes from Roman
+law, for separating a minor from its
+parent, because actually the
+relationship between parent and minor is
+literally the same thing. If your
+15year-old runs away, the fugitive child
+patrol will basically track him down and
+return him to you. Uh, and so, you know,
+we have this arbitrary division at 18
+years of age where we say, "Oh, this
+kind of relationship is no." Do you do
+you feel you're sufficiently reading the
+room when you when you when you make
+this case? I have no interest in reading
+the room.
+Okay.
+Mr. Jarvin speaks for himself. I I
+right here I think this is going to be
+our last question.
+Charles here is the current pattern of
+self-sorting and redistricting really
+moderate and dissenting voices out which
+represents 43% of America
+and democracy at work or the embracing
+of autocracy.
+I did you want me to comment on the
+redistricting? I'm happy to comment on
+redistricting. I mean, look, I I think
+there are an infinite number of flaws
+that I could go on forever about the way
+that our current democracy is working.
+Redistricting is one narrow aspect. I
+mean, there are so many infinitely
+better systems of voting that we could
+use. Certainly, things that like
+approval voting or rank choice voting
+are a tiny step in a better direction to
+address some of the issues that you're
+talking about. Addressing the
+redistricting would be even tinier step
+that I don't think really makes a very
+big difference, frankly. So it's I don't
+think like in the grand scheme of things
+it's like a major question. There's just
+so many greater improvements that we
+could make and know how to make and
+other countries have made. So um
+anyways, I mean it I don't I don't think
+it's a great development uh that you're
+describing, but I it it it's not on the
+top of my list of things I would worry.
+Curtis, uh I would say people vote on
+the basis of lawn signs anyway. There's
+only one election where people actually
+know anything about the candidates or
+care about them. that's the presidential
+election. Um, you know, the way
+districts are drawn is simply a matter
+of advantage. We don't really have a
+system of like consensus collegial
+democracy in this country. We have a
+cold civil war and
+there's a woman over there.
+You wanted a woman.
+All right,
+that looks like one.
+All right, we're going to extend the
+I hope this is a great question.
+Genuinely and conceptually, how can how
+can to totalitarianism
+effective when when that's not what
+humans are.
+It's not unified.
+I don't have anything to say to that.
+It's it's I it's not not my position. So
+I would offer it to Mr. Yarvin.
+Okay.
+So I would say that there is definitely
+a restless human striving for power.
+People want to matter. They want to be
+powerful. They want to be relevant. Um
+and we generally explain you know
+democracy as saying oh this desire for
+power leads to good government. Uh I
+don't believe any of that. Um, I would
+say that the sort of human for striving
+for power is almost a sort of it's a
+relic of kind of a kind of stone age
+process. And what we see is that
+striving is fed by a lot of essentially
+pornographic things that convince people
+that they matter in relationship to
+Washington whereas in fact they actually
+don't.
+Do you want to comment? I mean, I would
+say that the time when striving for
+power that I've seen has led to the most
+uh destruction and chaos has been the
+hundreds of years of monarchy in which
+there were constant civil wars and
+fights over transitions of power as
+opposed to the extended period extended
+periods of I mean
+every study that you have shows that the
+the average gap between civil violence
+over control of power under democracies
+is like an order of magnitude greater.
+Yes, because your democracies are the
+Anglo-American Empire.
+Okay, one more.
+No, no, San Marino has been a stable
+democracy for more than 12,500. It was
+the earliest democracy. The Helvetican
+Confederation that became Switzerland uh
+is I mean it's not true that it was just
+under Anglo-American Empire. Almost
+every uh case of ex extended regimes has
+been under some kind of democratic.
+Okay, one more question.
+Standing with the mic already. Can you
+tell us your name, please?
+Hi, my name is Mia Winther Tamaki. This
+is a question for you, Glenn. Uh, what
+do you think of network states as an
+experiment for the tech CEOs as
+dictators?
+What did you say? Network states.
+Network states. I
+yeah Balaji Serrina Vasan's idea that uh
+basically groups of people should form
+online you break off and like try an
+experiment in different ways of living.
+Um look I love the idea of experiments
+and new ways of living. I I really
+dislike the notion that you're going to
+get a bunch of people who are going to
+just completely agree on everything go
+off to somewhere and disconnect
+themselves from the rest of the world.
+So like you know the idea of a network I
+actually the network state ideas is the
+name is really contradictory because the
+whole concept of a network was that
+people are connected in complex ways.
+They don't just like go off into some
+feudal thing and separate themselves
+from the rest of the world. They're a
+part of a network. That is the meaning
+of a network. The whole idea of the
+internet was that we don't just have
+these like feudal things. We have all
+these complex connections. And so like
+yeah I believe in network societies that
+that have experiments going on or
+connect everything else. I don't believe
+in people like going off and like
+separating themselves from everyone else
+and running themselves like some kind of
+a feat.
+Okay, everybody, thank you for your
+questions. We're going to move to our
+closing round. Um, and our closing We
+can do one of those. Yeah.
+Um, and our in our closing round, each
+of our debaters once again stands up and
+makes an argument uninterrupted by
+appealing directly to you. And Curtis,
+you're up first with your closing. And
+again, reminding everybody our question
+is, should the US be ruled by CEO
+dictator? You're closing, please.
+Thank you. Thank Thank you everyone. Um
+I'm trying to sort of go through the um
+points here that I think have been sort
+of poorly that we've poorly descended
+into. I think the most important point
+is essentially
+I think that when Glenn sort of uh kind
+of comes back to his studies and his
+like results over the last 200 years and
+so forth, I would say he's not thinking
+very scientifically because he's
+essentially looking at history through
+this massive fisheye lens where he sort
+of wants to essentially destroy all
+evidence before 1750 or so. And he says,
+"Oh, because they didn't have the
+internet and antibiotics and computers,
+we can sort of forget about anything
+they learned in this period of time."
+And I'm like, "No, actually, because
+they had to run a government without the
+internet or computers or phones,
+actually, we can see how impressive
+their results were." And there's an
+example of this that I like to sort of
+give in terms of the fall of the Roman
+Republic because I think that there's we
+sort of heard this con consensus idea
+out there that the fall of the Roman
+Republic was because you know
+authoritarians took over. You know
+actually the fall of the Roman Republic
+was because the military system of the
+Roman Republic was much much more
+effective than the civilian system. And
+the way Rome really found that out was
+that not even Caesar had appointed this
+guy called Pompy to basically extrapate
+the pirates from the Mediterranean,
+which was like ending the um drug gangs
+in Mexico. And they were like, "We have
+failed to do this with the the Roman
+civil system. Let's do it in the
+military way, top- down command, without
+any computers or guns or cell phones or
+whatever." As soon as they adopted the
+monarchical way of doing things, Pompy
+clears the Mediterranean of pirates in
+three months. It's very very similar to
+Boule in El Salvador. Here's a thing
+that basically said people said couldn't
+be done and it was just done. And people
+are like, "Wait a second, we need a new
+system of government." And that's what
+created the Roman Empire. And I think
+that if that hadn't happened, Rome would
+have been destroyed by the Gauls
+probably in about 50 BC.
+Thank you, Curtis. And um Glenn,
+the last word is yours.
+Two score and 17 minutes ago, we came
+forth upon this stage to debate whether
+government of the people, by the people,
+and for the people deserves to perish
+from this earth.
+The fact that we have to do that now is
+as clear of a mark as any of the crisis
+facing our republic. Because
+because however extreme or even
+nihilistic you may find Mr. Yarvin's
+views, mark my words, he is not no more
+a fringe figure in today's America than
+I am. He is the ear of the vice
+president and of the world's wealthiest
+man. Thomas Jefferson charged every
+future generation of Americans with a
+sacred duty to remake our institutions
+for changing times. And if we forget
+what we love about our way of life and
+default on that sacred trust, then we
+richly deserve the future that Mr.
+Yarvin promises us. Because as um Arnold
+Twinby famously said, societies, great
+civilizations like the United States
+never die from murder. They always die
+from suicide. And Mr. Yarvin today
+offered us a rich offering of the kind
+of cynicism and despair and distrust
+that rens plurabus um from its unum and
+that uh surrendered the vichi the French
+to the vichi and Afghanistan to the
+Taliban. Um but the American spirit has
+never surrendered to any of the enemies
+that Mr. Yarvin would have had us
+surrender to. um the Tories, the slave
+drivers, the appeasers, and the
+totalitarians all wilted in the face of
+the people who like my ancestors came
+here escaping the lash and the gas
+chamber. And it's in their name that I'm
+up here on this stage today unwilling to
+be part of the first generation of
+Americans to surrender that legacy.
+Instead, tired as I am, I'm here to
+rebuild our republic so that my two
+daughters sitting at home watching this
+debate on the very ground where their
+mother's ancestors fought and died to
+see off our last monarch can grow up
+with the courage and the pride in their
+heritage to spit in the eye of anyone
+who demands that they kneel before their
+master. Thank you.
+[Applause]
+And um everybody that's that that is uh
+a wrap on this debate. I want to thank
+our debaters Curtis Yarpin and Glenn
+Wild. We so appreciate that the two of
+you came to the stage together, had this
+out with one another, did so uh
+respectfully uh throughout. So thank you
+for for taking part in the debate.
+[Music]

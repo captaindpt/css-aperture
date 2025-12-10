@@ -1,0 +1,1876 @@
+**Transcript extracted from YouTube video**
+
+Kind: captions
+Language: en
+Today I’m speaking with Ken Rogoff, who&nbsp;
+is a professor at Harvard, recent author&nbsp;&nbsp;
+of Our Dollar, Your Problem, and&nbsp;
+former Chief Economist at the IMF.&nbsp;
+Ken, thanks so much for coming on the podcast.
+Thanks so much for having me and welcome to&nbsp;&nbsp;
+Harvard, which is where we’re filming this.
+In your book you have a lot of anecdotes of&nbsp;&nbsp;
+meeting different Chinese leaders, especially&nbsp;
+when you were Chief Economist at the IMF. It&nbsp;&nbsp;
+seems like you had positive experiences. They&nbsp;
+would listen. You met the Premier with your&nbsp;&nbsp;
+family, and he would listen to your advice.
+One, how does that inform your view about how&nbsp;&nbsp;
+competent their leadership is? Two, how do you&nbsp;
+think they got into this mess, with their big&nbsp;&nbsp;
+stimulus or whatever else you think went wrong?
+To the extent that when you were talking to&nbsp;&nbsp;
+them in the early 2000s, it seemed&nbsp;
+like you were seeing eye to eye,&nbsp;&nbsp;
+or that they would understand your perspective.
+Do you think something changed in the meantime?&nbsp;
+First I want to be careful to say&nbsp;
+that they listen to everybody.&nbsp;
+The Chinese are way better than we are&nbsp;
+at hearing a hundred different views.&nbsp;&nbsp;
+Mine would be one of many that they heard.
+I was very impressed by the competence of the&nbsp;&nbsp;
+Chinese leaders. I actually gave a lecture in the&nbsp;
+Party’s training school where, if you’re a mayor,&nbsp;&nbsp;
+a provincial governor, any bureaucrat on&nbsp;
+your way up, you go to this thing which&nbsp;&nbsp;
+for them is like Harvard Business School.
+They really looked for competence. Of course&nbsp;&nbsp;
+there were various loyalty things. But when you&nbsp;
+met the leaders—and I met a lot of them when I&nbsp;&nbsp;
+was at the school—they actually asked really raw&nbsp;
+questions too. They said things I couldn’t believe&nbsp;&nbsp;
+they were asking. And I was told that within&nbsp;
+the school, you're allowed to say anything.&nbsp;
+So they had that system for a long time. When&nbsp;
+you met Chinese technocrats—or even the mayor of&nbsp;&nbsp;
+Shanghai—they were impressive. I'm not saying ours&nbsp;
+aren't, but it's a mix. I think you know that.&nbsp;&nbsp;
+I think Xi Jinping has really changed that. He’s&nbsp;
+been the president since 2013, and over time he’s&nbsp;&nbsp;
+pushed out that system and moved more toward&nbsp;
+loyalists, people who are less technocratic.&nbsp;
+Probably the most important talk I ever&nbsp;
+gave in China was at what's called the&nbsp;&nbsp;
+China Development Forum in 2016.
+It's this giant hall that had most&nbsp;&nbsp;
+of the top leaders in the party. A&nbsp;
+lot of the elite of the tech world,&nbsp;&nbsp;
+Mark Zuckerberg and many others were there.
+I said, “Okay, I'm looking at your housing.&nbsp;&nbsp;
+I'm looking at your infrastructure.
+It looks to me like you're going into&nbsp;&nbsp;
+a classical housing crisis problem.
+Your catch-up is over.&nbsp;&nbsp;
+Your demographics don’t look good.”
+I gave a list of things. “And by the way,&nbsp;&nbsp;
+it looks like power is becoming&nbsp;
+very centralized in the economy.”&nbsp;
+And I said, “I'm a Western economist. You're&nbsp;
+doing an amazing job. What do I know? But I&nbsp;&nbsp;
+don’t think that would be good for growth.”
+After I gave the talk—I just figured you only&nbsp;&nbsp;
+live once, you just have to say what you&nbsp;
+have to say—a couple of top leaders came&nbsp;&nbsp;
+up to me and said, “Professor Rogoff,&nbsp;
+we very much appreciated your remarks.”&nbsp;
+I was thinking, “Oh no, they’re going to put&nbsp;
+me in jail or something at the end of this.”&nbsp;
+I’m less impressed by them now. And I’m worried.&nbsp;
+Let’s say they get into a crisis—which I think&nbsp;&nbsp;
+they’re in now. I think they're still in a&nbsp;
+deep crisis—or somehow hotter heads prevail&nbsp;&nbsp;
+between the United States and China and we get&nbsp;
+into some kind of entanglement nobody wants.&nbsp;
+I worry that we’re not as competent. I’m speaking&nbsp;
+about right now. We have some very good people,&nbsp;&nbsp;
+but the average quality at the&nbsp;
+very top, I think, has gone down.&nbsp;
+And China’s not as competent either. That’s&nbsp;
+a recipe for having bad things happen.&nbsp;
+On that talk, you mentioned in the book&nbsp;
+that, before, you had to clear your talk.&nbsp;
+So you gave them a sort of watered-down&nbsp;
+version of what you were going to say.&nbsp;
+I have to say, it would take some gusto&nbsp;
+to go up to the top party leaders.&nbsp;
+Were you nervous while you were giving the&nbsp;
+talk, saying, “Oh, it’s too centralized”?&nbsp;
+I mean I was pretty experienced by that time.&nbsp;
+I frankly never used notes, so the idea that I&nbsp;&nbsp;
+was going to read my speech didn’t even occur&nbsp;
+to me. Maybe it was a little bit spontaneous.&nbsp;
+But I certainly felt at that moment,&nbsp;
+what am I here for? What’s the point&nbsp;&nbsp;
+of coming to this? Why don’t I talk about&nbsp;
+the elephant in the room? Everybody knows&nbsp;&nbsp;
+this. I don’t know if everybody knew it, but&nbsp;
+it was clear to me and I’m going to say it.&nbsp;
+I think a lot of people in that&nbsp;
+situation—even though they should or&nbsp;&nbsp;
+the logic makes sense—they often don’t.
+Yeah, I’m a professor. So people who&nbsp;&nbsp;
+had a big tech company or a finance&nbsp;
+company, or all these other businesses,&nbsp;&nbsp;
+most of them can’t afford to do that.
+I think they know that when they invite&nbsp;&nbsp;
+a professor, they can’t cut your...&nbsp;
+They can stop you from going again.&nbsp;
+They invited me again, by the way.&nbsp;
+Although the second time I just&nbsp;&nbsp;
+talked to a tiny room instead of the big hall.
+But, I give credit to the Chinese for listening.&nbsp;
+You’ve said that the seeds of their current&nbsp;
+crisis were sown in 2010 with their big stimulus.&nbsp;
+Is it wrong then to blame Xi Jinping for&nbsp;
+this? That was before his time. It was Hu&nbsp;&nbsp;
+Jintao’s government that launched the stimulus&nbsp;
+that’s causing all these problems now.&nbsp;
+Hu Jinato did it, but they kept it going. The&nbsp;
+local government debt, that was an innovation&nbsp;&nbsp;
+put in with the 2010 stimulus. But they kind of&nbsp;
+left it running and used it as a stimulus program.&nbsp;
+Long tangent, but the local governments don’t&nbsp;
+have enough ways to fund themselves. So they&nbsp;&nbsp;
+were allowed to sell land to start and fund&nbsp;
+these construction companies, get revenue, and&nbsp;&nbsp;
+sustain themselves. They let that keep going.
+When Xi Jinping came in, I was told he was&nbsp;&nbsp;
+going to be Ronald Reagan. I had very good&nbsp;
+contacts in the intellectual sphere in China.&nbsp;&nbsp;
+Someone who had worked for me when I was&nbsp;
+chief economist at the IMF, other people I&nbsp;&nbsp;
+knew whom I really trust. They're really smart and&nbsp;
+well-connected, I don’t want to say their names.&nbsp;
+But they were telling me, “He's going to&nbsp;
+change everything. This is really the time&nbsp;&nbsp;
+we’re going to liberalize our markets a bit.&nbsp;
+We’re going to do the things we haven’t done.”&nbsp;
+And he didn't do that much. If you&nbsp;
+look at China’s growth, it actually&nbsp;&nbsp;
+slowed down quite a bit when he came into power.
+There are different ways to measure a country’s&nbsp;&nbsp;
+output because China produces completely&nbsp;
+different stuff than we do. They use their&nbsp;&nbsp;
+currency and we use ours. Nothing's perfect.
+But one way to do it is this. What do they report&nbsp;&nbsp;
+their output to be in Chinese currency? What&nbsp;
+do we report ours to be in dollars? Then we use&nbsp;&nbsp;
+the exchange rate to compare.
+We can look at growth that&nbsp;&nbsp;
+way and if you do for China, it’s been&nbsp;
+spectacular. It’s been very, very good.&nbsp;
+It’s obvious they're pulling it out of thin air.
+But there are these approaches trying to control&nbsp;&nbsp;
+for how you’d really compare how an ordinary&nbsp;
+person lives or how an ordinary firm gets by.&nbsp;
+When you look at those measures, China’s grown&nbsp;
+is quite a bit less. If you go 1980 to 2012,&nbsp;&nbsp;
+the official growth rate is almost 10 percent.
+This purchasing power parity rate—forgive me for&nbsp;&nbsp;
+using those words—is like just over 7 percent.
+If you look in more recent years, it’s really&nbsp;&nbsp;
+slowed down a lot. Even the official numbers&nbsp;
+have slowed down. I don’t know the number off&nbsp;&nbsp;
+the top of my head, but it’s 6% or 7% for&nbsp;
+Xi Jinping, and maybe only 3.5%. They’re&nbsp;&nbsp;
+starting from a very low base.
+Okay, things were gonna slow&nbsp;&nbsp;
+down. It’s not all his fault.
+But I think he’s been reluctant to&nbsp;&nbsp;
+take risks and I think it’s gotten us to where&nbsp;
+we are. I think they’re in a lot of trouble.&nbsp;&nbsp;
+They’re overbuilt in infrastructure. They’re&nbsp;
+overbuilt in housing. Have you been to China?&nbsp;
+I was there six months ago.
+Where did you go?&nbsp;
+Shanghai, Beijing, Chongqing,&nbsp;
+Chengdu, Hangzhou, and Emeishan.&nbsp;
+So you saw a few of the medium-sized cities.&nbsp;
+At least one of them, I think, is the new tech&nbsp;&nbsp;
+center. I can’t pronounce it.
+Hangzhou?&nbsp;
+Yeah it’s a big tech center. Some of the&nbsp;
+smaller cities don't feel like the big&nbsp;&nbsp;
+cities. And 60% of Chinese income is from&nbsp;
+what they call their tier-three cities.&nbsp;
+I grew up in Rochester, that’s like a tier-three&nbsp;
+city in the United States. But you could pick&nbsp;&nbsp;
+Cincinnati, Liverpool. Rouen— I may&nbsp;
+not be saying it right—in France is&nbsp;&nbsp;
+an example of a tier-three city.
+And they have invested like crazy.&nbsp;&nbsp;
+I’ve been to a few and I’ve studied the&nbsp;
+data on it a lot. They have amazing roads,&nbsp;&nbsp;
+amazing real estate, amazing housing.
+But the feel of death in those cities...&nbsp;
+They were very good at building stuff.&nbsp;
+The Soviet Union was very good at building&nbsp;&nbsp;
+cement factories and steel plants and&nbsp;
+railroads. But they’ve run their course.&nbsp;
+They have other stuff: green&nbsp;
+energy, AI, electric vehicles.&nbsp;
+But believe it or not, that stuff’s still tiny&nbsp;
+compared to infrastructure and real estate.&nbsp;
+Real estate’s a third of the&nbsp;
+economy by some measures.&nbsp;
+So I think they’re in a lot of trouble&nbsp;
+now in China. They let it go on too long.&nbsp;
+But again, I wasn’t running things. If things&nbsp;
+seem to be working and you try to change things,&nbsp;&nbsp;
+you get thrown out. It’s not&nbsp;
+easy to be in those shoes.&nbsp;
+When I was in China, we visited a town of&nbsp;
+half a million people outside of Chengdu,&nbsp;&nbsp;
+so one of these tier-three cities. Arriving&nbsp;
+there, the train station is huge. Compounds are&nbsp;&nbsp;
+huge. Even when you’re driving around, like&nbsp;
+a movie theater is this humongous complex.&nbsp;
+I realized things were bigger in China. I&nbsp;
+was used to that because I’d seen these other&nbsp;&nbsp;
+cities by that point. But I just thought,&nbsp;
+I’ve seen cities of half a million people.&nbsp;&nbsp;
+I live in a city of half a million people&nbsp;
+in San Francisco. This just doesn’t seem&nbsp;&nbsp;
+proportionate to the size of the population.
+Then we visited a Buddhist temple that had&nbsp;&nbsp;
+been built recently as a tourist site. It was&nbsp;
+ginormous. You would go through one little shrine,&nbsp;&nbsp;
+and then behind it would be an even bigger&nbsp;
+structure and then another one concentrically&nbsp;&nbsp;
+for like eight turns. It would take you&nbsp;
+probably 10 minutes to drive through this thing.&nbsp;&nbsp;
+There was just nobody there. It was&nbsp;
+like me and three other white people.&nbsp;
+It’s very much that feeling. And the young&nbsp;
+people don’t want to live there. I have a lot&nbsp;&nbsp;
+of young people here as students and I run into&nbsp;
+people. They don’t want to live in these towns,&nbsp;&nbsp;
+and the jobs aren’t there. I can’t&nbsp;
+criticize them for trying that.&nbsp;
+If you’d asked me in 2005, “Should we try to&nbsp;
+encourage people to go out to the Rochesters&nbsp;&nbsp;
+and the Liverpools and the Rouens in France?”&nbsp;
+I would have said yes. There’s too much in the&nbsp;&nbsp;
+big cities. There’s overcrowding. Look&nbsp;
+what happened to São Paulo. Look what&nbsp;&nbsp;
+happened to Mumbai. But I would’ve been&nbsp;
+wrong. These forces are very powerful.&nbsp;
+So a lot of their growth, and what they call&nbsp;
+their GDP, is this stuff. So they’re having to&nbsp;&nbsp;
+reorient and people just aren’t that flexible.
+It’s like when AI comes and puts everybody out&nbsp;&nbsp;
+of jobs. When construction jobs are gone,&nbsp;
+and all these indirect things are gone,&nbsp;&nbsp;
+it’s not that easy to move everyone.
+If it hadn’t been for financial repression,&nbsp;&nbsp;
+and all this investment had been done&nbsp;
+through purely market mechanisms,&nbsp;&nbsp;
+would things have turned out much better?
+Even if China gets rid of all financial&nbsp;&nbsp;
+repression today, they save a lot. So this&nbsp;
+money has to go somewhere. Are there enough&nbsp;&nbsp;
+productive opportunities to soak up all these&nbsp;
+savings? Or could there have been in the past?&nbsp;
+If they get rid of financial repression, is this&nbsp;
+a problem solved, or could it have been solved?&nbsp;
+What everyone’s told them forever is&nbsp;
+their saving rate and investment rate&nbsp;&nbsp;
+are astounding. It was higher before, but it’s&nbsp;
+still maybe 45%, their consumption rate… ours&nbsp;&nbsp;
+is pushing 70%. European countries are a little&nbsp;
+more temperate, but they’re in the low sixties.&nbsp;
+Their consumption is very low. They have some&nbsp;
+wealthy people that you saw when you went to&nbsp;&nbsp;
+the marquee cities. But a lot of China is&nbsp;
+living on $200-a-month kind of incomes.&nbsp;
+You could give them money. You could&nbsp;
+let them consume instead of exporting&nbsp;&nbsp;
+it. They’ve been very reluctant to do that.
+You could do things to encourage consumption.&nbsp;&nbsp;
+Actually, even just changing their exchange rate&nbsp;
+policy to allow it to appreciate more at times,&nbsp;&nbsp;
+would make imports less expensive.
+They have been very reluctant to&nbsp;&nbsp;
+do that. That’s what everyone tells them.&nbsp;
+That’s certainly what I said in 2016 also.&nbsp;
+The ticket to getting people to spend more is to&nbsp;
+provide more security than they have. First of&nbsp;&nbsp;
+all, there’s nothing like our Social Security&nbsp;
+system. You need to save for your old age.&nbsp;
+There’s nothing like our health system. If you&nbsp;
+work at one of the big state-owned factories,&nbsp;&nbsp;
+they give you healthcare, but&nbsp;
+otherwise you’re on your own.&nbsp;
+They’re not allowed to invest abroad. It goes&nbsp;
+in waves, but they’re not allowed to put their&nbsp;&nbsp;
+money abroad. So they’re trying to be careful&nbsp;
+about all of that and not do things suddenly.&nbsp;&nbsp;
+There’s nothing to do overnight.
+But fundamentally, if you’re looking&nbsp;&nbsp;
+at China and asking what’s wrong, it’s&nbsp;
+that the consumer isn’t spending enough.&nbsp;
+What’s happening right now is worse, because&nbsp;
+housing prices are collapsing. That’s the only&nbsp;&nbsp;
+thing they really let people save in. You could&nbsp;
+either save in a bank account, which gets you&nbsp;&nbsp;
+a crummy interest rate, or in a house. Now&nbsp;
+they’re going down, so people are cutting back.&nbsp;
+They can dig their way out. There’s no&nbsp;
+magic bullet to make them grow at 5%. By&nbsp;&nbsp;
+the way, that is the official number but&nbsp;
+I don’t think they’re anywhere near that.&nbsp;
+There’s no simple thing, but&nbsp;
+the general goal would be to&nbsp;&nbsp;
+try to rebalance investment, and consumption.
+Going back to your point about whether purchasing&nbsp;&nbsp;
+power parity is the right way to compare, or&nbsp;
+whether nominal is the right way to compare.&nbsp;
+I think in the book you say the nominal&nbsp;
+comparison of GDP is better because&nbsp;&nbsp;
+you can’t buy Patriot missiles or oil&nbsp;
+with purchasing power parity dollars.&nbsp;
+But if we’re trying to compare the strength&nbsp;
+of the two countries—their relative strength,&nbsp;&nbsp;
+especially in a military context— if they can&nbsp;
+build ships and munitions much more cheaply,&nbsp;&nbsp;
+and they have to pay their soldiers less,&nbsp;
+isn’t that actually more relevant if we were&nbsp;&nbsp;
+trying to figure out who would win in a war?
+Shouldn’t we actually be looking at the fact&nbsp;&nbsp;
+that they have a bigger PPP economy than us&nbsp;
+as a sign that they’re actually stronger?&nbsp;
+Yeah. So in the book, I’m talking&nbsp;
+about your geopolitical power,&nbsp;&nbsp;
+where if you’re going to give money to somebody,&nbsp;
+what’s it worth and how much can they use it.&nbsp;
+But no, you’re absolutely right. They just&nbsp;
+crush us in shipbuilding. It’s partly because&nbsp;&nbsp;
+they build commercial ships, and there’s a lot&nbsp;
+of symbiosis between commercial and military.&nbsp;
+I think they’re 50% of the global shipbuilding&nbsp;
+market. For us to build a new aircraft carrier&nbsp;&nbsp;
+takes years and years and incredible expense.
+One of the mistakes we’re making is trying to&nbsp;&nbsp;
+build everything ourselves. Let our&nbsp;
+allies do some of this. The Koreans&nbsp;&nbsp;
+are really good at building ships. That’s&nbsp;
+another place we could be importing from.&nbsp;
+You’re right about the soldiers. They’re&nbsp;
+paid much less. They have a lot of&nbsp;&nbsp;
+advantages in a conflict against us.
+We’re way ahead in your department,&nbsp;&nbsp;
+tech. That is our advantage at the moment. If&nbsp;
+that were to dissipate, it would certainly hurt.&nbsp;
+What is your projection? Right&nbsp;
+now I think their nominal GDP&nbsp;&nbsp;
+is 75% of America’s, or something like that.
+Yeah, in dollars, what we call the market terms.&nbsp;
+What’s your projection by&nbsp;
+2030 and by 2040, the ratio?&nbsp;
+I didn’t realize it was as high&nbsp;
+as 75%. I thought it was a little&nbsp;&nbsp;
+lower. I was actually going to say 75% in 2030.
+At one point in 2024, it was around two-thirds,&nbsp;&nbsp;
+but it’s really volatile with the exchange&nbsp;
+rate. The dollar’s really high. When the&nbsp;&nbsp;
+dollar’s really high, it makes us look bigger.
+I think they’ll gain about a percent a year on us,&nbsp;&nbsp;
+maybe. I don’t think they’re going to&nbsp;
+grow way faster than the United States.&nbsp;
+Wait, that means you think they’ll never&nbsp;
+actually have a bigger economy than us?&nbsp;
+It’ll take a long time. We’re&nbsp;
+talking about the absolute size.&nbsp;&nbsp;
+They have four times as many people.
+There were these projections by Goldman&nbsp;&nbsp;
+Sachs and many others that we’d be like&nbsp;
+Canada is to the United States pretty soon.&nbsp;&nbsp;
+Like all these extrapolations, they were&nbsp;
+proven wrong. That brings me to a big&nbsp;&nbsp;
+topic. A lot of people will look at some trend,&nbsp;
+whether it’s growth in something, AI, China—&nbsp;
+I was about to say. That's a common trend in AI.
+—and just project it into the future.&nbsp;
+Economists at least consider ourselves terrible&nbsp;
+at that. You go back and look at any of these&nbsp;&nbsp;
+commissions that were supposed to figure out&nbsp;
+what was going on. They happen periodically.&nbsp;&nbsp;
+Maybe Brookings puts one together, maybe&nbsp;
+the government does. My former colleague,&nbsp;&nbsp;
+the late Dick Cooper, had a whole list&nbsp;
+of these. So it is very hard to know.&nbsp;
+But my gut instinct is that what’s happening to&nbsp;
+China is what’s happened to Japan. It’s what’s&nbsp;&nbsp;
+happened to Asia, what happened to the Soviet&nbsp;
+Union. We have a more dynamic economy. We’re not&nbsp;&nbsp;
+perfect. Maybe we’re screwing it up right now&nbsp;
+with all the tariff wars and deglobalization.&nbsp;
+But we have this dynamism and creativity&nbsp;
+that other places—at least other large&nbsp;&nbsp;
+economies—just can’t replicate.
+They can build stuff. The French&nbsp;&nbsp;
+have better high-speed trains than we do.&nbsp;
+I hope you don’t ride on the train from&nbsp;&nbsp;
+Boston to New York. It’s nicer than it&nbsp;
+could be, but it’s no high-speed train.&nbsp;
+You mentioned China. Oh my gosh, their&nbsp;
+high-speed trains are just incredible.&nbsp;
+They’re good at that. But the really creative&nbsp;
+stuff? I don’t want to say they don’t have any.&nbsp;&nbsp;
+There are some amazing Chinese companies. But&nbsp;
+let me say that the US is really good at it.&nbsp;
+We’ve kept that in our DNA. I think&nbsp;
+it’s very important, to preserve it.&nbsp;
+The 1% per year compression is actually an&nbsp;
+extremely bearish forecast. Even people who&nbsp;&nbsp;
+are pessimistic about China will say, “Oh, by 2040&nbsp;
+they’ll be at 150 or 125% of US nominal GDP.” They&nbsp;&nbsp;
+think it’ll be bigger, but only slightly bigger.&nbsp;
+The fact that you think even by 2040 they won’t&nbsp;&nbsp;
+have caught up is actually very extremely bearish.
+No, I think they're digging their way out of a&nbsp;&nbsp;
+crisis. Right now we know their prices&nbsp;
+are falling. It's not because they're&nbsp;&nbsp;
+inventing stuff really fast. We know that&nbsp;
+interest rates are being pushed to zero.&nbsp;
+All these are signs that demand has been&nbsp;
+crushed and the economy's not doing well.&nbsp;
+Historically, they have given numbers which are&nbsp;
+accurate on average, as best as we can tell.&nbsp;&nbsp;
+I think that's gotten less and&nbsp;
+less true in the Xi Jinping era.
+Going back to the subject of your book. People&nbsp;
+who are trying to predict when and how China might&nbsp;&nbsp;
+invade or blockade Taiwan will look at satellite&nbsp;
+photos of different docks and see how many ships&nbsp;&nbsp;
+are there. They'll look at military preparedness.
+From a monetary perspective, are there signs we&nbsp;&nbsp;
+could be looking for? For example, if they think&nbsp;
+a lot of their American-dominated assets will get&nbsp;&nbsp;
+sanctioned or they won’t have access to them,&nbsp;
+could we see them liquidating those assets?&nbsp;
+Would there be any sort of preparations that we&nbsp;
+could see on the monetary side to let us know&nbsp;&nbsp;
+they’re preparing for something big?
+I don’t think they’re going to do it&nbsp;&nbsp;
+suddenly. But very crudely, on their reserves&nbsp;
+they’re definitely moving more and more into gold.&nbsp;
+It doesn’t necessarily help to move&nbsp;
+into euros or Canadian dollars because&nbsp;&nbsp;
+those countries might side with us. But&nbsp;
+they’re doing what they can to diversify.&nbsp;
+I don’t think they’ve diversified into crypto yet.&nbsp;
+I had a student do a paper on that. But who knows.&nbsp;
+What they are doing very concretely is&nbsp;
+not just about what they’re holding.&nbsp;&nbsp;
+That’s the big fact everyone looks at.
+They officially hold a trillion dollars in&nbsp;&nbsp;
+Treasury reserves. But the estimate a student of&nbsp;
+mine did, in a nice paper—and I think others agree&nbsp;&nbsp;
+with it—is that it's more like $2 trillion.&nbsp;
+They hold a lot indirectly through proxies.&nbsp;
+The other part of it is that the whole financial&nbsp;
+system runs through the United States. What we&nbsp;&nbsp;
+sometimes call the rails or the pipes of the&nbsp;
+system. Your bank gets a purchase and my bank&nbsp;&nbsp;
+gets that I’m going to get a credit. How does&nbsp;
+that take place? How does it take place when&nbsp;&nbsp;
+we're in different countries?
+The United States just&nbsp;&nbsp;
+disproportionately controls that.
+That, they can’t live with.&nbsp;
+They could live without their $2 trillion for a&nbsp;
+little while. But they can’t live without being&nbsp;&nbsp;
+able to pay suppliers and other countries.
+So they're working hard on developing&nbsp;&nbsp;
+their own payments mechanisms.
+Russia actually did quite a bit in preparation&nbsp;&nbsp;
+for the invasion. We see China doing that.
+Maybe they’re selling Treasury bills, we&nbsp;&nbsp;
+don’t know exactly. I would advise that to them,&nbsp;
+if I were a Chinese economist talking to them.&nbsp;
+But I don’t think it’s going to be something&nbsp;
+they’ll do suddenly. Maybe Trump will bring down&nbsp;&nbsp;
+the markets and then there’s nothing to save. But&nbsp;
+they don’t want to be the ones to bring down the&nbsp;&nbsp;
+markets and cause a global crash.
+What would the alternative&nbsp;&nbsp;
+rails that they're trying to build look&nbsp;
+like? Are they buying oil from Iran in RMB?&nbsp;
+Will other countries they need things from&nbsp;
+accept that? In 2030, what is their goal?&nbsp;
+Absolutely. There are a lot of countries in&nbsp;
+Africa and Latin America—some of them are almost&nbsp;&nbsp;
+client states of China—that they can force.
+Iran, of course, sells a lot of its oil to&nbsp;&nbsp;
+China even when there are sanctions.&nbsp;
+They’re moving in that direction.&nbsp;
+It’s not just about what you invoice the&nbsp;
+payment in. It’s how we acknowledge it, how we&nbsp;&nbsp;
+clear our books. That’s what they’re working on.
+It’s coming. The Europeans are working on it too,&nbsp;&nbsp;
+by the way. Europe is not happy&nbsp;
+with the situation. They're actually&nbsp;&nbsp;
+forming a central bank digital currency. It’s&nbsp;
+moving quite a bit faster than I thought it&nbsp;&nbsp;
+would. That’s actually one of the reasons&nbsp;
+they’re doing it, for international payments.
+Let’s talk about Japan, which you also&nbsp;
+cover in the book, or their crisis.&nbsp;&nbsp;
+You blame US pressure in advance of that crisis on&nbsp;
+the Japanese to raise the value of their currency,&nbsp;&nbsp;
+and the actions by the Bank of Japan.
+Zooming out, how much of the crisis is&nbsp;&nbsp;
+not caused by things like that, but just the fact&nbsp;
+that high-tech manufacturing as a share of world&nbsp;&nbsp;
+output was becoming less important?
+There are demographic factors as well.&nbsp;
+So something like this was&nbsp;
+bound to happen to Japan,&nbsp;&nbsp;
+even if there wasn’t some&nbsp;
+big crisis that preceded it?&nbsp;
+South Korea’s GDP per capita isn’t that high&nbsp;
+either, at least in comparison to the US.&nbsp;
+How much of this is due to&nbsp;
+actions taken by specific actors?&nbsp;
+South Korea had a crisis in 1983 and another in&nbsp;
+1997. They haven’t been crisis-free, by the way.&nbsp;
+There are a lot of factors. The&nbsp;
+demographics would be the most obvious one.&nbsp;
+The rise of not just China but&nbsp;
+Korea and other competitors too.&nbsp;
+Japan invented a business model that a&nbsp;
+lot of countries have since duplicated.&nbsp;&nbsp;
+The model was export-led growth.
+Something people might not think&nbsp;&nbsp;
+about is it creates competition.
+Most countries aren’t as big as the&nbsp;&nbsp;
+United States, and there aren’t as many different&nbsp;
+firms trying to do the same thing. Of course,&nbsp;&nbsp;
+we have trouble with competition here.
+Famously, in Mexico at one time,&nbsp;&nbsp;
+there were only two telephone companies,&nbsp;
+two bread companies, two taco companies.&nbsp;
+It’s very hard not to let monopolies&nbsp;
+sit and use their political power.&nbsp;
+So how do you get around that? Japan&nbsp;
+did something that was really pretty&nbsp;&nbsp;
+innovative. Germany did it too to some extent.
+In the export sector you’re competing with&nbsp;&nbsp;
+the world, not just with domestic firms.&nbsp;
+That created innovation and creativity.&nbsp;
+Japan did really well with that.&nbsp;
+But over time, others imitated it&nbsp;&nbsp;
+and started building the same things.
+So that’s part of it. The aging is part&nbsp;&nbsp;
+of it. But I think the financial&nbsp;
+crisis was a very big part of it.&nbsp;
+What is the counterfactual? Suppose that the&nbsp;
+crisis hadn’t happened, how much wealthier is&nbsp;&nbsp;
+Japan today than it might have been otherwise?
+Oh, I think 50% wealthier per person,&nbsp;&nbsp;
+way wealthier. That’s where they started.&nbsp;
+It depends on which measure you use. But by&nbsp;&nbsp;
+market exchange rates they were richer&nbsp;
+than the United States in the late 1980s.&nbsp;
+Even if you use the more complicated&nbsp;
+measures, they were richer than any European&nbsp;&nbsp;
+country, richer than Germany, France, Italy.
+They’ve moved to the bottom of the rung now.&nbsp;
+The financial crisis wasn’t the only thing.&nbsp;
+It’s a long story but we effectively forced&nbsp;&nbsp;
+them to move faster to open up and deregulate than&nbsp;
+they were culturally and politically ready to.&nbsp;
+I give that as an example of something&nbsp;
+in the book where I changed my mind.&nbsp;
+I had looked at that for a long time&nbsp;
+afterward. Going back to 2005—that’s&nbsp;&nbsp;
+long after the Japanese crisis—I would hear from&nbsp;
+people like Jiang Zemin, who was the president&nbsp;&nbsp;
+of China that I met, "We’re not going to&nbsp;
+let this happen to us. There’s no way.”&nbsp;
+We were discussing how I thought maybe they&nbsp;
+shouldn’t have such a fixed exchange rate.&nbsp;&nbsp;
+He said, “That’s what the United States&nbsp;
+told Japan. Look what happened to Japan.”&nbsp;
+I didn’t push back that much with someone&nbsp;
+like that. You talk to other people. But&nbsp;&nbsp;
+I heard that from many people.
+I used to think, how can that&nbsp;&nbsp;
+be? There’s this thing called the Plaza&nbsp;
+Accord in September 1985 where we pushed&nbsp;&nbsp;
+them to make their exchange rate more free.
+But I used to say that you did that in 1985.&nbsp;
+Carmen Reinhart, my co-author&nbsp;
+on many things, and I date the&nbsp;&nbsp;
+crisis to 1992. That’s seven years later.
+I continued to think that but over the years,&nbsp;&nbsp;
+particularly recently, I’ve&nbsp;
+started to think I was wrong.&nbsp;
+These things unfold slowly.&nbsp;
+Crises don’t happen overnight.&nbsp;&nbsp;
+Japan deregulated and it worked. But&nbsp;
+they didn’t know what they were doing.&nbsp;
+I think it was a huge mistake for Japan to agree.
+I actually heard from someone who attended&nbsp;&nbsp;
+the 10th anniversary of the&nbsp;
+Plaza Accord, held in Tokyo.&nbsp;
+The person who had been head of the Bank of&nbsp;
+Japan in 1985 gave a speech to officials.&nbsp;
+He went like this and apologized, very&nbsp;
+symbolically, “I have ruined our country.&nbsp;&nbsp;
+I did this. I take responsibility.”
+He told that too when he read my book.&nbsp;
+Financial repression is bad. But financial&nbsp;
+liberalization needs to be done gradually.&nbsp;&nbsp;
+If you do it too quickly, you get a&nbsp;
+crisis. Many crises are caused by that.&nbsp;
+Asking as somebody who obviously doesn’t&nbsp;
+know the details, at a high level how&nbsp;&nbsp;
+would you explain it to a novice?
+How could a country be 50% less&nbsp;&nbsp;
+wealthy than it otherwise might have&nbsp;
+been, simply from a financial crisis?&nbsp;
+Whatever they could’ve otherwise produced,&nbsp;
+why can they still not produce it?&nbsp;
+A country’s producing a bunch of things. Why&nbsp;
+are they producing 50% less just because of&nbsp;&nbsp;
+a financial crisis a couple decades ago?
+Their case is very unusual, although&nbsp;&nbsp;
+having a number like 10% or 20% is very typical.
+In fact, one of my professors at MIT was teaching&nbsp;&nbsp;
+us about the Great Depression. He said, “Here’s&nbsp;
+how to think about it. We were growing like this,&nbsp;&nbsp;
+then we get here and we go like this, and then&nbsp;
+we’re going like this. We never got this back.”&nbsp;
+There’s a lot of economic&nbsp;
+models where, Solow catch-up…&nbsp;
+Yes but what happened with a financial&nbsp;
+crisis—particularly in Japan—is that it&nbsp;&nbsp;
+sort of blew up their business model.
+For example, maybe China wouldn’t have&nbsp;&nbsp;
+overtaken them so quickly if they’d been able to&nbsp;
+borrow more freely, if their financial markets&nbsp;&nbsp;
+were working better, if they had been more&nbsp;
+adroit. Their consumption collapsed. Japan&nbsp;&nbsp;
+didn’t quite know how to deal with that.
+We in the US were much more brutal in&nbsp;&nbsp;
+what we allowed to happen than Japan,&nbsp;
+but we got out of it pretty quickly.&nbsp;
+I’m not sure we got back to where we&nbsp;
+were, but we got out of it very quickly.&nbsp;
+Japan has a very consensus-driven society. They&nbsp;
+don’t want anyone to be in bad shape. Their&nbsp;&nbsp;
+struggle with this held them back for a long time.
+Maybe 50% is too high and I should say 25% or 30%,&nbsp;&nbsp;
+but a lot better shape than they have been.
+Just to put it into context, what do you&nbsp;&nbsp;
+think the counterfactual wealth of&nbsp;
+America looks like today without 2008?&nbsp;
+Boy, that's a good question. I'm hesitant because&nbsp;
+I probably have some paper giving a number for&nbsp;&nbsp;
+that and I might say the wrong thing.
+We certainly cumulatively lost a lot.&nbsp;&nbsp;
+It led to this political crisis&nbsp;
+that caused us to lose a lot more.&nbsp;
+I don't know, probably 15% lower.&nbsp;
+It’s a lot lower than it would be.&nbsp;
+We had this dynamic which we're living in right&nbsp;
+now. It's still an echo of that financial crisis.&nbsp;
+Now, mind you, you're asking about our&nbsp;
+national income. Inequality matters and&nbsp;&nbsp;
+would we have done other things?
+In some ways, the 2008–2009&nbsp;&nbsp;
+crisis was a condemnation of the&nbsp;
+system and people could see it.&nbsp;
+Maybe it led to some healthy&nbsp;
+cleansing. But I think it led&nbsp;&nbsp;
+to a lot more damage than healthy cleansing.
+I think this updates me toward the view that&nbsp;&nbsp;
+financial crises are even worse than I think.&nbsp;
+It isn't just this bad thing that happens and&nbsp;&nbsp;
+you recover. If there's 15% lingering even&nbsp;
+after almost 20 years, then wow that’s huge.&nbsp;
+You’re losing a lot of cumulative growth. Look&nbsp;
+at Greece today or Portugal. You kind of get&nbsp;&nbsp;
+back to where you're having a positive&nbsp;
+growth rate, but you're not picking up…&nbsp;
+They're very different from a normal&nbsp;
+recession. Actually in a normal recession,&nbsp;&nbsp;
+you go down and then back up.
+The United States had thought&nbsp;&nbsp;
+it was immune to financial crises.&nbsp;
+We really hadn't had one since 1933.&nbsp;
+We had a different book that came&nbsp;
+out in 2009. I mostly write papers,&nbsp;&nbsp;
+but this was a book with Carmen Reinhart.&nbsp;
+It was called This Time Is Different.&nbsp;
+We had some papers published in advance.&nbsp;
+We said: “No, they're different when you&nbsp;&nbsp;
+have a financial crisis, it lasts way&nbsp;
+longer. The slowdown is way worse.”&nbsp;
+And we were mocked when we were saying that. I&nbsp;
+think the New York Times had a two-page spread&nbsp;&nbsp;
+saying how ridiculous everyone thought this was.
+We could have been proven wrong and maybe&nbsp;&nbsp;
+if we’d done things better we&nbsp;
+would have. But it is the norm.&nbsp;
+There’s a few exceptions, like&nbsp;
+Sweden got out in a year or two.&nbsp;
+But normally they really are&nbsp;
+different from a normal recession.
+You say in the book that you expect there to&nbsp;
+be another spike in inflation within the next&nbsp;&nbsp;
+decade and also that the fiscal position of&nbsp;
+the United States doesn’t seem sustainable.&nbsp;
+If you go forward 10 or 20 years,&nbsp;
+when we do hit this, when the&nbsp;&nbsp;
+piper comes calling, what actually happens?
+Is it going to be some acute crisis, like what&nbsp;&nbsp;
+happened in Greece? Or are we going to have some&nbsp;
+kind of Lost Decade like Japan? What will happen?&nbsp;
+Typically, you have a crisis of some sort when&nbsp;
+your debt is high and your political system is&nbsp;&nbsp;
+inflexible. We’ve checked those boxes.
+Then you get hit by a shock you weren’t&nbsp;&nbsp;
+ready for. You get caught on your back foot. It&nbsp;
+depends on what the shock is, and how we react.&nbsp;
+The way Japan reacted was through what we call&nbsp;
+financial repression, basically stuffing debt&nbsp;&nbsp;
+into every insurance company, pension fund, bank.
+The central bank holds almost 100% of GDP in debt.&nbsp;&nbsp;
+We think we have a lot—I don’t actually know&nbsp;
+the number off the top of my head for the Fed,&nbsp;&nbsp;
+but I want to say around $7 trillion.
+Japan would have the equivalent of $30 trillion.&nbsp;
+So they’ve done this. It’s not the only&nbsp;
+reason they haven’t grown, not by any means,&nbsp;&nbsp;
+but it’s not good for growth. That’s one option.
+I think for the United States, that’s tough.&nbsp;&nbsp;
+We’re just a very market-driven system. If our&nbsp;
+financial system had that kind of pressure put&nbsp;&nbsp;
+on it, it would be worse than when Japan did it.
+And a lot of people lend to us. We can’t do that&nbsp;&nbsp;
+to them. We can’t force French insurance companies&nbsp;
+to hold US debt. We can only force U.S. ones.&nbsp;
+So I think the most likely&nbsp;
+thing will be inflation,&nbsp;&nbsp;
+which only lets off steam. Because inflation&nbsp;
+sort of pulls… well, it’s like a default.&nbsp;
+And I’m not talking about hyperinflation. I’m&nbsp;
+talking 10–20% inflation over a period. We just&nbsp;&nbsp;
+went through that. That actually knocked about 10%&nbsp;
+of GDP off our debt. We might need more next time.&nbsp;
+So it lets some steam off, but if you’re&nbsp;
+still spending too much and you haven’t&nbsp;&nbsp;
+fixed anything you’re back in the problem.
+That’s what’s going on now. We had some steam&nbsp;&nbsp;
+let off, but it wasn’t enough.
+I think when it happens again,&nbsp;&nbsp;
+markets will be very unforgiving about it.&nbsp;
+They’ll look at us and say, “You are not to&nbsp;&nbsp;
+be trusted.” So it’ll raise the interest&nbsp;
+rate more, our debt will build up faster.&nbsp;
+I think at that point… There’s this saying&nbsp;
+about Americans attributed to Winston Churchill:&nbsp;&nbsp;
+we always do the right thing after we try&nbsp;
+everything else. I suspect we’ll try other things.&nbsp;
+Just for the audience, there are four ways we&nbsp;
+could get out of the debt: We could default,&nbsp;&nbsp;
+which you don’t think is likely...
+But really good for my book.&nbsp;
+Already you timed this one so well. I’ll be&nbsp;
+shorting the market when your next one comes out.&nbsp;
+...Financial repression. I guess you could&nbsp;
+actually cut the deficit. Or inflation.&nbsp;
+You’re saying if there’s another&nbsp;
+round of inflation, then after that...&nbsp;
+What everyone calls austerity. By the way, this&nbsp;
+word “austerity” that progressives use whenever&nbsp;&nbsp;
+you ignore debt building up and spend whatever&nbsp;
+you want, “austerity” is when you don’t do that.&nbsp;
+I think Ezra Klein’s book Abundance&nbsp;
+actually makes the point that there are&nbsp;&nbsp;
+costs and benefits to a lot of things.
+This “austerity” language pretends&nbsp;&nbsp;
+there are no costs to having your&nbsp;
+debt be higher and only benefits.&nbsp;
+So yes, that’s what everyone else has to do.&nbsp;
+We’ve gone longer than most without doing it.&nbsp;
+If it's going to be a financial crisis&nbsp;
+and financial crises are this bad…&nbsp;
+Inflation crisis. A financial crisis&nbsp;
+is the private sector, and the public&nbsp;&nbsp;
+sector bails out the private sector.
+So, the government, we’re not going to&nbsp;&nbsp;
+default. We're going to inflate, or do financial&nbsp;
+repression, or baby steps austerity or something.&nbsp;
+We're not going to have a crisis like Greece had.&nbsp;
+That’s just wrong. But inflation's not pleasant.&nbsp;
+Why wouldn’t we?
+Because we can print money. We can&nbsp;&nbsp;
+honor our debts. We just never have to default.&nbsp;
+Greece was using the euro and didn’t have control.&nbsp;
+Japan was using its own&nbsp;
+currency and it didn’t default.&nbsp;
+They had a financial crisis, not a&nbsp;
+debt crisis. They never defaulted&nbsp;&nbsp;
+on their government debt in that period.
+I’m not sure if they ever did. I’m sorry,&nbsp;&nbsp;
+they did in World War II. Of course, Japan&nbsp;
+defaulted on its government debt in World&nbsp;&nbsp;
+War II. That’s an interesting story.
+But it was a financial crisis they had.&nbsp;&nbsp;
+Financial crisis is what’s making your banking&nbsp;
+system not work, lending to innovators not work,&nbsp;&nbsp;
+lending to dynamic companies not work.
+Ben Bernanke wrote at the time a&nbsp;&nbsp;
+thought piece about this. He didn’t&nbsp;
+really have numbers. He conjectured&nbsp;&nbsp;
+that was why the Great Depression was so bad.
+When Milton Friedman, one of the great economists&nbsp;&nbsp;
+of all time, looked at the Great Depression,&nbsp;
+he said: “You didn’t print enough money. You&nbsp;&nbsp;
+tightened the money supply too much."
+And Ben came along 25 years later.&nbsp;&nbsp;
+He was a classmate of mine in graduate school.&nbsp;
+I had the office next to him at Princeton.&nbsp;
+He came along and wrote this amazing&nbsp;
+paper. Again, it was just a thought piece,&nbsp;&nbsp;
+which is not a typical economics paper.
+He said, “If it was just that you didn’t print&nbsp;&nbsp;
+enough money, eventually wages and prices would&nbsp;
+adjust. Yeah, maybe it wouldn’t happen in a year,&nbsp;&nbsp;
+maybe it wouldn’t happen in two years, but the&nbsp;
+Depression took 10 years. How can that be?”&nbsp;
+He made this conjecture. There’s been a lot of&nbsp;
+subsequent work showing it. Again, there’s a lot&nbsp;&nbsp;
+of debate about this, let me be careful.
+But I certainly view the weight of&nbsp;&nbsp;
+evidence as saying financial crises are really&nbsp;
+bad, which has led us to the situation in the&nbsp;&nbsp;
+United States where we’ve gotten a little&nbsp;
+happy-go-lucky about bailing everyone out.&nbsp;
+I would describe Treasury and Federal&nbsp;
+Reserve policy today as, “When in doubt,&nbsp;&nbsp;
+bail it out.” Because they saw what happened.
+But as your financial sector grows,&nbsp;&nbsp;
+that will lead to a problem someday.
+It did, of course, in the Silicon Valley Bank&nbsp;&nbsp;
+case. It continues to have echoes of that.
+But I think an inflation crisis is more&nbsp;&nbsp;
+likely than a financial crisis, although&nbsp;
+these things are very hard to predict.&nbsp;
+You say in the book that we didn’t outgrow our&nbsp;
+World War II debt. What happened instead was&nbsp;&nbsp;
+that financial repression after the war, and then&nbsp;
+the inflation of the 1970s made our debt-to-GDP&nbsp;&nbsp;
+ratio… It should have been 70-something,&nbsp;
+but it ended up around 20-something instead.&nbsp;
+Of course, we just had inflation recently.&nbsp;
+Do you think there’s some irrationality in&nbsp;&nbsp;
+the market for US government debt already, given&nbsp;
+that we can forecast what’s going to happen here?&nbsp;
+They can read your book and see that&nbsp;
+inflation’s going to go up. They can&nbsp;&nbsp;
+look through history at what’s happened.
+Do you think there’s some irrationality&nbsp;&nbsp;
+in terms of what people are doing?
+I think, number one, is that they have too much&nbsp;&nbsp;
+faith in the independence of the Federal Reserve.
+The Fed’s been this amazing institution that’s&nbsp;&nbsp;
+evolved. It’s been the guardian of&nbsp;
+low inflation. We can argue about&nbsp;&nbsp;
+if it’s the right inflation or not.
+The Federal Reserve insists it’s very&nbsp;&nbsp;
+independent. The Supreme Court recently ruled that&nbsp;
+Trump couldn’t fire Powell, the head of the Fed.&nbsp;
+But I think they’re dreaming. There are so&nbsp;
+many ways Congress and the President could&nbsp;&nbsp;
+override the Fed, especially if they declare some&nbsp;
+kind of wartime or “war-on-pandemic” situation.&nbsp;
+Though I wonder from the politician’s&nbsp;
+perspective, maybe the independence of the&nbsp;&nbsp;
+Fed gives them a convenient way to pass the buck&nbsp;
+that they’re actually happy about. They can say,&nbsp;&nbsp;
+“Ah, I’d love to do this irresponsible thing, but&nbsp;
+I can’t because of the Fed. It’s out of my hands.”&nbsp;
+That’s for sure. That’s why Trump bashes the Fed.&nbsp;
+It’s not the only reason he does it. I think he&nbsp;&nbsp;
+actually disagrees with them. But he feels&nbsp;
+that bashing the Fed, if there’s a recession&nbsp;&nbsp;
+which there might be, gives him someone&nbsp;
+to blame for not lowering interest rates.&nbsp;
+It depends if we run into a world where interest&nbsp;
+rates start creeping up… Right now, the 10-year&nbsp;&nbsp;
+rate is around 4.5%. That’s the nominal rate. The&nbsp;
+inflation-indexed one is a little over 2%. The&nbsp;&nbsp;
+30-year rate is around 5%. I think those are going&nbsp;
+to drift up. And that makes mortgage rates go up,&nbsp;&nbsp;
+student loans go up, car loans go up,&nbsp;
+business loans go up. It’s painful.&nbsp;
+The question is, at what point&nbsp;
+does that pain become real?&nbsp;
+As I mentioned, this would be catalyzed if&nbsp;
+we’re hit by a shock, where you can somewhat&nbsp;&nbsp;
+take back independence temporarily from the Fed.
+I think it’s easier to do than people think. Given&nbsp;&nbsp;
+that I think shocks are going to happen—maybe&nbsp;
+AGI brings a shock we don’t yet imagine—people&nbsp;&nbsp;
+trust in Fed independence too much.
+Now, I love Fed independence. I actually&nbsp;&nbsp;
+wrote the first paper on why you should&nbsp;
+have an independent central bank back when&nbsp;&nbsp;
+there were virtually no independent central&nbsp;
+banks. I was a pawn at the Federal Reserve.&nbsp;
+I’m talking my own book when I say it’s a&nbsp;
+great idea. I don’t mean my “book” book,&nbsp;&nbsp;
+I mean my human capital.
+I like to say that the Federal&nbsp;&nbsp;
+Reserve fights for its independence every day.
+I hear senators say, “They’re idiots.” I hear&nbsp;&nbsp;
+people in Silicon Valley say, “They’re idiots.&nbsp;
+We should bring them under the Treasury.”&nbsp;
+I used to hear that just from progressives.&nbsp;
+But now I’ve heard that recently from&nbsp;&nbsp;
+some tech titans, that “Scott Bessent, the&nbsp;
+Treasury Secretary, he’s smarter than Powell.&nbsp;&nbsp;
+Why don’t we let him run things?” They could.
+It does seem like the Fed works really well as&nbsp;&nbsp;
+it exists now. It’s independent. Sure, there are&nbsp;
+people who criticize its actions as you say. But&nbsp;&nbsp;
+on the whole, it seems like a reliable&nbsp;
+institution that makes smart calls. They can&nbsp;&nbsp;
+be wrong, of course, but it seems so much more&nbsp;
+competent than much of the rest of government.&nbsp;
+If you wanted to replicate how&nbsp;
+the Fed works—if you wanted other&nbsp;&nbsp;
+parts of government to work that way—is there&nbsp;
+something we could do? Or is it more of a human&nbsp;&nbsp;
+capital problem than an independence problem?
+Like, bankers and economists are really smart.&nbsp;&nbsp;
+I don’t know if you could replicate&nbsp;
+that in the Department of Education or&nbsp;&nbsp;
+the Department of Agriculture.
+One of the things the Fed has is this simple&nbsp;&nbsp;
+barometer that everybody sees. They don’t really&nbsp;
+see it, but they have a feeling. They see gasoline&nbsp;&nbsp;
+prices, that's probably how they decide what&nbsp;
+inflation is. But they have this simple barometer.&nbsp;
+Mind you, particularly in recent years,&nbsp;
+progressives have wanted the Fed to&nbsp;&nbsp;
+solve inequality, social justice, and the&nbsp;
+environment. But they have one barometer&nbsp;&nbsp;
+that they kind of control over the long run,&nbsp;
+not in the short run but over the long run.&nbsp;
+So that makes it a little easier to say,&nbsp;
+“You wanted us to have low inflation.”&nbsp;
+Whereas so many other things the government&nbsp;
+does might be making everybody better off,&nbsp;&nbsp;
+but they’re making some people more better&nbsp;
+off. Maybe some people aren’t better off&nbsp;&nbsp;
+at all. It suddenly becomes very political.
+Nobody elected the Fed, so it’s harder to&nbsp;&nbsp;
+make those decisions. I’m obviously a&nbsp;
+technocrat, or I side with technocrats.&nbsp;&nbsp;
+My students are technocrats. I think&nbsp;
+way more things should be like that.&nbsp;
+But if you wanted to do that, suppose you get&nbsp;
+called by the Pentagon tomorrow and they say,&nbsp;&nbsp;
+“We want to run the Pentagon like the&nbsp;
+Fed.” What do you tell them to do?&nbsp;
+I was going to say, the Pentagon? I’m not speaking&nbsp;
+about the current Pentagon, but just up till now.&nbsp;&nbsp;
+I haven’t looked closely but it’s been run pretty&nbsp;
+darn well. The military’s pretty efficient.&nbsp;
+There are people who tell me, “Okay, Elon&nbsp;
+Musk can take a payload into space at 15%&nbsp;&nbsp;
+of—or maybe one-fifteenth of—what NASA&nbsp;
+does. Why don’t we let Elon Musk run&nbsp;&nbsp;
+the Pentagon?” There may be something to that.
+I think to some extent—and maybe I’m defending&nbsp;&nbsp;
+them too much—but you never know where the next&nbsp;
+blow is going to come from. It always looks like&nbsp;&nbsp;
+a lot of your stuff is wasted, you built up. But&nbsp;
+your enemy is looking at what you have. Where are&nbsp;&nbsp;
+you weak? Where are you strong? So I wouldn’t&nbsp;
+have picked the Pentagon as the obvious thing.&nbsp;
+But let’s say crypto regulation, that&nbsp;
+would be a good example. Why don’t we&nbsp;&nbsp;
+have something more independent there? Instead,&nbsp;
+as you well know, it’s been overrun by politics.&nbsp;
+In fact, there’s this huge thing going on right&nbsp;
+now. I don’t know how it’s going to play out.&nbsp;&nbsp;
+The Fed has been protected, though not as&nbsp;
+much as you’d think. But Trump got to the&nbsp;&nbsp;
+Supreme Court and was told he can fire the&nbsp;
+head of any agency. I assume, by inference,&nbsp;&nbsp;
+he can also fire anybody at any agency.
+I think that’s a terrible mistake. We&nbsp;&nbsp;
+need to have independent agencies. You have an&nbsp;
+evaluation process. They answer to Congress.&nbsp;&nbsp;
+If they go off in the wrong direction, you try to&nbsp;
+fix it. But to just have everything switch every&nbsp;&nbsp;
+four years? That’s really very worrisome.
+Before Trump—maybe for intrinsic reasons,&nbsp;&nbsp;
+maybe because of norms—it was really hard&nbsp;
+to fire people anyway. That didn’t produce&nbsp;&nbsp;
+remarkable competence across the government.
+Let me try to consolidate some of the things&nbsp;&nbsp;
+you mentioned. Maybe it’s really important to&nbsp;
+structure more of the government like that.&nbsp;&nbsp;
+If you're running a department, you&nbsp;
+have just one target like the Fed’s&nbsp;&nbsp;
+2% inflation target. That’s all you have&nbsp;
+to do. Don’t worry about anything else.&nbsp;
+I do think it’s impressive that the Fed has&nbsp;
+avoided mission creep. It seems like every&nbsp;&nbsp;
+institution in the world falls into mission&nbsp;
+creep—companies, government departments…&nbsp;
+Oh, they haven’t avoided it. They’ve&nbsp;
+been under incredible pressures.&nbsp;&nbsp;
+Obviously, things have changed.
+But I talk about this a bit in my book. You&nbsp;&nbsp;
+go through the working papers and research coming&nbsp;
+out of the various Federal Reserves and it's all&nbsp;&nbsp;
+about inequality, the environment, social justice.
+You’d be strained to find a paper about monetary&nbsp;&nbsp;
+policy during that period, because&nbsp;
+they were under pressure. Part of&nbsp;&nbsp;
+being independent is bending with the wind.
+But they’ve managed to keep their core competency,&nbsp;&nbsp;
+their core function of setting&nbsp;
+monetary policy independent.&nbsp;
+No, it’s been amazing. But it is a constant fight.
+You can go to a country like Turkey. I don’t know&nbsp;&nbsp;
+what the inflation rate is today,&nbsp;
+but it hovered up toward 100%.&nbsp;
+And Erdoğan—the president of Turkey—would fire the&nbsp;
+head of the central bank every year. Every time&nbsp;&nbsp;
+they tried to raise interest rates, he’d fire&nbsp;
+them. You can find other countries like that.&nbsp;
+So we’ve been lucky. But you&nbsp;
+can’t count on that continuing.&nbsp;
+Apart from the political pressure problems&nbsp;
+from the outside, you mentioned watching&nbsp;&nbsp;
+your younger colleagues or younger economists&nbsp;
+writing working papers at the Fed about these&nbsp;&nbsp;
+other issues like inequality or climate change.
+From the inside, given what the younger people&nbsp;&nbsp;
+in this profession care about, do you expect&nbsp;
+the competence or the focus to just decline&nbsp;&nbsp;
+by default, given the new generation?
+No, this was a wake-up call. There was&nbsp;&nbsp;
+a blog that Hoover did. They looked at the&nbsp;
+most-used words in our big annual meetings.&nbsp;
+There’s this thing called the American Economic&nbsp;
+Association meetings. Everybody goes. They took&nbsp;&nbsp;
+all the abstracts and titles from the&nbsp;
+last 15 years and the word inflation had&nbsp;&nbsp;
+not appeared until this year.
+But why are you optimistic&nbsp;&nbsp;
+about when they get in charge...?
+There’s an intellectual market. This&nbsp;&nbsp;
+was a huge miss and there’s a market for figuring&nbsp;
+it out. One of the good things about the American&nbsp;&nbsp;
+university system—at least in the sciences,&nbsp;
+and I’ll speak for economics—is that things&nbsp;&nbsp;
+drift off but if something is way wrong—and&nbsp;
+they were certainly way wrong about inflation,&nbsp;&nbsp;
+I believe, and way wrong about interest&nbsp;
+rates and debt—then there’s some rebalancing.&nbsp;
+We have a very competitive system of publishing.&nbsp;
+We have a seminar system that’s just ruthless.&nbsp;&nbsp;
+There’s a debate around it. It’s not settled,&nbsp;
+and maybe I’m wrong and they’re right but it’s&nbsp;&nbsp;
+definitely being debated now.
+Whereas 10 years ago, I think I&nbsp;&nbsp;
+was like a lone voice in the wilderness&nbsp;
+saying these things might happen again.&nbsp;
+I would teach inflation to my students. They’d&nbsp;
+sit there patiently. It was like I was teaching&nbsp;&nbsp;
+them the music of Fred Astaire or something.&nbsp;
+They’d go, “Okay, it’s the 21st-century,&nbsp;&nbsp;
+the Internet, that can never happen.”
+Or I’d teach debt. If I had foreign students,&nbsp;&nbsp;
+they were all having problems. But the&nbsp;
+American students were like, we can&nbsp;&nbsp;
+just do whatever we want. But it’s changed.
+Going back to the potential future problems,&nbsp;&nbsp;
+if we do go the financial repression route and&nbsp;
+not the inflation route, how bad will that be?&nbsp;
+As you were saying, after World War II we had&nbsp;
+financial repression. But that was when we had&nbsp;&nbsp;
+the highest growth ever. On the other hand,&nbsp;
+China and Japan, it seems like a lot of their&nbsp;&nbsp;
+problems might be caused by the misallocation&nbsp;
+of capital that financial repression created.&nbsp;
+Do you have some intuition about&nbsp;
+how much we screw ourselves over&nbsp;&nbsp;
+with that route, as opposed to inflation?
+We’ll start with World War II but it’s never just&nbsp;&nbsp;
+one thing, obviously. There were a lot of things.
+So with World War II first of all, financial&nbsp;&nbsp;
+repression was easy. The financial markets&nbsp;
+had been destroyed by the Great Depression.&nbsp;
+World War II became something of&nbsp;
+a command-and-control economy.&nbsp;
+There are a lot of interesting papers about World&nbsp;
+War II that show that Americans just worked really&nbsp;&nbsp;
+enthusiastically. There was real patriotism in&nbsp;
+the production. I’m not saying we’re not now,&nbsp;&nbsp;
+but back then they were able to fill factory&nbsp;
+jobs that we probably couldn’t even fill today.&nbsp;
+As we emerged from World War II we had all the&nbsp;
+soldiers come home. That’s a huge growth lift.&nbsp;&nbsp;
+We didn’t manage it perfectly. We actually had&nbsp;
+quite a bit of inflation during that period.&nbsp;
+The financial markets, as you grew up in and&nbsp;
+as young people know them today, didn’t exist&nbsp;&nbsp;
+back then. The world has changed a lot.
+Does that mean US growth would have been&nbsp;&nbsp;
+even higher after World War II if we had&nbsp;
+just kept the government debt or figured&nbsp;&nbsp;
+out some other way to deal with it and&nbsp;
+let financial markets develop earlier?&nbsp;
+Maybe. We didn’t have any financial crises for a&nbsp;
+long time because the markets were very repressed.&nbsp;
+Oftentimes, when you get a financial crisis&nbsp;
+it’s exactly when somebody comes along and says,&nbsp;&nbsp;
+“I know, I can make us grow way&nbsp;
+faster. Let’s just take away all&nbsp;&nbsp;
+the rules and regulations overnight.”
+That happened in one country after&nbsp;&nbsp;
+another. It works, until you blow up.&nbsp;
+So you’d have to say that, by and large,&nbsp;&nbsp;
+it was managed rather well. We&nbsp;
+grew. The rest of the world grew.&nbsp;
+It took time for private markets&nbsp;
+to develop. One thing I should’ve&nbsp;&nbsp;
+emphasized was that our debt was very high&nbsp;
+after World War II, about what it is now.&nbsp;
+But there was nothing else. There wasn’t all this&nbsp;
+private debt. That had all been defaulted on. I’m&nbsp;&nbsp;
+being slightly hyperbolic but maybe it was 50%&nbsp;
+of GDP altogether. Everything else, state and&nbsp;&nbsp;
+local debt, had been defaulted on. Now, it’s&nbsp;
+bigger than the federal debt by a wide margin.&nbsp;
+So it was a very different world, putting in&nbsp;
+financial repression back then, compared to now&nbsp;&nbsp;
+when that’s a big part of our business&nbsp;
+models in the financial sector.&nbsp;
+Just to make sure we’ve completed the&nbsp;
+concrete scenarios, basically your&nbsp;&nbsp;
+prediction is that there’ll be some crisis, some&nbsp;
+surge of inflation, then there’ll be austerity.&nbsp;
+And then what happens? Is growth&nbsp;
+really slow afterward because&nbsp;&nbsp;
+the government can’t spend as much? What do&nbsp;
+the next few decades look like in your world?&nbsp;
+I think it will be quite a wake-up call for&nbsp;
+Americans, having to adjust under difficult&nbsp;&nbsp;
+circumstances. Most likely, we get hit by a&nbsp;
+shock. We want to borrow a lot. The bonds are&nbsp;&nbsp;
+rising faster than they did the other times&nbsp;
+we did. And we're not able to do as much.&nbsp;
+It’s not the end of the world. During the&nbsp;
+European debt crisis from 2010 to 2012,&nbsp;&nbsp;
+most European countries raised their retirement&nbsp;
+ages. They didn’t do it right away. They did it&nbsp;&nbsp;
+10 or 15 years out. There’s stuff you can do.
+So I want to be careful here and say it’s&nbsp;&nbsp;
+not like the end of the world,&nbsp;
+but it’ll be pretty unpleasant.&nbsp;
+This will affect the entire world, since&nbsp;
+the global system is very dollar-centric.&nbsp;&nbsp;
+It won’t be good for our franchise,&nbsp;
+the dollar being so used everywhere.&nbsp;
+As other countries start using the dollar less,&nbsp;
+our interest rates will climb even higher.&nbsp;
+I’m an academic. I’m not trying to push my ideas&nbsp;
+by being maximally hysterical. But hysterical is&nbsp;&nbsp;
+definitely within the realm of possibility here.
+What I’m saying is more likely than not,&nbsp;&nbsp;
+not that it’s not definitely going to happen. We&nbsp;
+could have growth. We could have a whole lot of&nbsp;&nbsp;
+high-skill immigration. We could make changes.&nbsp;
+There are a lot of things that could go well.&nbsp;
+On the growth thing, Europe’s growth has been&nbsp;
+pretty bad after 2010. Japan obviously has had&nbsp;&nbsp;
+pretty bad growth after their crisis. Why will&nbsp;
+we be in a different position if we do have this&nbsp;&nbsp;
+kind of crisis? Why will growth continue apace?
+No, it’s going to cause a pause in growth. The&nbsp;&nbsp;
+main reason debt crises happen is we don’t&nbsp;
+have an automated system of working it out.&nbsp;&nbsp;
+When the stock market crashes it’s painful,&nbsp;
+you’re looking around for who got hurt.&nbsp;
+But when you have debt crashes, we take five&nbsp;
+years, ten years, to figure out who owes what.&nbsp;
+It’s that process of allocating&nbsp;
+the losses that causes problems.&nbsp;
+That, by the way, is why so many&nbsp;
+people thought, “China’s fine. The&nbsp;&nbsp;
+president will just tell everyone what it is.”
+That turns out to be not as true as they thought.
+Is it possible to believe both that AGI is near&nbsp;
+and that America’s fiscal position is untenable?&nbsp;
+What do you mean by saying AGI is coming?
+Any job that can be done purely through&nbsp;&nbsp;
+computers is automated. So white-collar work, the&nbsp;
+work we do even, is automated within 20 years.&nbsp;
+Anytime you get a big productivity boost, it’s&nbsp;
+fantastic. If it comes quickly, yes that can&nbsp;&nbsp;
+solve problems. I will say that historically,&nbsp;
+there have been lots of times when countries&nbsp;&nbsp;
+had good growth—even higher than their interest&nbsp;
+rates—and they still got into trouble because&nbsp;&nbsp;
+fiscal policy isn’t mechanical. It’s political.
+It’s about how much you spend, who wants&nbsp;&nbsp;
+what. It’s not an arithmetic question.
+Let me say it another way. Nobody ever&nbsp;&nbsp;
+defaulted or had high inflation because&nbsp;
+of arithmetic, because they couldn’t pay,&nbsp;&nbsp;
+or couldn’t have called in someone who knew what&nbsp;
+to do. They do it because of political pressures.&nbsp;
+I think if AGI came that fast and&nbsp;
+that big, it would make the populism&nbsp;&nbsp;
+phenomenon we’re facing now seem like nothing.
+If AI is going to be massively deflationary—if&nbsp;&nbsp;
+it makes all these goods so much cheaper—should&nbsp;
+we be printing a bunch of money to still stick to&nbsp;&nbsp;
+2% inflation? Or does that not matter anymore?
+Well, we certainly can run monetary policy the&nbsp;&nbsp;
+same way. You don’t automatically get deflation&nbsp;
+just because some goods are going down.&nbsp;
+You can do things to increase demand so that there&nbsp;
+are upward pressures on final prices. Even if the&nbsp;&nbsp;
+AI workers aren’t demanding anything, you can put&nbsp;
+in a lot of demand so firms charge a lot, not just&nbsp;&nbsp;
+for the services that AI is replacing but also&nbsp;
+for the raw minerals and materials that go in.&nbsp;
+Fundamentally, when you have productivity, it&nbsp;
+makes it easier for the monetary authorities—the&nbsp;&nbsp;
+Federal Reserve—to deliver low inflation&nbsp;
+and good growth. That’s what they’re trying&nbsp;&nbsp;
+to do. It makes their job easier. And I think it&nbsp;
+takes the pressure off them—somewhat—to inflate,&nbsp;&nbsp;
+because things are going pretty well.&nbsp;
+So there aren't the same pressures.&nbsp;
+But should they be trying to fight&nbsp;
+the deflation at all, in that world?&nbsp;
+Because traditionally we need inflation to&nbsp;
+root out the rentiers and to fight downward&nbsp;&nbsp;
+wage rigidity. But now the AIs have all the&nbsp;
+jobs, so we don’t need to worry about that.&nbsp;
+There are a bunch of biases humans have&nbsp;
+that we need inflation to correct for. Do&nbsp;&nbsp;
+we even need that in a world with AI?
+Okay, that is a very good point. Frankly,&nbsp;&nbsp;
+Keynes founded modern macroeconomics.&nbsp;
+He was an incredible Renaissance person,&nbsp;&nbsp;
+having both sides of the brain.
+One of his insights that just&nbsp;&nbsp;
+transformed things was this.
+Before Keynes, we used what&nbsp;&nbsp;
+we now call general equilibrium models: demand and&nbsp;
+supply, prices moving to keep everything in line.&nbsp;
+But Keynes was looking at the Great Depression&nbsp;
+and said, “Prices should be coming down. But&nbsp;&nbsp;
+they’re not. Why aren't they?”
+That’s really a cornerstone.&nbsp;&nbsp;
+At the end of the day, it’s mostly&nbsp;
+human behavior. It’s mostly workers.&nbsp;
+So if you have these docile AI workers—they’re&nbsp;
+not workers, they’re just firms—and if you have&nbsp;&nbsp;
+firms that are willing to let prices fall, then&nbsp;
+certainly you can do that. I mean, we’re still&nbsp;&nbsp;
+going to have some human workers? I don't know.
+But here’s a question on what monetary policy&nbsp;&nbsp;
+should be. Do you think interest rates&nbsp;
+are going to go up or down? When we had&nbsp;&nbsp;
+deflation last time—from demand-deflation,&nbsp;
+like after the financial crisis and the&nbsp;&nbsp;
+pandemic—interest rates went down.
+My intuition here is that interest&nbsp;&nbsp;
+rates would need to go up. I mean real interest&nbsp;
+rates, real inflation-adjusted interest rates.&nbsp;
+And then, deflation isn’t such a problem. You&nbsp;
+just don’t let the interest rates go up as much.&nbsp;
+Last time, interest rates went to basically&nbsp;
+zero. That’s a whole other line of discussion.&nbsp;&nbsp;
+They felt they couldn’t lower them&nbsp;
+into significantly negative territory.&nbsp;
+So they were sort of paralyzed. There was&nbsp;
+this deflation, or at least too-low inflation.&nbsp;
+Monetary authorities thought they&nbsp;
+knew how to create inflation,&nbsp;&nbsp;
+but that’s always been by cutting interest&nbsp;
+rates lower. When they hit a bottom, they don’t.&nbsp;
+I have a whole book about negative interest&nbsp;
+rates and that’s a whole other thing.&nbsp;
+If we’re imagining real interest rates&nbsp;
+going up, then it’s not much of a technical&nbsp;&nbsp;
+problem. You just let the interest rates rise&nbsp;
+a little less so you’re not getting deflation.&nbsp;
+Do you expect interest rates to go up? Because one&nbsp;
+factor is that you want to invest in the future,&nbsp;&nbsp;
+the future has so much more potential. Another&nbsp;
+is that maybe you want to consume more now,&nbsp;&nbsp;
+because you know you’re going to be wealthier&nbsp;
+in the future anyway. You might as well start&nbsp;&nbsp;
+spending as much as you can now.
+I think AGI and AI are upward&nbsp;&nbsp;
+pressures on interest rates for lots of&nbsp;
+crude reasons. The huge energy needs.&nbsp;
+Traditionally, when you did a lot&nbsp;
+of investment it raised wages,&nbsp;&nbsp;
+but it’s possible— there are economists like&nbsp;
+Daron Acemoglu who’ve shown it can go both ways,&nbsp;&nbsp;
+it’s not difficult to show that—if you're really&nbsp;
+just substituting for workers, it’s making capital&nbsp;&nbsp;
+more valuable, you just invest even more.
+The pressures on monetary policy will depend a&nbsp;&nbsp;
+little bit on that. In principle, it makes life&nbsp;
+easier. If it did push the interest rate down to&nbsp;&nbsp;
+zero, there are interesting questions&nbsp;
+around that, but maybe your audience&nbsp;&nbsp;
+might not be as fascinated by them as I am.
+Let’s talk about it a little bit. If we expect&nbsp;&nbsp;
+interest rates to go up because of AI, what&nbsp;
+should the government be doing right now to&nbsp;&nbsp;
+be ready for that? Should they be locking in&nbsp;
+hundred-year bonds at the current interest&nbsp;&nbsp;
+rates since they’re only going up from here?
+I’m going to get to that. But first, just where&nbsp;&nbsp;
+we are… I follow interest rates today&nbsp;
+all the time. Maybe a lot of people&nbsp;&nbsp;
+who listen to you don’t. But let’s talk&nbsp;
+about inflation-adjusted interest rates.&nbsp;
+There’s a 10-year bond that’s indexed to&nbsp;
+the inflation rate, issued by our Treasury.&nbsp;
+Inflation-indexed debt is only about 10% of our&nbsp;
+total debt. There are tax considerations—it’s&nbsp;&nbsp;
+not perfect—but it’s a pretty good measure&nbsp;
+of what we call the real interest rate.&nbsp;
+It had gone to minus one at one point after the&nbsp;
+pandemic. It averaged zero for about 10 years,&nbsp;&nbsp;
+from 2012 to 2021. And it’s higher now.
+That is, for a macroeconomist, the biggest&nbsp;&nbsp;
+question in the world. Because it affects asset&nbsp;
+prices, it affects risk, it affects volatility.&nbsp;
+I regard it as just a normalization.&nbsp;
+I think it was likely to happen.&nbsp;
+If you go around and talk to some of my&nbsp;
+younger colleagues, or folks at other places,&nbsp;&nbsp;
+there’s quite a debate about that. A&nbsp;
+lot of people think, “We’re getting old,&nbsp;&nbsp;
+we’re not inventing anything...” I know you’ve&nbsp;
+just been arguing against that and good for you.&nbsp;
+I tend to think interest rates are more likely to&nbsp;
+go up than down, going forward. I’m talking about&nbsp;&nbsp;
+these long-term interest rates—the Federal&nbsp;
+Reserve just sets the overnight interest&nbsp;&nbsp;
+rate—these long-term interest rates are set by&nbsp;
+markets, and I think they’re more likely to go up.&nbsp;
+But I think AGI is only a piece of it. Debt is&nbsp;
+rising everywhere. There’s the remilitarization&nbsp;&nbsp;
+of much of the world. Needing to deal with climate&nbsp;
+change. Eventually if we’re not dealing with it,&nbsp;&nbsp;
+then we’re dealing with climate disasters.
+There’s growing populism, geopolitical&nbsp;&nbsp;
+fracturing, many things.
+I tend to think interest&nbsp;&nbsp;
+rates are going to go up but not just for the&nbsp;
+good reason that we’ve gotten more creative&nbsp;&nbsp;
+and that everything’s going to be better.
+You've said in the book that you expect a&nbsp;&nbsp;
+rebalancing from US equities to foreign&nbsp;
+equities. US equities have outpaced&nbsp;&nbsp;
+foreign stocks for the last couple of decades.
+You say you expect this to change or that there&nbsp;&nbsp;
+will be some rebalancing. What causes that?
+What I say very concretely is that when the&nbsp;&nbsp;
+dollar is really high, you should expect the&nbsp;
+euro to go up. I feel strongly about that.&nbsp;&nbsp;
+My first important paper was about exchange&nbsp;
+rates. That’s why the book’s about exchange rates.&nbsp;
+When Japan’s really weak or when the dollar’s&nbsp;
+really strong—it’s very hard to predict exchange&nbsp;&nbsp;
+rates—but I think the euro will do well.
+There’s a lot of room to catch-up in Europe.&nbsp;
+I actually think I’m nuanced in what I say&nbsp;
+in the book. Trump hadn’t been elected yet,&nbsp;&nbsp;
+but I say Europe seems to be&nbsp;
+under pressure to re-militarize.&nbsp;
+I was aware that Harris was probably&nbsp;
+going to cut the US defense budget,&nbsp;&nbsp;
+so that would put pressure on them.
+Re-militarizing would actually be&nbsp;&nbsp;
+good for the euro. It would be good&nbsp;
+for technology in Europe. It would&nbsp;&nbsp;
+give them more geopolitical power in the system.
+Now, just so your listeners can calibrate this,&nbsp;&nbsp;
+my first book was a very mathematical one,&nbsp;
+Foundations of International Macroeconomics.&nbsp;
+In theory, you should diversify. You shouldn’t&nbsp;
+put all your money in the United States. I did a&nbsp;&nbsp;
+video with Zbigniew Brzezinski, Mika&nbsp;
+Brzezinski’s father. For those who&nbsp;&nbsp;
+don’t know, he was Carter’s Kissinger.
+I did a video with him that Merrill Lynch&nbsp;&nbsp;
+produced. It was about why international&nbsp;
+diversification could be good. What they&nbsp;&nbsp;
+got me to say was very, very limited.&nbsp;
+I feel quite fine about what I said.&nbsp;
+I wasn’t doing any consulting at the time,&nbsp;
+just academic work. I didn’t do speeches,&nbsp;&nbsp;
+I didn’t do consulting. I talked to&nbsp;
+central banks a bit, but I didn’t do&nbsp;&nbsp;
+anything for money. But I did get paid for that.
+It circulated half a million copies of it. A lot&nbsp;&nbsp;
+of my friends teased me and said I would’ve made a&nbsp;
+lot more money if I hadn’t followed my own advice.&nbsp;&nbsp;
+I can think of plenty of other examples like that.
+But yes, my instinct is that—this idea that our&nbsp;&nbsp;
+US premium should just keep getting&nbsp;
+bigger and bigger—these things have&nbsp;&nbsp;
+some regression to the mean. Maybe not&nbsp;
+with AI all being in the US, I don’t know.&nbsp;
+Is it that you’re predicting&nbsp;
+that the S&amp;P keeps growing at 8%,&nbsp;&nbsp;
+but foreign equities do even better?
+I’m just going to safely say foreign&nbsp;&nbsp;
+equities do better than dollar equities.
+But not because the growth in US equities&nbsp;&nbsp;
+slows down, it’s just that&nbsp;
+foreign equities do even better?&nbsp;
+Look, you have a lot of friends who spend all&nbsp;
+their time doing this. I wouldn’t pretend to.&nbsp;
+I hold a very neutral portfolio because I talk to&nbsp;
+policymakers and world leaders even on occasion.&nbsp;
+I don’t want to be someone who’s talking about&nbsp;
+regulating Bitcoin and owning a lot of Bitcoin,&nbsp;&nbsp;
+to pick a random example.
+So I wouldn’t regard myself&nbsp;&nbsp;
+as great at this. But yes, I think there’s&nbsp;
+a case for international diversification,&nbsp;&nbsp;
+particularly into Europe at this point&nbsp;
+because they have so much potential catch-up.&nbsp;
+Just as in California, where you’re from, there’s&nbsp;
+a little bit of dim awareness that it might be&nbsp;&nbsp;
+overregulated and you might want to do things&nbsp;
+differently, I feel that’s happening in Europe.&nbsp;
+If you look internationally, if you'd been&nbsp;
+betting on catch-up, I wonder how you’d&nbsp;&nbsp;
+backtest it. There’s some intuition there that if&nbsp;
+you’re poor and you’re further from the frontier,&nbsp;&nbsp;
+it makes sense that it would be easier for you to&nbsp;
+catch up. But there’s another intuition that if&nbsp;&nbsp;
+you’ve been persistently behind the frontier,&nbsp;
+there must be some deep endogenous reason.&nbsp;
+You’re absolutely right. For example, Asia has&nbsp;
+a lot more governance problems on the whole.&nbsp;&nbsp;
+There’s a reason that their price-earnings&nbsp;
+ratios are lower, because you don’t&nbsp;&nbsp;
+trust the governance. You’re right.
+That’s fair and a lot of people are&nbsp;&nbsp;
+just betting on that. But I don’t think Europe&nbsp;
+is so hopeless that it can’t pull it together.&nbsp;
+I can make a comparison. I'm a basketball fan.&nbsp;
+The Boston Celtics just got crushed by the Knicks,&nbsp;&nbsp;
+just before we’re taping this. Part of&nbsp;
+it is because our star, Jayson Tatum,&nbsp;&nbsp;
+was injured. You may not have gotten any&nbsp;
+better, Europe in this case, but if somebody’s&nbsp;&nbsp;
+hobbling the United States—I do think that’s&nbsp;
+going on to some extent now—you do better.&nbsp;
+Is there some institutional reform we&nbsp;
+could make that would get us out of this&nbsp;&nbsp;
+political equilibrium we're stuck in.
+Both parties, when they're in power,&nbsp;&nbsp;
+are incentivized to increase the debt and there's&nbsp;
+no institutional check on that proclivity.&nbsp;
+There have been a lot of people who’ve tried&nbsp;
+this, for example by having what are called&nbsp;&nbsp;
+fiscal councils. I did a paper once with&nbsp;
+Julia Pollak, who’s a brilliant economist,&nbsp;&nbsp;
+when she was an undergraduate. That was quite a&nbsp;
+while ago. A number of countries experimented with&nbsp;&nbsp;
+fiscal councils, but it hasn't worked.
+The country that's done the most with&nbsp;&nbsp;
+this is probably the United Kingdom. George&nbsp;
+Osborne, when he was Chancellor, set up this&nbsp;&nbsp;
+fiscal authority. The big thing they did&nbsp;
+is they made predictions so the government&nbsp;&nbsp;
+doesn’t get to make up different predictions.
+You don’t necessarily have to go by their numbers,&nbsp;&nbsp;
+but they got to say whatever they thought.
+Our CBO does not get to do that quite the&nbsp;&nbsp;
+same. Our Congressional Budget&nbsp;
+Office is very good, but they are&nbsp;&nbsp;
+constrained to believe what Congress tells them.
+If Congress says, “We’re putting in this tax hook,&nbsp;&nbsp;
+but it’s going to go away after ten years,”&nbsp;
+or “We’re doing this policy, it’s all going&nbsp;&nbsp;
+to change,” then they’re forced to use those&nbsp;
+parameters. The UK version is more independent.&nbsp;
+There are lots of complaints about it, but that’s&nbsp;
+a very poor man’s fiscal authority, just somebody&nbsp;&nbsp;
+who says, “This is what your deficit looks like.”
+It’s the same thing as our CBO, but with more&nbsp;&nbsp;
+independence. It helps. But I think it&nbsp;
+has to go to our electoral system, right?&nbsp;&nbsp;
+Our campaign financing. Do we have term limits?
+You think that would help? I think, if anything,&nbsp;&nbsp;
+if you’re longer in office, you might have a more&nbsp;
+long-term incentive. To the extent that a lot of&nbsp;&nbsp;
+the deficit problems are caused by populism, I&nbsp;
+don’t know how much campaign finance would help.&nbsp;
+Maybe you’re right. I don’t have&nbsp;
+a magical solution to this. It’s&nbsp;&nbsp;
+all over the world. Nobody's finding&nbsp;
+a particularly great solution to it.&nbsp;
+The only encouraging thing is that&nbsp;
+these things go in waves. So maybe&nbsp;&nbsp;
+this one will end. But we’re certainly in&nbsp;
+a really difficult situation right now.&nbsp;
+Somebody asked me, “If you were advising a&nbsp;
+Republican president or something, what would&nbsp;&nbsp;
+you do? What problem would you face?” The biggest&nbsp;
+problem is that in a few years there’s going to&nbsp;&nbsp;
+be a Democratic president. They’re going to do&nbsp;
+exactly the opposite of what you wanted to do.&nbsp;&nbsp;
+It’s the same thing for the Democratic presidents.
+How do you have some continuity? How do you have&nbsp;&nbsp;
+policies put in place that the public can rely on?
+We’ve done well in the United States in some ways&nbsp;&nbsp;
+because our government’s been kind of weak and&nbsp;
+hasn’t been doing stuff. The private sector can&nbsp;&nbsp;
+work around it. I’m not saying it’s perfect.&nbsp;
+There are lots of things we should do. But&nbsp;&nbsp;
+look, this is out of my paycheck, so to speak.
+You're the former Chief Economist of the IMF!&nbsp;
+All right, but that’s economics.&nbsp;
+These are very political questions.&nbsp;
+Brexit’s an example of democracy gone amok.&nbsp;
+What a dumb idea. I don’t know if Brexit was&nbsp;&nbsp;
+right or wrong. I feel like we’ll know in 50&nbsp;
+years. But you shouldn’t be able to do it with&nbsp;&nbsp;
+a simple majority vote. You should need a&nbsp;
+two-thirds vote, or something like that.&nbsp;
+There’s a whole government department here&nbsp;
+with people specializing in what we should do.&nbsp;
+Actually, I think there are&nbsp;
+experiments. Washington State&nbsp;&nbsp;
+experimented with different voting choices.&nbsp;
+Maine did. There are these ideas out there,&nbsp;&nbsp;
+but we’re a long way from converging on anything.
+If you think people are underweighting how big&nbsp;&nbsp;
+the debt issue is, are you especially&nbsp;
+long on countries which have a low&nbsp;&nbsp;
+debt-to-GDP ratio, like Australia or Norway?
+It's not the only thing going on in the world,&nbsp;&nbsp;
+your debt is just one thing. Countries&nbsp;
+like Australia and Canada for example&nbsp;&nbsp;
+are what we call commodity exporters.
+They know that sometimes the sun shines&nbsp;&nbsp;
+and sometimes it's a dark winter.
+They don’t quite sell oil but they&nbsp;&nbsp;
+sell some coal, natural gas, and some oil.
+They understand things move around and that&nbsp;&nbsp;
+they need to save for a rainy day.
+Norway is in a whole other league.&nbsp;
+But yes, there are lots of factors to&nbsp;
+whether a country will do well. The&nbsp;&nbsp;
+lower-debt countries have less of a problem.
+But Canada and Australia face very volatile&nbsp;&nbsp;
+income streams because of commodities, so&nbsp;
+they tend to be more nervous about debt.&nbsp;
+By the way, they also have a lot of housing debt,&nbsp;
+in Canada for example that's been a big problem.&nbsp;
+But I’m bullish on the United States.&nbsp;
+Don’t misunderstand me. I’m not saying&nbsp;&nbsp;
+everyone should leave the United States&nbsp;
+and go to Canada, although my wife&nbsp;&nbsp;
+thinks that sometimes but for other reasons.
+When I was playing chess in the late 1960s,&nbsp;&nbsp;
+I was living by myself in Europe. Nixon&nbsp;
+got elected. I felt about Nixon the way&nbsp;&nbsp;
+I think a lot of people in your generation&nbsp;
+or at least millennials feel about Trump.&nbsp;
+I didn’t want to come back to the United&nbsp;
+States. So there are a lot of people who talk&nbsp;&nbsp;
+that way. But I think the United States is great.
+Countries that are smaller, that aren’t the&nbsp;&nbsp;
+reserve currency, that don’t have access to&nbsp;
+these deep pockets of domestic and foreign&nbsp;&nbsp;
+borrowing—and all of those countries fit into&nbsp;
+that framework, they need to be more careful.&nbsp;
+This "exorbitant privilege," as you talk about&nbsp;
+it, is it possible that one way in which it's&nbsp;&nbsp;
+bad for us is that it allows, or incentivizes&nbsp;
+us, to take on more debt than it's wise to?&nbsp;
+And especially if this isn’t a permanent advantage&nbsp;
+we have. When you’re at the top, you take out this&nbsp;&nbsp;
+cheap debt. And over time you lose your reserve&nbsp;
+status, or it weakens at least, and you have to&nbsp;&nbsp;
+refinance that debt at higher interest rates.
+So in the short term, you’re incentivizing&nbsp;&nbsp;
+this behaviour which is not&nbsp;
+sustainable in the long run.&nbsp;
+Is there a political economy explanation&nbsp;
+for why that might be bad for us?&nbsp;
+I've heard that argument, but I basically think&nbsp;
+it's great for us. It's not just the government.&nbsp;&nbsp;
+It’s all of us who borrow less. Do we wish we&nbsp;
+were paying higher interest rates? Probably&nbsp;&nbsp;
+most people who are getting a mortgage right&nbsp;
+now feel like our interest rates are plenty&nbsp;&nbsp;
+high. They don't need to see them higher.
+I think with the exorbitant privilege, there&nbsp;&nbsp;
+are some drawbacks we don't need to get into.&nbsp;
+But it's basically incredibly fantastic if you&nbsp;&nbsp;
+owe $37 trillion as our government does, to be&nbsp;
+paying half a percent to a percent less. We're&nbsp;&nbsp;
+talking about hundreds of billions of dollars.
+Our ability to see what's going on everywhere.&nbsp;&nbsp;
+A lot of what our spying does is using our&nbsp;
+exorbitant privilege and the dollar network.&nbsp;
+Sanctions. I mentioned, I was in my teens&nbsp;
+at the end of the 1960s when I didn't want&nbsp;&nbsp;
+to come back. One reason I didn’t want to come&nbsp;
+back was the Vietnam War was pretty terrifying.&nbsp;
+I had many friends get drafted. Their brains got&nbsp;
+fried by heroin even if they didn’t get killed.&nbsp;
+And, sanctions. I'm not saying that we've solved&nbsp;
+all our wars with sanctions. But make no mistake,&nbsp;&nbsp;
+we have used that in place of military&nbsp;
+intervention a few times. So that’s been&nbsp;&nbsp;
+great. I think losing that, and not appreciating&nbsp;
+how important that is, is a terrible blunder&nbsp;&nbsp;
+that we might be making right now.
+This is a very naive question. I&nbsp;&nbsp;
+know you address it at length in your book.
+I’ll ask the question in the most straightforward&nbsp;&nbsp;
+way and then you can explain what's going on.
+How should I think about the fact that we are&nbsp;&nbsp;
+basically giving the rest of the world&nbsp;
+pieces of paper and we're getting real&nbsp;&nbsp;
+goods and services in exchange?
+Sure, at a high level you can say&nbsp;&nbsp;
+that they're getting this liquidity or&nbsp;
+they're getting this network and that's&nbsp;&nbsp;
+what makes it worth it. But I don’t know, are&nbsp;
+we fundamentally getting away with something?&nbsp;
+So just to note, the United Kingdom is&nbsp;
+not the reserve currency. They're not&nbsp;&nbsp;
+the dominant currency. They used to be,&nbsp;
+a hundred years ago. They look a lot like&nbsp;&nbsp;
+us now, with big current account deficits.
+That’s actually why Trump was able to&nbsp;&nbsp;
+strike a deal with them. Because they weren’t&nbsp;
+really running a surplus against us, anyway.&nbsp;
+They’re over-financialized, even more than we are.
+The core of the benefit we get is that we&nbsp;&nbsp;
+borrow by issuing safe assets—if you want to&nbsp;
+call our debt safe—and we invest in risky stuff.&nbsp;
+Charles Kindleberger, wrote one of the great&nbsp;
+books on crises. I had him as a professor at MIT.&nbsp;
+He called us bankers to the world. He&nbsp;
+said “Yep, we’re running this deficit,&nbsp;&nbsp;
+they’re holding a lot of our Treasury bills,&nbsp;
+but we are making money hand over fist.”&nbsp;
+It’s the same thing as the equity premium&nbsp;
+where you hold stocks and it’s not always,&nbsp;&nbsp;
+but on average better than holding&nbsp;
+bonds. So that’s been very good.&nbsp;
+You have the fact that the dollar&nbsp;
+is very liquid, the markets.&nbsp;
+Say you're a Silicon Valley firm and you're&nbsp;
+big enough to issue debt internationally.&nbsp;&nbsp;
+I don’t know if any Silicon Valley&nbsp;
+firms ever issue debt, but if you did,&nbsp;&nbsp;
+people will buy it because it’s in dollars.
+If you're the same firm in France, forget it.&nbsp;&nbsp;
+They don’t want to hold euros. Even if you promise&nbsp;
+to pay in dollars, they’re not happy about it&nbsp;&nbsp;
+because your income isn't in dollars.
+So it’s been fantastic. This&nbsp;&nbsp;
+is something that's been debated.
+Stephen Miran, who was a Harvard student,&nbsp;&nbsp;
+he's the head of Trump’s Council of&nbsp;
+Economic Advisers. Very smart guy.&nbsp;
+He's made this clever argument that because&nbsp;
+everybody loves our currency, it makes us less&nbsp;&nbsp;
+competitive in everything else. It partly hollowed&nbsp;
+out our manufacturing and that’s terrible.&nbsp;
+There’s a little bit of truth to that.&nbsp;
+First of all, the dollar goes like this,&nbsp;&nbsp;
+so it’s not always high.
+Second, I mentioned the&nbsp;&nbsp;
+United Kingdom is kind of in the same boat.
+We’re good at a lot of things. We’re good at tech.&nbsp;&nbsp;
+Tech makes the dollar stronger, make no mistake.
+We’re good at biotech, agriculture. We’re good at&nbsp;&nbsp;
+a lot of other things that make the dollar high.
+And if you’re good at these things, it’s harder&nbsp;&nbsp;
+to be good at manufacturing. It&nbsp;
+bids up the cost of everything.&nbsp;
+On the whole, we’re performing this banking&nbsp;
+function. That’s really the big thing.&nbsp;&nbsp;
+It’s been going on since the ’50s and ’60s. That’s&nbsp;
+the core of our so-called exorbitant privilege.&nbsp;
+There’s a really interesting book&nbsp;
+by Charles Mann. I think it's called&nbsp;&nbsp;
+1493. It’s about how during the Ming Dynasty in&nbsp;
+17th-century China, they kept issuing different&nbsp;&nbsp;
+paper currencies and it was super unstable. People&nbsp;
+in China wanted a reliable medium of exchange.&nbsp;
+So tens of thousands of tons of silver&nbsp;
+from the New World, from the Spanish,&nbsp;&nbsp;
+would be exchanged for enormous amounts&nbsp;
+of real goods exported from China.&nbsp;
+So from the Spanish perspective, they’re&nbsp;
+getting shiploads and shiploads of real&nbsp;&nbsp;
+goods, and all they’re giving up is this&nbsp;
+medium of exchange. I don’t know how&nbsp;&nbsp;
+analogous that is to the current situation.
+There are countries like Ecuador and others&nbsp;&nbsp;
+that dollarize. They literally use the dollar&nbsp;
+and they need dollars. We’re able to have them&nbsp;&nbsp;
+hold dollars. It’s not silver, but we print it&nbsp;
+and they pay very low interest rates. They’re&nbsp;&nbsp;
+holding Treasury bills, not physical dollars.&nbsp;
+Yeah, it’s fantastic for us. We definitely&nbsp;&nbsp;
+pay less on our debt because of that.
+That’s a fascinating example you bring&nbsp;&nbsp;
+up. The Chinese actually invented the printing&nbsp;
+press. They invented paper currency way before the&nbsp;&nbsp;
+Europeans. But then, what do you know, they kept&nbsp;
+printing a lot of it and had a lot of inflation.&nbsp;
+I hadn’t read that book, but it’s a great&nbsp;
+example. I knew they were using silver,&nbsp;&nbsp;
+but that number is bigger than I had heard.
+Final question. A big part of your book&nbsp;&nbsp;
+discusses the different countries which seemed at&nbsp;
+different times to be real competitors to America.&nbsp;
+You talk about the Soviet Union, Japan, China&nbsp;
+today. We've discussed why they didn’t pan out.&nbsp;
+We can go into the details on any one of those&nbsp;
+examples, but in the big picture is there some&nbsp;&nbsp;
+explanation that generalizes across all these&nbsp;
+examples of why America has been so competitive?&nbsp;&nbsp;
+Or why it's been so hard to displace?
+It’s not just that we’ve stayed on top,&nbsp;&nbsp;
+we’ve just gone like this. Remember, in the 1970s,&nbsp;
+Europe actually peeled away from the dollar bloc.&nbsp;&nbsp;
+But the rest of the world started globalizing.&nbsp;
+China globalized. Eventually the Soviet Union,&nbsp;&nbsp;
+and the dollar just colonized all these places.
+They were all holding dollar debt, using dollars.&nbsp;&nbsp;
+It’s much bigger than even the British pound was&nbsp;
+when the sun never set on the British Empire.&nbsp;
+So it’s been amazing and surprising to people&nbsp;
+like myself. If you read what everyone was&nbsp;&nbsp;
+saying at the time, it was just that it kept&nbsp;
+going up. That our share of everything kept&nbsp;&nbsp;
+getting bigger and bigger.
+Definitely, to some extent,&nbsp;&nbsp;
+we’ve been lucky. We talked about Japan.
+I think China made a big mistake by&nbsp;&nbsp;
+sticking to the dollar so long.
+Europe should have delayed bringing&nbsp;&nbsp;
+Greece into the Euro, because their&nbsp;
+crisis wouldn’t have been so bad.&nbsp;
+So we’ve been fortunate with blunders by&nbsp;
+our opposition. We’ve done some good things.&nbsp;
+But I think the thing Americans forget&nbsp;
+is that we have been lucky a lot of&nbsp;&nbsp;
+times. I worry our luck is wearing thin.
+I quote a chess player—the great Bent Larsen,&nbsp;&nbsp;
+who was number two to Bobby Fischer when&nbsp;
+I was playing. He was asked, “Would you&nbsp;&nbsp;
+rather be lucky or good in a chess game?”
+And he said, “Both.” So I think Americans&nbsp;&nbsp;
+forget. They know we’re good and we&nbsp;
+are good. We’ve talked about dynamism,&nbsp;&nbsp;
+this secret sauce that we’ve had so far. But&nbsp;
+I think we’ve also been lucky. If you ran it&nbsp;&nbsp;
+all again, it didn’t have to go the same way.
+It’s a very scary kind of luck. If it’s so easy&nbsp;&nbsp;
+for these other countries to make some mistake&nbsp;
+that causes them to totally fall behind, it should&nbsp;&nbsp;
+update you in favor of the idea that, in general,&nbsp;
+it’s easy for a country to get itself in a rut.&nbsp;
+It’s like the Fermi estimate thing. The fact&nbsp;
+that you don’t see other alien civilizations&nbsp;&nbsp;
+is actually very scary, because it suggests&nbsp;
+that there’s some kind of filter which makes&nbsp;&nbsp;
+it really hard to keep your civilization going.
+I hope not, but we’ll see. It’s certainly&nbsp;&nbsp;
+been amazing how the dollar’s&nbsp;
+done and how the US has done.&nbsp;
+I hope we continue, but we are doing a lot&nbsp;
+of things right now… I don’t think Trump is&nbsp;&nbsp;
+the cause of the dollar being in gentle&nbsp;
+decline. That’s just wrong. I think it&nbsp;&nbsp;
+would’ve happened with Harris winning.
+But he is the president at the moment,&nbsp;&nbsp;
+and things like Liberation Day… I’ve&nbsp;
+talked to tech people who think it’s&nbsp;&nbsp;
+just brilliant. I understand that. We can&nbsp;
+debate it. I’m happy to debate it with them.&nbsp;
+We look at the rule of law. Okay, I’m sitting at&nbsp;
+Harvard University. Naturally it feels that way.&nbsp;&nbsp;
+But also we talked about the president being&nbsp;
+able to remove all the independent agencies.&nbsp;
+It used to be that if you were a foreign&nbsp;
+investor and you invested in the United States,&nbsp;&nbsp;
+you thought you’d get your money back. Maybe the&nbsp;
+stock would’ve gone down. Maybe the real estate&nbsp;&nbsp;
+you bought would’ve gone down. But you’d get paid.
+I think we were more exceptional than most about&nbsp;&nbsp;
+that. That’s in doubt now. There’s no question.
+The book’s about a lot of things besides&nbsp;&nbsp;
+exorbitant privilege, the whole arc of the US.&nbsp;
+But when I was telling people about the book, “I&nbsp;&nbsp;
+don’t know, I’m looking at the numbers,&nbsp;
+I’m looking at what China’s doing, I’m&nbsp;&nbsp;
+reading about Europe and their central bank&nbsp;
+digital currency. I think we’re going downhill.”&nbsp;
+I showed it to academics, I showed it to financial&nbsp;
+people, I showed it to tech people. They said,&nbsp;&nbsp;
+“You’re nuts.” They didn’t want to think&nbsp;
+about it. I don’t know if I’m right.&nbsp;&nbsp;
+But I think it’s worth thinking about.
+When I was in China, I met up with some&nbsp;&nbsp;
+venture capitalists there and they were quite&nbsp;
+depressed in general. Even founders say it’s&nbsp;&nbsp;
+hard to raise money. I was asking them why, and&nbsp;
+they said investors don’t want to invest because&nbsp;&nbsp;
+even if you invest in the next Alibaba, who’s&nbsp;
+to say the government doesn’t cancel the IPO?&nbsp;
+They’re in trouble. Yeah. I think Europe has&nbsp;
+a bright future in this context, of being the&nbsp;&nbsp;
+team that doesn’t have as many injured players.
+But yeah, China… it’s not going to be forever,&nbsp;&nbsp;
+but I think for five or ten years&nbsp;
+they’re going to stay in trouble.&nbsp;
+Okay. Thank you so much for sitting down&nbsp;
+with me and also answering all my questions.&nbsp;
+I’m sure there are many misconceptions&nbsp;
+and naive questions and so forth.&nbsp;
+I appreciate your patience and&nbsp;
+you educating me on this topic.&nbsp;
+No, it’s an honor to be on your famous&nbsp;
+podcast. I heard from so many young&nbsp;&nbsp;
+people when I told them I was talking to you.
+They were like, “You're with Dwarkesh? Just fly&nbsp;&nbsp;
+back from here! Do whatever you need to do!”
+So I’m glad you were able to come here.&nbsp;
+It’s really been interesting, and I’m glad&nbsp;
+to learn more about everything you’re doing.&nbsp;
+The honor’s mine. It was great to be&nbsp;
+able to travel here and speak with you.

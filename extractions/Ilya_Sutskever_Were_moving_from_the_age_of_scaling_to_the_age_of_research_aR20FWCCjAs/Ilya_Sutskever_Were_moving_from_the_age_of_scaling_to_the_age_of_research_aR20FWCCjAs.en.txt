@@ -1,0 +1,1809 @@
+**Transcript extracted from YouTube video**
+
+Kind: captions
+Language: en
+You know what's crazy? That all of this is real.
+Meaning what?&nbsp;
+Don't you think so? All this AI stuff and&nbsp;
+all this Bay Area… that it's happening.&nbsp;
+Isn't it straight out of science fiction?
+Another thing that's crazy is how&nbsp;&nbsp;
+normal the slow takeoff feels.
+The idea that we'd be investing 1%&nbsp;&nbsp;
+of GDP in AI, I feel like it would have felt like&nbsp;
+a bigger deal, whereas right now it just feels...&nbsp;
+We get used to things pretty fast, it turns out.
+But also it's kind of abstract. What does it&nbsp;&nbsp;
+mean? It means that you see it in the news,&nbsp;
+that such and such company announced such&nbsp;&nbsp;
+and such dollar amount. That's all you see.&nbsp;
+It's not really felt in any other way so far.&nbsp;
+Should we actually begin here? I think&nbsp;
+this is an interesting discussion.&nbsp;
+Sure.
+I think your point,&nbsp;&nbsp;
+about how from the average person's point of view&nbsp;
+nothing is that different, will continue being&nbsp;&nbsp;
+true even into the singularity.
+No, I don't think so.&nbsp;
+Okay, interesting.
+The thing which I was referring&nbsp;&nbsp;
+to not feeling different is, okay, such and such&nbsp;
+company announced some difficult-to-comprehend&nbsp;&nbsp;
+dollar amount of investment.
+I don't think anyone knows what to do with that.&nbsp;
+But I think the impact of AI is going to be felt.
+AI is going to be diffused through the economy.&nbsp;
+There'll be very strong economic forces&nbsp;
+for this, and I think the impact is&nbsp;&nbsp;
+going to be felt very strongly.
+When do you expect that impact?&nbsp;
+I think the models seem smarter than&nbsp;
+their economic impact would imply.&nbsp;
+Yeah. This is one of the very confusing&nbsp;
+things about the models right now.&nbsp;
+How to reconcile the fact that&nbsp;
+they are doing so well on evals?&nbsp;
+You look at the evals and you go, "Those&nbsp;
+are pretty hard evals." They are doing&nbsp;&nbsp;
+so well. But the economic impact&nbsp;
+seems to be dramatically behind.&nbsp;
+It's very difficult to make sense of,&nbsp;
+how can the model, on the one hand,&nbsp;&nbsp;
+do these amazing things, and then on the other&nbsp;
+hand, repeat itself twice in some situation?&nbsp;
+An example would be, let's say you&nbsp;
+use vibe coding to do something.&nbsp;
+You go to some place and then you get a bug.
+Then you tell the model,&nbsp;&nbsp;
+"Can you please fix the bug?"
+And the model says, "Oh my God,&nbsp;&nbsp;
+you're so right. I have a bug. Let me go&nbsp;
+fix that." And it introduces a second bug.&nbsp;
+Then you tell it, "You have this&nbsp;
+new second bug," and it tells you,&nbsp;&nbsp;
+"Oh my God, how could I have done it?
+You're so right again," and brings back&nbsp;&nbsp;
+the first bug, and you can alternate between&nbsp;
+those. How is that possible? I'm not sure, but it&nbsp;&nbsp;
+does suggest that something strange is going on. I&nbsp;
+have two possible explanations. The more whimsical&nbsp;&nbsp;
+explanation is that maybe RL training makes the&nbsp;
+models a little too single-minded and narrowly&nbsp;&nbsp;
+focused, a little bit too unaware, even though&nbsp;
+it also makes them aware in some other ways.&nbsp;
+Because of this, they can't do basic things.&nbsp;
+But there is another explanation. Back when&nbsp;&nbsp;
+people were doing pre-training, the&nbsp;
+question of what data to train on was&nbsp;&nbsp;
+answered, because that answer was everything.
+When you do pre-training, you need all the data.&nbsp;
+So you don't have to think if it's&nbsp;
+going to be this data or that data.&nbsp;
+But when people do RL training,&nbsp;
+they do need to think.&nbsp;
+They say, "Okay, we want to have this&nbsp;
+kind of RL training for this thing&nbsp;&nbsp;
+and that kind of RL training for that thing."
+From what I hear, all the companies have teams&nbsp;&nbsp;
+that just produce new RL environments&nbsp;
+and just add it to the training mix.&nbsp;
+The question is, well, what are those?
+There are so many degrees of freedom.&nbsp;
+There is such a huge variety of&nbsp;
+RL environments you could produce.&nbsp;
+One thing you could do, and I think this&nbsp;
+is something that is done inadvertently,&nbsp;&nbsp;
+is that people take inspiration from the evals.
+You say, "Hey, I would love our model to do&nbsp;&nbsp;
+really well when we release it.
+I want the evals to look great.&nbsp;
+What would be RL training&nbsp;
+that could help on this task?"&nbsp;
+I think that is something that happens, and&nbsp;
+it could explain a lot of what's going on.&nbsp;
+If you combine this with generalization&nbsp;
+of the models actually being inadequate,&nbsp;&nbsp;
+that has the potential to explain a lot&nbsp;
+of what we are seeing, this disconnect&nbsp;&nbsp;
+between eval performance and actual real-world&nbsp;
+performance, which is something that we don't&nbsp;&nbsp;
+today even understand, what we mean by that.
+I like this idea that the real reward hacking&nbsp;&nbsp;
+is the human researchers who&nbsp;
+are too focused on the evals.&nbsp;
+I think there are two ways to&nbsp;
+understand, or to try to think about,&nbsp;&nbsp;
+what you have just pointed out.
+One is that if it's the case that&nbsp;&nbsp;
+simply by becoming superhuman at a coding&nbsp;
+competition, a model will not automatically&nbsp;&nbsp;
+become more tasteful and exercise better judgment&nbsp;
+about how to improve your codebase, well then you&nbsp;&nbsp;
+should expand the suite of environments such&nbsp;
+that you're not just testing it on having&nbsp;&nbsp;
+the best performance in coding competition.
+It should also be able to make the best kind&nbsp;&nbsp;
+of application for X thing or Y thing or Z thing.
+Another, maybe this is what you're hinting at,&nbsp;&nbsp;
+is to say, "Why should it be the case in&nbsp;
+the first place that becoming superhuman&nbsp;&nbsp;
+at coding competitions doesn't make you a&nbsp;
+more tasteful programmer more generally?"&nbsp;
+Maybe the thing to do is not to keep&nbsp;
+stacking up the amount and diversity&nbsp;&nbsp;
+of environments, but to figure out an approach&nbsp;
+which lets you learn from one environment and&nbsp;&nbsp;
+improve your performance on something else.
+I have a human analogy which might be helpful.&nbsp;
+Let's take the case of competitive programming,&nbsp;
+since you mentioned that. Suppose you have two&nbsp;&nbsp;
+students. One of them decided they want&nbsp;
+to be the best competitive programmer, so&nbsp;&nbsp;
+they will practice 10,000 hours for that domain.
+They will solve all the problems, memorize all the&nbsp;&nbsp;
+proof techniques, and be very skilled at quickly&nbsp;
+and correctly implementing all the algorithms.&nbsp;
+By doing so, they became one of the best.
+Student number two thought, "Oh,&nbsp;&nbsp;
+competitive programming is cool."
+Maybe they practiced for 100 hours,&nbsp;&nbsp;
+much less, and they also did really well.
+Which one do you think is going to do better&nbsp;&nbsp;
+in their career later on?
+The second.&nbsp;
+Right. I think that's basically what's going on.
+The models are much more like the&nbsp;&nbsp;
+first student, but even more.
+Because then we say, the model should&nbsp;&nbsp;
+be good at competitive programming so let's get&nbsp;
+every single competitive programming problem ever.&nbsp;
+And then let's do some data augmentation&nbsp;
+so we have even more competitive&nbsp;&nbsp;
+programming problems, and we train on that.
+Now you've got this great competitive programmer.&nbsp;
+With this analogy, I think it's more intuitive.
+Yeah, okay, if it's so well trained, all the&nbsp;&nbsp;
+different algorithms and all the different&nbsp;
+proof techniques are right at its fingertips.&nbsp;
+And it's more intuitive that with this&nbsp;
+level of preparation, it would not&nbsp;&nbsp;
+necessarily generalize to other things.
+But then what is the analogy for what&nbsp;&nbsp;
+the second student is doing before&nbsp;
+they do the 100 hours of fine-tuning?&nbsp;
+I think they have "it." The "it"&nbsp;
+factor. When I was an undergrad,&nbsp;&nbsp;
+I remember there was a student like this&nbsp;
+that studied with me, so I know it exists.&nbsp;
+I think it's interesting to distinguish&nbsp;
+"it" from whatever pre-training does.&nbsp;
+One way to understand what you just said&nbsp;
+about not having to choose the data in&nbsp;&nbsp;
+pre-training is to say it's actually not&nbsp;
+dissimilar to the 10,000 hours of practice.&nbsp;
+It's just that you get that 10,000 hours&nbsp;
+of practice for free because it's already&nbsp;&nbsp;
+somewhere in the pre-training distribution.
+But maybe you're suggesting there's actually&nbsp;&nbsp;
+not that much generalization from pre-training.
+There's just so much data in pre-training, but&nbsp;&nbsp;
+it's not necessarily generalizing better than RL.
+The main strength of pre-training is&nbsp;&nbsp;
+that: A, there is so much of it, and B,&nbsp;
+you don't have to think hard about what&nbsp;&nbsp;
+data to put into pre-training.
+It's very natural data, and it&nbsp;&nbsp;
+does include in it a lot of what people do:&nbsp;
+people's thoughts and a lot of the features.&nbsp;
+It's like the whole world as projected by&nbsp;
+people onto text, and pre-training tries&nbsp;&nbsp;
+to capture that using a huge amount of data.
+Pre-training is very difficult to reason about&nbsp;&nbsp;
+because it's so hard to understand the manner&nbsp;
+in which the model relies on pre-training data.&nbsp;
+Whenever the model makes a mistake, could it be&nbsp;
+because something by chance is not as supported&nbsp;&nbsp;
+by the pre-training data? "Support by&nbsp;
+pre-training" is maybe a loose term.&nbsp;
+I don't know if I can add&nbsp;
+anything more useful on this.&nbsp;
+I don't think there is a&nbsp;
+human analog to pre-training.&nbsp;
+Here are analogies that people have proposed&nbsp;
+for what the human analogy to pre-training is.&nbsp;
+I'm curious to get your thoughts&nbsp;
+on why they're potentially wrong.&nbsp;
+One is to think about the first 18, or 15,&nbsp;
+or 13 years of a person's life when they&nbsp;&nbsp;
+aren't necessarily economically productive,&nbsp;
+but they are doing something that is making&nbsp;&nbsp;
+them understand the world better and so forth.
+The other is to think about evolution as doing&nbsp;&nbsp;
+some kind of search for 3 billion years, which&nbsp;
+then results in a human lifetime instance.&nbsp;
+I'm curious if you think either of&nbsp;
+these are analogous to pre-training.&nbsp;
+How would you think about what lifetime&nbsp;
+human learning is like, if not pre-training?&nbsp;
+I think there are some similarities between both&nbsp;
+of these and pre-training, and pre-training tries&nbsp;&nbsp;
+to play the role of both of these.
+But I think there are some&nbsp;&nbsp;
+big differences as well.
+The amount of pre-training data is very,&nbsp;&nbsp;
+very staggering.
+Yes.&nbsp;
+Somehow a human being, after even 15 years&nbsp;
+with a tiny fraction of the pre-training&nbsp;&nbsp;
+data, they know much less.
+But whatever they do know,&nbsp;&nbsp;
+they know much more deeply somehow.
+Already at that age, you would not&nbsp;&nbsp;
+make mistakes that our AIs make. There is another&nbsp;
+thing. You might say, could it be something like&nbsp;&nbsp;
+evolution? The answer is maybe. But in this case,&nbsp;
+I think evolution might actually have an edge.&nbsp;
+I remember reading about this case.
+One way in which neuroscientists can&nbsp;&nbsp;
+learn about the brain is by studying people with&nbsp;
+brain damage to different parts of the brain.&nbsp;
+Some people have the most strange symptoms&nbsp;
+you could imagine. It's actually really,&nbsp;&nbsp;
+really interesting. One case that&nbsp;
+comes to mind that's relevant.&nbsp;
+I read about this person who had some kind&nbsp;
+of brain damage, a stroke or an accident,&nbsp;&nbsp;
+that took out his emotional processing.
+So he stopped feeling any emotion.&nbsp;
+He still remained very articulate&nbsp;
+and he could solve little puzzles,&nbsp;&nbsp;
+and on tests he seemed to be just fine.&nbsp;
+But he felt no emotion. He didn't feel sad,&nbsp;&nbsp;
+he didn't feel anger, he didn't feel animated.
+He became somehow extremely bad at making any&nbsp;&nbsp;
+decisions at all.
+It would take him&nbsp;&nbsp;
+hours to decide on which socks to wear.
+He would make very bad financial decisions.&nbsp;
+What does it say about the role of our built-in&nbsp;
+emotions in making us a viable agent, essentially?&nbsp;
+To connect to your question about pre-training,&nbsp;
+maybe if you are good enough at getting everything&nbsp;&nbsp;
+out of pre-training, you could get that as well.
+But that's the kind of thing which seems...&nbsp;
+Well, it may or may not be possible&nbsp;
+to get that from pre-training.&nbsp;
+What is "that"? Clearly not just directly&nbsp;
+emotion. It seems like some almost value&nbsp;&nbsp;
+function-like thing which is telling you what&nbsp;
+the end reward for any decision should be.&nbsp;
+You think that doesn't sort of&nbsp;
+implicitly come from pre-training?&nbsp;
+I think it could. I'm just&nbsp;
+saying it's not 100% obvious.&nbsp;
+But what is that? How do you think about emotions?
+What is the ML analogy for emotions?&nbsp;
+It should be some kind of a value function thing.
+But I don’t think there is a great ML analogy&nbsp;&nbsp;
+because right now, value functions don't play&nbsp;
+a very prominent role in the things people do.&nbsp;
+It might be worth defining for the audience what&nbsp;
+a value function is, if you want to do that.&nbsp;
+Certainly, I'll be very happy to do that.
+When people do reinforcement learning,&nbsp;&nbsp;
+the way reinforcement learning is done&nbsp;
+right now, how do people train those agents?&nbsp;
+You have your neural net and you&nbsp;
+give it a problem, and then you&nbsp;&nbsp;
+tell the model, "Go solve it."
+The model takes maybe thousands,&nbsp;&nbsp;
+hundreds of thousands of actions or thoughts or&nbsp;
+something, and then it produces a solution. The&nbsp;&nbsp;
+solution is graded. And then the score&nbsp;
+is used to provide a training signal&nbsp;&nbsp;
+for every single action in your trajectory.
+That means that if you are doing something&nbsp;&nbsp;
+that goes for a long time—if you're training&nbsp;
+a task that takes a long time to solve—it&nbsp;&nbsp;
+will do no learning at all until you&nbsp;
+come up with the proposed solution.&nbsp;
+That's how reinforcement learning is done naively.
+That's how o1, R1 ostensibly are done.&nbsp;
+The value function says something like,&nbsp;
+"Maybe I could sometimes, not always,&nbsp;&nbsp;
+tell you if you are doing well or badly."
+The notion of a value function is more&nbsp;&nbsp;
+useful in some domains than others.
+For example, when you play chess and&nbsp;&nbsp;
+you lose a piece, I messed up.
+You don't need to play the whole&nbsp;&nbsp;
+game to know that what I just did was bad, and&nbsp;
+therefore whatever preceded it was also bad.&nbsp;
+The value function lets you short-circuit&nbsp;
+the wait until the very end.&nbsp;
+Let's suppose that you are doing some kind&nbsp;
+of a math thing or a programming thing,&nbsp;&nbsp;
+and you're trying to explore a&nbsp;
+particular solution or direction.&nbsp;
+After, let's say, a thousand steps of thinking,&nbsp;
+you concluded that this direction is unpromising.&nbsp;
+As soon as you conclude this, you&nbsp;
+could already get a reward signal&nbsp;&nbsp;
+a thousand timesteps previously, when&nbsp;
+you decided to pursue down this path.&nbsp;
+You say, "Next time I shouldn't pursue this&nbsp;
+path in a similar situation," long before you&nbsp;&nbsp;
+actually came up with the proposed solution.
+This was in the DeepSeek R1 paper— that the&nbsp;&nbsp;
+space of trajectories is so wide that&nbsp;
+maybe it's hard to learn a mapping&nbsp;&nbsp;
+from an intermediate trajectory and value.
+And also given that, in coding for example&nbsp;&nbsp;
+you'll have the wrong idea, then you'll&nbsp;
+go back, then you'll change something.&nbsp;
+This sounds like such a lack&nbsp;
+of faith in deep learning.&nbsp;
+Sure it might be difficult, but&nbsp;
+nothing deep learning can't do.&nbsp;
+My expectation is that a value function should&nbsp;
+be useful, and I fully expect that they will&nbsp;&nbsp;
+be used in the future, if not already.
+What I was alluding to with the person&nbsp;&nbsp;
+whose emotional center got damaged, it’s more&nbsp;
+that maybe what it suggests is that the value&nbsp;&nbsp;
+function of humans is modulated by emotions in&nbsp;
+some important way that's hardcoded by evolution.&nbsp;
+And maybe that is important for&nbsp;
+people to be effective in the world.&nbsp;
+That's the thing I was planning on asking you.&nbsp;
+There's something really interesting about&nbsp;
+emotions of the value function, which is that&nbsp;&nbsp;
+it's impressive that they have this much utility&nbsp;
+while still being rather simple to understand.&nbsp;
+I have two responses. I do agree that compared to&nbsp;
+the kind of things that we learn and the things&nbsp;&nbsp;
+we are talking about, the kind of AI we are&nbsp;
+talking about, emotions are relatively simple.&nbsp;
+They might even be so simple that maybe you&nbsp;
+could map them out in a human-understandable way.&nbsp;
+I think it would be cool to do.
+In terms of utility though,&nbsp;&nbsp;
+I think there is a thing where there is this&nbsp;
+complexity-robustness tradeoff, where complex&nbsp;&nbsp;
+things can be very useful, but simple things are&nbsp;
+very useful in a very broad range of situations.&nbsp;
+One way to interpret what we are seeing is that&nbsp;
+we've got these emotions that evolved mostly&nbsp;&nbsp;
+from our mammal ancestors and then fine-tuned a&nbsp;
+little bit while we were hominids, just a bit.&nbsp;
+We do have a decent amount of social emotions&nbsp;
+though which mammals may lack. But they're&nbsp;&nbsp;
+not very sophisticated. And because they're&nbsp;
+not sophisticated, they serve us so well in&nbsp;&nbsp;
+this very different world compared to the&nbsp;
+one that we've been living in. Actually,&nbsp;&nbsp;
+they also make mistakes. For example, our&nbsp;
+emotions… Well actually, I don’t know.&nbsp;
+Does hunger count as an emotion? It's debatable.&nbsp;
+But I think, for example, our intuitive feeling&nbsp;&nbsp;
+of hunger is not succeeding in guiding us&nbsp;
+correctly in this world with an abundance of food.&nbsp;
+People have been talking about scaling&nbsp;
+data, scaling parameters, scaling compute.&nbsp;
+Is there a more general&nbsp;
+way to think about scaling?&nbsp;
+What are the other scaling axes?
+Here's a perspective that I think might be true.&nbsp;
+The way ML used to work is that&nbsp;
+people would just tinker with&nbsp;&nbsp;
+stuff and try to get interesting results.
+That's what's been going on in the past. Then&nbsp;&nbsp;
+the scaling insight arrived. Scaling laws, GPT-3,&nbsp;
+and suddenly everyone realized we should scale.&nbsp;
+This is an example of how language&nbsp;
+affects thought. "Scaling" is just&nbsp;&nbsp;
+one word, but it's such a powerful word&nbsp;
+because it informs people what to do.&nbsp;
+They say, "Let's try to scale things."
+So you say, what are we scaling?&nbsp;
+Pre-training was the thing to scale.
+It was a particular scaling recipe.&nbsp;
+The big breakthrough of pre-training is&nbsp;
+the realization that this recipe is good.&nbsp;
+You say, "Hey, if you mix some compute&nbsp;
+with some data into a neural net of&nbsp;&nbsp;
+a certain size, you will get results.
+You will know that you'll be better if you&nbsp;&nbsp;
+just scale the recipe up." This is also great.&nbsp;
+Companies love this because it gives you a very&nbsp;&nbsp;
+low-risk way of investing your resources.
+It's much harder to invest your resources&nbsp;&nbsp;
+in research. Compare that. If you research,&nbsp;
+you need to be like, "Go forth researchers&nbsp;&nbsp;
+and research and come up with something",&nbsp;
+versus get more data, get more compute.&nbsp;
+You know you'll get something from pre-training.
+Indeed, it looks like, based on various&nbsp;&nbsp;
+things some people say on Twitter, maybe it&nbsp;
+appears that Gemini have found a way to get&nbsp;&nbsp;
+more out of pre-training.
+At some point though,&nbsp;&nbsp;
+pre-training will run out of data.
+The data is very clearly finite. What&nbsp;&nbsp;
+do you do next? Either you do some kind&nbsp;
+of souped-up pre-training, a different&nbsp;&nbsp;
+recipe from the one you've done before, or&nbsp;
+you're doing RL, or maybe something else.&nbsp;
+But now that compute is big, compute&nbsp;
+is now very big, in some sense we&nbsp;&nbsp;
+are back to the age of research.
+Maybe here's another way to put it.&nbsp;
+Up until 2020, from 2012 to&nbsp;
+2020, it was the age of research.&nbsp;
+Now, from 2020 to 2025, it was the&nbsp;
+age of scaling—maybe plus or minus,&nbsp;&nbsp;
+let's add error bars to those years—because&nbsp;
+people say, "This is amazing. You've got to&nbsp;&nbsp;
+scale more. Keep scaling." The one word:&nbsp;
+scaling. But now the scale is so big.&nbsp;
+Is the belief really, "Oh, it's so big, but if you&nbsp;
+had 100x more, everything would be so different?"&nbsp;
+It would be different, for sure.
+But is the belief that if you just&nbsp;&nbsp;
+100x the scale, everything would be transformed?&nbsp;
+I don't think that's true. So it's back to the age&nbsp;&nbsp;
+of research again, just with big computers.
+That's a very interesting way to put it.&nbsp;
+But let me ask you the&nbsp;
+question you just posed then.&nbsp;
+What are we scaling, and what&nbsp;
+would it mean to have a recipe?&nbsp;
+I guess I'm not aware of a very clean&nbsp;
+relationship that almost looks like a law&nbsp;&nbsp;
+of physics which existed in pre-training.
+There was a power law between data or&nbsp;&nbsp;
+compute or parameters and loss.
+What is the kind of relationship&nbsp;&nbsp;
+we should be seeking, and how should we think&nbsp;
+about what this new recipe might look like?&nbsp;
+We've already witnessed a transition from one&nbsp;
+type of scaling to a different type of scaling,&nbsp;&nbsp;
+from pre-training to RL. Now people are scaling&nbsp;
+RL. Now based on what people say on Twitter,&nbsp;&nbsp;
+they spend more compute on RL than on&nbsp;
+pre-training at this point, because RL&nbsp;&nbsp;
+can actually consume quite a bit of compute.
+You do very long rollouts, so it takes a lot&nbsp;&nbsp;
+of compute to produce those rollouts.
+Then you get a relatively small amount&nbsp;&nbsp;
+of learning per rollout, so you&nbsp;
+really can spend a lot of compute.&nbsp;
+I wouldn't even call it scaling.
+I would say, "Hey, what are you doing?&nbsp;
+Is the thing you are doing the most&nbsp;
+productive thing you could be doing?&nbsp;
+Can you find a more productive&nbsp;
+way of using your compute?"&nbsp;
+We've discussed the value&nbsp;
+function business earlier.&nbsp;
+Maybe once people get good at value&nbsp;
+functions, they will be using their&nbsp;&nbsp;
+resources more productively.
+If you find a whole other way&nbsp;&nbsp;
+of training models, you could say, "Is this&nbsp;
+scaling or is it just using your resources?"&nbsp;
+I think it becomes a little bit ambiguous.
+In the sense that, when people were in the&nbsp;&nbsp;
+age of research back then, it was,&nbsp;
+"Let's try this and this and this.&nbsp;
+Let's try that and that and that.
+Oh, look, something interesting is happening."&nbsp;
+I think there will be a return to that.
+If we're back in the era of research,&nbsp;&nbsp;
+stepping back, what is the part of the&nbsp;
+recipe that we need to think most about?&nbsp;
+When you say value function, people&nbsp;
+are already trying the current recipe,&nbsp;&nbsp;
+but then having LLM-as-a-Judge and so forth.
+You could say that's a value function,&nbsp;&nbsp;
+but it sounds like you have something&nbsp;
+much more fundamental in mind.&nbsp;
+Should we even rethink pre-training at all and not&nbsp;
+just add more steps to the end of that process?&nbsp;
+The discussion about value function,&nbsp;
+I think it was interesting.&nbsp;
+I want to emphasize that I think the value&nbsp;
+function is something that's going to make RL more&nbsp;&nbsp;
+efficient, and I think that makes a difference.
+But I think anything you can do with a value&nbsp;&nbsp;
+function, you can do without, just more slowly.
+The thing which I think is the most fundamental&nbsp;&nbsp;
+is that these models somehow just generalize&nbsp;
+dramatically worse than people. It's super&nbsp;&nbsp;
+obvious. That seems like a very fundamental thing.
+So this is the crux: generalization. There are two&nbsp;&nbsp;
+sub-questions. There's one which is about sample&nbsp;
+efficiency: why should it take so much more data&nbsp;&nbsp;
+for these models to learn than humans? There's&nbsp;
+a second question. Even separate from the amount&nbsp;&nbsp;
+of data it takes, why is it so hard to teach&nbsp;
+the thing we want to a model than to a human?&nbsp;
+For a human, we don't necessarily need a&nbsp;
+verifiable reward to be able to… You're probably&nbsp;&nbsp;
+mentoring a bunch of researchers right now, and&nbsp;
+you're talking with them, you're showing them your&nbsp;&nbsp;
+code, and you're showing them how you think.
+From that, they're picking up your way of&nbsp;&nbsp;
+thinking and how they should do research.
+You don’t have to set a verifiable reward for&nbsp;&nbsp;
+them that's like, "Okay, this is the next part of&nbsp;
+the curriculum, and now this is the next part of&nbsp;&nbsp;
+your curriculum. Oh, this training was unstable."&nbsp;
+There's not this schleppy, bespoke process.&nbsp;
+Perhaps these two issues are actually&nbsp;
+related in some way, but I'd be curious&nbsp;&nbsp;
+to explore this second thing, which is more&nbsp;
+like continual learning, and this first thing,&nbsp;&nbsp;
+which feels just like sample efficiency.
+You could actually wonder that one possible&nbsp;&nbsp;
+explanation for the human sample efficiency&nbsp;
+that needs to be considered is evolution.&nbsp;
+Evolution has given us a small amount&nbsp;
+of the most useful information possible.&nbsp;
+For things like vision, hearing, and&nbsp;
+locomotion, I think there's a pretty&nbsp;&nbsp;
+strong case that evolution has given us a lot.
+For example, human dexterity far exceeds… I mean&nbsp;&nbsp;
+robots can become dexterous too if you subject&nbsp;
+them to a huge amount of training in simulation.&nbsp;
+But to train a robot in the real world&nbsp;
+to quickly pick up a new skill like&nbsp;&nbsp;
+a person does seems very out of reach.
+Here you could say, "Oh yeah, locomotion.&nbsp;
+All our ancestors needed&nbsp;
+great locomotion, squirrels.&nbsp;
+So with locomotion, maybe we've&nbsp;
+got some unbelievable prior."&nbsp;
+You could make the same case for vision.
+I believe Yann LeCun made the point that&nbsp;&nbsp;
+children learn to drive after 10&nbsp;
+hours of practice, which is true.&nbsp;
+But our vision is so good.
+At least for me,&nbsp;&nbsp;
+I remember myself being a five-year-old.
+I was very excited about cars back then.&nbsp;
+I'm pretty sure my car recognition was more than&nbsp;
+adequate for driving already as a five-year-old.&nbsp;
+You don't get to see that&nbsp;
+much data as a five-year-old.&nbsp;
+You spend most of your time in your parents'&nbsp;
+house, so you have very low data diversity.&nbsp;
+But you could say maybe that's evolution too.
+But in language and math and coding, probably not.&nbsp;
+It still seems better than models.
+Obviously, models are better than the average&nbsp;&nbsp;
+human at language, math, and coding.
+But are they better than&nbsp;&nbsp;
+the average human at learning?
+Oh yeah. Oh yeah, absolutely. What I meant&nbsp;&nbsp;
+to say is that language, math, and coding—and&nbsp;
+especially math and coding—suggests that whatever&nbsp;&nbsp;
+it is that makes people good at learning is&nbsp;
+probably not so much a complicated prior,&nbsp;&nbsp;
+but something more, some fundamental thing.
+I'm not sure I understood. Why&nbsp;&nbsp;
+should that be the case?
+So consider a skill in which&nbsp;&nbsp;
+people exhibit some kind of great reliability.
+If the skill is one that was very useful to our&nbsp;&nbsp;
+ancestors for many millions of years, hundreds&nbsp;
+of millions of years, you could argue that maybe&nbsp;&nbsp;
+humans are good at it because of evolution,&nbsp;
+because we have a prior, an evolutionary prior&nbsp;&nbsp;
+that's encoded in some very non-obvious&nbsp;
+way that somehow makes us so good at it.&nbsp;
+But if people exhibit great ability, reliability,&nbsp;
+robustness, and ability to learn in a domain that&nbsp;&nbsp;
+really did not exist until recently, then&nbsp;
+this is more an indication that people&nbsp;&nbsp;
+might have just better machine learning, period.
+How should we think about what that is? What is&nbsp;&nbsp;
+the ML analogy? There are a couple of interesting&nbsp;
+things about it. It takes fewer samples. It's&nbsp;&nbsp;
+more unsupervised. A child learning to drive a&nbsp;
+car… Children are not learning to drive a car.&nbsp;
+A teenager learning how to drive a car is not&nbsp;
+exactly getting some prebuilt, verifiable reward.&nbsp;
+It comes from their interaction with&nbsp;
+the machine and with the environment.&nbsp;&nbsp;
+It takes much fewer samples. It seems&nbsp;
+more unsupervised. It seems more robust?&nbsp;
+Much more robust. The robustness&nbsp;
+of people is really staggering.&nbsp;
+Do you have a unified way of thinking about&nbsp;
+why all these things are happening at once?&nbsp;
+What is the ML analogy that could&nbsp;
+realize something like this?&nbsp;
+One of the things that you've been asking about is&nbsp;
+how can the teenage driver self-correct and learn&nbsp;&nbsp;
+from their experience without an external teacher?
+The answer is that they have their value function.&nbsp;
+They have a general sense which is also,&nbsp;
+by the way, extremely robust in people.&nbsp;
+Whatever the human value function is,&nbsp;
+with a few exceptions around addiction,&nbsp;&nbsp;
+it's actually very, very robust.
+So for something like a teenager&nbsp;&nbsp;
+that's learning to drive, they start to drive, and&nbsp;
+they already have a sense of how they're driving&nbsp;&nbsp;
+immediately, how badly they are, how unconfident.&nbsp;
+And then they see, "Okay." And then, of course,&nbsp;&nbsp;
+the learning speed of any teenager is so fast.
+After 10 hours, you're good to go.&nbsp;
+It seems like humans have some&nbsp;
+solution, but I'm curious about&nbsp;&nbsp;
+how they are doing it and why is it so hard?
+How do we need to reconceptualize the way&nbsp;&nbsp;
+we're training models to make&nbsp;
+something like this possible?&nbsp;
+That is a great question to ask, and it's&nbsp;
+a question I have a lot of opinions about.&nbsp;
+But unfortunately, we live in a world where&nbsp;
+not all machine learning ideas are discussed&nbsp;&nbsp;
+freely, and this is one of them.
+There's probably a way to do it.&nbsp;
+I think it can be done.
+The fact that people are like that,&nbsp;&nbsp;
+I think it's a proof that it can be done.
+There may be another blocker though,&nbsp;&nbsp;
+which is that there is a possibility that the&nbsp;
+human neurons do more compute than we think.&nbsp;
+If that is true, and if that plays an important&nbsp;
+role, then things might be more difficult.&nbsp;
+But regardless, I do think it points to&nbsp;
+the existence of some machine learning&nbsp;&nbsp;
+principle that I have opinions on.
+But unfortunately, circumstances&nbsp;&nbsp;
+make it hard to discuss in detail.
+Nobody listens to this podcast, Ilya.&nbsp;
+I'm curious. If you say we are back in an era&nbsp;
+of research, you were there from 2012 to 2020.&nbsp;
+What is the vibe now going to be if&nbsp;
+we go back to the era of research?&nbsp;
+For example, even after AlexNet, the&nbsp;
+amount of compute that was used to&nbsp;&nbsp;
+run experiments kept increasing, and the&nbsp;
+size of frontier systems kept increasing.&nbsp;
+Do you think now that this era of research will&nbsp;
+still require tremendous amounts of compute?&nbsp;
+Do you think it will require going back&nbsp;
+into the archives and reading old papers?&nbsp;
+You were at Google and OpenAI and Stanford, these&nbsp;
+places, when there was more of a vibe of research?&nbsp;
+What kind of things should we&nbsp;
+be expecting in the community?&nbsp;
+One consequence of the age of scaling is that&nbsp;
+scaling sucked out all the air in the room.&nbsp;
+Because scaling sucked out all the air in the&nbsp;
+room, everyone started to do the same thing.&nbsp;
+We got to the point where we are&nbsp;
+in a world where there are more&nbsp;&nbsp;
+companies than ideas by quite a bit.
+Actually on that, there is this Silicon&nbsp;&nbsp;
+Valley saying that says that ideas&nbsp;
+are cheap, execution is everything.&nbsp;
+People say that a lot, and there is truth to that.
+But then I saw someone say on Twitter&nbsp;&nbsp;
+something like, "If ideas are so cheap,&nbsp;
+how come no one's having any ideas?"&nbsp;
+And I think it's true too.
+If you think about research progress in terms&nbsp;&nbsp;
+of bottlenecks, there are several bottlenecks.
+One of them is ideas, and one of them is your&nbsp;&nbsp;
+ability to bring them to life, which&nbsp;
+might be compute but also engineering.&nbsp;
+If you go back to the '90s, let's say,&nbsp;
+you had people who had pretty good ideas,&nbsp;&nbsp;
+and if they had much larger computers, maybe they&nbsp;
+could demonstrate that their ideas were viable.&nbsp;
+But they could not, so they could only&nbsp;
+have a very, very small demonstration&nbsp;&nbsp;
+that did not convince anyone. So the&nbsp;
+bottleneck was compute. Then in the&nbsp;&nbsp;
+age of scaling, compute has increased a lot.
+Of course, there is a question of how much&nbsp;&nbsp;
+compute is needed, but compute is large.
+Compute is large enough such that it's not&nbsp;&nbsp;
+obvious that you need that much more&nbsp;
+compute to prove some idea. I'll give&nbsp;&nbsp;
+you an analogy. AlexNet was built on two GPUs.
+That was the total amount of compute used for it.&nbsp;
+The transformer was built on 8 to 64 GPUs.
+No single transformer paper experiment used&nbsp;&nbsp;
+more than 64 GPUs of 2017, which would be&nbsp;
+like, what, two GPUs of today? The ResNet,&nbsp;&nbsp;
+right? You could argue that the o1 reasoning was&nbsp;
+not the most compute-heavy thing in the world.&nbsp;
+So for research, you definitely need&nbsp;
+some amount of compute, but it's far&nbsp;&nbsp;
+from obvious that you need the absolutely&nbsp;
+largest amount of compute ever for research.&nbsp;
+You might argue, and I think it is true, that&nbsp;
+if you want to build the absolutely best system&nbsp;&nbsp;
+then it helps to have much more compute.
+Especially if everyone is within the same&nbsp;&nbsp;
+paradigm, then compute becomes&nbsp;
+one of the big differentiators.&nbsp;
+I'm asking you for the history,&nbsp;
+because you were actually there.&nbsp;
+I'm not sure what actually happened.
+It sounds like it was possible to develop&nbsp;&nbsp;
+these ideas using minimal amounts of compute.
+But the transformer didn't&nbsp;&nbsp;
+immediately become famous.
+It became the thing everybody started&nbsp;&nbsp;
+doing and then started experimenting on top of&nbsp;
+and building on top of because it was validated&nbsp;&nbsp;
+at higher and higher levels of compute.
+Correct.&nbsp;
+And if you at SSI have 50 different ideas, how&nbsp;
+will you know which one is the next transformer&nbsp;&nbsp;
+and which one is brittle, without having the&nbsp;
+kinds of compute that other frontier labs have?&nbsp;
+I can comment on that. The short&nbsp;
+comment is that you mentioned SSI.&nbsp;
+Specifically for us, the amount of compute&nbsp;
+that SSI has for research is really not that&nbsp;&nbsp;
+small. I want to explain why. Simple math&nbsp;
+can explain why the amount of compute that&nbsp;&nbsp;
+we have is comparable for research than one might&nbsp;
+think. I'll explain. SSI has raised $3 billion,&nbsp;&nbsp;
+which is a lot by any absolute sense.
+But you could say, "Look at the&nbsp;&nbsp;
+other companies raising much more."
+But a lot of their compute goes for inference.&nbsp;
+These big numbers, these big loans, it's&nbsp;
+earmarked for inference. That's number one.&nbsp;&nbsp;
+Number two, if you want to have a product&nbsp;
+on which you do inference, you need to&nbsp;&nbsp;
+have a big staff of engineers, salespeople.
+A lot of the research needs to be dedicated to&nbsp;&nbsp;
+producing all kinds of product-related features.
+So then when you look at what's actually left for&nbsp;&nbsp;
+research, the difference becomes a lot smaller.
+The other thing is, if you are doing something&nbsp;&nbsp;
+different, do you really need the&nbsp;
+absolute maximal scale to prove it?&nbsp;
+I don't think that's true at all.
+I think that in our case, we have sufficient&nbsp;&nbsp;
+compute to prove, to convince ourselves and&nbsp;
+anyone else, that what we are doing is correct.&nbsp;
+There have been public estimates that companies&nbsp;
+like OpenAI spend on the order of $5-6 billion&nbsp;&nbsp;
+a year just so far, on experiments.
+This is separate from the amount of&nbsp;&nbsp;
+money they're spending on inference and so forth.
+So it seems like they're spending more a year&nbsp;&nbsp;
+running research experiments than&nbsp;
+you guys have in total funding.&nbsp;
+I think it's a question of what you do with it.
+It's a question of what you do with it.&nbsp;
+In their case, in the case of others, there&nbsp;
+is a lot more demand on the training compute.&nbsp;
+There’s a lot more different work streams, there&nbsp;
+are different modalities, there is just more&nbsp;&nbsp;
+stuff. So it becomes fragmented.
+How will SSI make money?&nbsp;
+My answer to this question is something like this.
+Right now, we just focus on the research, and then&nbsp;&nbsp;
+the answer to that question will reveal itself.
+I think there will be lots of possible answers.&nbsp;
+Is SSI's plan still to straight&nbsp;
+shot superintelligence?&nbsp;
+Maybe. I think that there is merit to it.
+I think there's a lot of merit because&nbsp;&nbsp;
+it's very nice to not be affected by&nbsp;
+the day-to-day market competition.&nbsp;
+But I think there are two reasons&nbsp;
+that may cause us to change the plan.&nbsp;
+One is pragmatic, if timelines turned&nbsp;
+out to be long, which they might.&nbsp;
+Second, I think there is a lot&nbsp;
+of value in the best and most&nbsp;&nbsp;
+powerful AI being out there impacting the world.
+I think this is a meaningfully valuable thing.&nbsp;
+So then why is your default plan&nbsp;
+to straight shot superintelligence?&nbsp;
+Because it sounds like OpenAI, Anthropic, all&nbsp;
+these other companies, their explicit thinking&nbsp;&nbsp;
+is, "Look, we have weaker and weaker intelligences&nbsp;
+that the public can get used to and prepare for."&nbsp;
+Why is it potentially better to&nbsp;
+build a superintelligence directly?&nbsp;
+I'll make the case for and against.
+The case for is that one of the challenges&nbsp;&nbsp;
+that people face when they're in the market is&nbsp;
+that they have to participate in the rat race.&nbsp;
+The rat race is quite difficult in&nbsp;
+that it exposes you to difficult&nbsp;&nbsp;
+trade-offs which you need to make.
+It is nice to say, "We'll insulate ourselves&nbsp;&nbsp;
+from all this and just focus on the research and&nbsp;
+come out only when we are ready, and not before."&nbsp;
+But the counterpoint is valid too,&nbsp;
+and those are opposing forces.&nbsp;
+The counterpoint is, "Hey, it is useful&nbsp;
+for the world to see powerful AI.&nbsp;
+It is useful for the world to&nbsp;
+see powerful AI because that's&nbsp;&nbsp;
+the only way you can communicate it."
+Well, I guess not even just that you can&nbsp;&nbsp;
+communicate the idea—
+Communicate the AI,&nbsp;&nbsp;
+not the idea. Communicate the AI.
+What do you mean, "communicate the AI"?&nbsp;
+Let's suppose you write an essay about AI, and&nbsp;
+the essay says, "AI is going to be this, and AI is&nbsp;&nbsp;
+going to be that, and it's going to be this."
+You read it and you say, "Okay,&nbsp;&nbsp;
+this is an interesting essay."
+Now suppose you see an AI doing this,&nbsp;&nbsp;
+an AI doing that. It is incomparable. Basically&nbsp;
+I think that there is a big benefit from AI&nbsp;&nbsp;
+being in the public, and that would be a&nbsp;
+reason for us to not be quite straight shot.&nbsp;
+I guess it's not even that, but I do&nbsp;
+think that is an important part of it.&nbsp;
+The other big thing is that I can't think of&nbsp;
+another discipline in human engineering and&nbsp;&nbsp;
+research where the end artifact was made&nbsp;
+safer mostly through just thinking about&nbsp;&nbsp;
+how to make it safe, as opposed to,&nbsp;
+why airplane crashes per mile are so&nbsp;&nbsp;
+much lower today than they were decades ago.
+Why is it so much harder to find a bug in Linux&nbsp;&nbsp;
+than it would have been decades ago?
+I think it's mostly because these&nbsp;&nbsp;
+systems were deployed to the world.
+You noticed failures, those failures&nbsp;&nbsp;
+were corrected and the systems became more robust.
+I'm not sure why AGI and superhuman intelligence&nbsp;&nbsp;
+would be any different, especially given—and I&nbsp;
+hope we're going to get to this—it seems like&nbsp;&nbsp;
+the harms of superintelligence are not just about&nbsp;
+having some malevolent paper clipper out there.&nbsp;
+But this is a really powerful thing and we don't&nbsp;
+even know how to conceptualize how people interact&nbsp;&nbsp;
+with it, what people will do with it.
+Having gradual access to it seems like a&nbsp;&nbsp;
+better way to maybe spread out the impact&nbsp;
+of it and to help people prepare for it.&nbsp;
+Well I think on this point, even in the straight&nbsp;
+shot scenario, you would still do a gradual&nbsp;&nbsp;
+release of it, that’s how I would imagine it.
+Gradualism would be an inherent&nbsp;&nbsp;
+component of any plan.
+It's just a question of what is the first&nbsp;&nbsp;
+thing that you get out of the door. That's number&nbsp;
+one. Number two, I believe you have advocated&nbsp;&nbsp;
+for continual learning more than other people,&nbsp;
+and I actually think that this is an important&nbsp;&nbsp;
+and correct thing. Here is why. I'll give you&nbsp;
+another example of how language affects thinking.&nbsp;
+In this case, it will be two words that&nbsp;
+have shaped everyone's thinking, I maintain.&nbsp;&nbsp;
+First word: AGI. Second word: pre-training.&nbsp;
+Let me explain. The term AGI, why does this&nbsp;&nbsp;
+term exist? It's a very particular term. Why&nbsp;
+does it exist? There's a reason. The reason&nbsp;&nbsp;
+that the term AGI exists is, in my opinion, not&nbsp;
+so much because it's a very important, essential&nbsp;&nbsp;
+descriptor of some end state of intelligence, but&nbsp;
+because it is a reaction to a different term that&nbsp;&nbsp;
+existed, and the term is narrow AI.
+If you go back to ancient history&nbsp;&nbsp;
+of gameplay and AI, of checkers AI, chess&nbsp;
+AI, computer games AI, everyone would say,&nbsp;&nbsp;
+look at this narrow intelligence.
+Sure, the chess AI can beat Kasparov,&nbsp;&nbsp;
+but it can't do anything else.
+It is so narrow, artificial narrow intelligence.&nbsp;
+So in response, as a reaction to this,&nbsp;
+some people said, this is not good. It&nbsp;&nbsp;
+is so narrow. What we need is general AI,&nbsp;
+an AI that can just do all the things.&nbsp;
+That term just got a lot of traction.
+The second thing that got a lot of traction&nbsp;&nbsp;
+is pre-training, specifically&nbsp;
+the recipe of pre-training.&nbsp;
+I think the way people do RL now is maybe&nbsp;
+undoing the conceptual imprint of pre-training.&nbsp;&nbsp;
+But pre-training had this property. You&nbsp;
+do more pre-training and the model gets&nbsp;&nbsp;
+better at everything, more or less uniformly.&nbsp;
+General AI. Pre-training gives AGI. But the&nbsp;&nbsp;
+thing that happened with AGI and pre-training&nbsp;
+is that in some sense they overshot the target.&nbsp;
+If you think about the term "AGI",&nbsp;
+especially in the context of pre-training,&nbsp;&nbsp;
+you will realize that a human being is not an AGI.
+Yes, there is definitely a foundation of skills,&nbsp;&nbsp;
+but a human being lacks a&nbsp;
+huge amount of knowledge.&nbsp;
+Instead, we rely on continual learning.
+So when you think about, "Okay,&nbsp;&nbsp;
+so let's suppose that we achieve success and we&nbsp;
+produce some kind of safe superintelligence."&nbsp;
+The question is, how do you define it?
+Where on the curve of continual&nbsp;&nbsp;
+learning is it going to be?
+I produce a superintelligent&nbsp;&nbsp;
+15-year-old that's very eager to go.
+They don't know very much at all,&nbsp;&nbsp;
+a great student, very eager.
+You go and be a programmer,&nbsp;&nbsp;
+you go and be a doctor, go and learn.
+So you could imagine that the deployment&nbsp;&nbsp;
+itself will involve some kind of&nbsp;
+a learning trial-and-error period.&nbsp;
+It's a process, as opposed to&nbsp;
+you dropping the finished thing.&nbsp;
+I see. You're suggesting that the thing&nbsp;
+you're pointing out with superintelligence&nbsp;&nbsp;
+is not some finished mind which knows how&nbsp;
+to do every single job in the economy.&nbsp;
+Because the way, say, the original OpenAI charter&nbsp;
+or whatever defines AGI is like, it can do every&nbsp;&nbsp;
+single job, every single thing a human can do.
+You're proposing instead a mind which can&nbsp;&nbsp;
+learn to do every single job,&nbsp;
+and that is superintelligence.&nbsp;
+Yes.
+But once you have the learning algorithm,&nbsp;&nbsp;
+it gets deployed into the world the same way&nbsp;
+a human laborer might join an organization.&nbsp;
+Exactly.
+It seems like one of these two things&nbsp;&nbsp;
+might happen, maybe neither of these happens.
+One, this super-efficient learning algorithm&nbsp;&nbsp;
+becomes superhuman, becomes as good&nbsp;
+as you and potentially even better,&nbsp;&nbsp;
+at the task of ML research.
+As a result the algorithm&nbsp;&nbsp;
+itself becomes more and more superhuman.
+The other is, even if that doesn't happen,&nbsp;&nbsp;
+if you have a single model—this is explicitly&nbsp;
+your vision—where instances of a model&nbsp;&nbsp;
+which are deployed through the economy doing&nbsp;
+different jobs, learning how to do those jobs,&nbsp;&nbsp;
+continually learning on the job, picking up&nbsp;
+all the skills that any human could pick up,&nbsp;&nbsp;
+but picking them all up at the same time,&nbsp;
+and then amalgamating their learnings,&nbsp;&nbsp;
+you basically have a model which functionally&nbsp;
+becomes superintelligent even without any sort&nbsp;&nbsp;
+of recursive self-improvement in software.
+Because you now have one model that can do&nbsp;&nbsp;
+every single job in the economy and humans&nbsp;
+can't merge our minds in the same way.&nbsp;
+So do you expect some sort of intelligence&nbsp;
+explosion from broad deployment?&nbsp;
+I think that it is likely that we&nbsp;
+will have rapid economic growth.&nbsp;
+I think with broad deployment, there are two&nbsp;
+arguments you could make which are conflicting.&nbsp;
+One is that once indeed you get to a point where&nbsp;
+you have an AI that can learn to do things quickly&nbsp;&nbsp;
+and you have many of them, then there will be&nbsp;
+a strong force to deploy them in the economy&nbsp;&nbsp;
+unless there will be some kind of a regulation&nbsp;
+that stops it, which by the way there might be.&nbsp;
+But the idea of very rapid&nbsp;
+economic growth for some time,&nbsp;&nbsp;
+I think it’s very possible from broad deployment.
+The question is how rapid it's going to be.&nbsp;
+I think this is hard to know because on the&nbsp;
+one hand you have this very efficient worker.&nbsp;
+On the other hand, the world is just&nbsp;
+really big and there's a lot of stuff,&nbsp;&nbsp;
+and that stuff moves at a different speed.
+But then on the other hand, now the AI could…&nbsp;&nbsp;
+So I think very rapid economic growth is possible.
+We will see all kinds of things like different&nbsp;&nbsp;
+countries with different rules and the&nbsp;
+ones which have the friendlier rules, the&nbsp;&nbsp;
+economic growth will be faster. Hard to predict.
+It seems to me that this is a very precarious&nbsp;&nbsp;
+situation to be in.
+In the limit,&nbsp;&nbsp;
+we know that this should be possible.
+If you have something that is as good&nbsp;&nbsp;
+as a human at learning, but which can merge its&nbsp;
+brains—merge different instances in a way that&nbsp;&nbsp;
+humans can't merge—already, this seems like&nbsp;
+a thing that should physically be possible.&nbsp;
+Humans are possible, digital&nbsp;
+computers are possible.&nbsp;
+You just need both of those&nbsp;
+combined to produce this thing.&nbsp;
+It also seems this kind of&nbsp;
+thing is extremely powerful.&nbsp;
+Economic growth is one way to put it.
+A Dyson sphere is a lot of economic growth.&nbsp;
+But another way to put it is that you will have,&nbsp;
+in potentially a very short period of time...&nbsp;
+You hire people at SSI, and in six&nbsp;
+months, they're net productive, probably.&nbsp;
+A human learns really fast, and this thing&nbsp;
+is becoming smarter and smarter very fast.&nbsp;
+How do you think about making that go well?
+Why is SSI positioned to do that well?&nbsp;
+What is SSI's plan there, is&nbsp;
+basically what I'm trying to ask.&nbsp;
+One of the ways in which my thinking has been&nbsp;
+changing is that I now place more importance on&nbsp;&nbsp;
+AI being deployed incrementally and in advance.
+One very difficult thing about AI is that we are&nbsp;&nbsp;
+talking about systems that don't yet&nbsp;
+exist and it's hard to imagine them.&nbsp;
+I think that one of the things that's happening is&nbsp;
+that in practice, it's very hard to feel the AGI.&nbsp;
+It's very hard to feel the AGI.
+We can talk about it, but imagine&nbsp;&nbsp;
+having a conversation about how it is&nbsp;
+like to be old when you're old and frail.&nbsp;
+You can have a conversation, you can try to&nbsp;
+imagine it, but it's just hard, and you come&nbsp;&nbsp;
+back to reality where that's not the case.
+I think that a lot of the issues around AGI&nbsp;&nbsp;
+and its future power stem from the fact&nbsp;
+that it's very difficult to imagine.&nbsp;
+Future AI is going to be different. It's going&nbsp;
+to be powerful. Indeed, the whole problem,&nbsp;&nbsp;
+what is the problem of AI and AGI?
+The whole problem is the power.&nbsp;
+The whole problem is the power.
+When the power is really big,&nbsp;&nbsp;
+what's going to happen?
+One of the ways in which I've&nbsp;&nbsp;
+changed my mind over the past year—and that&nbsp;
+change of mind, I'll hedge a little bit, may&nbsp;&nbsp;
+back-propagate into the plans of our company—is&nbsp;
+that if it's hard to imagine, what do you do?&nbsp;
+You’ve got to be showing the thing.
+You’ve got to be showing the thing.&nbsp;
+I maintain that most people who work on AI also&nbsp;
+can't imagine it because it's too different from&nbsp;&nbsp;
+what people see on a day-to-day basis.
+I do maintain, here's something which&nbsp;&nbsp;
+I predict will happen. This is a prediction.&nbsp;
+I maintain that as AI becomes more powerful,&nbsp;&nbsp;
+people will change their behaviors.
+We will see all kinds of unprecedented&nbsp;&nbsp;
+things which are not happening right now. I’ll&nbsp;
+give some examples. I think for better or worse,&nbsp;&nbsp;
+the frontier companies will play a very important&nbsp;
+role in what happens, as will the government.&nbsp;
+The kind of things that I think&nbsp;
+you'll see, which you see the&nbsp;&nbsp;
+beginnings of, are companies that are fierce&nbsp;
+competitors starting to collaborate on AI safety.&nbsp;
+You may have seen OpenAI and Anthropic doing&nbsp;
+a first small step, but that did not exist.&nbsp;
+That's something which I predicted in&nbsp;
+one of my talks about three years ago,&nbsp;&nbsp;
+that such a thing will happen.
+I also maintain that as AI continues&nbsp;&nbsp;
+to become more powerful, more visibly&nbsp;
+powerful, there will also be a desire from&nbsp;&nbsp;
+governments and the public to do something.
+I think this is a very important force,&nbsp;&nbsp;
+of showing the AI. That's number one.&nbsp;
+Number two, okay, so the AI is being&nbsp;&nbsp;
+built. What needs to be done? One thing that&nbsp;
+I maintain that will happen is that right now,&nbsp;&nbsp;
+people who are working on AI, I maintain that the&nbsp;
+AI doesn't feel powerful because of its mistakes.&nbsp;
+I do think that at some point the AI&nbsp;
+will start to feel powerful actually.&nbsp;
+I think when that happens, we will see a big&nbsp;
+change in the way all AI companies approach&nbsp;&nbsp;
+safety. They'll become much more paranoid.&nbsp;
+I say this as a prediction that we will&nbsp;&nbsp;
+see happen. We'll see if I'm right. But I think&nbsp;
+this is something that will happen because they&nbsp;&nbsp;
+will see the AI becoming more powerful.
+Everything that's happening right now,&nbsp;&nbsp;
+I maintain, is because people look at today's&nbsp;
+AI and it's hard to imagine the future AI.&nbsp;
+There is a third thing which needs to happen.
+I'm talking about it in broader terms,&nbsp;&nbsp;
+not just from the perspective of SSI&nbsp;
+because you asked me about our company.&nbsp;
+The question is, what should&nbsp;
+the companies aspire to build?&nbsp;
+What should they aspire to build?
+There has been one big idea that&nbsp;&nbsp;
+everyone has been locked into, which is&nbsp;
+the self-improving AI. Why did it happen?&nbsp;&nbsp;
+Because there are fewer ideas than companies.
+But I maintain that there is something that's&nbsp;&nbsp;
+better to build, and I think&nbsp;
+that everyone will want that.&nbsp;
+It's the AI that's robustly aligned to&nbsp;
+care about sentient life specifically.&nbsp;
+I think in particular, there's a case to&nbsp;
+be made that it will be easier to build&nbsp;&nbsp;
+an AI that cares about sentient life than&nbsp;
+an AI that cares about human life alone,&nbsp;&nbsp;
+because the AI itself will be sentient.
+And if you think about things like mirror&nbsp;&nbsp;
+neurons and human empathy for animals, which you&nbsp;
+might argue it's not big enough, but it exists.&nbsp;
+I think it's an emergent property from&nbsp;
+the fact that we model others with the&nbsp;&nbsp;
+same circuit that we use to model ourselves,&nbsp;
+because that's the most efficient thing to do.&nbsp;
+So even if you got an AI to care about&nbsp;
+sentient beings—and it's not actually&nbsp;&nbsp;
+clear to me that that's what you&nbsp;
+should try to do if you solved&nbsp;&nbsp;
+alignment—it would still be the case&nbsp;
+that most sentient beings will be AIs.&nbsp;
+There will be trillions,&nbsp;
+eventually quadrillions, of AIs.&nbsp;
+Humans will be a very small&nbsp;
+fraction of sentient beings.&nbsp;
+So it's not clear to me if the goal is some kind&nbsp;
+of human control over this future civilization,&nbsp;&nbsp;
+that this is the best criterion.
+It's true. It's possible it's not&nbsp;&nbsp;
+the best criterion. I'll say two things. Number&nbsp;
+one, care for sentient life, I think there is&nbsp;&nbsp;
+merit to it. It should be considered. I think it&nbsp;
+would be helpful if there was some kind of short&nbsp;&nbsp;
+list of ideas that the companies, when they are&nbsp;
+in this situation, could use. That’s number two.&nbsp;&nbsp;
+Number three, I think it would be really&nbsp;
+materially helpful if the power of the&nbsp;&nbsp;
+most powerful superintelligence was somehow capped&nbsp;
+because it would address a lot of these concerns.&nbsp;
+The question of how to do it, I'm not sure, but I&nbsp;
+think that would be materially helpful when you're&nbsp;&nbsp;
+talking about really, really powerful systems.
+Before we continue the alignment discussion,&nbsp;&nbsp;
+I want to double-click on that.
+How much room is there at the top?&nbsp;
+How do you think about superintelligence?
+Do you think, using this learning efficiency idea,&nbsp;&nbsp;
+maybe it is just extremely fast at&nbsp;
+learning new skills or new knowledge?&nbsp;
+Does it just have a bigger pool of strategies?
+Is there a single cohesive "it" in the&nbsp;&nbsp;
+center that's more powerful or bigger?
+If so, do you imagine that this will be&nbsp;&nbsp;
+sort of godlike in comparison to the rest of human&nbsp;
+civilization, or does it just feel like another&nbsp;&nbsp;
+agent, or another cluster of agents?
+This is an area where different&nbsp;&nbsp;
+people have different intuitions.
+I think it will be very powerful, for sure.&nbsp;
+What I think is most likely to happen&nbsp;
+is that there will be multiple such&nbsp;&nbsp;
+AIs being created roughly at the same time.
+I think that if the cluster is big enough—like&nbsp;&nbsp;
+if the cluster is literally continent-sized—that&nbsp;
+thing could be really powerful, indeed.&nbsp;
+If you literally have a continent-sized&nbsp;
+cluster, those AIs can be very powerful.&nbsp;
+All I can tell you is that if you're&nbsp;
+talking about extremely powerful AIs,&nbsp;&nbsp;
+truly dramatically powerful, it would be nice if&nbsp;
+they could be restrained in some ways or if there&nbsp;&nbsp;
+were some kind of agreement or something.
+What is the concern of superintelligence?&nbsp;
+What is one way to explain the concern?
+If you imagine a system that is sufficiently&nbsp;&nbsp;
+powerful, really sufficiently powerful—and you&nbsp;
+could say you need to do something sensible like&nbsp;&nbsp;
+care for sentient life in a very single-minded&nbsp;
+way—we might not like the results. That's really&nbsp;&nbsp;
+what it is. Maybe, by the way, the answer is&nbsp;
+that you do not build an RL agent in the usual&nbsp;&nbsp;
+sense. I'll point several things out. I&nbsp;
+think human beings are semi-RL agents.&nbsp;
+We pursue a reward, and then the emotions&nbsp;
+or whatever make us tire out of the&nbsp;&nbsp;
+reward and we pursue a different reward.
+The market is a very short-sighted kind of&nbsp;&nbsp;
+agent. Evolution is the same. Evolution&nbsp;
+is very intelligent in some ways,&nbsp;&nbsp;
+but very dumb in other ways.
+The government has been designed&nbsp;&nbsp;
+to be a never-ending fight between&nbsp;
+three parts, which has an effect.&nbsp;
+So I think things like this.
+Another thing that makes this discussion&nbsp;&nbsp;
+difficult is that we are talking about systems&nbsp;
+that don't exist, that we don't know how to build.&nbsp;
+That’s the other thing and&nbsp;
+that’s actually my belief.&nbsp;
+I think what people are doing right now&nbsp;
+will go some distance and then peter out.&nbsp;
+It will continue to improve,&nbsp;
+but it will also not be "it".&nbsp;
+The "It" we don't know how to build, and&nbsp;
+a lot hinges on understanding reliable&nbsp;&nbsp;
+generalization. I’ll say another thing.&nbsp;
+One of the things that you could say about&nbsp;&nbsp;
+what causes alignment to be difficult is that&nbsp;
+your ability to learn human values is fragile.&nbsp;
+Then your ability to optimize them is fragile.
+You actually learn to optimize them.&nbsp;
+And can't you say, "Are these not all&nbsp;
+instances of unreliable generalization?"&nbsp;
+Why is it that human beings appear&nbsp;
+to generalize so much better?&nbsp;
+What if generalization was much better?
+What would happen in this case? What would&nbsp;&nbsp;
+be the effect? But those questions&nbsp;
+are right now still unanswerable.&nbsp;
+How does one think about what&nbsp;
+AI going well looks like?&nbsp;
+You've scoped out how AI might evolve.
+We'll have these sort of continual&nbsp;&nbsp;
+learning agents. AI will be very powerful.&nbsp;
+Maybe there will be many different AIs.&nbsp;
+How do you think about lots of continent-sized&nbsp;
+compute intelligences going around? How dangerous&nbsp;&nbsp;
+is that? How do we make that less dangerous?
+And how do we do that in a way that protects an&nbsp;&nbsp;
+equilibrium where there might be misaligned&nbsp;
+AIs out there and bad actors out there?&nbsp;
+Here’s one reason why I liked "AI&nbsp;
+that cares for sentient life".&nbsp;
+We can debate on whether it's good or bad.
+But if the first N of these dramatic&nbsp;&nbsp;
+systems do care for, love, humanity&nbsp;
+or something, care for sentient life,&nbsp;&nbsp;
+obviously this also needs to be achieved. This&nbsp;
+needs to be achieved. So if this is achieved&nbsp;&nbsp;
+by the first N of those systems, then I can&nbsp;
+see it go well, at least for quite some time.&nbsp;
+Then there is the question of&nbsp;
+what happens in the long run.&nbsp;
+How do you achieve a long-run equilibrium?
+I think that there, there is an answer as well.&nbsp;
+I don't like this answer, but&nbsp;
+it needs to be considered.&nbsp;
+In the long run, you might say, "Okay, if&nbsp;
+you have a world where powerful AIs exist,&nbsp;&nbsp;
+in the short term, you could say&nbsp;
+you have universal high income.&nbsp;
+You have universal high income&nbsp;
+and we're all doing well."&nbsp;
+But what do the Buddhists say? "Change is the&nbsp;
+only constant." Things change. There is some&nbsp;&nbsp;
+kind of government, political structure thing, and&nbsp;
+it changes because these things have a shelf life.&nbsp;
+Some new government thing comes up and&nbsp;
+it functions, and then after some time&nbsp;&nbsp;
+it stops functioning.
+That's something that&nbsp;&nbsp;
+we see happening all the time.
+So I think for the long-run equilibrium,&nbsp;&nbsp;
+one approach is that you could say maybe every&nbsp;
+person will have an AI that will do their bidding,&nbsp;&nbsp;
+and that's good.
+If that could be&nbsp;&nbsp;
+maintained indefinitely, that's true.
+But the downside with that is then the AI&nbsp;&nbsp;
+goes and earns money for the person and advocates&nbsp;
+for their needs in the political sphere, and maybe&nbsp;&nbsp;
+then writes a little report saying, "Okay,&nbsp;
+here's what I've done, here's the situation,"&nbsp;&nbsp;
+and the person says, "Great, keep it up."
+But the person is no longer a participant.&nbsp;
+Then you can say that's a&nbsp;
+precarious place to be in.&nbsp;
+I'm going to preface by saying I don't&nbsp;
+like this solution, but it is a solution.&nbsp;
+The solution is if people become&nbsp;
+part-AI with some kind of Neuralink++.&nbsp;
+Because what will happen as a result is&nbsp;
+that now the AI understands something,&nbsp;&nbsp;
+and we understand it too, because now the&nbsp;
+understanding is transmitted wholesale.&nbsp;
+So now if the AI is in some situation, you&nbsp;
+are involved in that situation yourself fully.&nbsp;
+I think this is the answer to the equilibrium.
+I wonder if the fact that emotions which were&nbsp;&nbsp;
+developed millions—or in many cases, billions—of&nbsp;
+years ago in a totally different environment are&nbsp;&nbsp;
+still guiding our actions so strongly&nbsp;
+is an example of alignment success.&nbsp;
+To spell out what I mean—I don’t know&nbsp;
+whether it’s more accurate to call it&nbsp;&nbsp;
+a value function or reward function—but the&nbsp;
+brainstem has a directive where it's saying,&nbsp;&nbsp;
+"Mate with somebody who's more successful."
+The cortex is the part that understands&nbsp;&nbsp;
+what success means in the modern context.
+But the brainstem is able to align the cortex&nbsp;&nbsp;
+and say, "However you recognize success to be—and&nbsp;
+I’m not smart enough to understand what that is—&nbsp;&nbsp;
+you're still going to pursue this directive."
+I think there's a more general point.&nbsp;
+I think it's actually really mysterious&nbsp;
+how evolution encodes high-level desires.&nbsp;
+It's pretty easy to understand how&nbsp;
+evolution would endow us with the&nbsp;&nbsp;
+desire for food that smells good because smell&nbsp;
+is a chemical, so just pursue that chemical.&nbsp;
+It's very easy to imagine&nbsp;
+evolution doing that thing.&nbsp;
+But evolution also has endowed&nbsp;
+us with all these social desires.&nbsp;
+We really care about being&nbsp;
+seen positively by society.&nbsp;
+We care about being in good standing.
+All these social intuitions that we have,&nbsp;&nbsp;
+I feel strongly that they're baked in.
+I don't know how evolution did it&nbsp;&nbsp;
+because it's a high-level concept&nbsp;
+that's represented in the brain.&nbsp;
+Let’s say you care about some social thing,&nbsp;
+it's not a low-level signal like smell.&nbsp;
+It's not something for which there is a sensor.
+The brain needs to do a lot of processing to&nbsp;&nbsp;
+piece together lots of bits of information&nbsp;
+to understand what's going on socially.&nbsp;
+Somehow evolution said, "That's what you should&nbsp;
+care about." How did it do it? It did it quickly,&nbsp;&nbsp;
+too. All these sophisticated social things that we&nbsp;
+care about, I think they evolved pretty recently.&nbsp;
+Evolution had an easy time&nbsp;
+hard-coding this high-level desire.&nbsp;
+I'm unaware of a good&nbsp;
+hypothesis for how it's done.&nbsp;
+I had some ideas I was kicking around,&nbsp;
+but none of them are satisfying.&nbsp;
+What's especially impressive is it was desire&nbsp;
+that you learned in your lifetime, it makes sense&nbsp;&nbsp;
+because your brain is intelligent.
+It makes sense why you would&nbsp;&nbsp;
+be able to learn intelligent desires.
+Maybe this is not your point, but one way&nbsp;&nbsp;
+to understand it is that the desire is built into&nbsp;
+the genome, and the genome is not intelligent.&nbsp;
+But you're somehow able to describe this feature.
+It's not even clear how you define that feature,&nbsp;&nbsp;
+and you can build it into the genes.
+Essentially, or maybe I'll put it differently.&nbsp;
+If you think about the tools that&nbsp;
+are available to the genome, it says,&nbsp;&nbsp;
+"Okay, here's a recipe for building a brain."
+You could say, "Here is a recipe for connecting&nbsp;&nbsp;
+the dopamine neurons to the smell sensor."
+And if the smell is a certain kind&nbsp;&nbsp;
+of good smell, you want to eat that.
+I could imagine the genome doing that.&nbsp;
+I'm claiming that it is harder to imagine.
+It's harder to imagine the genome saying&nbsp;&nbsp;
+you should care about some complicated computation&nbsp;
+that your entire brain, a big chunk of your brain,&nbsp;&nbsp;
+does. That's all I'm claiming. I can tell&nbsp;
+you a speculation of how it could be done.&nbsp;
+Let me offer a speculation, and I'll explain&nbsp;
+why the speculation is probably false.&nbsp;
+So the brain has brain regions. We have&nbsp;
+our cortex. It has all those brain regions.&nbsp;
+The cortex is uniform, but the brain&nbsp;
+regions and the neurons in the cortex&nbsp;&nbsp;
+kind of speak to their neighbors mostly.
+That explains why you get brain regions.&nbsp;
+Because if you want to do some kind of&nbsp;
+speech processing, all the neurons that&nbsp;&nbsp;
+do speech need to talk to each other.
+And because neurons can only speak to&nbsp;&nbsp;
+their nearby neighbors, for the&nbsp;
+most part, it has to be a region.&nbsp;
+All the regions are mostly located in&nbsp;
+the same place from person to person.&nbsp;
+So maybe evolution hard-coded&nbsp;
+literally a location on the brain.&nbsp;
+So it says, "Oh, when the GPS coordinates&nbsp;
+of the brain such and such, when that fires,&nbsp;&nbsp;
+that's what you should care about."
+Maybe that's what evolution did because&nbsp;&nbsp;
+that would be within the toolkit of evolution.
+Yeah, although there are examples where,&nbsp;&nbsp;
+for example, people who are born blind have that&nbsp;
+area of their cortex adopted by another sense.&nbsp;
+I have no idea, but I'd be surprised if the&nbsp;
+desires or the reward functions which require a&nbsp;&nbsp;
+visual signal no longer worked for people who have&nbsp;
+their different areas of their cortex co-opted.&nbsp;
+For example, if you no longer have vision, can&nbsp;
+you still feel the sense that I want people&nbsp;&nbsp;
+around me to like me and so forth, which&nbsp;
+usually there are also visual cues for.&nbsp;
+I fully agree with that. I think there's an&nbsp;
+even stronger counterargument to this theory.&nbsp;
+There are people who get half of&nbsp;
+their brains removed in childhood,&nbsp;&nbsp;
+and they still have all their brain regions.
+But they all somehow move to just one hemisphere,&nbsp;&nbsp;
+which suggests that the brain regions,&nbsp;
+their location is not fixed and so&nbsp;&nbsp;
+that theory is not true.
+It would have been cool&nbsp;&nbsp;
+if it was true, but it's not.
+So I think that's a mystery.&nbsp;&nbsp;
+But it's an interesting mystery. The fact is&nbsp;
+that somehow evolution was able to endow us&nbsp;&nbsp;
+to care about social stuff very, very reliably.
+Even people who have all kinds of strange mental&nbsp;&nbsp;
+conditions and deficiencies and emotional&nbsp;
+problems tend to care about this also.&nbsp;
+What is SSI planning on doing differently?
+Presumably your plan is to be one of the&nbsp;&nbsp;
+frontier companies when this time arrives.
+Presumably you started SSI because you're like,&nbsp;&nbsp;
+"I think I have a way of approaching how&nbsp;
+to do this safely in a way that the other&nbsp;&nbsp;
+companies don't." What is that difference?
+The way I would describe it is that there&nbsp;&nbsp;
+are some ideas that I think are promising and&nbsp;
+I want to investigate them and see if they&nbsp;&nbsp;
+are indeed promising or not. It's really that&nbsp;
+simple. It's an attempt. If the ideas turn out&nbsp;&nbsp;
+to be correct—these ideas that we discussed&nbsp;
+around understanding generalization—then I&nbsp;&nbsp;
+think we will have something worthy.
+Will they turn out to be correct? We&nbsp;&nbsp;
+are doing research. We are squarely an "age of&nbsp;
+research" company. We are making progress. We've&nbsp;&nbsp;
+actually made quite good progress over the past&nbsp;
+year, but we need to keep making more progress,&nbsp;&nbsp;
+more research. That's how I see it. I see it&nbsp;
+as an attempt to be a voice and a participant.&nbsp;
+Your cofounder and previous CEO left to go to&nbsp;
+Meta recently, and people have asked, "Well,&nbsp;&nbsp;
+if there were a lot of breakthroughs being&nbsp;
+made, that seems like a thing that should&nbsp;&nbsp;
+have been unlikely." I wonder how you respond.
+For this, I will simply remind a few facts that&nbsp;&nbsp;
+may have been forgotten.
+I think these facts which&nbsp;&nbsp;
+provide the context explain the situation.
+The context was that we were fundraising at&nbsp;&nbsp;
+a $32 billion valuation, and then Meta came&nbsp;
+in and offered to acquire us, and I said no.&nbsp;
+But my former cofounder in some sense said yes.
+As a result, he also was able to enjoy a lot of&nbsp;&nbsp;
+near-term liquidity, and he was the&nbsp;
+only person from SSI to join Meta.&nbsp;
+It sounds like SSI's plan is to be a company&nbsp;
+that is at the frontier when you get to this&nbsp;&nbsp;
+very important period in human history&nbsp;
+where you have superhuman intelligence.&nbsp;
+You have these ideas about how to&nbsp;
+make superhuman intelligence go well.&nbsp;
+But other companies will&nbsp;
+be trying their own ideas.&nbsp;
+What distinguishes SSI's approach&nbsp;
+to making superintelligence go well?&nbsp;
+The main thing that distinguishes&nbsp;
+SSI is its technical approach.&nbsp;
+We have a different technical approach that&nbsp;
+I think is worthy and we are pursuing it.&nbsp;
+I maintain that in the end there&nbsp;
+will be a convergence of strategies.&nbsp;
+I think there will be a convergence of strategies&nbsp;
+where at some point, as AI becomes more powerful,&nbsp;&nbsp;
+it's going to become more or less clearer&nbsp;
+to everyone what the strategy should be.&nbsp;
+It should be something like, you need to find&nbsp;
+some way to talk to each other and you want&nbsp;&nbsp;
+your first actual real superintelligent AI to&nbsp;
+be aligned and somehow care for sentient life,&nbsp;&nbsp;
+care for people, democratic, one&nbsp;
+of those, some combination thereof.&nbsp;
+I think this is the condition&nbsp;
+that everyone should strive for.&nbsp;
+That's what SSI is striving for.
+I think that this time, if not already,&nbsp;&nbsp;
+all the other companies will realize that&nbsp;
+they're striving towards the same thing.&nbsp;&nbsp;
+We'll see. I think that the world will&nbsp;
+truly change as AI becomes more powerful.&nbsp;
+I think things will be really different and&nbsp;
+people will be acting really differently.&nbsp;
+Speaking of forecasts, what are your&nbsp;
+forecasts to this system you're describing,&nbsp;&nbsp;
+which can learn as well as a human and&nbsp;
+subsequently, as a result, become superhuman?&nbsp;
+I think like 5 to 20.
+5 to 20 years?&nbsp;
+Mhm.
+I just want&nbsp;&nbsp;
+to unroll how you might see the world coming.
+It's like, we have a couple more years where&nbsp;&nbsp;
+these other companies are continuing&nbsp;
+the current approach and it stalls out.&nbsp;&nbsp;
+"Stalls out" here meaning they earn no more&nbsp;
+than low hundreds of billions in revenue?&nbsp;
+How do you think about what stalling out means?
+I think stalling out will look like…it will&nbsp;&nbsp;
+all look very similar among&nbsp;
+all the different companies.&nbsp;
+It could be something like this.
+I'm not sure because I think&nbsp;&nbsp;
+even with stalling out, I think these&nbsp;
+companies could make a stupendous revenue.&nbsp;
+Maybe not profits because they will need&nbsp;
+to work hard to differentiate each other&nbsp;&nbsp;
+from themselves, but revenue definitely.
+But something in your model implies that&nbsp;&nbsp;
+when the correct solution does emerge, there&nbsp;
+will be convergence between all the companies.&nbsp;
+I'm curious why you think that's the case.
+I was talking more about convergence&nbsp;&nbsp;
+on their alignment strategies.
+I think eventual convergence on&nbsp;&nbsp;
+the technical approach is probably going&nbsp;
+to happen as well, but I was alluding&nbsp;&nbsp;
+to convergence to the alignment strategies.
+What exactly is the thing that should be done?&nbsp;
+I just want to better understand&nbsp;
+how you see the future unrolling.&nbsp;
+Currently, we have these different companies, and&nbsp;
+you expect their approach to continue generating&nbsp;&nbsp;
+revenue but not get to this human-like learner.
+So now we have these different forks of companies.&nbsp;
+We have you, we have Thinking Machines,&nbsp;
+there's a bunch of other labs.&nbsp;
+Maybe one of them figures&nbsp;
+out the correct approach.&nbsp;
+But then the release of their product makes&nbsp;
+it clear to other people how to do this thing.&nbsp;
+I think it won't be clear how to do it, but&nbsp;
+it will be clear that something different is&nbsp;&nbsp;
+possible, and that is information.
+People will then be trying&nbsp;&nbsp;
+to figure out how that works.
+I do think though that one of the things not&nbsp;&nbsp;
+addressed here, not discussed, is that with each&nbsp;
+increase in the AI's capabilities, I think there&nbsp;&nbsp;
+will be some kind of changes, but I don't know&nbsp;
+exactly which ones, in how things are being done.&nbsp;
+I think it's going to be important, yet&nbsp;
+I can't spell out what that is exactly.&nbsp;
+By default, you would expect the company that&nbsp;
+has that model to be getting all these gains&nbsp;&nbsp;
+because they have the model that has the skills&nbsp;
+and knowledge that it's building up in the world.&nbsp;
+What is the reason to think that the benefits&nbsp;
+of that would be widely distributed and not&nbsp;&nbsp;
+just end up at whatever model company gets&nbsp;
+this continuous learning loop going first?&nbsp;
+Here is what I think is going to happen.
+Number one, let's look at how things have&nbsp;&nbsp;
+gone so far with the AIs of the past.
+One company produced an advance and the&nbsp;&nbsp;
+other company scrambled and produced some similar&nbsp;
+things after some amount of time and they started&nbsp;&nbsp;
+to compete in the market and push the prices down.
+So I think from the market perspective,&nbsp;&nbsp;
+something similar will happen there as well.
+We are talking about the good world, by the way.&nbsp;&nbsp;
+What's the good world? It’s where we have these&nbsp;
+powerful human-like learners that are also… By&nbsp;&nbsp;
+the way, maybe there's another thing we haven't&nbsp;
+discussed on the spec of the superintelligent&nbsp;&nbsp;
+AI that I think is worth considering.
+It’s that you make it narrow, it can&nbsp;&nbsp;
+be useful and narrow at the same time.
+You can have lots of narrow superintelligent AIs.&nbsp;
+But suppose you have many of them and you&nbsp;
+have some company that's producing a lot of&nbsp;&nbsp;
+profits from it.
+Then you have another&nbsp;&nbsp;
+company that comes in and starts to compete.
+The way the competition is going to work is&nbsp;&nbsp;
+through specialization. Competition loves&nbsp;
+specialization. You see it in the market,&nbsp;&nbsp;
+you see it in evolution as well.
+You're going to have lots of different&nbsp;&nbsp;
+niches and you're going to have lots of different&nbsp;
+companies who are occupying different niches.&nbsp;
+In this world we might say one AI company&nbsp;
+is really quite a bit better at some area&nbsp;&nbsp;
+of really complicated economic activity and a&nbsp;
+different company is better at another area.&nbsp;
+And the third company is&nbsp;
+really good at litigation.&nbsp;
+Isn't this contradicted by what human-like&nbsp;
+learning implies? It’s that it can learn…&nbsp;
+It can, but you have accumulated&nbsp;
+learning. You have a big investment.&nbsp;&nbsp;
+You spent a lot of compute to become really,&nbsp;
+really good, really phenomenal at this thing.&nbsp;
+Someone else spent a huge amount&nbsp;
+of compute and a huge amount of&nbsp;&nbsp;
+experience to get really good at some other thing.
+You apply a lot of human learning to get there,&nbsp;&nbsp;
+but now you are at this high point where&nbsp;
+someone else would say, "Look, I don't want&nbsp;&nbsp;
+to start learning what you've learned."
+I guess that would require many different&nbsp;&nbsp;
+companies to begin at the human-like continual&nbsp;
+learning agent at the same time so that they&nbsp;&nbsp;
+can start their different tree&nbsp;
+search in different branches.&nbsp;
+But if one company gets that agent first, or gets&nbsp;
+that learner first, it does then seem like… Well,&nbsp;&nbsp;
+if you just think about every single job in&nbsp;
+the economy, having an instance learning each&nbsp;&nbsp;
+one seems tractable for a company.
+That's a valid argument. My strong&nbsp;&nbsp;
+intuition is that it's not how it's going to go.
+The argument says it will go this way, but my&nbsp;&nbsp;
+strong intuition is that it will not go this way.
+In theory, there is no difference between theory&nbsp;&nbsp;
+and practice. In practice, there is. I&nbsp;
+think that's going to be one of those.&nbsp;
+A lot of people's models of recursive&nbsp;
+self-improvement literally, explicitly state&nbsp;&nbsp;
+we will have a million Ilyas in a server that are&nbsp;
+coming up with different ideas, and this will lead&nbsp;&nbsp;
+to a superintelligence emerging very fast.
+Do you have some intuition about how&nbsp;&nbsp;
+parallelizable the thing you are doing is?
+What are the gains from making copies of Ilya?&nbsp;
+I don’t know. I think there'll definitely be&nbsp;
+diminishing returns because you want people&nbsp;&nbsp;
+who think differently rather than the same.
+If there were literal copies of me, I'm not sure&nbsp;&nbsp;
+how much more incremental value you'd get.
+People who think differently,&nbsp;&nbsp;
+that's what you want.
+Why is it that if you look&nbsp;&nbsp;
+at different models, even released by totally&nbsp;
+different companies trained on potentially&nbsp;&nbsp;
+non-overlapping datasets, it's actually&nbsp;
+crazy how similar LLMs are to each other?&nbsp;
+Maybe the datasets are not as&nbsp;
+non-overlapping as it seems.&nbsp;
+But there’s some sense in which even&nbsp;
+if an individual human might be less&nbsp;&nbsp;
+productive than the future AI, maybe there’s&nbsp;
+something to the fact that human teams have&nbsp;&nbsp;
+more diversity than teams of AIs might have.
+How do we elicit meaningful diversity among AIs?&nbsp;
+I think just raising the temperature&nbsp;
+just results in gibberish.&nbsp;
+You want something more like different scientists&nbsp;
+have different prejudices or different ideas.&nbsp;
+How do you get that kind of&nbsp;
+diversity among AI agents?&nbsp;
+So the reason there has been no diversity,&nbsp;
+I believe, is because of pre-training.&nbsp;
+All the pre-trained models are pretty much the&nbsp;
+same because they pre-train on the same data.&nbsp;
+Now RL and post-training is where&nbsp;
+some differentiation starts to emerge&nbsp;&nbsp;
+because different people come&nbsp;
+up with different RL training.&nbsp;
+I've heard you hint in the past&nbsp;
+about self-play as a way to either&nbsp;&nbsp;
+get data or match agents to other agents of&nbsp;
+equivalent intelligence to kick off learning.&nbsp;
+How should we think about why there are no public&nbsp;
+proposals of this kind of thing working with LLMs?&nbsp;
+I would say there are two things to say.
+The reason why I thought self-play was&nbsp;&nbsp;
+interesting is because it offered a way to&nbsp;
+create models using compute only, without data.&nbsp;
+If you think that data is the ultimate bottleneck,&nbsp;
+then using compute only is very interesting.&nbsp;
+So that's what makes it interesting.
+The thing is that self-play, at least the&nbsp;&nbsp;
+way it was done in the past—when you have agents&nbsp;
+which somehow compete with each other—it's only&nbsp;&nbsp;
+good for developing a certain set of skills. It&nbsp;
+is too narrow. It's only good for negotiation,&nbsp;&nbsp;
+conflict, certain social skills,&nbsp;
+strategizing, that kind of stuff.&nbsp;
+If you care about those skills,&nbsp;
+then self-play will be useful.&nbsp;
+Actually, I think that self-play did find&nbsp;
+a home, but just in a different form.&nbsp;
+So things like debate, prover-verifier, you&nbsp;
+have some kind of an LLM-as-a-Judge which is&nbsp;&nbsp;
+also incentivized to find mistakes in your work.
+You could say this is not exactly self-play,&nbsp;&nbsp;
+but this is a related adversarial&nbsp;
+setup that people are doing, I believe.&nbsp;
+Really self-play is a special case of&nbsp;
+more general competition between agents.&nbsp;
+The natural response to competition&nbsp;
+is to try to be different.&nbsp;
+So if you were to put multiple agents together&nbsp;
+and you tell them, "You all need to work on some&nbsp;&nbsp;
+problem and you are an agent and you're inspecting&nbsp;
+what everyone else is working," they’re going to&nbsp;&nbsp;
+say, "Well, if they're already taking this&nbsp;
+approach, it's not clear I should pursue it.&nbsp;&nbsp;
+I should pursue something differentiated." So I&nbsp;
+think something like this could also create an&nbsp;&nbsp;
+incentive for a diversity of approaches.
+Final question: What is research taste?&nbsp;
+You're obviously the person in&nbsp;
+the world who is considered to&nbsp;&nbsp;
+have the best taste in doing research in AI.
+You were the co-author on the biggest things&nbsp;&nbsp;
+that have happened in the history of deep&nbsp;
+learning, from AlexNet to GPT-3 to so on.&nbsp;
+What is it, how do you characterize&nbsp;
+how you come up with these ideas?&nbsp;
+I can comment on this for myself.
+I think different people do it differently.&nbsp;
+One thing that guides me personally is an&nbsp;
+aesthetic of how AI should be, by thinking&nbsp;&nbsp;
+about how people are, but thinking correctly.
+It's very easy to think about how people are&nbsp;&nbsp;
+incorrectly, but what does it mean to think&nbsp;
+about people correctly? I'll give you some&nbsp;&nbsp;
+examples. The idea of the artificial neuron&nbsp;
+is directly inspired by the brain, and it's a&nbsp;&nbsp;
+great idea. Why? Because you say the brain has&nbsp;
+all these different organs, it has the folds,&nbsp;&nbsp;
+but the folds probably don't matter.
+Why do we think that the neurons matter?&nbsp;
+Because there are many of them.
+It kind of feels right, so you want the neuron.&nbsp;
+You want some local learning rule that will&nbsp;
+change the connections between the neurons.&nbsp;
+It feels plausible that the brain does it.
+The idea of the distributed representation.&nbsp;
+The idea that the brain responds&nbsp;
+to experience therefore our neural&nbsp;&nbsp;
+net should learn from experience.
+The brain learns from experience,&nbsp;&nbsp;
+the neural net should learn from experience.
+You kind of ask yourself, is something fundamental&nbsp;&nbsp;
+or not fundamental? How things should be.&nbsp;
+I think that's been guiding me a fair bit,&nbsp;&nbsp;
+thinking from multiple angles and looking&nbsp;
+for almost beauty, beauty and simplicity.&nbsp;
+Ugliness, there's no room for ugliness.
+It's beauty, simplicity, elegance,&nbsp;&nbsp;
+correct inspiration from the brain.
+All of those things need to&nbsp;&nbsp;
+be present at the same time.
+The more they are present, the&nbsp;&nbsp;
+more confident you can be in a top-down belief.
+The top-down belief is the thing that sustains&nbsp;&nbsp;
+you when the experiments contradict you.
+Because if you trust the data all the time,&nbsp;&nbsp;
+well sometimes you can be doing the&nbsp;
+correct thing but there's a bug.&nbsp;
+But you don't know that there is a bug.
+How can you tell that there is a bug?&nbsp;
+How do you know if you should keep debugging or&nbsp;
+you conclude it's the wrong direction? It's the&nbsp;&nbsp;
+top-down. You can say things have to be this way.
+Something like this has to work,&nbsp;&nbsp;
+therefore we’ve got to keep going.
+That's the top-down, and it's based on this&nbsp;&nbsp;
+multifaceted beauty and inspiration by the brain.
+Alright, we'll leave it there.&nbsp;
+Thank you so much.
+Ilya, thank you so much.&nbsp;
+Alright. Appreciate it.
+That was great.&nbsp;
+Yeah, I enjoyed it.
+Yes, me too.

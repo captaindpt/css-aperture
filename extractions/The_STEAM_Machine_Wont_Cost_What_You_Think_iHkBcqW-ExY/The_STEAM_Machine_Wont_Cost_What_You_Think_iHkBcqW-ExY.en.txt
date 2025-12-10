@@ -1,0 +1,589 @@
+**Transcript extracted from YouTube video**
+
+Kind: captions
+Language: en
+Recently, I visited Valve to check out
+their upcoming Steam machine, a gaming
+PC that has the potential to massively
+shake up the gaming console industry.
+They were shockingly open about the
+specs, features, and the design. But
+there is one piece of the puzzle that
+Valve is keeping close to their chest,
+the price. And that's a pretty important
+piece because when you look at the
+discussion online, people love this
+thing because they think it's going to
+be a $500 console killer or they hate it
+because they think it's going to be yet
+another midspec pre-built gaming PC for
+$1,000.
+But which one is it? Valve won't tell us
+yet for some good reasons that we'll get
+to later. But what we do have is enough
+information and enough lines to read
+between that I believe we can make such
+an accurate guess that if we're off by
+more than $60, I will eat an entire
+portal cake on the WAN show. What is a
+portal cake?
+&gt;&gt; You don't remember the cake is a lie?
+&gt;&gt; An entire cake?
+&gt;&gt; That's true this time.
+&gt;&gt; Okay. Well, because I counted on you
+guys to help with the work, you are
+going to help me eat it.
+&gt;&gt; Gladly. We win as a team and we die as a
+team here. But I don't think that's
+going to happen because our theory is
+solid and it starts with the comparison
+system behind me. This approximation
+will both give us a sense for what a DIY
+steam machine would cost today as well
+as give us a sense of how it might
+perform. Cuz Valve, they ain't no fools.
+They care a lot about the perceived
+value of the experience of using the
+steam machine, not just the raw specs.
+Let's start with their CPU then, or
+rather not quite their CPU. See, the
+Steam Machine uses a semicustom six core
+chip from AMD. And while we would have
+loved to use the near identical Ryzen 5
+7540U,
+we don't have a custom motherboard to
+solder it to. So, we're going to be
+stuck with the socketed desktop Ryzen
+58400F.
+To get our performance estimate a little
+closer though, we're going to tweak its
+power and clock frequency to be closer
+to Valve's baby. About like so. Now, we
+just need to save and quit.
+It's not working. Oh, wait. I know what
+the problem is. We didn't configure our
+Segway to our sponsor, UG, Green. Their
+beginner friendly NAS offers up to 120
+TB of storage. It syncs smoothly with
+Google Drive, offers high-speed 2.5 GB
+transfers, and keeps your files safe
+with local storage and built-in security
+tools. Check out the UG Green DH4300
+Plus NAS in the video description. Sure,
+Black Friday, it's pretty cool, but
+don't you think Thursday's even better?
+I do, and that's why if you're an LTT
+float plane subscriber, we're giving you
+early access to all of our Black Friday
+deals today. Like when you buy a
+commuter backpack, we are throwing in a
+free solid color mystery screwdriver. Or
+when you buy a magnetic cable management
+room solution, you can get a free Elgato
+Stream Deck M2. And there is so much
+more. And when you get there, you'll
+notice there's a brand new float plane
+exclusive collection. Did I mention that
+you'll get free shipping on your entire
+order on ltstore.com if it's over $100?
+But hey, if you're not a float plane
+subscriber, don't worry. We'll be back
+tomorrow.
+Uh, oh, I get it. We're putting the
+black in Black Friday.
+Now, we just put our equivalent CPU in
+there and
+immediately we're completely off the
+rails with the ASRock B650M-H
+M.2 Plus. a motherboard that other than
+being a motherboard is as different as
+possible from the one inside the Steam
+machine. For starters, it's much larger
+with robust power delivery and a
+plethora of expansion ports and slots
+that just aren't needed in the GameCube,
+which other than a socketed SSD and
+system memory, uses soldered components
+to save on space, complexity, and cost.
+Our board then is likely much more
+expensive than the one that Valve is
+using. However, the flip side is that
+creating a custom motherboard that ain't
+free and Valve is going to have to make
+up those costs somewhere. Perhaps by
+cheaping out on the RAM. Now, we don't
+know for sure that Valve will select
+generic Jex speed RAM like this 16 gig
+kit from Crucial. But what we do know is
+that they've chosen compact sodium
+modules in order to save space, which
+could cost them a little bit extra. We
+also know that the 7540U is rated for a
+maximum speed of 5600 megat transfers
+per second. And unless Valve went more
+custom than they let on, that's probably
+about as fast as their semi-custom
+silicon will go. But that raises a big
+question. How custom did they go? What
+does semicustom actually mean? As it
+turns out, it means pretty much
+offtheshelf, but with some tuning to the
+firmware, power profile, and drivers.
+And that choice tells us a fair bit
+actually. Think back to the recent news
+about Xbox reportedly cancelling their
+handheld. Allegedly, that was at least
+partially due to the fact that AMD
+wouldn't commit to a custom SOC unless
+Microsoft could guarantee at least 10
+million units sold. So, what I'm hearing
+is Valve is projecting enough sales to
+bother doing this project at all and
+probably enough for AMD to give them a
+measurable price break, but not enough
+to sell 10 million Steam machines.
+Because if that were the case, they
+might have chosen something more custom,
+a strategy that clearly contributed to
+the incredible price toerformance ratio
+of their handheld console, the Steam
+Deck. There's any number of different
+ways to interpret this. I mean, Valve
+has been burned on Steam machines
+before. Are they just playing it safe
+this time? Or do they just think the
+market for a Steam living room console
+that's also a computer is relatively
+small? I mean, to you and me, 10 million
+units is huge. I'd be stoked to sell 10
+million units of anything. Like the new
+transparent screwdriver from
+ltdstore.com.
+But when we compare that number to
+console sales, yeah, it is tiny. Even
+infamous failures like the PS Vita and
+the Wii U sold significantly more than
+that. So to me, this reinforces the few
+hints that Valve has given with respect
+to pricing. What it tells us is that
+while Valve could look for every
+possible lever to drive down price, they
+just aren't that interested in betting
+big on upending the console market. It
+seems like they're more interested in
+replicating the Steam Deck success by
+giving gamers more ways to play Steam
+games and putting a reference platform
+out there for other hardware
+manufacturers to chase and who knows,
+maybe install Steam OS on. Ah, with that
+in mind, then it's not in Valve's best
+interest to monopolize the market. They
+want to drive competition in it, which
+unfortunately means they aren't likely
+to slim down their margins and hit a
+Christmas listable $500 mainstream
+console price point. I actually asked
+Valve about that point blank. And while
+they didn't say no, they also didn't say
+no,
+which is kind of a downer. and we've yet
+to complete our descent. As I install
+our Kingston NV3 with 500 gigs of
+storage, I can't help but be reminded of
+the rising costs of both the NAND flash
+storage chips that are at the heart of
+every SSD and every type of memory right
+now. Like both of them are more out of
+control than a pre-teen on Mari Povit.
+&gt;&gt; Catch me outside. And even though it's
+not intuitive, this is mostly due to the
+insatiable demands of AI factories and
+hyperscalers who are sucking up all the
+available production. And guess what? It
+gets worse. While US tariffs seem to be
+easing off a little, there is no denying
+that global trade friction and
+protectionism are hot trends right now.
+And in just the few months between now
+and broad availability of the steam
+machine, any given part of it could
+easily face cost increases due to these
+factors. Rounding out our test bench,
+we've got an AMD stock cooler since
+we're going to be limiting our CPU to 30
+W anyway. And powering it, this CIC
+Focus GX 550. Not because the Steam
+Machine will have a 550 W power supply,
+but because where the heck am I supposed
+to find a desktop power supply that is
+both high quality and also 300 W. Now,
+it's time to talk about what is arguably
+the most important piece of any gaming
+PC, the GPU. What we know is that the
+Steam Machine will have a semi-custom
+AMD RDNA3 GPU. We know it will consume
+the lion share of the systems power. And
+we know that it will come with 8 GB of
+dedicated GDDR6 VRAMm. That actually
+lines up pretty closely with another
+product in AMD's lineup, the Radeon
+RX7600M.
+Sadly though, the M once again stands
+for mobile. So, we couldn't find that
+GPU in a form factor that we could plug
+into a regular desktop. So, once again,
+we need to look for the closest
+equivalent. This could be a problem. The
+most obvious choice would of course be
+the full-sized RX7600, right? I mean,
+it's got the same dang numbers in the
+product name, so it must perform the
+dang same then, right? Wrong. It is much
+faster in most benchmarks. And if we
+want a GPU with similar performance, we
+end up with the RX6600,
+but that is a full generation older,
+which means that it might not have the
+best support for AMD's latest features.
+And depending on the games we run and
+how much rayraced lighting they use, its
+performance profile is not going to be
+the same either. But what it does have
+is the same CU count and very similar
+boost clocks. And even the power rating
+is very similar. So I guess we go with
+this. Which brings us to pricing. David,
+where are we at?
+&gt;&gt; I would tell you that, but we're not
+done yet. You fell victim to one of the
+classic PC comparison blenders. Uh, you
+don't have a controller, but the Steam
+Machine will come with a pretty fancy
+one.
+&gt;&gt; Oh, I chose the Cyclone 2 from Gamester
+as our standin. It's a high- quality
+wireless controller with TMR sticks that
+comes with its own charging dock. All
+for 56 bucks. But, uh, the box is
+missing its dongle. So, instead, we're
+going with the winner of the ultimate
+controller showdown from last year, the
+Easy SMX20. You love this controller.
+&gt;&gt; Okay, but that's still the same price
+anyway.
+&gt;&gt; It's close enough that our calculations
+are still correct. Okay. So, what are
+our calculations?
+&gt;&gt; Well, if we were to build this machine
+using the lowest historical pricing
+&gt;&gt; Mhm.
+&gt;&gt; from the cheapest sources,
+&gt;&gt; Mhm.
+&gt;&gt; which I would like to.
+&gt;&gt; And let's say we add 50 bucks for a
+case,
+&gt;&gt; right?
+&gt;&gt; We're looking at just over $600.
+&gt;&gt; Oh, well, that's great news. I mean,
+it's Steam OS, so there's no Windows
+tax. So, $5.99.
+&gt;&gt; I was not done. If we build it today in
+the current market conditions from the
+cheapest sources, we're looking at close
+to $900.
+&gt;&gt; Oh.
+But we don't have to buy these exact
+parts.
+&gt;&gt; No. If we're deal hunters and we don't
+mind giving up some of the bells and
+whistles and some of the name brands, it
+would save you about a hundred bucks
+without giving up any performance.
+&gt;&gt; Okay. But that's retail pricing that's
+got some margin built into it. So, I
+don't think I'd say $7.99 either. Or
+maybe I would. Chatting with some
+industry sources, it's estimated that
+there's as little as 10% net profit in
+PC parts, which would put our estimated
+cost between $700 and $750.
+With that said, Valve benefits from a
+direct to consumer model, meaning that
+they get to take both the brand and
+retailer margins. And as we already
+acknowledged, we did overspend on a
+number of our components, including the
+power supply, the motherboard, and the
+case compared to what Valve would pay.
+With that said, in today's market, I
+still don't think they're going to get
+costs under $600 to $650. Meaning that
+the final question is, what kind of
+markup will Valve target on the Steam
+machine? Without being a fly on the wall
+in their boardroom, it's
+&gt;&gt; it's impossible to say for sure. All
+that Valve would tell us is that they
+want their hardware business to be
+sustainable. But what does that mean?
+I think it means $6.99 US. If there's no
+major changes in the market, it's
+probably above Valve's cost today and
+there'll be some opportunity for them to
+improve their margins over the several
+year lifespan of their device as their
+initial investment gets paid off and
+hopefully RAM and SSD pricing returns to
+some kind of normaly. And if we factor
+in nice to haves like the dedicated
+antenna for up to four wireless Steam
+controllers, not to mention the
+controller itself, the Steam Machine
+presents a compelling value at that
+price without completely undercutting
+the market. And maybe this is the most
+important factor. It's kind of a funny
+number. I don't love this answer. And
+I'm sure I'm not the only one who's
+sitting here wishing that it was priced
+like a game console. I mean, who
+wouldn't want that affordable of a PC?
+But you see what I did just there? I
+just moved the goalpost. A big part of
+the reason I want this thing to be
+affordable so bad is because it is a PC
+with all the benefits of a PC. Like no
+cost online play for most games, the
+ability to take advantage of Steam
+sales, not to mention other gaming
+marketplace sales, and maybe most
+importantly, the ability to use it for
+all kinds of non-gaming applications.
+But it's exactly that PCness that makes
+the console pricing model just not work
+for Valve. It would take a matter of
+minutes for me to grab my brand new
+Steam machine, install Windows and Epic
+Game Store on it and then never give a
+penny of ongoing revenue to Valve. So,
+coming back to that word sustainable, if
+they want their hardware business to
+make business sense, they can't risk
+pricing this thing so attractively that
+say a corporate office might buy 80,000
+steam machines and kit out their entire
+workforce, all of whom will buy a total
+Goose Egg Games. Now, the Steam Deck was
+never in any real danger of that
+happening, which is why it could be
+priced as aggressively as it was, but
+the same can't be said for the Steam
+Machine. So, with that in mind, what are
+we getting for our $700 or at most $800
+if the market goes completely
+wackadoodle? Man, Steamos rocks.
+&gt;&gt; I know, right?
+Of course, that's not what we're
+evaluating today. Nope. Today we're
+looking at the performance. So, we'll
+start up by firing up Hades 2.
+&gt;&gt; You're only getting like 200 to 300
+frames, Linus. That's kind of
+embarrassing.
+&gt;&gt; Okay. Well, we always knew that games
+like this were going to play just fine
+on this Steam machine. What we really
+care about is how something more
+challenging is going to run. And our
+plan was to go with the game that seems
+poised to win game of the year,
+Expedition 33. But unfortunately, it's
+running in the Steam Deck profile with
+no way for us to reconfigure it on Steam
+OS right now. So,
+Cyberpunk, I guess
+&gt;&gt; it's the crisis of the 2020s.
+&gt;&gt; This looks pretty good.
+&gt;&gt; Yeah, it looks pretty, but Cyberpunk at
+4K medium details would look pretty. I
+can tell you as the person holding the
+controller, though,
+45 fps is not great for driving it. Mhm.
+But what's up with that? Valve said that
+out of the gate, the Steam Machine
+should be capable of running pretty much
+any game on Steam at 4K with FSR about
+60 FPS.
+Well, that's where there's clearly some
+tuning for them to do. Let's see if we
+can get to 60. Why don't we start with a
+low rather than a medium preset and then
+let's change our FSR to performance,
+which renders the game at an even lower
+resolution before upscaling. Oh, hey,
+that looks better.
+&gt;&gt; That is above 60. Okay,
+&gt;&gt; looks pretty good.
+&gt;&gt; Yeah, it still looks dec.
+&gt;&gt; There's a little bit of graininess.
+&gt;&gt; I mean, there's always a little bit of
+graininess in Cyberpunk.
+&gt;&gt; Yeah, that's true.
+&gt;&gt; You crank it, it's just kind of like a
+gritty, grainy style.
+&gt;&gt; Yeah, that was on purpose, right?
+&gt;&gt; Yeah. Yeah. Yeah.
+&gt;&gt; Night City.
+&gt;&gt; This is very good. It's not the highest
+I've ever seen Cyberpunk look, but if
+you have complaints about this, you're
+very picky.
+&gt;&gt; But who's to say that gamers shouldn't
+be discerning? While this looks fine in
+a vacuum, it's only as good as how it
+stacks up to the competition. How does
+it look next to say a PlayStation 5?
+What about second 4K display?
+&gt;&gt; Normally, we'd have to have like
+multiple circuits to run two PCs, but
+the Steam Machine is going to be such a
+low powered thing that we can have two
+TVs, a PlayStation, and a computer all
+in one.
+&gt;&gt; That's actually a pretty good point. The
+expectations for running something in
+your living room are a little bit
+different than, you know, a dedicated
+battle station of a gaming PC. Being
+power efficient is definitely a plus.
+We're not in quite the same spot, but
+this is enough to give us an idea of how
+these systems will compare, both in
+terms of performance and in terms of
+image quality. It's funny. I think I'm
+actually running a touch sharper than
+you.
+&gt;&gt; Way sharper. I think I have better
+lighting. Details are better.
+&gt;&gt; Is definitely better.
+&gt;&gt; But I if I were to pick one, I actually
+think I would pick that.
+&gt;&gt; I was going to say I'd probably pick the
+PlayStation.
+&gt;&gt; Interesting.
+&gt;&gt; You're in performance mode right now,
+right? which means you're getting about
+60 fps, which is about the same as what
+I'm getting. Either way, though, there's
+no clear winner. There's no obvious
+winner, which tells us that as long as
+they're reasonably within range of a
+PlayStation 5 on price, they're
+reasonably within range on performance
+&gt;&gt; 100%.
+&gt;&gt; Here, do you want to try? Yeah.
+&gt;&gt; Well, just your inputs feel looser just
+because of the VSSync. Also, that's a
+better controller than this. I'm sorry.
+The joysticks. Anyway, the joysticks,
+the the triggers on the Dual Sense are
+so cool. Yeah. Now that I'm on the
+PlayStation 5, my level of detail at a
+distance is ah man. No, I don't know.
+Actually, LOD might be similar. It's the
+lighting.
+&gt;&gt; Yeah,
+&gt;&gt; it's the lighting that makes a huge
+difference on the PlayStation.
+&gt;&gt; The nice thing about the Steam Deck is
+because it's a PC, you can tweak it to
+have the settings you want. So, I find
+everyone's a little bit more sensitive
+to different settings appearing in their
+graphics. And so, having control over
+that's really nice. Like, you might not
+worry that much about jaggy. So, then
+you can put that headroom somewhere
+else. On PlayStation, it's either 60 or
+30, maybe that's that's your choice.
+&gt;&gt; Yeah. Like, if you sit farther from your
+TV, you could run that at 1080p if you
+really wanted to.
+&gt;&gt; Totally. So bottom line, Valve clearly
+has a couple of little details to polish
+up, but they have a few months to do it.
+And they've also made it very clear that
+they feel there is more juice to be
+squeezed from the hardware from a
+performance standpoint as well with
+their custom drivers for AMD Radeon
+cards. Not to mention deep integration
+with Steam OS, which we can't count on
+until we get the real Steam machine in
+our hands, not this Frankenstein's
+monster. But even based on what we've
+seen so far, at this performance level,
+at this price, with this level of
+flexibility, not to mention that it's
+really small and damn near dead silent,
+I think it looks like a pretty
+compelling value. And according to
+Valve, the market for this box might be
+bigger than you would think. They
+estimate that the Steam Machine will be
+more powerful than what 70% of Steam
+users currently have. That doesn't
+necessarily translate to something that
+70% of users would be interested in
+purchasing, but it does mean that it's
+almost certain that the Steam Machine
+will find an audience. Even if it does
+cost more than we estimate, I just hope
+that it doesn't cost too much. Or if it
+does cost too much, I hope it doesn't
+succeed too much because I'd love for
+Valve to just say, "Oh, we didn't sell
+enough of these. You know what? Screw
+it. Let's just upend the living room
+console." Not to mention the entry-level
+workstation space. Like look at the way
+the Steam Deck seems to have lit a fire
+under Nintendo's lethargic butt. I love
+Valve as a disruptor. And I also love
+our sponsor, Vessie. Their biggest sale
+of the year is going on right now.
+Whether it's a chilly, damp morning
+commute or a holiday family gathering,
+Vessie makes staying dry, warm, and
+stylish a breeze. Now's the perfect time
+to upgrade your wardrobe for the
+chillier days ahead because Vessie is
+offering 25% off sitewide with some
+items getting discounts as high as 55%
+off. They claim their shoes are 100%
+waterproof thanks to the Dateex
+technology, which is also a lightweight
+and breathable material, so you can stay
+comfortable throughout your day. Looking
+for a great gift for that puddle
+stomping loved one? Check out Vessie's
+weekend lineup. Or make a splash at your
+work's holiday party with some of their
+other apparel, including beanies,
+shirts, and jackets. As always, their
+products come with a one-year warranty
+and a 30-day worry-free return. Plus,
+shipping is free in North America on all
+orders over $110. Don't wait. Your
+perfect pair is just a click away at
+vessie.com. If you guys want more Steam
+Machine content, get subscribed as we
+have more on the way. But in the
+meantime, you should check out either of
+our recent Valve hardware coverage. Or
+hey, maybe how about the time we deep
+dived into the state of Steam OS on
+nonValve hardware. Steam OS is likely to
+end up far more important than the Steam
+Deck and the Steam Machine combined.

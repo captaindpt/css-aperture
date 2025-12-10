@@ -1,0 +1,1430 @@
+**Transcript extracted from YouTube video**
+
+Kind: captions
+Language: en
+[Music]
+Well, it's great to have you. Thanks for
+Thank you for being here.
+Thanks for having me. Great to be here.
+Yes. I've heard that your first startup
+was written in small talk. Please
+explain.
+I don't know what there is to explain.
+It's the best programming language. Um
+well uh I had I'd worked on lisp and
+lisp dialects uh before that and uh
+actually I I worked on lisp web
+frameworks and uh when we went to build
+our first startup uh we we first wrote
+it in we we first implemented it in
+rails and then I found compared to lisp
+that development process kind of
+frustrating and I mean we don't need to
+get into the full details but I thought
+that continuationbased web frameworks
+were really the right way to implement
+web applications. uh there were no
+continuations uh in
+there's no continuation based framework
+in in Ruby um and uh kind of searching
+around I found that there was um a good
+one that had just been written in small
+talk and so I decided to play with it a
+little bit and then I found that small
+talk is actually this extremely
+interesting development environment um
+that had a lot a lot of the aspects of
+lisp that I'd really appreciated there
+like um you know and a fully interactive
+environment with a proper debug bugger
+uh so that you can you can edit the code
+while um you know in the middle of some
+web request or you know in deep in some
+stack trace or something uh and you know
+you could for example encounter an error
+uh with some web request edit the code
+to fix the error and then resume higher
+up in the stack such that the entire web
+request would just complete. And so
+rather than this kind of annoying
+feedback loop of having to add some log
+statements and like do this binary
+search to like find the problem and
+eventually like deploy, you know, a
+fixed version, you know, a process that
+could take an hour, you could just like
+literally inspect the stack frame, see
+which variable has the wrong value, fix
+it, like, you know, jump back up, hit
+proceed, and have the whole thing work.
+Anyway, the point is uh in the hunt for
+this continuation based web framework uh
+realized that small talk um in general
+had just a much more powerful
+development environment as compared to
+Ruby slash as compared to basically
+every other mainstream programming
+language. Um and so we we decided to
+yeah use it for the company which in
+hindsight was I mean I don't know if it
+was a terrible decision or not. The
+reason I think one would think it would
+be terrible uh is that it would be you
+know hard to hire people and hard to
+scale and you know whatever. It wasn't
+hard to hire people or rather nobody
+knew it but it was easy to teach them
+the company.
+Did they know before they joined?
+No. No. But did they learned really
+quickly? Um and then you know smart
+people learn languages really quickly.
+Uh so I don't I don't think that's
+really a reason not to use a non-
+mainstream language. The company didn't
+work. I think for unrelated reasons. I
+think just the idea wasn't that strong.
+Um but we also chose Ruby for for
+Stripe. So I don't know. I think maybe
+the gains were not quite as large as I
+hoped.
+And was your small talk enthusiasm
+shared by the acquirers of the startup?
+And what was the dynamic? you know, was
+there like this blissfully ignorant
+management that foisted this small talk
+codebase on a bunch of unsuspecting
+developers that were then kind of like
+piling it over, you know, or Yeah. What
+what was the dynamic between the the
+programmers management sort of what
+happened to that small talk code base?
+Yeah. Yeah.
+Does it still live on somewhere?
+I wish um and um I'm I'm 99% sure the
+answer to that is no. Uh it um it the
+company that acquired us was mainly a
+talent acquisition. So um yeah, the the
+code base itself was was less relevant.
+Okay. And it was immediately sort of
+just gone.
+Yeah.
+Okay. Gotcha. I've also heard that one
+of your earliest programming projects
+was working on an an AI bot written in
+lisp. True
+and it was it was something like a uh it
+was a client for MSN.
+I know where you found that, but that is
+true.
+Um and um I heard that you got kind of
+nerd sniped by the idea of trying to get
+it to pass the touring test.
+Yes.
+Um and I'm curious, what did you miss?
+You know, why didn't you make chasht? Um
+and well maybe a little bit more
+seriously how did it work and what was
+the state of neural networks at the time
+and did you did you consider using um
+any anticedants to the technology we use
+today?
+Yeah so so that was a project uh it was
+um a little critter that used MSN
+messenger uh which was you know all the
+rage at the time. I guess that puts that
+that's like maybe a specific kind of you
+know sedimentary layer in the you know
+chronology of different instant
+messaging solutions and probably dates
+me quite precisely. Um and it was a
+really simple basian next word predictor
+like there was nothing really that
+sophisticated there to the extent there
+was anything sophisticated was maybe
+that it used like that the training data
+was the conversations it itself had an
+in MSN messenger rather than kind of
+general text corpa and and you know it
+it worked reasonably well and you know
+it better versions looked a couple of
+words ahead and and you know what have
+you and a I mean it never really passed
+the touring test where you know people
+have actual suspicion they're trying to
+you know exercise this this uh
+discernment. Um but it certainly passed
+some weaker versions of hearing test
+where you know they they were
+unsuspecting and you know people ended
+up having quite quite lengthy
+conversations with it. It and that was
+part of how I discovered lisp and I
+remember paradigms of AI programming by
+Peter Norvig being a really formative
+book and had you know all sorts of uh
+interesting approaches there. Um, it
+didn't have anything on neural networks,
+I'm almost sure. And I never I mean, I'd
+read some Marvin Minsky stuff, Society
+of the Mind or whatever on on on neural
+nets, but I never really seriously
+looked at them. And I actually
+experimented a lot with genetic
+algorithms. Um, they were, I guess, more
+practical on, you know, your own
+computer. Like it's it's it takes a lot
+of computer training neural nets. So, I
+I experimented a lot with with genetic
+algorithms and actually I use Vorjac,
+the keyboard layout, because uh it's
+more comfortable to type on than cwerty.
+Um but uh but as does John, my um my
+brother, so no one can ever use our our
+computers, but um uh I wrote a genetic
+um I don't know optimizer uh to uh to
+figure out what the optimal keyboard
+layout was. And it turns out it is in
+fact basically V forjac um using a
+genetic approach. Um so I went deep down
+that rabbit hole, but I never really
+played with neural networks. And I guess
+that's why you know um that but probably
+seven other 70 other reasons is why you
+know um uh I did not create chd.
+There is an old video of you being
+interviewed I think after selling
+automatic
+um where you're asked you're asked about
+small talk that's that's where I found
+kind of that weird weird fact. I think
+at the time people asked you why and one
+of the things you said was I mean you
+liked some features about small talk
+list style languages and you predicted
+and I think that this was circa maybe
+2008 or something like that the mainline
+C style programming languages would
+increasingly borrow ideas from these
+older programming languages and that
+kind of has been the case in the
+JavaScript Python ecosystems.
+Um do you think that there are any
+underrated ideas buried away in kind of
+older more esoteric programming
+languages uh that should be borrowed by
+the main line? Yeah, it's been it's been
+interesting how a lot of the ideas have
+been kind of have been borrowed by the
+JavaScript ecosystem and in a strange
+way like through the web inspector.
+Yeah.
+Um where you have this I mean that
+that's one of the richest run times in
+some sense that people have you know
+general general exposure to
+I don't think JavaScript has first class
+stack frames.
+Um maybe there's some weird extension or
+something where you can get that but but
+you know um ECMAScript doesn't have
+that. I'm pretty sure first class stack
+frames actually let you do a lot of
+other things for kind of obvious
+reasons. So maybe that's very that's
+kind of too specific. Um I mean I think
+the idea of and and maybe this is what
+cursor becomes. I think the basic idea
+of as development environment and not
+just text editor is really the right
+idea and that's the thing I want to see
+a return to. That's the thing that the
+list machines had and genera that's the
+thing that to some extent Mathematica
+has. That's the thing that small talk
+has and I think it's just such a mistake
+that we have ended up with development
+environments where there is such a
+separation between the runtime and the
+text editing and the um and the
+environment in which the code
+I mean
+yeah well
+the runtime and the place where the code
+runs can be the same or different but
+but they're kind of three maybe slightly
+conceptually different things uh and in
+those three environments they can all
+coexist in the same place and I like I
+mean still to this day I use Mathematica
+a lot, not because I'm doing some
+particularly arcane, you know, symbolic
+Mathematics, but because it's just a
+more efficient development environment.
+Now, that's maybe a bit less true with
+uh LLM's because the Mathematica, you
+know, um Mathematica does not support
+cursor style prompted development. Um
+but uh but that I think is the core idea
+that that I wish others would borrow and
+VS code has been a step to some extent
+slightly in that direction but I think
+we could take it way further and it
+would be really I mean what what I'd
+love to see for example is uh when I
+hover over a line of code um I would
+like to see you know profiling
+information about you know just the
+runtime characteristics uh of that code
+or that function or whatever. I would
+like to see logging and error
+information overlaid when I hover over a
+variable. I would like to see um how uh
+like the most common values that it
+takes uh on in production these these
+kinds of like just rich deep
+integrations.
+Are you a fan of inventing on principle
+and and those yes um I think Brett leans
+too much I mean I huge fan of Brett um
+just he's such an incredible
+you've been to dynamic land.
+Yes. Okay.
+Yeah. Um uh and and have supported it.
+Uh, so hu huge fan of Brett. Um, the the
+place that I've maybe differed or at
+least that just resonates with me, you
+know, somewhat less is Brett is really
+into this idea of um obviously of uh
+graphical and visual representations for
+phenomena. And I think that works very
+well in um certain domains like the
+kinds of dynamical systems that you know
+he has demonstrated some of the ideas
+with.
+I think it's often very hard to find
+such useful spatial continuous
+representations for arbitrary systems
+like for various parts of Stripe. I'm
+not quite sure what that would be and
+I'm not sure even if we could find it,
+you know, exactly how useful it would
+be. Maybe it's just me. I reason much
+more kind of symbolically and sort of
+lexically uh than I do visually and
+graphically. It might just be personal
+preference, but I don't know. The kind
+of uh paradigm breaking that he's been
+engaged in, I think is hugely admirable.
+Are you going to make a uh a a truly
+integrated development environment?
+So, we are playing with ideas around
+letting the AI increasingly take time
+into the background to uh run it as code
+and react to the output.
+And we think that this should all work
+well together. Like, you know, we
+focused a ton on inflow, speed, and
+control. And uh we think that that's
+really really important for AI is, you
+know, to give programmers the control
+over everything, have them understand
+everything the AI is producing. Um, also
+to give them really, really fast
+iteration loops. Programmers hate
+waiting for things. Um, but in some
+cases, we think it's now becoming
+possible to go tell the AI to to think
+for a bit and then come back to you and
+have the API be a little bit more like
+the API with another human being.
+And we think you want that all to work
+well together. So, you know, the AI can
+come back to you with 70% of something
+and then you can bring it into the
+foreground really quickly, work with it,
+and then spin it back off to the
+background. Um, and you know, as part of
+having the AI spend a bunch of time um,
+thinking in the background, to make that
+thinking useful, you kind of needed to
+run the code and then react to it, or
+else it's just kind of staring at the
+thing that it wrote and thinking more.
+Maybe um, I'm supposed to be the one
+answering the questions rather than, uh,
+asking them. But do you think in 5 years
+uh, the main thing that I'm looking at
+in cursor will be code or something
+else? Um I think it might be something
+else. I think that uh there are uh big
+big big simplification but kind of when
+you're defining what a piece of software
+is there's like the uh logic component
+which is what engineers spend a lot of
+time on of designing exactly how the
+software works. There's also for end
+user applications and things that have
+gooies there's like this visual
+component and I think that there is you
+know maybe it's gonna be us maybe it's
+gonna be someone else there is a future
+version of the world where um the way
+you interact with AI is a little bit
+less like you know it's a human helper
+that you're delegating work to or
+looking over your shoulder predicting
+the next set of things you're going to
+do and instead it's a little bit more of
+an advance in compiler or interpreter
+technology and it could lead you to a
+world where programming languages
+actually change and they can start to
+get a little bit less formal they can
+start to get a little bit higher level
+uh they can start be a little bit more
+about uh what you want and a little
+little bit less about how you do it. Um
+and I think that it won't look like a
+Google doc necessarily. I think that
+there are things you want to keep around
+from programming like that, you know,
+the naming of logic somewhere and then
+using that in a bunch of other places. I
+think that there's also this other
+element too of the visuals of you know
+what a piece of software looks like and
+I think you know maybe us maybe some
+other tool but I think there's a world
+where kind of direct manipulation of the
+UI starts to play a little bit more into
+it. Um, but these are kind of far-flung
+experimental ideas. Um, and um,
+in general I will say and yeah, it's not
+terrible, but um,
+I feel like there just it's interesting
+to me that we haven't
+experimented in some sense that much
+with the paradigm of programming over
+the past 20 years. And many of the
+things we're discussing here are from
+the 80s or the 70s. Uh, and um, you
+know, there are way more developers
+obviously now than there ever have been
+in the past. But in some sense the sort
+of the aperture of of um of
+experimentation there feels like it's
+it's really not that wide. And again the
+JavaScript ecosystem and a couple of
+others have done some cool things and
+and there's been a lot of even you know
+experimentation at the language level
+with Rust and Go and everything else but
+but at the kind of the development
+environment level I don't I don't know
+why it is but maybe it's just too hard
+and complicated now but there's been
+less than what would have expected.
+Yeah I agree and um I think
+maybe this helps
+something we're working on. Yeah,
+hopefully this explains Cursor's success
+to some extent where, you know, you guys
+are the first people to really take it
+seriously in quite a while.
+Well, I I mean, yeah, I think we also
+benefit a lot from the Y now of like
+there's now this, you know, great new
+color to paint with um or set of colors
+to paint with. Um I think also there's
+just a ton of lock in with programming
+languages around both the neurons in
+your head of like programming languages
+are kind of complex UI for programmers
+to define exactly how the computer
+should function. And so, you know,
+people learn languages and those, you
+know, uh people don't like to learn that
+many things. Um, and then there's also
+the lock in of you have a lot lot of
+logic sitting around in one language and
+you need to maintain that. And I
+actually think that that's a pretty
+interesting or one of our hopes is that
+as AI um programming gets better and
+better and better. One of the downsides
+of working on professional applications
+with hundreds of people dealing with
+many millions of lines of logic is the
+weight of the codebase really starts to
+weigh on you.
+Um, and so the the feeling of being in a
+net new codebase where it's just
+everything feels effortless goes away.
+Everything's, you know, a chore. you
+have to um you know change one thing
+here breaks you know something else here
+and it becomes kind of this big ball of
+mud um and um making that effortless
+reducing the kind of weight of an
+existing set of logic I think is you
+know one of the areas in which AI can
+you know make programming better so
+someone said on Twitter today
+maybe it was Andre Karpathy but maybe
+I'm misattributing that and you know may
+too many things to do with vibe coding
+get attributed to Andre like you know to
+Churchill or Einstein or something but
+but I think about him um but um uh this
+person whoever was was making
+observation that you know it's one thing
+to be prompting the creation of code but
+another place where AI could conceivably
+do a lot to help is in the
+beautifification and the refactoring of
+code bases and you can imagine that you
+know you're producing all this you know
+a little bit ungainainely not quite
+correctly factored you know detritus at
+the front and you have this um you know
+and then nocturnally this thing comes up
+behind you and
+factored and the only CS class I ever
+took was this from this class from Jerry
+Susman uh on um on
+was basically focused on I mean he
+called it large scale symbolic systems
+but really uh what he was trying to
+focus on was the idea of creating code
+bases and uh environments and uh
+abstractions that were easy to modify
+and like there were no assignments in
+the class where you'd write something
+from scratch. every assignment was about
+modifying an existing system and
+thinking about how could you design
+things in such a way that those
+modifications become and you know there
+might be quite deep modifications um uh
+become uh straightforward and I think
+that's a lovely idea obviously in
+practice it's often very difficult to do
+that given all the exigencies and
+pressures of the things you want to ship
+you know today and next week and so
+forth but if you could have an AI like
+often when you're writing this stuff you
+realize well I really should be doing it
+the beautiful way but I'm not um maybe
+we could have an AI coming up behind us
+to clean it up
+yes yes maybe soon One thing that
+happens to a lot of developers that care
+or a lot of people come to development
+because they care about building things.
+They want to make things happen on the
+computer screen. And so then that leads
+them to coding. And then something that
+happens to uh you know a big group of
+developers is they eventually realize
+the software they want to create is is
+too big that they can't write you know
+all of the code themselves and they have
+to go to humans to help them write the
+code. And so they maybe they then become
+an engineering manager, a director,
+whatever it is. Maybe they start a
+company, right? And then most of the
+work becomes not typing code. becomes
+you know coordinating amongst people. Do
+you think that there are any ideas from
+programming that are helpful for the act
+of kind of programming amongst the
+organization to get a group of people to
+uh to build software together?
+Interesting. I think taking uh APIs and
+data models
+really seriously. If I was to do
+everything at Stripe again, um I mean
+there's a million small things that you
+would do differently and even some some
+kind of big things, but the the thing
+that I think we could maybe foreseeably
+and beneficially done differently um
+would be to have spent even more time
+than we did on APIs and data models. and
+you know part part of the reason is um
+is the uh the um I guess Conway's law
+effect of how you know both of those
+things end up shaping the the
+organization. So I guess if you don't
+deeply internalize that then uh maybe
+you've less control over the uh
+organizational dynamics than you might
+otherwise like to have. Um but also I I
+think it um it ends up shaping not only
+I mean the the weak version of Conway's
+law is that it uh it shapes your
+organization. I think the strong version
+is that it substantially shapes your
+strategy uh and and just your your
+business outcomes. And this isn't
+exactly
+maybe a version of that that but I often
+reflect on how the iOS software
+ecosystem um for a very long time and
+you know plausibly still today was so
+much more vibrant and kind of vital and
+um successful than the uh Android app
+ecosystem. And you know, there's a lot
+of things that are different across
+across those two um ecosystems. Um there
+are now way more Android devices in use,
+I believe, than uh than iOS devices. Um
+but I think much of the um the fact that
+app developers tended to prefer um
+building their apps on iOS and releasing
+their apps first on iOS and maybe the
+iOS version being better than the
+Android version or you know, whatever.
+um is because the the frameworks uh and
+the abstractions for iOS were just
+originally better than the than the
+Android ones. Uh and so but I think
+that's a case where the right API
+design, the right abstraction design uh
+ended up having just quite significant
+business ramifications. And you know, I
+think there's kind of a sense that maybe
+it's not worth dwelling on these things
+because you know everything in
+technology changes so rapidly and uh you
+know whatever assumptions you make
+they'll be you know obsolete in two
+years or something. I think in practice
+that's not true. uh and that like the
+right API design and the right
+abstraction to the right data models can
+really endure and you know for the first
+versions of iOS many of the classes that
+one used were prefixed with NS and
+that's of course standing for next step
+right and so that's a case where the API
+design survived for you know two decades
+um or more and in the case of stripe you
+know stripe is now 15 years old and you
+know there were lots of things we
+designed 15 years ago that are still you
+know in use today which is you know kind
+of good and bad in the sense that they
+they endured but also we still um you
+know uh um we are still uh under the uh
+the
+living with their faults.
+Exactly. Uh and so anyway that that
+that's maybe the thing that I would um
+that's the first thing that comes to
+mind. In fact, on that final note, I was
+talking with uh an engineering leader
+at, you know, kind of a preeminent
+successful Silicon Valley private
+company and um they were talking about
+how their codebase is largely in Scala
+and uh they said that they like to think
+of kind of the the beginnings of the
+startup as this big bang moment where
+this these you know tired, overworked,
+um maybe overcaffeinated founding team
+members are willy-nilly making these
+initial technical decisions that then
+dictate the lives of hundreds of
+professional engineers in the future and
+that scholar choice was one of them. Uh
+and they sort of live with live with the
+faults of that um now but um what what
+are those kind of uh what were the
+consequential it could be good or bad uh
+initial conditions of the the stripe big
+bang that you guys still live with right
+now?
+Um I mean I think that
+metaphor is is
+well it sounds true to me um is is the
+first thing I'd say. I mean maybe
+there's a little bit of kind of
+survivorship bias uh where like the
+actual statement is the uh the early
+decisions we made
+that we never changed are decisions that
+we lived with but you know there's a
+kind of tautology there or something um
+and there are certainly design decisions
+we made pretty early on that you know
+are are not true today. So you know
+early versions of um the dashboard or
+something were built extraordinarily
+differently to you know the dashboard of
+today
+and the converse is also true. So uh you
+know initially we decided to use MongoDB
+at Stripe and we decided to use Ruby at
+Stripe uh and those are still quite
+foundational technologies uh uh at
+Stripe and uh you know we had to build a
+lot of you know infrastructure in order
+to make uh MongoDB as fault tolerant and
+as distributed and as um durable and as
+reliable and everything as
+we needed it to be and as it now is. uh
+like we had uh Stripe's critical API
+availability last year was 99.99986%.
+Uh which is 44 seconds of unavail
+unavailability through the whole year.
+Um uh which is we we think others don't
+publish statistics that are kind of as
+granular but we believe that is the best
+in the industry. Um so uh so you know
+that everything that our storage team
+has built and many other teams uh you
+know it ended up really working there
+but that that was a quite important
+critical decision. um initial decision
+uh and you know Ruby similarly I guess
+companies sometimes change languages uh
+you know along the way but I but I feel
+like the initial language chosen tends
+to have
+heard there were there were debates in
+Stripe about or one of actually one of
+our co-founders um internet stripe early
+on um or not early on in Stripe's
+history early on in kind of our
+collective personal history um and uh he
+remembers there being documents upon
+documents about a potential Java
+migration. Yeah. So we um that partly
+happened um as in we have rewritten a
+bunch of key services on Java. Um so
+some services for rich I don't know
+throughput throughput in particular um
+is uh is really important and
+if you torture Ruby enough and you know
+maybe rewrite uh parts of it uh you know
+parts of some um some hot paths uh in C
+or something you know you you can get it
+to be pretty fast but you're often
+fighting against the allocator and uh
+you know various parts of even just like
+Ruby strings are not that efficient and
+stuff. So we we we've rewritten certain
+services in Java and um now we use both.
+Why did you or did you consider anything
+other than and uh why did you pick
+early on?
+And what was the what was the RFC
+process, RFP process, decision-m process
+for that?
+It was just me and John. So you know we
+were sitting on the couch like should we
+use Yeah, fine. Um, did they did
+they get through to you with like a a a
+blog? Was it um the just the reputation
+of at the time and open source
+communities something else?
+I think it was so I I I wrote a data
+store for our um for our prior company
+uh and um object- based data store and I
+didn't really like SQL. I I thought it
+was there was too much of a
+translational kind of mismatch between
+the domain of the application and you
+know that which SQL natively um you know
+makes expressible and so
+you know with SQL obviously you have to
+collapse down into you know a relatively
+restricted set of primitive forms
+whereas in your application you know you
+might have a concept of
+I don't know let's say in the case of
+stripe of money that doesn't like
+exactly comport with how the particular
+SQL database you're happens to represent
+money or you know whatever the case
+might be. Um and so I just had this like
+principled objection to to to SQL and
+I'm not not endorsing this or saying it
+was good but um I um as as as this
+interview shows I suppose uh I had all
+sorts of you know strange notions about
+technology um and with Stripe we wanted
+to be more mainstream uh than uh and a
+little bit more um you know a little bit
+uh less heterodox in our technology
+choices than our prior company. And so
+instead of using small talk, you know,
+okay, we weren't going to go to Java,
+but we went to Ruby, which at least on a
+relative basis seemed more mainstream.
+And similarly, rather than write our own
+object database, we went relatively more
+mainstream and used which still
+give a lot of flexibility, you know, by
+virtue of being a kind of a kind of
+object data store. Um, so that was fine.
+Um,
+everything I've said might disqualify me
+from, you know, ever making technology
+choices for, uh, for another company,
+but, um,
+would you do anything differently about
+Stripe 2?
+We haven't talked that much about it
+publicly yet. Uh, and the answer might
+be a bit like, um, you know, there's the
+uh, the Juan Lie quote about um, the um,
+Denging um, about the the French
+Revolution. You know, it's too soon to
+judge. Um and so back in 2022
+I believe um we I mean to this
+discussion about data models and
+abstractions we realized that a couple
+of the core abstractions in Stripe were
+just not the right long-term
+abstractions and we uh we had to fix
+that. Um and so we designed a bunch of
+v2 APIs. Fortunately we had contemplated
+the possibility of this early stripe.
+So, you know, most of the uh the, you
+know, REST URIs that uh people are
+familiar with in Stripe are prefixed
+with SLV1. They've been prefixed with
+SLV1 from, you know, 2010. Uh and uh and
+so then in 2022, we decided, okay, we
+might use the uh the uh you know, we
+might increment the uh the namespace. Um
+so, we designed those new APIs. They've
+started to ship uh this year. And
+congratulations.
+Thank you. Um and we're extremely
+excited about the functionality that
+it's going to enable and you know
+without getting into the arcana of it
+you know they will enable things like
+historically uh we have um we have drawn
+distinctions and represented separately
+things like end customers things like
+sub accounts things like recipients for
+different kinds of payments and we're
+unifying all those into being um you
+know into the same kind of um entity
+representation which is on some level
+clearly the right answer and you know
+makes a lot of um will and uh is already
+ch uh changing the businesses of some of
+our customers because uh they can you
+know enable their users to do various
+things without having to re-enter
+details or maybe to bring the same
+account across different countries or
+you know whatever the case might be.
+Anyway, it's been a a long journey. Um,
+and the reason it was a long journey is
+I guess because
+the it's it's not that useful to just
+define these APIs in isolation. If we
+just wanted to define them in isolation,
+that's a pretty easy thing to do. Uh the
+thing that's difficult is to make them
+interoperable with all the existing
+things at Stripe and to build
+translation layers uh and so forth. Um
+and uh and then to figure out with our
+customers what a sensible upgrade path,
+you know, might look like because we
+control our codebase. We don't control
+theirs. Uh and so it's maybe a I don't
+want to exaggerate it, but in certain
+respects at least, it feels a bit more
+like an instruction set migration for,
+you know, a chip architecture or
+something where you the instruction set
+by itself is easy, but it's all the kind
+of coexistence questions that that
+become hard. But hey, it's hard to ship
+this year and we're we're excited about
+it. I mean, I I guess your question was
+maybe what what lessons we've learned
+from it and
+and maybe is there do you think there's
+anything bigger to draw out of that on
+either projects that are are rewrites or
+thinking about these kind of decades
+long abstractions
+and how to do that? Well,
+my trit
+answer to that is to unify everything
+you can plausibly unify. And
+how did you test design ideas for V2?
+Well, the people designing it. Um, well,
+I'll give you one other lesson and then
+I'll answer that question. So, just the
+other lesson just maybe a bit cheap.
+And also, there's some chief API
+designer who's kind of the the
+mastermind of and it's one person. It's
+not some sort of working group.
+There is a working group. There are
+working groups, but there is also a
+singular person who understands and is
+more than anyone else responsible for
+the whole
+and and I think that's necessary. Yeah.
+Yeah. Um my other kind of trite
+exhortation would be to make anything
+that plausibly could be an n bym
+relationship to support that because if
+you only support one to n or n to one or
+you know whatever you'll in and even if
+it's nonobvious how it could possibly be
+end to end just inevitably you you'll
+you'll um you'll end up needing that and
+you know you'll think well you could
+never have you know a company that's
+owned by two different companies or
+something but you know it turns out that
+sort of every permutation in the space
+uh is uh is in fact uh eventually
+eventually explored. Um
+as to you know how to how to do that.
+Well, I I really feel like it's um like
+these new APIs we we think they're the
+well you asked the question, how do we
+know they're the right APIs? um partly
+from showing early versions of them to
+customers, partly because the people who
+designed them had spent many many years
+in the um you know uh um witnessing and
+living with the shortcomings of the
+prior versions. So you know we were kind
+of coming with uh strong opinions but
+but but even the strong opinions I mean
+one can sometimes you know predict
+wrongly or extrapolate wrongly or
+overengineer something or whatever. So I
+think the cycles of customer validation
+customer feedback are are extremely
+important. I think it's also very
+important if we did a lot of this to
+literally write the integrations that
+would exist in the new world because I
+mean you really I mean I think Java is
+maybe an example of yes it fixes a bunch
+of problems you know with memory
+management or whatever that existed with
+C or C++ and and anticedants but at the
+cost of a lot of prolixity and uh and uh
+overhead um and in order to kind of
+safeguard ourselves against you
+inadvertently overengineering things. We
+forced ourselves to uh to write a lot of
+API code specifically describing uh how
+we would implement various business
+models and flows and so forth just to
+make sure that when you when you look at
+it, it feels right. But I don't want to
+endorse our approaches too strongly just
+yet. I mean, I'm feeling very
+optimistic, but uh you know, it's we're
+we're
+fraction, but
+60 70% done or something, but not like
+100%. And so I don't want to know
+prematurely declare any victory.
+How do you Patrick Collison use AI?
+Well, I
+the main ways are the predictable ones
+where I use LLM chat tools um uh a lot.
+Uh and
+and I
+use them for
+mainly for answering qu kind of factual
+or empirical questions that I'm curious
+about. Uh so for for deep research style
+questions, I don't always use deep
+research and now that the LMS are
+getting better at tool use and just
+navigating the web themselves, you know,
+you don't need need deep research as
+much. Um but for answering empirical or
+or factual questions, um I wish they
+were useful for for writing. Uh but I I
+usually end up dissatisfied with the
+writing that they produce. Um so I I I
+don't really use them very much for
+that. And even for editing or or or
+grading my own writing, I I mean,
+have you seen any improvements as the
+models have progressed in the writing?
+And I agree. Also, it's they're
+surprisingly generic.
+Yes.
+And um
+I'm trying to prompt it to like not
+generic.
+Yes. Inserting names of people who um
+and it just doesn't work. And so I have
+been disappointed the times when I've
+given it.
+Can people tell me that the base models
+um are are better at this? Um and it's
+the sort of normification of oral HF
+that you know puts it in um in some kind
+of you know attractor basin. Um
+yeah I I I have not succeeded in uh in
+using them effectively there. uh people
+say that claude is better and 03 is
+better than earlier open eye models and
+and on a relative basis that might be
+true but I and I don't want to sound um
+you know um you know self auditory here
+and suggesting that I'm you know some
+particularly talented writer. I don't
+think I am. It's just like my personal
+style um differs from the personal style
+so to speak of the models. And um you
+know in some self-centered way I when I
+write I want to use my personal style.
+Um so I use them for for the the factual
+stuff a lot and and I find them like
+terrific for that. And uh you know even
+when I'm reading a book I'll sometimes
+activate I've been recently using
+Grock's voice mode. Um and I'll just
+passively ask questions while I'm
+reading and you know Grock is just
+listening in the background and you know
+the answers are are are very helpful. Um
+and then I obviously use LMS for writing
+code and um you know typically mediated
+through cursor.
+So we are interviewing you Patrick
+Collison as kind of uh the most if you
+had to pick the architect archetype of a
+software industrialist. I feel like you
+would be kind of straight out of central
+casting um uh for a number of reasons.
+One is that you are running a large
+software company um successful large
+software company. two is you started as
+a programmer and then you know moved to
+running the company. Um and then three
+is the company also builds things for
+developers and so it's kind of the the
+intersection of you know uh many circles
+in the van diagram. Um and so it's
+helpful to hear about um you know
+discussing kind of experiences with
+stripe um we are also interviewing
+Patrick Collison the moonlighting um
+um um economist and student of the
+world. And so, um, are progress studies
+doomed now that AI is here? Is there any
+need for them?
+Well, I was going to say I think the
+need for progress studies is increased,
+but again, I don't mean to suggest that
+proper noun progress studies sees
+increased need. But I think the kinds of
+questions that progress studies tries to
+answer uh are um are now more pressing
+and urgent because I think the degrees
+of freedom are increasing. uh and I
+think there's some pandasian view that
+AI will just magically solve all the
+problems and you know predictions of the
+future are hard but one I don't think
+that's true and two I in as much as we
+have you know evidence to date I don't
+think that's been the track record so I
+think that you know how we use these
+things what kinds of decisions we make
+what kind of um you know considerations
+and you know uh margins
+of human welfare we seek to further you
+know I think all those those judgments
+are are going to really matter and maybe
+a critique you could have leveled um at
+progress studies or progress studies
+style thinking 5 years ago is these are
+all nice questions but the world is on a
+kind of um forained escalator path to
+you know some kind of teological outcome
+and I don't think the world feels that
+way today or certainly it feels much
+less that way today than it did and so
+because of global affairs or anything
+else?
+No. Um I mean maybe somewhat global
+affairs but the trifecta of um yeah
+global affairs at large. Second, I think
+that aspirations and ideals are becoming
+contested more actively and you know
+there's an ambiguity these days in you
+know the US as to what the left and the
+right even stand for and you know I
+guess we currently have one party
+endorsing tariffs and another party
+opposing them but with the veilance has
+kind of shift uh flipped from what what
+one might have expected uh historically.
+And then third, yeah, obviously
+technology and
+first and foremost AI, but you know, in
+our industry, stable coins, the rise of
+China as the preeminent manufacturing
+power in many technologies of the future
+like drones and robots and batteries and
+solar, you know, etc. So yeah, in in
+many different ways I feel like the
+future is is um you know um Peter
+Schwarz um has this concept of you know
+the Schwarz window as the um the window
+of you know contemplatable futures uh in
+you know some whatever number of years
+hence and I feel like that Schwarz
+window uh uh you know as of say 2005 as
+we contemplate the world of 2015 was
+fairly narrow and was correctly fairly
+narrow. I think the world of 2015 did in
+fact unfold largely the way we would
+have expected in 2005 and I feel like
+today in 2025
+that window for 2035 like it feels
+extremely broad. Um so um yeah I think
+the progress studies style questions are
+are are more pressing.
+So you were on the record um in I think
+saying that people should focus more on
+the question of why we don't see
+improvements in productivity numbers um
+as information technology increases and
+also as uh more people have started
+working on science and technology um and
+more money has gone into it. Um and what
+do the numbers look like now? Do we see
+AI in the numbers?
+There was a new paper published on this
+very recently like the past couple of
+days um that I've not had a chance to. I
+I just queued it today to read. Um so
+I've at this moment only read the
+abstract. Its claim uh is that one does
+not in fact observe uh productivity
+improvements stemming from um
+from uh from use of language models.
+Um now I certainly can't do
+you know what they're looking at? they
+appear to be undertaking some kind of
+natural experiment looking at the
+individual level based on um based on uh
+intensity of LLM usage but I certainly
+cannot endorse their methodological
+rigor and upon understanding it better
+you know I might be I might be either
+really impressed and find it very
+credible or horrified I don't know um
+but that was just the finding I happened
+to to to stumble upon today I mean look
+overall GDP growth in the US looks well
+over the last two years it's been
+somewhat better than we expected.
+Um obviously, you know, we're we're
+speaking right now at a a kind of
+volatile time, we certainly don't see
+any evidence for exponential takeoff. Um
+and if we, you know, in as much as we
+thought that the encouraging GDP figures
+we have seen in the US over the last two
+years are attributable to some of these
+new technologies, I think you would also
+expect to see them in other countries,
+right? Because these technologies are
+quasi public good. Anybody can, you
+know, um can uh can use these LLMs. GDP
+growth outside of the US has has not
+been that encouraging. We're we're not
+living in some, you know, massively
+accelerated period of economic growth
+for the world writ large. Uh and so, you
+know, obviously it's it's early days. Uh
+but uh I think um you know, I I think
+we're seeing that the diffusion of these
+technologies through the economy uh
+really takes time and uh in involves
+substantial complexity. And maybe just
+last point on that is um I believe Jack
+Clark said in an interview with Tyler
+Cohen, one of the co-founders of
+Anthropic and you know Anthropic to some
+extent has well Anthropic has always
+taken the concept of AGI and even ASI I
+feel extremely seriously and you know
+Dario speaks about this publicly he um
+he he's written about it you know etc.
+And again Jack Clark one of the
+co-founders and he said that he expects
+uh AI to uh increase GDP growth by half%
+a year. Uh, and I thought that I mean I
+I interpret Jack as as really an
+optimist and you know half a point a
+year is in fact a lot of incremental GDP
+when compounded. So I'm not saying that
+that's small but uh I think uh I think
+it's interesting that that was his
+figure.
+Yes. Do you think that uh with the form
+factor that AI is taking in the economy
+right now um if we just kind of uh
+stretch the line forward do you think
+we're going to need new measures in
+economic productivity than we have right
+now? So like assume real productivity
+goes up. Assume that AI keeps getting
+better. It gets kind of deployed in the
+ways you would expect. Do you think
+we'll need new measures or it should
+show up in the numbers?
+No. No, I don't think so. Like like I
+don't think I'm not saying that GDP is
+perfect. I think GDP can be improved but
+um but I in in any world where what we
+you know generally think of um as the
+economy is massively enhanced, it'll
+show up in GDP.
+Y when will we be able to program human
+biology? I'm very excited about this. At
+ARC, which is this biomedical research
+organization which I was uh involved in
+uh founding, we're working on training
+foundation models for biology using DNA
+and uh things like that. Um we're
+working on a virtual cell. Um and uh and
+generally we're trying I mean a thing
+that I think is that I didn't appreciate
+until really spending more time in
+biology is we've never like we humanity
+have never cured a complex disease. Uh
+so you know one one ontology or schema
+or something of of diseases would be you
+know you have infectious diseases the
+flu the cold covid whatever um uh and
+you know tuberculosis and you know uh uh
+very diseases with high mortality rates
+uh then uh you have monogenic diseases
+where you know there's just sort of one
+genetic mutation that is um responsible
+for the disease like Huntington's and
+then you have complex diseases uh and
+the complex diseases are kind of the
+residual that are now after we've cured
+most of the problematic infectious
+diseases at least in the western world.
+Um most cardiovascular disease, most
+cancers, most autoimmune disease, most
+neurodeenerative disease etc. For
+certain of these conditions, we have
+maybe treatments that help like statins
+with cardiovascular disease. But for
+none of them can we really say that
+we've cured it, that we like understand
+the causal pathways and you know
+meaningful detail and that you know it's
+just you know we can we can vaccinate
+against it or something. Um and I think
+this is our hypothesis you could be
+wrong is that this is in part because we
+don't have uh experimental and kind of
+maybe epistemic is too grandiose a word
+but kind of epistemic technology that's
+up to the task like the um the plyotropy
+of the genes in terms of all the
+different parts of the body and the
+systems and the mechanisms inside the
+cell that they affect is so you know
+there's so combinatoric complexity there
+and then you know the environment is
+such a vast and you know difficult to
+quantify thing that just it's it's
+really hard to understand for any of
+these conditions you know the ideology
+and the dynamics and so forth okay then
+over the last 10ish years I mean a bit
+longer but a lot of the development has
+happened the last 10 years we've gotten
+um we've gotten three new classes of
+technology in biology um for reading
+we've gotten and much better sequencing
+technology, single cell sequencing, the
+ability to sequence, you know, single
+cell sequencing of RNA um and those
+improvements at the kind of think level.
+Uh we um you know we've gotten neural
+networks and deep learning and
+transformers and you know everything
+everything there or I mean they've
+existed for a long time but we've gotten
+the recent improvements uh uh in them uh
+and the transformer in particular. Uh
+and then on the right side we've seen
+obviously huge improvements in
+functional genomics and crisper and uh
+you know bridge editing which which is a
+technology that kind of arc but the
+ability to kind of make very specific
+directed perturbations in cells. But if
+you put those together you now have the
+ability to again at the kind of level of
+the individual cell to uh read think and
+to write. And this starts to really feel
+like a new kind of touring loop and to
+have its own sort of completeness. Um
+and you know we will see how much uh
+this can do against uh these complex
+diseases and whether sort of this
+systematic approach is up to um up to
+the task of um of shedding new light on
+their dynamics. But we are hopeful and
+excited
+if we here at Kerser and also others in
+the industry are successful in
+automating lots of programming as we
+know it today and um you know replacing
+it with a form of software building
+that's much higher level and more
+productive and um is much more just
+focused on defining what you would like
+the software to look like. Um if we you
+know succeed in that um uh uh who are
+you long? You know people talk about the
+the designers and how you know this will
+be like a renaissance for them but um
+you know are you long the the the grad
+students? I mean there are lots of
+really really amazing grad students who
+uh who are awesome and then uh maybe are
+less less skilled at making things
+happen on computers. Um but who do you
+think you know is the most unexpected
+beneficiary of a world where both many
+more people can make things on computers
+and then also you know especially if
+it's an evolution away from programming
+um you know the people who are already
+making things on computers are much much
+much more productive.
+I don't have a high confidence answer to
+that. You know, there's all sorts of
+trit stock answers like real assets,
+especially constrained real assets. Um,
+you know, maybe we should be long SF
+real estate, uh, or something. Um,
+because, um, you know, it is, uh, it is
+one of the most beautiful cities in the
+world and will be enduringly so. Maybe
+we should be longing the inputs and the
+ingredients to these systems because,
+you know, demand uh, for for them will
+go parabolic. And so, maybe we should be
+long copper. um maybe we should belong
+um positional goods and celebrities and
+you know Taylor Swift's music catalog.
+Yeah, there's a lot of I think
+compelling theories here. But part of
+what I think is interesting at this
+economic moment uh is the
+unpredictability and the contingency and
+kind of sensitivity to the precise
+assumptions in the technology trajectory
+itself. Um and the shape that it takes
+in five or 10 years or whatever I think
+is going to do a lot to determine the
+answer to that. And as I look backwards
+over the last couple years, I'm struck
+by how many predictions have held up,
+you know, reasonably poorly. Uh, and you
+know, even from people who are on the
+face of it, you know, extremely well
+informed. Uh, and so, um, I've asked a
+lot of people this question and I have
+not heard any answers that are so
+compelling that I feel like I have
+conviction.
+So, we, uh, are very happy to be serving
+Stripe and your guys mission. Uh, what
+would you like us to build? Um, how can
+we make Kusher better for you? Either
+you, Patrick Collison, or you Stripe?
+Well, you guys are already making Stripe
+better. So, um, you know, keep doing
+what you're doing is, uh, would would
+not be a bad outcome from our vantage
+point. Um, cursor has uh today hundreds
+and soon thousands of extremely
+enthusiastic strip employees who are
+daily users uh of uh of cursor and they
+report that it's a you know very
+significant productivity uh enhancement
+um and so
+wait for the economic numbers
+uh well you know the economy is pretty
+big um and these diffusions take time
+so you know it seems kind of greedy to
+uh to want more if you're already
+making, you know, Stripe spends more on
+R&amp;D and software creation than we spend
+on, you know, any single undertaking.
+And so, if you're making that process
+more efficient and more productive,
+then, you know, maybe it seems greedy to
+want anything more.
+Um, if I'm being selfish, okay, three
+things,
+correct?
+The runtime characteristics and
+integration stuff that we just
+discussed, I think would be really
+valuable. I think the the refactoring
+and the beautifification stuff that
+again we also talked about I think would
+be extremely helpful and and and I think
+really change our degrees of freedom as
+in if you could lower the cost of future
+changes to Stripe um and improve the
+quality of the architecture and then
+third we really care about um what we
+call at Stripe craft and beauty uh and
+we want our we want our software to be
+welldesigned and pleasant to use and
+pleasant to use not only in the
+superficial, you know, um, pixel sense,
+uh, but also in the deep it works very
+well sense. Uh, and, uh, is something
+you can set up and, you know, largely
+forget about and just trust or forget
+about it in as much as you want to. You
+know, there there's obviously a concern
+with AI that it leads to the creation of
+more slop um, and more kind of crappy
+things, but not more of the best things.
+I don't know what it would be that
+cursor would do to
+um ensure that the world is creating
+more of the best software and not just
+more software. But I think that's an
+interesting and important uh dimension.
+So those would be my I mean besides all
+the obvious things to do, those would be
+three suggestions.
+Amazing. Thank you, Patrick.
+All right. Thank you for having me. Yes.

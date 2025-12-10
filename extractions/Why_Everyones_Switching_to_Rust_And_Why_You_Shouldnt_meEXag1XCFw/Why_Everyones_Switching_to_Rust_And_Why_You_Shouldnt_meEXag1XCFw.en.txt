@@ -1,0 +1,377 @@
+**Transcript extracted from YouTube video**
+
+Kind: captions
+Language: en
+Everyone's rewriting everything in Rust
+these days. Discord rewrote their
+backend and got 10x performance. Dropbox
+spent four years rewriting their sync
+engine. Microsoft is putting Rust in
+Windows itself, but Microsoft's own
+TypeScript team looked at Rust and said,
+"Nah, we'll use Go instead." Because it
+was easier for them to port TypeScript
+to Go. They answered this, but after
+seeing Rust being brought up in every
+discussion that isn't even about Rust,
+it got me curious. Is Rust really that
+good, or is it just all hype? So, I
+decided not only to learn a good bit of
+Rust over the past six months or so, but
+take a look at the entire state of Rust
+in 2025. What it actually is, no hype,
+no buzzwords, but performance, memory
+management, things like that. How it
+compares to other languages, which I did
+on a smaller scale, but I want to look
+on a larger scale. Why people are
+obsessed with it. It is quite literally
+the most admired programming language.
+what the actual experience is writing
+Rust and where it falls short. Just a
+whole look into Rust. That's this video.
+Let's start with the basics. Rust is a
+systems programming language that
+promises something that sounds
+impossible. Memory safety without
+garbage collection. And why is that a
+big deal? Well, in C or C++, you can do
+something like this. Pointer equals
+Malik. Free the pointer, then use it
+again. This compiles fine, but it's a
+security vulnerability waiting to
+happen. 70% of Microsoft security bugs
+come from memory safety issues just like
+this. In languages like Java or Python,
+you don't have this problem because the
+garbage collector manages memory for
+you. But that can come with performance
+overhead and unpredictable pauses. In
+Rust solves all of this with this little
+thing called the borrow checker. Here's
+the same concept in Rust. create a box,
+drop it, try to use it. This doesn't
+compile. The compiler catches the bug
+before your code ever runs. No runtime
+overhead, no garbage collector, but also
+no memory safety bugs. The result is a
+language that is just as fast as C, as
+safe as Java, and as expressive as
+Python. At least that's the promise.
+Which begs the question, how does Rust
+actually stack up against these other
+systems programming languages? I did a
+quick comparison building a little CLI
+application in C, C++, Rust, Go, and
+Zigg, and the differences are telling. C
+gives you raw speed and complete
+control, but you're managing memory
+manually with Malak and free. One
+mistake and you've got a seg fault or a
+memory leak. C++ on the other hand adds
+modern conveniences like vectors and
+smart pointers, but you're drowning in a
+bit of complexity. There are like six
+different ways to do basically
+everything. Go, on the other hand,
+strips away all of that complexity for
+simplicity and fast compilation.
+However, you lose quite a bit of that
+low-level control and some of the
+performance. Although, people have been
+arguing with me about this. You tell me
+in the comments. And then Zigg.
+Zigg has so much potential. It's like C,
+but with better tooling, compile time
+safety, but the ecosystem is just tiny.
+and they've been in beta or whatever you
+want to call it for I think eight or
+nine years. And Zigg is very low level.
+Basically, you're shaking hands with the
+CPU, which you can buy at MicroEnter,
+the sponsor of today's video, which as
+you may know is the best place to buy PC
+components, hardware, anything tech. And
+that does include maker projects like
+Raspberry Pies. You can get the Pi
+itself, you can get the starter kits,
+you can get the project kits, any
+accessory that you can think of. Or
+maybe you need a new laptop that has
+really good GPU in it. And that is the
+GeForce RTX50 series laptops lineup
+available at MicroEnter, which as you
+can see, they're having some really good
+deals on which you can check out at
+microcenter.com. Use the link in the top
+of the description or if you're lucky
+enough to have one close to you, go
+there in person, take a look at their
+cases, take a look at whatever you want,
+everything that's there. It is. It's an
+experience. It's worth going to. And if
+you live in Phoenix, Arizona or near it,
+you have one coming to you at the end of
+2025 or early 2026. And what you can do
+is sign up for their VIP days offer for
+a free 128 GB flash drive. This will
+also be linked below. Check out
+MicroECenter for any of your tech, PC,
+keyboard, whatever needs you have. Now,
+let's get back to Rust. Rust sits in a
+unique sweet spot. You get seale
+performance and control, but the borrow
+checker forces memory safety at compile
+time. The trade-off is you're you're
+fighting the compiler upfront and what
+seems like neverending bugs. That may
+just be me, but the alternative is
+debugging crashes later, and I would
+take the borrow checker all day long.
+And are those the reasons why everyone
+is going crazy over this language?
+Maybe. But also the success stories are
+genuinely wild. Discord has this read
+state service and it was having 2-minute
+garbage collection spikes in Go. Users
+would just see Discord freeze. They
+rewrote this service completely in Rust
+and got a 10 times performance
+improvement while completely eliminating
+those garbage collection pauses. So, for
+all of you that just commented how much
+more performant Go is when I said it was
+up for debate, well, that example wasn't
+really in your favor. Another example of
+Rust improving things was Dropbox.
+Dropbox rewrote their entire desktop
+sync engine, four years of work handling
+hundreds of billions of files. Their
+takeaway, Rust has been a force
+multiplier in our team. So, I guess they
+liked it. Microsoft's Azure CTO said,
+"It's time to halt starting any new
+projects in C or C++." We even made a
+video about Bejorn Straw calling
+everybody to help save C++ because new
+projects were not being built in C++,
+but instead people are choosing Rust.
+This is one of those examples. These are
+the people who wrote Windows in C++
+calling for new projects to stop being
+built in C++. They've also rewritten
+major Windows components, 152,000 lines
+of Rust for font rendering, seeing 5 to
+15% performance improvements, but also
+addressing the 70% security
+vulnerabilities I previously mentioned.
+AWS built Firecracker for serverless
+computing with Rust. Web development is
+even using Rust and you have frameworks
+for Rust as well as runtimes and whatnot
+being built in Rust. And of course, CLI
+tools is that's where Rust really
+shines. Tools like RIP, Grep, FD, BAT,
+and X are so much faster than their
+traditional Unix equivalents that people
+are they're switching their entire tool
+chains. When you can GP through a
+massive code base in milliseconds
+instead of many seconds, it changes how
+you work. And if I were to try to list
+all of the new things being rewritten in
+Rust, this video would be a lot longer
+than it is. So, we see the syntax
+differences and the performance
+differences and the memory management
+and things of that nature. But what is
+it actually like to write Rust code
+daytoday because it has to be pleasant
+to work with if it's so admired and
+everybody wants to use it. Well, here's
+a simple function to find the largest
+item in a list. The syntax looks normal,
+but there's a lot happening here. the
+generic constraints, the borrowing
+instead of owning, all verified at
+compiled time via the borrowed checker,
+which when you're learning Rust,
+fighting the borrow checker, it it's a
+real experience. You'll write code that
+seems perfectly reasonable, and the
+compiler will reject it, like creating a
+vector, getting a reference to the first
+element, then trying to push another
+element. The compiler says you can't
+modify the vector while you have a
+reference to its contents. And then you
+also got to figure out, do you use the
+vec macro for this or do you use vector
+for this? And that's neither here nor
+there, but it's a rabbit hole that I had
+to go down when I first started learning
+Rust. The learning curve is real. I
+coded everything purely as a Java dev
+with four loops everywhere because I
+didn't use or know any of their iterator
+methods. But even aside from that, I'm
+like, this is cool. Rust prevents bugs.
+Borrow checker catches everything real
+quick. But then I'm like, okay, why
+won't this compile? This should be
+simple. Then I'm like, okay, maybe I
+should actually learn what the heck
+ownership is. And then I'm like, oh, I
+get this now. The compiler is actually
+helping me and not preventing me. And
+I'm like, oh, all of those years of C++,
+how did I ever survive? But here's the
+thing is most people say that it takes 3
+to 6 months just to get comfortable with
+the borrow checker. That's a significant
+investment of time. But I'm inclined to
+say it's worth it because the tooling is
+excellent. Cargo just works. Wow. But
+it's not all sunshine and rainbows.
+Cargo is very opinionated. Whereas
+Gradel, you can build anything, any
+infrastructure, whatever you want that
+your heart desires. So there's a give
+and a take. Gradle is something you
+never outgrow. Whereas cargo, I haven't
+built anything big enough to really
+tell. But that that's enough about Java
+and stuff. I'll talk about Java in the
+next video actually because Java just
+turned 30 years old this year as did I.
+Anyway, back to Cargo. So, Cargo, the
+error messages actually really help you.
+They're really good. They help you fix
+the problems instead of just telling you
+something is wrong. But compilation
+times can be rough. Even small projects
+take 15 to 20 seconds to compile. Coming
+from other languages with hot reload,
+this can kind of break up your workflow.
+But since you use AI to write all of
+your code anyway, you're probably used
+to it by now. Even the creator of Flash
+said, "I really feel like the Rust
+community suffers from a collective
+Stockholm syndrome when it comes to
+compile times." But anyway, if Rust is
+so great, all of these things raving
+reviews and this and that, why isn't
+everyone using it? First, it's because
+the learning curve is not just about
+time, but it's also about mindset.
+Because Rust forces you to think about
+ownership in borrowing and lifetimes
+explicitly. If you're coming from
+garbage collected languages like me,
+this is a completely different mental
+model. I've heard one person put this
+perfectly. They said, "I've seen junior
+devs excel at Rust with no prior
+training and senior engineers struggle
+for weeks or even months or given up
+entirely." Because it's not about
+intelligence. It's not even about
+overall programming experience. It's
+whether or not your brain will click
+with Rust's way of thinking. And the 3
+to 6 month on boarding times means that
+you can't just hire somebody and expect
+immediate productivity, which creates
+unacceptable bottlenecks. And not only
+that, but integration into existing
+systems, it can be challenging. If you
+already have Java ornet or C++
+investments, the cost of a Rust
+integration might not justify the
+benefits. And then there's that
+complexity question because Rust does
+have a lot of concepts like ownership
+and borrowing and lifetimes and traits
+and generics and macros and async await.
+Each one makes sense. It does. But
+together they create that steep learning
+curve that we discussed. JavaScript
+developers joke about framework fatigue,
+right? Well, Rust has concept fatigue.
+And all of this brings us to the
+fascinating Rust rejection stories
+because sometimes it is a better
+decision to not use the better
+programming language like how Typescript
+chose to port to Go instead of Rust. The
+team acknowledges that they like Rust,
+but their goal was to use the lowest
+level language possible that they could
+ship in a reasonable time. But simply
+put, if they wanted to port TypeScript
+to Rust, it would have taken them many
+years. whereas porting it to go took
+them about a year or so. And they tried
+because again they like rust but every
+approach they tried required dropping
+into lots of unsafe code or devolved
+into write your own garbage collection
+style strategies. And the TypeScript dev
+lead that said that also said Rust
+succeeds wildly at its design goals but
+is straightforward to port to Rust from
+this particular Java codebase is very
+rationally not one of its design goals.
+So yeah, Rust is amazing at what it
+does, but what it does isn't always what
+you need. But the reason I needed to
+address that is because every single
+time someone doesn't choose Rust or says
+something about another programming
+language, they say, "Why not Rust?" But
+Rust, it is excellent for performance
+critical systems for security sensitive
+applications and longunning services. It
+might not be right for rapid prototyping
+or teams with tight deadlines or
+projects with extensive legacy
+integration requirements. The ecosystem
+is mature in systems programming and CLI
+tools, but not so much in guey
+development and machine learning. And
+while the community continues to grow,
+adoption is not uniform. You want speed
+to market, you use Go. You want to
+create games, you use C++ for ecosystem.
+Here's my take. Rust it. It It is a
+genuinely impressive technology solving
+real problems at scale. The performance
+numbers are real and the safety benefits
+are measurable. But technology isn't a
+zero sum game. Different problems need
+different solutions and organizational
+context matters more than technical
+benchmarks. You can't just always say,
+should I use Rust? Everyone should use
+Rust. But like what problems are we
+trying to solve? What are the tradeoffs
+of one language to the next? and choose
+what is best for your use case. I know
+it's simple, but it's again something
+that needs to be addressed. So, is Rust
+all hype? No. It's worthy of the hype.
+Maybe not as much as it gets because
+again, everything doesn't need to be
+Rust, but that's fine. Rust is carving
+out strategic positions where its unique
+combination of performance and safety
+and reliability provides clear business
+value. That's not hype. That's
+sustainable technology adoption. But I
+feel like I've said the same five things
+over and over again over this conclusion
+here. So tell me what you think. Have
+you tried Rust? Do you like it? Uh and
+do you think it's worth the hype? That's
+all I got.

@@ -1,0 +1,1505 @@
+**Transcript extracted from YouTube video**
+
+Kind: captions
+Language: en
+OpenAI and AMD sign a mega deal where
+OpenAI could end up owning 10% of AMD.
+Sam Alman and Johnny Ive run into some
+turbulence in their quest to build an AI
+god device. And Meta and Apple and maybe
+the rest of the tech world are on a
+collision course. That's coming up with
+Spy Glass's MG Seagler right after this.
+Welcome to Big Technology Podcast where
+MG Seagler is here to make his first
+Monday of the month appearance. And we
+have so much to talk about. We're going
+to cover the tie up between OpenAI and
+AMD and the fact that Nvidia and
+OpenAI's deal is really just a letter of
+intent. Uh at this point, we also have
+Sam Alman and Johnny IV running into
+some bumps as they begin to build their
+AI device. And Meta and Apple and maybe
+Amazon and Google all are basically on a
+collision course to build the same
+thing. and we will take a look at how
+the progress is going on all fronts and
+who's winning. So, great to see you
+again, MG. Welcome back to the show.
+&gt;&gt; Great to be back, Alex. And I know we
+say it every single time I'm on, but
+there's so much happening and it's
+always there's always more happening.
+It's just it's wild how it this is uh
+sort of just playing out.
+&gt;&gt; I love how we catch up every month and I
+was looking at the headlines from just
+this morning and I said we could do a
+full show on that. Last month we were
+talking about the roll out of GPT5 and
+whether OpenAI has broken chat GPT with
+it. Uh that is a disaster a decade ago.
+Yeah. Right.
+&gt;&gt; Yeah.
+&gt;&gt; So let's begin of course with uh with
+Sam Alman and a few weeks ago you called
+out an interesting line in a post of his
+about abundant intelligence and it was
+seemingly a wink towards interesting
+things uh to come. First of all, Sam
+says in this post, a very short short
+post. He says, "Our vision is simple. We
+want to create a factory that can
+produce a gigaw gigawatt of new AI
+infrastructure every week, which is
+crazy." He says, "The execution of this
+will be extremely difficult. It will
+take us years to get to this milestone
+and it will require innovation at every
+level of the stack from chips to power
+to building to robotics. But we have
+been hard at work at this and believe
+it's possible. Over the next couple of
+months, we'll be talking about some of
+our plans and the partners we are
+working with to make this a reality. Um,
+we have some interesting new ideas. And
+he sort of left it at that. And it seems
+like now with this deal with AMD, which
+we're going to get into the details of,
+which by the way, uh, might have open
+AAI ending up as a 10% owner of AMD, uh,
+this is part of the interesting new
+ideas that Sam teased. So, uh, let's
+just start with the high the high level
+here. Um, are we starting to see Sam's
+plan come to fruition?
+&gt;&gt; It seems like this is part of it, right?
+Um, it's it's it's this is it's so hard
+to analyze this in part because of what
+we kicked off with, right? Things are
+moving so fast and it's almost hard it's
+obviously impossible for us on the
+outside to know how much of these deals
+are coming together sort of on the fly.
+like there was the reporting about
+obviously the the Nvidia hundred billion
+dollar deal which led presumably to
+Sam's, you know, post there that you're
+talking about that that sort of came
+together while they were both on the
+overseas excursion with uh with Trump
+and and sort of going around and and
+they were able to hash out that deal
+sort of one-on-one. And so with a deal
+like this now with with AMD, you almost
+wonder like did a similar thing play
+out? Was was Sam with Lisa Sue traveling
+around somewhere?
+Did she pick up the phone when she saw
+that Nvidia deal and decide like we need
+to, you know, figure out a deal
+basically over the next few days to sort
+of be able to to respond to that in some
+ways? And so it's when when talking
+about Sam's post, it's sort of like I'm
+I'm unclear if he even knows all of the
+uh the ways that this is going to go
+from his sort of nebulous uh yeah talk
+about uh these interesting new ideas for
+financing. Um, and also that post I I
+felt the need to write about that both
+because I like the the Sam Alman post
+Kremlin of it all. Uh, and doing
+breaking those down, especially when
+they're as short as this one is. Uh, you
+know, it sort of I kicked off talking
+about it felt like this was basically
+written because Sam felt like, well, we
+just did a hundred billion dollar deal
+with Nvidia. Someone should say
+something about it. And then uh and then
+you know he goes on for just a little
+bit with these uh these very again
+nebulous and grandiose terms as he often
+does. Um but that this was also tied to
+um you know some other um quotes that
+that were coming out of this uh from
+other companies. Um I think one was uh
+was it the oh it's the new co one of the
+new coco of Oracle um also had you know
+alluded to these these strange new
+financing mechanisms and of course
+Oracle's a big partner with OpenAI too
+is everyone's big partner with everyone
+uh these days but um but so it's like
+what what's going on behind the scenes
+that all these folks are getting
+together and coming up with with new uh
+accounting methods uh out of the blue
+that they that they're hinting at but
+not fully coming into. So yes, it's
+conceivable that this AMD deal is one of
+them or it's conceivable that this AMD
+deal came together at the last minute
+because of the other deals going on. I I
+have to give Sam credit. He's someone
+who can write like we're going to be
+telling you about some interesting new
+ideas we have about financing and
+building and most CEOs I would say you
+read you would read that and be like
+there's nothing there. But with Sam,
+we've seen that there is something
+there. And that's either and maybe it's
+both of these options. I was going to
+say it's either a testament to his
+ability to turn uh momentum and ideas
+into business reality or a testament
+into um the entire business world's
+blindly following this one man uh and
+putting so many billions of dollars
+behind uh what he's promising in the
+future that it's it's somewhat
+concerning. But I think we should just
+talk a little bit about the nature of
+this deal because it's such an
+interesting deal between OpenAI uh and
+AMD. So this is from the Wall Street
+Journal. OpenAI and chipmaker Advanced
+Micro Devices announced a multi-billion
+dollar partnership to collaborate on AI
+data centers that will run on AMD
+processors. Under the terms of the deal,
+OpenAI committed to purchasing 6 gawatt
+worth of AMD chips uh starting next
+year. the chat. GPT maker will buy the
+chips either directly through it uh or
+through its cloud partners. Uh AMD chief
+Lisa Sue said in an interview Sunday
+that the deal will result in tens of
+billions of dollars in new revenue for
+the chip company over the next half
+decade. Part of this, OpenAI will
+receive warrants for up to 160 million
+AMD shares worth roughly 10% of the chip
+company at 1 cent per share awarded in
+phases. if OpenAI hits certain
+milestones for deployment. I have to
+admit MG this latest one it's got my
+head spinning. So let's just think I can
+can we recap it is it it is not an
+investment in OpenAI. It is OpenAI's
+commitment to buy AMD chips but as it
+buys these chips it gets ownership in
+AMD. Is this what make sense of this? Is
+this AMD giving away the company for
+OpenAI to buy its chips and is that
+really a purchase or is it just like an
+&gt;&gt; So, it's not even Yeah. And you go
+ahead.
+&gt;&gt; This is struggling here.
+&gt;&gt; And again, this this is sort of late
+breaking news, so I haven't had too much
+time to sort of go over the details of
+it, but at a high level from what you
+know, the report is here. Um, it does
+seem like there's a there's a number of
+things going on as always. Uh, but so
+the 10% thing is super interesting,
+right? because that's also oddly the
+number that um you know Intel uh you
+know was was supposedly selling uh to
+the government right like for for their
+deal and um there's you know there's
+other ownerships um trading hands
+obviously between Nvidia uh and Intel
+and then um a bunch of other stuff going
+on. So it's like it all feels like the
+same sort of general playbook just uh
+being executed in different ways where
+it's like now all of a sudden ownership
+is sort of table stakes to these deals,
+right? even when it's a company that's a
+that's technically still a startup in
+open AI own would be owning up to 10% of
+a very public long-standing public chip
+company in AMD and and what on earth
+does that look like from a finance
+perspective like their books like how do
+is from again from what the reporting is
+like they have the right to buy those
+shares I think in warrants and so like
+I'm not sure that they necessarily will
+or but they could and Um and obviously
+as you noted it's sort of dependent on
+uh you know the business uh agreements
+between these two um companies and then
+there's like the other layer where as as
+you just noted um it doesn't necessarily
+have to be open AI that's buying the
+chips right it could be one of their
+partners and so I mean it it could be
+Nvidia technically I guess you know that
+would be buying AMD chips to help put
+together one of the Stargate operation
+things like because that's a layer of
+this too right that um again stepping
+back at the highest level it seems like
+open AAI realizes that they need to
+control their own destiny in many ways
+but certainly on the cost front and to
+the ultimate extreme they probably can't
+be paying one of the massive cloud
+providers be it you know uh Microsoft as
+it's been to date and then sort of
+Oracle too now um all of them they need
+to be able to control their costs in a
+better way and doing that means
+eventually at some point sort of
+controlling your own data centers um to
+some extent. And so it feels like a lot
+of these deals are coming together to
+allow OpenAI to put in place the
+building blocks to build their own data
+centers quite literally. And this AMD
+deal presumably is also a part of that.
+But again, the wrinkle of it being one
+of the partners doing it again I think
+that that's related just thinking on the
+fly here related to Stargate partners
+being able to use it in their own data
+center. So like Oracle famously controls
+the one right now in in Abalene, Texas
+that's that's the only one that's
+actually being built right now in the
+process of being built while the others
+are still just sort of being signed and
+and squared away. And so again like who
+gets what rights to purchase you know
+the the processors who gets what's
+rights to purchase the the shares in AMD
+and is AMD simply doing this again
+because it's sort of become like the
+table stakes thing and by the way it
+worked in terms of the narrative of it
+right like their stock is up a huge
+amount right now is flying%
+&gt;&gt; yeah right so like obviously that comes
+into play too they all see that these
+deals get done and then the stock goes
+through the roof um because investors
+are excited all of a sudden again about
+about AMD because they're doing a
+similar deal to you know what what
+Nvidia and Intel and all the other
+players have done.
+&gt;&gt; Just want to pause on the 27%. We've
+seen this is the second time we've seen
+something like this happen, right? AMD
+is up 27% today. Oracle of course
+blasted into orbit when it made its deal
+with OpenAI. Um
+&gt;&gt; we're going to we're really not going to
+focus on the stock market in this show.
+We're going to talk mostly about product
+and and partnerships. Uh but it it is
+worth noting, right? Like this
+exuberance in the stock stock market is
+based off of infrastructure spend and
+not revenue. It's all based off of
+revenue projections and those re revenue
+projections are extremely aggressive
+especially when you consider the fact
+that enterprises are moving
+exceptionally slow here. This is a red
+flag to me.
+&gt;&gt; And so that goes back to my post. The
+reason I wrote, you know, again, off of
+riffing off of Sam's comments, because
+the only thing that I could think about,
+you know, in my head of like what they
+were, you know, presumably talking about
+with this new method of financing or
+whatever wasn't actually a new method of
+financing. It's it's basically using
+debt in a way to sort of get a flywheel
+going. So that um you know, obviously
+leveraging debt, especially for for data
+center buildouts and things of that
+nature, is not is nothing new. But what
+you what you're sort of alluding to here
+is exactly what might be the new element
+of it in that they these players are all
+trading revenue and and you know again
+it starts with OpenAI agreeing to do
+these massive deals with another partner
+but as everyone knows as has been widely
+reported OpenAI doesn't have the money
+to do these you know the deals to the
+extent they don't have the money in the
+bank literally to do the deals um you
+know to the extent that these these are
+talking about and so Now we get these
+other deals like the new Nvidia one
+where it's like they are promising to
+you know commit up to hundred billion.
+It doesn't have to be that much. It
+starts with 10, right? 10 it sounds like
+is is maybe committed uh depending on
+how how committed these two are to
+actually you know finalizing this deal
+but it's like 10 comes in at first and
+then another 10 comes in over you know
+and basically over nine tanches they
+they would get this 100 billion. But the
+timing of that all, like is there actual
+money going into bank accounts uh to pay
+for something, you know, physically
+being built at some point, or is it all
+just being based off of like lines of
+credit? Uh, you know,
+&gt;&gt; it could just be chips. Maybe OpenAI is
+going to pay for these AMD chips with
+Nvidia chips. Maybe they're just going
+to take one of Jensen's trucks of chips,
+drive it over to Lisa Sue, and be like,
+"We'll take 10% of your company right
+now." I mean, if these chips are really
+at the shortage limits that's everyone's
+projecting, like they're worth more than
+their weight in gold. And so, you know,
+like they are somewhat of a of an actual
+uh value store, I guess, in that in that
+way. But but you know, the thing you're
+talking about how this makes you
+uncomfortable. The obvious elephant in
+the room that again everyone will know
+is like if even the smallest slowdown
+happens not not even like a massive
+correction. If a slowdown happens in in
+several of on several of these fronts on
+any number of sorry I should say on any
+one of these like several fronts that
+are going right now it can start like it
+seems like it would start a cascading
+effect that would potentially bring down
+the entire thing. And then we got debt
+being called and we got people unable to
+pay and we've got new, you know,
+contracts being renegotiated and and
+people taking out, you know, does the
+bank own, you know, do banks start
+owning start some of this stuff and and
+and does the government have to step in
+as, you know, they basically are clearly
+open to doing in deals like with Intel
+as we talked about. And so there's all
+sorts of weird things that are happening
+right now that I don't think that
+there's a ton of precedent for in
+history,
+&gt;&gt; right? And as we've sort of danced
+around or even mentioned so far, there
+was a very interesting line in the Wall
+Street Journal story where the reporter
+writes, "The Nvidia deal isn't completed
+yet. The two companies have signed a
+letter of intent and have yet to
+disclose specific terms in regulatory
+filings." So
+&gt;&gt; is that is that actually happening? I
+mean, we can't say for certain.
+So, and then so there's a few things
+here. One that what is up with OpenAI's
+letter of intents uh like love now you
+know they did the Microsoft one they
+announced with uh you know a couple
+dozen words that they they had a
+agreement to agree with Microsoft on new
+terms but they have no actual terms to
+agree upon yet and so it's not a done
+deal. Now, this Nvidia one is also
+basically an agreement to agree to, you
+know, a deal. And, you know, you have to
+sort of wonder if AMD didn't see that
+and think like maybe we should swoop in
+here before this is a done deal and sort
+of get something else done. Um and and
+you know in the report there they do say
+like and and I think Altman I saw it
+maybe it was even a tweet or or he said
+it somewhere else but he sort of makes
+it clear that
+Nvidia is still like a main partner
+right this isn't like this isn't them
+switching horses uh you know in in the
+middle of a deal being done but there is
+you know to to continue the analogy
+there is some level of jockeying that it
+feels like is happening here right um
+where it's like again maybe Lisa Seuss
+saw that this deal was not finalized and
+so she could sort of come in and say
+what can we do you know alongside this
+if nothing else if we can't take some of
+this business then there's a whole like
+this is apparently for inference and you
+know obviously Nvidia is in that game
+too but wants to be own that game like
+they do with with actual um model
+training right now u you know and so
+there's that whole element there's the
+element of the Broadcom deal that that
+OpenAI has which maybe kickstarted some
+of these Nvidia deals talks uh between
+OpenAI and and uh Nvidia so that they
+didn't go down the path fully of making
+their own chips. It sounds like they're
+still doing it but maybe not as fast as
+they would have previously because again
+they want to hone the whole stack as we
+talked about. So yeah, lot lot going on.
+I'm not saying it's going to happen, but
+I do think that you could in your mind
+imagine a scenario where you connect all
+these dots uh looking backwards from,
+you know, in the future where there is a
+collapse here and you could say how did
+we not like think this was a blatant
+collapse waiting to happen. The letters
+of intents, the losses, the size of the
+investment, the fact that enterprises
+struggling to implement this stuff. Yes,
+chat GPT or OpenAI is going to bring in
+13 billion this year. uh at least it's
+on on track to do that. But it's going
+to lose according to reports 120 billion
+by 2029. Um again like the caveat we
+always say and I think this is it's a
+very freaking important caveat is that
+the technology is real. Chat GPT and and
+and all these GPTs are are or all these
+LLMs are getting getting better as we
+go. Uh but the financing definitely is
+is wonky to say the least.
+&gt;&gt; Yeah. And it feels a bit like, you know,
+when you do slow down for a second and
+try to think about this, it feels like a
+shock and awe campaign meant to leverage
+speed. And I do think that this is
+basically what OpenAI is running a
+playbook of of like leveraging the fact
+that as they keep talking about like
+this is a unique moment in time, we need
+to move as fast as possible. We have
+there's so much this is this is the race
+to AGI or super intelligence and and we
+need to do this right now. We can't
+wait. if you're waiting, someone else is
+going to step in and do these deals.
+Like you're either in or you're out. And
+uh just using that time pressure to
+basically force um the hands of uh
+people into pretty uncomfort what would
+normally be pretty certainly for a CFO a
+very uncomfortable uh uh calculation to
+to make in these situations,
+&gt;&gt; right? And I guess there is some logic
+to them doing that, right? And it
+&gt;&gt; it's the competition, right? And there's
+this there's this account that I follow
+on on X or seems to pop up in my
+timeline all the time. You can't tell
+who I follow anymore because of our
+algorithmic overlords, but it's uh the
+person's name is Borov and Borov says
+Google Anthropic and OpenAI are
+currently fighting a war of attrition.
+The problem for the latter two is their
+cash comes not from clients but from
+investors while Google is profitable and
+no longer losing uh users. Add this to
+the fact that among the three only
+Google has its own infinite supply of
+GPUs for the price of peanuts and draw
+your conclusion on how this war of
+attrition will end. Now obviously this
+person is is very bullish on Google
+winning this this moment. It's quite
+possible uh but I think maybe that's the
+sort of OpenAI fully understands the
+fact that it's matched up against them.
+by the way, also open AI, also uh sorry,
+Meta and Elon. And then you sort of see
+why we have this rush the way we
+&gt;&gt; it's yeah completely unprecedented to
+have this many massive players with this
+amount of capital being able to be put
+to work. But I totally agree with that
+stance and I've written a little bit
+about this like the even before um yeah
+the riffing off of Sam's newest post. It
+was the the main thing I've been sort of
+dancing around and and finally was able
+to put this down. It's like it really
+does feel to me at least at this moment
+in time given that Meta obviously is
+struggling a bit but is trying to reboot
+the system. Elon like they're losing a
+lot of people like there's a lot of
+weird stuff going on there. There's a
+lot of spend going on there. He can fund
+raise like no other of course so you
+know he's he's good for it now but like
+there's weirdness there. Anthropic is a
+different beast it feels like you know
+with their Martin their new marketing
+campaign sort of uh plays to that. like
+are they going to be now set up as the o
+the anti-open AAI type play but at a
+lower level and then so to me anyway
+long-winded way of saying it feels like
+this is basically right now as it stands
+a two- horse race between openai and
+Google and I do think that openai looks
+at Google and just says like oh my god
+they have everything that they need to
+do this at scale while as you noted
+having to burn investor capital they
+have they they're insanely profitable.
+They can do this on their own. And by
+the way, unlike Meta, which is also
+profitable, and Zuck talks up like,
+"Yeah, we can we can fund this via
+profits," which is true, but they don't
+have the cloud infrastructure that
+Google does, and they don't have the the
+TPUs that Google does, and they don't
+have all of the sort of other various
+expertise to sort of scale the this type
+of um unprecedented massive buildout
+scale that uh Google is able to do. And
+so I think Sam and and everyone else at
+Open Eye just says like there's a lot
+going on. All these things are are
+varying degrees of of noise. Um and some
+is real competition, but Google is the
+one that really has the opportunity. And
+so my headline idea was basically
+OpenAI needs to build Google Cloud
+before Google can build Chat GBT, right?
+And that's like how it goes.
+&gt;&gt; Yeah.
+&gt;&gt; Couple more things on this. It's just so
+many interesting aspects to this. Um,
+and that and speaking of Sam Alman,
+Kremlinology, let's take a look at the
+tweet that you referenced. Excited to
+partner with AMD to use their chips to
+serve our users. This is from Sam. He
+says, "This is all incremental to our
+work with Nvidia and we plan to increase
+our Nvidia purchasing overtime." An
+astute ex user said, "Everyone is scared
+of Jensen. This post mentions Nvidia
+more times than AMD despite the deal
+being about AMD. Jensen might bump them
+down in the preference list due to this.
+What do you think about that?
+&gt;&gt; Yeah, and I'm glad you found that one
+because yes, that I think I saw that
+quickly and that is a great point about
+it and and that's another thing that's
+at play here like and also why it felt
+like at least a part of why Open AI and
+Nvidia struck that deal. It's like right
+now if you want to be a main player in
+this game, you've obviously got to work
+with Nvidia. And as everyone knows, like
+while they'll they say they don't play
+favorites, like if they're going to
+invest whatever hundred billion dollars
+into you, like you're going to get
+access to their chips, like they're not
+going to screw you over. But if you did
+a deal with AMD, you know, behind their
+back, like maybe you're not first in
+line for those chips anymore. And so I
+think you have to sort of like you have
+to do with uh President Trump, you got
+to sort of do the public uh feelalty and
+and show uh and show who's really in
+charge.
+Okay, here's my last question about
+this. Why would OpenAI want to own 10%
+of AMD? I cannot figure out why it is
+advantageous for them other than uh I
+don't know. You tell me what what's the
+deal.
+&gt;&gt; I'm sort of at a loss too for that. I I
+think like again the only thing I would
+come back to is what I said earlier.
+It's like this is now become like a
+weird table stakes thing of like these
+companies trading ownership, you know,
+and quite high percentages of ownership
+within, you know, each other.
+There's there's going to be subsequent
+reporting about this obviously as to why
+that part became a big part of it, but
+it does it's like I think Lisa Sue has a
+quote in there of like saying that it
+aligns their interests because OpenAI,
+you know, will now obviously have a
+potentially have an ownership stake in
+AMD and so they'll be aligned about
+like, you know, making sure that they're
+along for the ride, you know, wherever
+that ride takes them, I guess. But like,
+yeah, that's it's a public company
+selling up to 10% of of their shares.
+Uh, it's like and again, it's a private
+company buying. It's like very very
+strange. I guess OpenAI might like it
+because it's like just something else to
+have on the balance sheet when if and
+when they go public and they can say
+like look, we have these shares worth
+10% of of AMD and it's worth X, you
+know, hundreds of whatever it is,
+billions of dollars and uh I I don't
+know. I'm I'm sort of drawing it straws
+here,
+&gt;&gt; right? And now Microsoft and Nvidia are
+going to own AMD as well for the money
+that they put in to help OpenAI build
+AGI. Well, if you don't get AGI, you can
+get some AMD shares. It's a it's not the
+best consolation prize, but it's worth
+it's worth more than nothing.
+&gt;&gt; So weird.
+&gt;&gt; Okay. Uh what is this compute going to
+be used for? On the other side of this
+break, MG and I are going to talk about
+Sam Alman and Johnny Ives attempt to
+build an AI device and about why uh that
+is running into trouble because of a
+lack of uh among other things compute.
+We'll be back right after this. And
+we're back here on Big Technology
+Podcast with MG Seagler. He's the author
+of Spyglass, which you can find at
+spyglass.org.
+Lots of great stories in there. Really
+an impressive September from UMG. just
+like going through the stories before we
+talked and uh I you are my go-to source
+for
+&gt;&gt; basically everything that's happening in
+this crazy world including this uh very
+interesting report that we have coming
+out really over the weekend today uh
+about how Sam Alman and Johnny IV are
+hitting some uh speed bumps shall we say
+with their secretive AI device. I'll
+read from the FT briefly. OpenAI and
+star designer Johnny IV are grappling
+with a series of technical issues with
+their secretive new AI device as they
+push to launch a blockbuster tech
+product next year. Their aim is to
+create a palmsized device with a screen
+that can take audio and visual and
+visual cues from the physical
+environment and respond to users
+requests. Uh OpenAI and Iive have yet to
+solve critical problems that could delay
+the devices release though. These
+include uh deciding on the assistant's
+personality, privacy issues, uh and
+budgeting for the computing power needed
+to run OpenAI models on a mass uh
+computer device. And there's a person
+that tells uh the FT, somebody close to
+IV, that uh compute is a huge factor in
+the delay. Amazon has the compute for
+Alexa, so does Google, but OpenAI is
+struggling to get enough compute for
+Chat GPT, let alone an AI device. They
+need to fix that first. All right, we're
+going to talk about the nature of this
+device because we're getting like a
+picture of what it's going to look like.
+But first on the significance of
+somebody close to IV complaining to the
+FT that OpenAI doesn't have enough
+compute for this device to run. That to
+me is is pretty interesting and I think
+not a good sign. And this is a
+multi-billion dollar tie-up. It's not a
+good sign for the fact that um somebody
+close to IV is saying this, you know,
+for a story about the device hitting
+speed speed bumps. What do you think,
+MG? Yeah. Um, yeah, the behind thescenes
+element of that is is super interesting.
+You have to wonder to me it sort of felt
+almost as if it's um, you know, pro I I
+don't want to say it's an intentional
+leak, but I do feel like it's
+directionally interesting that uh,
+they're basically telling the market
+that this device is not going to be on
+time. like it because their original
+reports, right, were that it was going
+to be probably sometime at the end of
+next year, the end of 26. And so, you
+know, this to me signals that this is
+more like a 2027 type thing now. Um, and
+I I think that that sort of quote maybe
+uh helps that, you know, get out there
+so people aren't expecting, you know,
+have a countdown all of a sudden a for a
+year from now when when this device
+doesn't hit the market. Um but I also
+think like there's a lot in that in that
+report including yeah like what this
+device you know potentially is. They
+don't come out and say it directly but
+you know a lot I think a lot of us who
+read those original like reports when
+the when the two sides both started
+working together but then obviously when
+the acquisition happened which also
+feels like 20 years ago but was only a
+few months ago uh which is again wild.
+Um, but I think, you know, we all sort
+of zeroed in on it being not necessarily
+a wearable, even though that was, you
+know, what Meta and and, you know,
+others were working on, but that it
+could be some sort of thing that's um,
+you know, a voice first device that uh,
+you carry around alongside at least to
+start certainly a smartphone. So, it's a
+a complimentary device to a smartphone.
+And um so there's there's that element
+of it and then yeah the data element of
+like what would be required to make this
+work. It's sort of I'm I'm curious why
+that compute complaint is in place other
+than the general compute complaint that
+we're seeing with Sora and everything
+else right now, right? Like they're
+always compute constrained to some
+degree. And you know right now they're
+rate limiting the creation of Sora
+videos. Uh they they just jumped it
+down. I saw recently from 100 in 24
+hours cuz I keep hitting it uh to now
+it's 30. Uh and so they're really
+feeling constraints it feels like or
+feeling the the compute pressure on that
+and so with it this presumed voice first
+device there the report is that there
+will be cameras involved with it too.
+Like is that really going to be that big
+of a data hog? And maybe the part of it
+that is is the fact that it's apparently
+always listening. It's always on. always
+maybe recording. Um so that's maybe part
+of it, but um it's it's a curious it's a
+curious bit of reporting that that
+that's like the issue, one of the main
+issues,
+&gt;&gt; right? And I think what you're getting
+at is the compute shouldn't be the main
+I mean obviously it's an issue.
+&gt;&gt; It shouldn't be the main
+&gt;&gt; the main thing that would stop a roll
+out. Yeah. They could just
+&gt;&gt; even if it was
+&gt;&gt; Yeah.
+&gt;&gt; Right. And even if it was and you and
+someone from Johnny Ives team wanted a
+leak out that we're having some issues.
+Um you know the fact that they the leak
+was not just we're delayed but
+fingerpointing to me points to the idea
+that these teams aren't working well. I
+mean like if you have a sports team and
+they collapse, right? A sports team that
+loses a couple games, you hear the
+athletes and they're always like we need
+to do better as a team. We need to get
+better. And then let's say they lose six
+games in a row. And I'm familiar with
+this because all of my teams lose six
+games in a row. That's when they start
+fingerpointing and they say, "Well, the
+defense wasn't holding up. It's part of
+the bargain." Or, you know, we we
+really, you know, our our hitters at the
+bottom of the order need to need to come
+through. And and for them to say, uh,
+OpenAI is struggling to get enough
+compute for chat GPT, let alone an AI
+device. They need to fix that. O that is
+that the fact that someone would go to
+the FT with that is is I think fairly
+concerning. Hearing you say that now, it
+sort of brings into my mind like the
+idea of sort of what we were talking
+about with Sora, because that's like the
+the prime example of of their compute
+constraint at the moment, at least
+forward facing wise. But it sort of
+feels like, okay, there's all these
+different things going on at at OpenAI
+in the moment. And now, famously, they
+brought in another CEO to help uh to
+help deal with all that in in Fiji Simu
+Simu. And uh um so it feels like there's
+maybe some jockeying happening for
+making sure that each team gets their
+level of compute that they want to get
+or feel like they need to get in order
+to uh to fully be able to to bring their
+product to market. And again like the
+happens to be the time when Sora is
+really sort of uh just blowing up their
+servers at the moment. But obviously
+they're working on other models and
+there's other needs for compute that are
+going on behind the scenes. There's
+other products. there's all the agentic
+work that they're doing. Um, and you
+know, it feels like maybe this is just a
+way to ensure that like, hey, you guys
+spent a lot of money to bring on the IO
+team. We need our to make sure that we
+have our uh our resources, too.
+&gt;&gt; Yeah, I think that's
+&gt;&gt; and they feel like they're not getting
+them for some reason.
+&gt;&gt; Now that you contextualize it, I think
+that's that's the exact right, Reed. And
+it sort of sparks in my mind the fact
+that this has always been an issue at
+OpenAI teams fighting for compute. And I
+think the safety teams, you know, of
+yester year that got upset and left uh
+got upset mainly over the fact that they
+didn't have uh enough compute to um
+either steer the product road map or do
+the checks that they wanted to or the
+experiments that they wanted to. So,
+&gt;&gt; and it's also like what what Microsoft,
+you know, remember like that's was what
+OpenAI's main complaint about was was
+with Microsoft like that they're not
+getting the resources that they need and
+they feel like that, you know,
+Microsoft's working on their own
+projects and why aren't you being fully
+committed to helping us and and you
+know, so now it's moved internal,
+&gt;&gt; right? And um let's talk a little bit
+about what this device is cuz we we did
+get some interesting detail about what
+it's going to be. So, this is from the
+FT report. It's roughly the size of a
+smartphone. Users communicate uh with it
+through a camera, microphone, and
+speaker. It is designed to sit on a desk
+or table, but it can also be carried
+around by the user. The device is always
+on. Rather than uh triggered by Ward or
+prompt, its sensors gather data through
+the day. Uh that would help it build its
+virtual assistants memory. Um one issue
+uh is ensuring the device only chimes in
+when useful, preventing it from talking
+too much or not knowing when to finish
+the conversation. an ongoing issue with
+chat GPT. It's interesting. Um, sort of
+reminds me of the the friend.com
+pendant.
+&gt;&gt; Yeah, for sure. Friend, Limitless.
+There's a b there's a few others, right?
+And obviously Humane, RIP, and uh and
+and Rabbit, uh, which also feels like
+decades ago that that came out. Um, but
+yeah, they're it does again this it
+feels a bit obvious that this is the
+path that they were going to go down.
+Um, I I feel like this is and and I'm
+somewhat biased because I've like long
+written about this dating back a decade
+where I thought that that there would be
+like, you know, these vocal computing
+devices, not just Alexa, but like yeah,
+on the- go and and always on you type
+things. Um, and it hasn't played out
+exactly that way yet, but I do again I
+feel like it's just a matter of time
+until someone nails these. And I do
+think that when chat when OpenAI rolled
+out GPT40 and alongside that they did
+the voice element of it which obviously
+they f infamously got in in trouble with
+for the Scarlett Johansson voice which
+is what mainly what people remember now.
+But if you remember back then, you know,
+it was about a year, a little over a
+year ago, I think it was um it was just
+insanely impressive like voice
+technology, right, compared to what the
+state-of-the-art had been up until then.
+And it's been, you know, getting better.
+And now obviously Gemini and everyone
+else has it integrated uh within their
+systems as well. But it feels like Alexa
+and Siri and the first sort of versions
+of these these types of vocal computing
+devices, they focus so much on like the
+individual devices and the sort of
+rudimentary utility stuff.
+&gt;&gt; I just triggered all of my devices in my
+office here. But um and so once once
+they did that, it sort of held them back
+from being able to do like the new
+fangled versions of these. Obviously,
+they couldn't have known at the time
+where LLMs would go and and how this
+would uh how this would evolve. But it
+feels like with that GBT40 roll out all
+that time ago and now the continued
+evolution, the voice computing element
+is there where it needs to be for a
+device like this to work. But the
+hardware part is now the hard part,
+which is always the hard part. But you
+know, companies like Amazon and or Apple
+or Google can figure that out because
+they have they're massive companies at
+scale. question is if OpenAI can do it
+with the team that Johnny I they
+acquired with Johnny Ives team and the
+team most importantly that he brought
+over from Apple who have done this at
+scale for decades.
+&gt;&gt; And this brings me to this idea that
+they're all sort of all these products
+are consolidating in some way like we
+just named a bunch of companies OpenAI,
+Amazon, Google, Facebook, Apple. uh
+they're all it seems like they're all
+building the same thing and and so the
+the hardware might be the tough part,
+but then you sort of will you'll
+eventually probably differentiate based
+off of the assistant inside. And this
+was your take about uh what's what's
+going on with with the OpenAI device
+compared to the Apple Apple device uh
+that we're going to see. So, so you
+write, "Just imagine a world in which
+Johnny IV introduces OpenAI's first
+hardware, a small screenless digital
+companion for your life." At the same
+time that Apple unveils their next
+hardware, a pair of glasses with cameras
+on your face and perhaps a screen in
+your eye. One runs on Chia GPT, the
+other on Siri. That would be quite the
+dichotomy.
+&gt;&gt; And it's sort of angling that way,
+right? Like these the timelines are sort
+of starting to line up, especially with
+what we're talking about with delays.
+you know, potentially to OpenAI's device
+and uh where we know that uh Apple from
+the, you know, most recent Mark German
+report is uh is dropping sort of vision
+pro work to to go for full steam ahead
+on these these smart glasses to compete,
+you know, presumably with Meta um and
+meet them in market. And there's the
+whole subtext thing going on with Johnny
+Iive being, you know, perhaps upset
+about the world that he helped usher in,
+right, with screens and and everything
+else with the iPhone and the fact that
+not only is Apple now, you know, going
+full steam ahead on on glasses with
+cameras, but if they're they, you know,
+again, the reports are that they're
+going to go down the path that Meta just
+did with with the screen in the eye.
+Like now we have screens in our eyes. Uh
+and and Johnny IV is making trying to
+make advice with zero screens. Um and so
+that is a very interesting butdding of
+butdding of heads. I I would the only
+other thing I would add to that that I
+didn't write about in there, but I would
+be I'm slightly concerned that there's
+too much focus on it being a screenless
+device perhaps, right? Like I'm not
+saying that it needs to be another
+smartphone certainly and I do think that
+there's probably a world and I think
+there's increasingly a world where
+people are maybe you know happy to move
+at least a bit away from from being
+reliant on a smartphone. But I'm also
+worried a little bit that it would be
+harder to use with zero screens. You
+know like there's sometimes when you
+just need a screen for something to
+showcase versus doing it orally or um or
+via another mechanism. Now, maybe they
+could say, "Well, they'll send a
+notification to your phone if they if
+there's something they need to show you
+or something like that." But I'm a
+little worried that it's uh it's it's
+trying to do it just to make a point
+about anti-screens. Uh at the same time,
+the other the flip side of that would be
+a screen, as everyone knows, is the
+biggest battery draw of any of of
+devices. And so, like, if they could do
+it without a screen, they can do a lot
+better in all day battery life and maybe
+weak battery life.
+&gt;&gt; I think they're all going to go screen.
+I remember when Amazon announced the
+Echo device and it was so cool because
+it glowed at the top and talked to you
+and we had uh Panos Pane from Amazon,
+the head of devices and services on the
+show in March and he beseeched me to go
+get the Echo Show with the screen and
+said the experience wasn't going to be
+the same without and I think all these
+devices will end up getting there and
+it's just kind of interesting how
+they're all converging in their own way.
+Let me see if I get this right. You have
+OpenAI pushing Apple on the assistant
+device. You have Meta pushing Apple
+towards glasses. You have Amazon getting
+pushed by everybody to have a better
+Alexa. You have Google kind of standing
+out there to the side, but it has uh
+ambient Gemini and is also working on
+glasses. And Amazon apparently is also
+working on glasses.
+&gt;&gt; Yep.
+&gt;&gt; Is the is Is the tech world just is are
+all tech products and services just
+converging to this you know eventual yet
+to be named singular interface with uh
+assistant inside? Um the that actually
+reminds me of one one subpoint of of my
+piece which was um while I just said you
+know the the negative side of like the
+no screen thing. I do think it's
+interesting that OpenAI is trying to go
+down at least a little bit different of
+a path like you won't see presumably
+unless there's success from it from
+someone be it OpenAI or someone else. I
+don't think you'll see Apple do like
+Yeah. like a screenless AI device. I
+don't think you'll see
+&gt;&gt; except for the glasses. They could do
+the glasses with no screen.
+&gt;&gt; That's true. And it sounds like the
+first version will be, but I I mean like
+um a sort of a secondary piece of
+hardware. Yeah. Like exactly what is
+rumored to be, you know, what OpenAI is
+working on. It feels like they're the
+only ones besides those startups as we
+mentioned that are going down that path
+at least right now. Now you could say
+Alexa it god I'm going to trigger it
+again is sort of like that um in a way
+right but it's obviously meant for to be
+plugged in and you don't take it with
+you um but I think you're right
+obviously everyone is is sort of
+coalesing around these same ideas
+including the startups all working on
+the things that we noted um and the
+answer to that is like I just think
+everyone is still trying to figure out
+like what the next device is despite all
+of the AI high hype and and everything
+that we've been talking about and
+obviously everyone, you know, we're
+we're real believers in it, but we're
+unsure about the the financing models
+for it, but everyone believes in the
+technology angle of it, but it's still
+at the end of the day, people are
+looking for the next device because they
+think that this can be the next thing
+that becomes like the massive platform
+and the next iPhone, right? And um I'm
+still of the mindset that's the more
+boring mindset that's like nothing's
+ever going to be the scale again of of
+what the iPhone achieved. And instead
+it's going to be all of these devices, a
+bunch of different devices including
+glasses, including your smartphone in
+maybe uh you know potentially including
+a a chat pin walkound thing, desktop
+device, whatever it is. Um and and
+several other things you know along
+those lines. Um, so yeah, I think that
+they all just feel like they need to
+have these initiatives. You mentioned
+Amazon because they, as you noted, like
+they they sounds like per reporting,
+they do have a a glasses project as
+well, but they hired the Jay Allard,
+which was a name I hadn't heard in years
+and years out of Microsoft to work on,
+you know, these new some sort of new
+ideas around devices and and AI and
+whatnot.
+&gt;&gt; Yep. So, they do have So, uh, here's a
+plug uh for for an upcoming episode.
+Panos Play is going to come on. and I
+just recorded with him in New York
+following the Amazon devices event and
+we do talk about that workshop that they
+have where they're trying to figure out
+the future of the new AI device and uh
+we had a really interesting interaction.
+And it's kind of fun where I said,
+"Well, what do you think about
+pendants?" And he goes, "Oh, really
+trying to go all over the place here."
+And he goes, "Pendants? Hm." You know,
+so anyway, I encourage people to tune in
+for that because uh it does seem like
+they're at least considering a pendant
+there. Um but you know what's going to
+be interesting? It's going to be the
+design philosophy of all these
+companies. Like you wrote in a post
+about how Amazon said, "Let's just get
+it out. let's get Alexa plus out there
+after they saw that Apple u you know
+didn't uh release or or get as much of
+Apple intelligence out out there and
+they got killed for it.
+&gt;&gt; Um I I actually I I want to end with a
+couple things. First of all, I want to
+get your take on well second of all I
+want to get your take on the Vision Pro
+before we leave because yeah uh we've
+said on a couple times a couple times on
+the show that Apple has dep prioritize
+that. So we should at least take a
+moment to talk about what that means.
+Um, but before that,
+&gt;&gt; you it's just very interesting to see
+Meta uh pushing Apple in these
+directions. And so I'd be curious to
+hear your perspective on like where the,
+you know, it's really a blood feud in my
+perspective. Maybe that's too strong of
+a term, but where the Meta verse Apple
+uh uh product war stands and how you
+think each one of those companies uh
+product philosophy will be an advantage
+or a disadvantage as they move forward
+trying to ship these AI devices.
+&gt;&gt; Yes. So, I've written about this a
+number of times dating dating back a few
+years now. Um, basically, you know,
+once,
+um, once Apple tried to destroy Meta's
+advertising business, uh, it felt like
+that was the kickoff of a real cold, you
+know, not even cold war, a hot war in in
+many ways that's that's been happening.
+I think at the highest level for Meta,
+you know, Zuckerberg has said it
+multiple times from on Joe Rogan's
+podcast, no less, like talking about how
+they feel like they're in a just
+terrible position because they're
+beholden to Apple and to a lesser extent
+Google in terms of the smartphone, you
+know, needs for their products. And it's
+not just for distribution of their apps
+anymore. It's now for things like their
+glasses where they feel like they can't
+have the same level of connectivity that
+like an Apple Watch does because they're
+not first-party hardware. Um, you know,
+and they and they can't tap into the the
+iPhone the same way that Apple itself
+can um with, you know, low-level um
+Bluetooth and all these other things
+that they use for connections. And so I
+think that Meta has been trying
+basically anything uh to make, you know,
+something that could again replace that
+smartphone as the next computing device.
+And again, Zuckerberg has not been shy
+about talking about that. I'm super
+skeptical as we just talked about that
+anything will ever get to that scale.
+But I do think that Meta has done a good
+job and an admirable job by the way of
+sticking with it, right? Like lots of
+companies famously Google, you know,
+with Google Glass and and their own VR
+efforts, like they just do something and
+then when it's not working, they back
+away. And you know, there's something to
+be said for that, too. But a lot of
+these new fangled devices, it just feels
+like they will never work unless someone
+just continually pumps in the billions
+required to sort of be in the right
+place, right time. Right? So much of
+this is based around timing as is so
+many things in in the world. And uh I
+just feel like a lot of these devices uh
+have never worked because they're not
+right place, right time. And people give
+up before they would ever be in the
+right place because you can't really
+time the markets, right? You can't know
+that it's going to be the right time for
+it. you can, you know, do as much as you
+can to try to make it the right time for
+you. But, um, but again, Meta, to their
+credit, support almost maybe a hundred
+billion dollars now into their efforts
+um, you know, in terms of, uh, the Quest
+um, headsets, but now also with the
+glasses and and all the other projects
+and the AR glasses that they're working
+on. So, credit to them for for still
+trying to do it. I'm still a little bit
+skeptical about what scale they can get
+to with that and if they can ever fully
+truly break uh yeah the the need to be
+paired up quite literally with Apple and
+or Google. Um and feels like it's going
+to be a long time at the very least
+until they can get to that's what that
+part. I haven't used the new glasses
+yet. Curious if you have but like you
+know they're imp it sounds like they're
+impressive. It sounds like the
+technology is is impressive, but it also
+doesn't sound like the type of thing
+that's, you know, people are going to
+leave their smartphones behind any time
+in the next 5 to 10 years. Yeah, I I
+haven't used them yet, but um I I
+actually want to pick up on a on a item
+that you put in a recent post about it
+that uh I think Exor Luxica actually
+boked at the idea of naming the latest
+generation uh Ray-B bands because they
+were bulky and then Meta sort of floated
+some money towards them and now all of a
+sudden
+&gt;&gt; Right. Again, another another tech
+company that owns an ownership stake in
+a in a public company.
+&gt;&gt; Exactly. And and so I think what I draw
+from that is what might be playing in
+Meta's benefit here is they don't have a
+standard. You know, they don't have to
+worry about decades of a design legacy
+that they have to uphold to make
+something feel meta-ish.
+&gt;&gt; They're just like, "All right, if these
+are ugly as hell Oakley glasses that,
+you know, talk back to you and some
+people like them, let's just do it." And
+that sort of I guess spaghetti at the
+wall type of uh approach um I I think is
+a very interesting contrast to the it
+has to be perfect way that Apple is
+developing things.
+&gt;&gt; Yeah. And one riff off of that idea is I
+do think the smartest thing that they
+did was partner with Exer Luxotica
+because the the biggest strength that
+Apple obviously has beyond all their
+in-house expertise is also their retail
+channels, right? Like they can move
+product because they have stores around
+the world and they can ship something
+and it be in every single country
+basically around the world aside from I
+guess Russia and maybe a few other
+places. But um but uh Meta has has one
+store or a couple stores, right? And
+even Google has just a few a handful of
+stores like no one else has that
+capability. So Meta smartly, it's not
+just the design of the glasses, which
+obviously mattered too, like you know,
+and getting to use the Ray-B band brand,
+but it's also the the foot the retail
+footprint that they can get from that
+partnership is was a hugely smart thing.
+And it's something that I've been
+wondering about when thinking through
+what Apple does with SmartClass is like,
+do they also do some sort of partnership
+there? Not because they need it from a
+distribution perspective, but more
+because like Meta has now set a standard
+in a way that look, you're wearing the
+same brand that you wore for your
+regular sunglasses or your regular
+glasses, but now they have these these
+tech enabled things and like Apple, as
+great as they are at design, like do
+people, you know, like there's the
+difference between wearing an Apple
+Watch, which is, you know, welldesigned
+and stuff, but it sort of resides under
+your shirt. Um, and uh, there's a very
+different thing between something that's
+right on your face all the time. And
+obviously Google ran into that head
+first, pun intended, um, you know, with
+with Google Glass. And I think again,
+Meta was very smart in in out of
+necessity. They had to be smart about
+that partnership. And so what does Apple
+do there with uh, do they have to cut a
+deal um to do a partnership in a similar
+vein?
+&gt;&gt; Okay, a couple more minutes left. Let's
+just do the Requum for the Vision Pro. I
+I remember back in the day uh hearing
+Apple make lofty promises about the
+future of uh spatial computing. Wasn't
+the metaverse, it was spatial computing.
+That's
+&gt;&gt; right.
+&gt;&gt; Um this big vision and now the vision
+pro has been a disappointment. But not
+only that, it seems like it's going to
+be depprioritized within Apple's suite
+of products. And you even suggest in one
+of your recent posts that this might be
+it for
+&gt;&gt; Yeah. And I, you know, Gurman and others
+have said like, look, they're still
+committed. They're obviously about to
+release a new version with just an
+upgraded chip. It's apparently going to
+have a slightly better headband, which
+is nice cuz the current one is not any
+good. But, um, but beyond that, it'll
+just be a chip upgrade. Um, the one that
+you're talking about, of course, is that
+they're they're going to at least put on
+the back burner the idea of a Vision Air
+or just the Vision without the Pro part
+of it. The slighter, this the smaller,
+lighter, and potentially less expensive.
+um you know version to actually scale
+this thing. And I think that they just
+probably looked at the market and said
+like obviously where we're at right now
+with the Vision Pro is not where we want
+to be. Um but even if they did a quote
+unquote Vision or Vision Air and say it
+was like even $1,000, do you think it's
+going to be a massive scaled, you know,
+hit device? I don't think that it would
+be. And so I think that they're being
+realistic about that. And you know, as
+you're talking about, Meta sort of
+showed them what the market is like, at
+least for the foreseeable future in
+terms of a wearable on your face. Um,
+and again, others had tried, we talked
+about Google. Snap of course was was an
+early mover with spectacles and still
+trying it. Um, but Meta really sort of
+nailed, I think, both sort of a
+technological um, perspective, ease of
+use, uh, the partnership angle and
+timing again. And I think the the for
+the vision pro when we talk about does
+it ever ever go anywhere, I don't think
+that it's going to go anywhere anytime
+soon. And so it's a matter of if Apple
+does hit with something like the smart
+pair of smart glasses and the next
+version of it. I I wouldn't be shocked
+if they do just back burner the notion
+of the vision pro, it's still there as
+like a legacy product. It's all roped
+into this vision, quote unquote, vision
+umbrella of like, well, this is just the
+the high end of what we always wanted to
+do and and you know, we're working at it
+on multiple fronts. It's too bad because
+I do feel like they've started to come
+into their own with some of the contents
+and they're getting better about it, but
+the device itself is just way too bulky,
+way too heavy. Everything about it is
+just inconvenient to use and it's just
+they timed the market completely wrong.
+And obviously they couldn't have known
+AI was coming as in as hot as it did,
+but like you know they they went all in
+on this product and they probably
+shouldn't have done that. I know we said
+to start this episode that the past
+month or 30 days or whatever it's been
+has been crazy and so uh it's hard to
+possibly capture all the action that's
+happened and and I I think that we'll
+have the the same thing repeatedly month
+month on end because uh none of this
+seems like it's slowing and uh MG it's
+just great to be able to break it down
+with you uh every month. So so thank you
+so much for coming on the show.
+&gt;&gt; Of course. Thanks as always, Alex. And
+I'll see you in a month. We'll see you.
+&gt;&gt; All right. See you in a month. And
+folks, uh remember to check out
+spyglass.org. You can set up sign up for
+MG's newsletter there. Become a pro
+subscriber like I am and get the uh
+added added articles and added insights.
+Uh which I highly recommend. All right.
+on on Wednesday, uh, Anthropic uh, chief
+product officer Mike Kger is going to be
+on if all goes according to schedule to
+talk about the company's latest model
+and and to discuss the fact that we've
+gone from Sonnet 4.0 to 4.5 in a very
+short amount of time and whether the AI
+product release cycle is speeding up.
+Thanks again to MG. Thank you all for
+listening and we'll see you next time on
+Big Technology

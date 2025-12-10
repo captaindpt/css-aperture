@@ -1,0 +1,1705 @@
+**Transcript extracted from YouTube video**
+
+Kind: captions
+Language: en
+If you're a company trying to find
+success using AI, it's a dangerous space
+because I think there's a lot of things
+that are scratching an itch today that
+the foundation model providers might do
+tomorrow. So, you're sort of playing
+with fire. A lot of B2B software is
+people building things and convincing
+customers they want it rather than
+deeply listening to a customer's
+problem. Now is a good time to start a
+company statistically because large
+language models are a fundamental new
+breakthrough in technology that will
+transform the economy. It opens the door
+sort of shuffles the deck of this power
+that incumbents have versus startups
+because incumbents in addition to having
+a lot of resources have an existing
+business model which might be disrupted
+by this new technology.
+What is good advice you received the
+last time you were an entrepreneur that
+you think is BS? Now
+minus one to zero is about turning the
+illeible into the inevitable. We started
+SPC 10 years ago with the mission of
+helping founders figure out their life's
+work about helping people navigate that
+amorphous phase where you have ambition
+but the ideas are still crystallizing
+and taking shape and focus. SPC is
+designed to help you discard the good
+ideas in search of the great ones and to
+help you find your global maximum by
+leaving behind a local maximum. We
+believe in taking your time but as fast
+as you can. So go ahead and apply for
+the SPC Founder Fellowship so we can
+help you turn the illeible into the
+inevitable.
+Welcome everyone.
+It's kind of hot in here. Uh we got a
+lot of folks. Um so I'm going to dive
+right into it. Um I don't think Brett
+needs much introduction.
+I'll just say that uh at least from a
+personal perspective, Brett is one of
+the best builders I think I've ever
+worked with. And I use the word builder
+because I think it applies to writing
+software, building companies, um
+building early stage products, latestage
+products, mentoring other teams. So, um
+you know, I know you've had a long and
+illustrious career. I won't walk through
+all of that, but I'll start with maybe a
+fun question. Brett, do you think if uh
+wipe coding was a thing in 2004,
+uh you could have wipe coded your way to
+Google Maps?
+Well, it's interesting because that
+story, which thanks to Paul Bukhai, has
+sort of made the rounds at this point,
+I'm not sure would have been that
+remarkable in some ways. is I mean it's
+sort of like I um have you all seen the
+movie Hidden Figures about the women who
+are calculators at NASA and now you know
+it's sort of like the movie is
+remarkable because that job existed you
+know and that story of like oh I rewrote
+Google Maps over a weekend it's like
+yeah who doesn't you know it's like AI
+agents you know and so I think I sort of
+hope that story will be like talking
+about the human calculators at NASA like
+wow people did that you know and uh
+that's what's kind of fun about right
+now I
+is both very exciting and a little scary
+because it's very exciting because um
+it's pretty magical. Um it can do things
+we were just talking about moments ago.
+There's aspects of it that already feel
+super intelligent. You know, it's not
+quite true general intelligence, but
+it's pretty remarkable that I think it
+probably surpasses what most of us would
+have defined as a GI 3 years ago
+already. And we just keep on moving the
+goalposts. But it's changing our jobs.
+And notably, I think there's this
+interesting meta point which is we in
+the software industry are probably
+disrupting our own job almost as much as
+any other. And I can't think of much
+historical precedent for something like
+that.
+But I like it. Um I actually like the
+fact that what made me like a
+distinctive engineer in 200 it was
+actually 2005
+when I did this.
+Um is obiated by technology. Uh I think
+that's kind of cool. like it doesn't
+stress me out. But I and I think like
+what would the 10x engineer 3 years from
+now look like? It's probably a
+completely different set of skills and
+that's I think that's really exciting.
+So that's why I'm like more looking
+forward and I hope it's like a vestage
+of the paths.
+This is interesting though. Now I feel
+as though the stakes for every hackathon
+just have gone up massively because you
+know like you're supposed to build much
+who can operate the code generating
+machine the fastest.
+Yeah, exactly. I mean what can you build
+in eight hours, right? Um you know Brett
+when we do these talks one of my
+questions is you know tell me about the
+minus one journey of a particular
+project or company that is hard for you
+because you have done so many you know
+you've done friend feed Facebook quip um
+Salesforce now Sierra so instead I'll
+ask maybe you to zoom out and
+I'm not sure I deserve the minus one
+credit for Facebook or Salesforce you
+know thank you thank you for that Um
+what is your process? I mean a lot of
+the folks here are in some version of
+some part of the minus one journey
+trying to figure out what are
+interesting problems to work on but what
+what has been your process like you know
+as you've been in between you know
+Google and friend feed right like or in
+between Facebook and quib how did you
+like navigate those early days of
+figuring out what to work on build
+conviction um what was your process for
+that
+yeah I'll try to I could give a really
+long answer and I'll try not to because
+I think I've gotten better at the minus
+to one to zero phase and you learn
+things the hard way along the my social
+network was only popular in Turkey,
+Italy and Iran. So could have, would
+have, should have.
+I remember it was popular in Turkey.
+It was very popular in Turkey. I still
+have Turkish people come up to me and
+talk about it. Um,
+but let's just say maybe not a viable
+long-term business. Uh, despite the
+affection the Turkish people hold for
+me. Um,
+uh, I I actually often start with either
+market shifts or platform shifts. If you
+look at the history of technology uh
+companies and you look at the top
+companies in the stock market, Apple and
+Microsoft were born in the birth of the
+PC and the micro computer and they
+contributed to the those technologies.
+But because the PC was such a
+significant new invention, it changed a
+lot. It it changed it probably why there
+was such a huge productivity boost in in
+the '9s if you look at sort of economic
+data. and they are now multi-t trillion
+dollar companies. If you look at the
+growth of the internet, you have Google,
+you have Amazon, two of the other very
+large companies, but you have a lot of
+others that aren't in the trillions like
+PayPal and eBay and a number of others.
+And you look at the birth of the
+smartphone and and you've taken the
+internet, you've now connected the world
+with it and it opens the door to
+WhatsApp and Door Dash and and and
+others. So I think now is a good time to
+start a company statistically because I
+think if you uh like I assume many of
+you in the room believe large language
+models are a fundamental new
+breakthrough in technology that will
+transform the world and transform the
+economy. It opens the door sort of
+shuffles the deck of this the power that
+incumbents have versus startups because
+incumbents in addition to having a lot
+of resources have an existing business
+model which might be disrupted by this
+new technology. They might have a
+platform that is uh structurally
+incompatible with like the AI native
+version of that new technology. They
+might have standard in innovators
+dilemma. They might have bureaucracy.
+They might have regulation. They might
+have all these other things. So all of a
+sudden when these new technologies come
+out it opens a door like there's like a
+crack in the foundation of the market
+that usually is controlled by the the
+incumbents and that's where new startups
+can grow and uh if the markets are big
+enough they can turn into the next
+incumbents and and you end up in the
+cycle. Uh so I started
+friend feed because I was at Google and
+we launched the Google maps API which
+was very novel for its time. Uh but
+basically the idea you could embed a
+Google map in your application which you
+know Yelp and Trullia and all these
+companies did it kind of created this
+really they called them mashups at the
+time. I no one use that word anymore but
+it created this and and it was
+interesting all those companies had
+again I'll use a word like it's old like
+information superighway but they called
+them userenerated content like the idea
+that the web was not only read only but
+read write was a novelish concept of
+Facebook being probably the most
+prominent company in that space and
+Google just wasn't interested in it as
+much like every time I was trying to you
+know uh advocate for an idea to make our
+products not I didn't use towards social
+but just like make enable our user base
+to contribute to them. It didn't it sort
+of fell in deaf ears and you it just
+didn't feel like there was like uh
+passion around that. So I left because I
+wanted to play a part in what I thought
+was this like really significant new
+trend on the internet. I started quip
+because uh when you and I were at
+Facebook
+uh we the smartphone became ubiquitous.
+Um it was a very challenging very
+awkward transition for us. uh you know
+it benefited Facebook over the long
+term. Adichu and I were independently
+responsible for some very bad and some
+very good decisions uh in that process
+and I became really excited about what's
+the impact of mobile on the enterprise
+and dove into that space and then with
+Sierra uh you know we can go into more
+of it but I really believe in those
+moments and I think if there's one
+lesson that I wish I had could give to
+my my younger self is focusing a little
+bit less in the technology and more on
+the customer need. Um I think I part of
+it was just life experience. I didn't
+know much about business. So, you know,
+I didn't have the intuition I have now
+about where these technologies could
+drive a real business outcome. But I do
+think that like if I look around a lot
+of startups, if I have a critical eye to
+it, a lot of them are very um
+extrapolations of the technology rather
+than a projection of the technology on a
+on a business problem. And I think
+that's where real value is unlocked. Um
+I going back to it I think the the hard
+part is when I was you know 24 or 25 I
+just didn't have a lot of contacts in
+different industries so it was harder
+but I do think that as you're thinking
+about how to grow a sustainable business
+linearly extrapolating from the
+technology is rarely the foundation of a
+great company and I think that's like
+the the ultimate challenge for a young
+entrepreneur.
+You know, it's interesting. Um,
+we'll dig into that in a second, but I
+just want to point out, I mean, Brett is
+a legendary engineer and, um, some of
+the code that you guys wrote at Friend
+Feed was really good. Um,
+thank you.
+And I think this is quite rare.
+Yours is pretty good, too.
+Thank you. Um, you know, this is quite
+rare, but I think my co-founder from
+Cove, uh, is actually in the audience
+today. He lives in India. he happens to
+be visiting. But at Cove, you know, we
+tried out a bunch of different like, you
+know, web servers and we eventually just
+modified Tornado because it was the best
+that we could find in Python and we
+loved that thing. Yeah,
+that was my like right when we got
+acquired, I rewrote our web server and
+open sourced it and it's been very
+popular ever since. So
+amazing. Um, but maybe the question I
+would ask Brett is um,
+so clearly at friend feed your minus one
+exploration just like let's just go
+build this thing. Let's just write
+something. Let's write a bunch of good
+code. Let's figure out like, you know,
+how do we create a pro? Is that the same
+approach you took for Sierra or did you
+take a much more customer set go talk to
+people? Because I think sometimes it's
+easy for us to you know kind of in some
+ways theorize about minus one but a lot
+of what we try to get people to do at
+SPC is that you got to start producing
+some artifacts like you know write some
+code you know push some pixel pixels or
+go talk to people and you know what how
+do you navigate that?
+Uh at Sierra we started pretty
+differently. I actually started with a
+more formal discovery process of
+chatting with different folks I knew in
+different industries and asking them for
+advice but not advice in the tell me how
+to build a company sense of saying like
+what are the problems that you would
+like AI to solve at your company. Um and
+so doing real structured discovery. Um I
+don't think he even knows this so maybe
+he's watching right now but actually the
+reason why we ended up where we are at
+SER was a gentleman named Anthony Tan
+who's the CEO of Grab. So I had known
+him uh professionally and uh ended up
+doing a very late he's in Singapore so
+was like 9:30 p.m. uh Zoom with him and
+he was just talking about how much he
+wish uh you know uh AI could solve
+customer experience and customer
+service. They serve a lot of different
+markets and it was a really big complex
+part of his company.
+And that was one of, you know, 10 15
+conversations with folks that I knew in
+my network. And um I'm really grateful
+we did that because uh I think
+especially with large language models
+are capable of so much. It's like it
+it's very easy to have a uh kind of a
+solution in search of a problem kind of
+mindset around the technology. Um and
+those conversations we structured very
+specifically. So I started with very
+broad conversations. uh what are the
+problems you wish uh we could solve, you
+know, in in general. And then by the
+time we had um thought about the impact
+of agents to offer customer experience,
+we ended up sort of with increasingly
+high fidelity conversations like more or
+less if we built this would you buy it?
+Not quite that transactional. Um and we
+learned a lot through that process. Um I
+I think that largely applies to B2B
+software. I think there's a bit uh
+consumers is a very different market. Um
+but I'm very grateful that we did that.
+Um and and again going back to some of
+the mistakes I've made in in previous uh
+companies,
+I I think that like a lot of companies
+say they're customer centric, but I
+think a lot of it's I think
+there's just a lot of a lot of B2B
+software is people building things and
+convincing customers they want it rather
+than deeply listening to a customer's
+problem. That doesn't mean you literally
+do what they want. There's the famous
+Henry Ford quote about, you know, they
+would have said they wanted a faster
+horse, but do you deeply understand the
+problems you're solving for your
+customers? Uh, one of our values at
+Sierra is customer obsession, which is
+not a very unique value, but one of the
+sentences in that value is we judge our
+success by the outcomes we drive for our
+customers, not technical milestones. Um,
+and I think that's uh really important
+for those of you developing software for
+companies. If you don't understand
+actually who like what actual business
+problem you're solving and not not
+literally what the maybe project manager
+is telling you, but what the CEO of the
+company cares about, you will miss out
+on key insights in in your product. And
+that's something, as I said, I've sort
+of learned through there's lots of
+battle scars under this sweater that
+I've learned that the hard way. So,
+do you think you learned that at
+Salesforce? cuz I frankly I mean I've
+worked at some amazing companies. I
+don't think I've ever worked at a
+company that was truly customer
+obsessed. Like that's not Facebook,
+that's not Dropbox. Those are amazing
+consumer companies. Um and I think part
+of the reason why despite everyone
+saying that they're that I think very
+few companies that actually are is that
+there isn't enough of that, you know,
+kind of lineage and DNA in Silicon
+Valley. So
+I agree. I actually I definitely learned
+it at Salesforce. I mean, not not at the
+expense of the other companies I've
+worked for, but uh you know, I remember
+going to Salesforce and it was right
+before Dreamforce and the main question
+I had is like, why do over a 100,000
+people show up every year for an
+enterprise software conference? Like, I
+don't get it. It's like a religious
+revival. I don't I don't get it. Who are
+these people? What do they do for a
+living? Um and and you really start to
+see in that company like just a true uh
+devotion to the customer base, to the
+ecosystem, and and you can see it by
+that remarkable display. Probably all of
+you like don't drive into San Francisco
+that week because of the traffic. Um
+it's remarkable. And so what I liked
+about it though going back um you know,
+you and I have had the privilege of
+working for different remarkable
+companies. Um I I like I'm like an
+anthropologist of remarkable companies
+because they're so different. Google was
+so different than Facebook, yet both
+remarkably successful. Salesforce could
+not have been more different than Google
+and Facebook, you know, very different
+type of company, but it's remarkably
+successful. And I like to deeply
+understand why rather than have this
+like uh I remember going into Facebook
+and you were so receptive, but there
+were some folks I won't name who are
+just like, I hate Google, we're better.
+And I'm like, you're like different, you
+know, like it's just a different DNA.
+And I do. And what I took away from that
+experience though was if you're creating
+a software that serves businesses, those
+businesses better be the first and last
+thing you think about in every decision
+that you make. Uh and consumer companies
+have the best ones focus on the user,
+but the bad ones look at a dashboard of
+metrics. And uh and you know, there's a
+difference between user obsession and
+growth hacking, just like there's a
+difference between selling software and
+being customercentric. And I just try to
+we just try to create a culture that you
+know lives and breathes our customer
+success in everything that we do.
+That's a great analogy by the way kind
+of like you know user like delight
+versus kind of growth hacking and kind
+of selling software versus being
+customer obsessed. There's this weird
+kind of dichotomy right where you're
+supposed to be resilient. You're
+supposed to kind of like be gritty.
+You're supposed to kind of like keep on
+like climbing the hill until you figure
+it out. So that's one narrative. And the
+other narrative is like there's zero
+sunk cost in the early days, fail fast,
+figure it out, you know, who cares? You
+have, you know, so few users. So like
+how how does a founder in the minus one
+stage kind of balance that dichotomy
+between having patience yet at the same
+time like it's like why are you devoted
+to something that has no users?
+It's the right question because you have
+the stories like uh you know the Airbnb
+founders failing so many times. Uh, I
+think it's a little bit dangerous to
+fixate on those myths because you could
+be that person who has zero users
+forever and that's a much less exciting
+story than Airbnb. Um, I I I don't like
+the idea of failing fast. Um, I think uh
+I think it's very important to have a
+thesis about what you're building and
+why. Some versions of fail fast to me
+feel like throwing ideas at the wall
+with no rhyme or reason. If you have a
+thesis about where the world is going
+and you have uh an interaction with a
+user or an interaction with a customer,
+you can find signal in those
+interactions. Um and uh and I and if you
+don't have a thesis, it's just very hard
+to like judge the the you know they
+didn't click on the button or they
+didn't make the purchase. Why? And if
+you're not judging it through the lens
+of a like a higher goal that uh for
+example we will you know the when you
+call the the phone of a consumer
+software company an AI agent will pick
+up the phone not a call center you know
+that's a thesis that that we have and
+and you can hold you that can be
+something that you believe in like but
+how you manifest a company that solves
+that problem that's the design space
+that you're working in. So, I think it's
+very important if you're starting a
+company, you have a view of the future
+that you're running towards. Uh, and
+that's where I think you can have really
+obsessive conviction. Um, and and you
+might be wrong, but that's that's why
+this stuff is hard or everyone would do
+it. Um, and then you need to have, you
+know, strong opinions weekly held on
+sort of the how.
+The thing I would say is I think it's
+very important to drive honest signals
+to your ideas. is in the early days. Um,
+uh, one of my pieces of advice to B2B
+software companies is like sell your
+software. And what I mean by that is
+like don't give it away for free. Don't
+like just let people use it and get
+their feedback verbally. That seems
+good, but everyone's like, "Oh yeah,
+it's great. I love it. Yeah, it's
+awesome." And you're like, "Well, you
+pay for it." Oh, uh, well, you know,
+next quarter I'll think about it. You
+know, maybe when we get this project
+done.
+and and you if you believe what they're
+saying, you'll be like, "Oh, next
+quarter they're going to do it." What
+they're really telling you is you
+haven't created something valuable
+enough to buy. That's a very polite way
+of it's like when you you know, so you
+break up with someone, you say, "It's
+not you, it's me." It's it's you, you
+know, like that's just the honest truth.
+And so
+like I think the only symbol like signal
+you can get in capitalism is like
+exchanging money for goods and services.
+And so if you're not actually like
+seeking out these signals in what you're
+doing, you're not actually getting
+signals from the market. And so I think
+it's very important to have like a
+thesis about the world where the world
+is going. I think it's perfectly
+reasonable to be unreasonable about that
+thesis. That's why entrepreneurs are are
+often contrarian and all that stuff. You
+should be open-minded that the approach
+you're taking is is incorrect. And you
+should seek out real market signals.
+Like you because I think it's the
+narrative building is the biggest danger
+in startups. Like, oh well, this company
+didn't like it for these reasons, but
+really they're not representative or
+they're wrong. And if every single one
+of your prospects there's some
+justifiable reason why they're not
+representative, maybe it's you. Um, and
+I think it's very important to like
+force yourself to have honest
+conversations with the market. Brett,
+what do you think is different about
+starting a company today in kind of the
+AI world versus, you know, kind of the
+other companies you have started? I'll
+describe right now it's very hard to
+predict the future future like more than
+a few years from now. We're happy to
+talk about that, but um, you know, with
+the marginal cost of creating software
+is going to zero, like I have no idea
+what we're all going to be doing in
+three years. I mean, I'm just kidding.
+But it's complicated, but right now this
+market does feel different. Um, I
+graduated from university in 2002, which
+was uh or my undergrad anyway. And uh at
+when I got to Stanford in 1998, it was
+the peak of the dotcom bubble at
+Stanford. So, it was like insane. Like
+it's amazing.
+I never bought food because you just go
+to the computer lab and there's free
+pizza sponsored by a startup, which is
+great by the way. And and then by 2002
+there's like tumble weed blowing through
+the same computer lab. And so it's just
+a really interesting time and it feels a
+bit like that and and I've made this
+argument before but I believe it which
+is uh when I say.com bubble often people
+who are around then or study it think of
+the failures pets.com and buy.com and
+you know all these companies that had
+Super Bowl ads many of whom went public
+by the way and just don't exist anymore.
+But then you look at the top of the
+stock market and you have Amazon and
+Google alone which represent a huge
+percentage of the S&amp;P 500. And then you
+look at a number of the others like the
+eBays and the PayPal's world and you're
+like man if I could have an index fund
+including pets.com but as long as it
+included Google and Amazon that was
+pretty good. So actually with the
+benefit of hindsight all the hype maybe
+was justified. Uh and it just there were
+some really really transformative
+companies that actually transformed the
+economy just as much as everyone said it
+would by the way. Uh and there's also
+some bad companies. So kind of if you
+draw forward I think AI is similar where
+you know if you went back to 1999 and we
+said what are the big markets on the
+internet we probably would have included
+commerce and search almost certainly it
+wasn't like oh my gosh what a clever
+idea searching the internet you know
+like everyone knew it
+just like today you would say software
+engineering customer service you know
+you could list the industries impacted
+by large language models we're almost
+certainly right like it's not like the
+idea is complicated but it's a you know
+we're trying to we're leader in the
+market at Sierra for customer service.
+We have to like we are not entitled to
+that lead and just like you have the the
+fight to the death with cursor and wind
+surf and all these others.
+So it feels a lot like that market to me
+where I think uh those of us close to
+the market it's very clear which parts
+of the economy will be impacted. There
+are some that might surprise us as well.
+I think we're right. I think it will be
+very impacted and there's billions of
+dollars of spend in all these markets
+and now the free market is playing out
+of who gets to write the history books
+Amazon or buy.com Google or Alta Vista
+right and uh it turns out like most of
+you probably don't even know what Alta
+Vista is it was a search engine it was a
+really big deal at the time you know and
+and that's the thing you know Victors
+write the history books um the thing
+that is there's a few things different
+though there's been all these neat
+graphs about like the compounding
+effects of technology Um, you know, when
+the internet came out, I don't know how
+many PCs were in the world, but we
+plateaued in the early 2000s around two
+billion PCs is my understanding. So, we
+didn't reach quite the Microsoft vision
+of a PC on every desktop. It reached
+mainly the Western world in the business
+world. Then since then though, we had
+smartphones and now there's more
+smartphones than people and we've more
+or less connected the whole world on the
+internet. And now you have AI and the
+economic opportunity is is huge probably
+independent of those technologies but
+now you have these uh rails on which you
+can deliver this technology fairly
+seamlessly to the whole world at the
+same time. So the growth is just
+extraordinary. Uh like reading about
+cursor's revenue numbers I mean I'm like
+holy like like and and like you and
+you check it once a month and it's like
+you've created five new companies in
+that time period. So I think we've just
+we're like it's like the dot bubble in
+the s through mind lens which is
+actually it was a justified level of
+excitement but on like superdrive like
+you know on on 10x speed and uh that's
+uh insane. Uh you know I I'm the
+chairman of openai. I run a fairly
+successful applied AI company and I have
+trouble keeping up with everything going
+on. I'm probably most well situated in
+the world almost to do so. So, it just
+feels insane uh to me right now. I think
+it's exciting though. I think it's a
+privilege to be like sitting here with
+all of you and I hope you're enjoying
+being in this moment because you know I
+think our society will be very different
+10 years from now and like all of you
+are in the middle of it. Um and that's
+pretty exciting and I don't think
+there's many other times in history
+where you get to like know you're in the
+middle of something that's significant.
+So, I like pinch myself every day. It's
+like you definitely need to just be like
+ride the wave. It's like you wake up
+every morning and you just can't control
+it. Like you know the wave's coming. You
+just ride the wave. Yeah. This like if
+you're but if you're a control freak,
+you're not going to know everything.
+There's going to be a bunch of stuff
+happening. There's probably three more
+competitors to your thing that you
+haven't heard of
+in this conversation. Three new
+competitors.
+Somebody came up. It's all good. Just
+like, you know, ride the wave. Um, so
+maybe you know, Brett, the the question
+I'd ask is what are some fantastic ways
+to do stupid things with funding that
+people receive uh for AI companies cuz
+you know I think one of the lessons
+maybe from history is that yeah you know
+like Alta Vista, Infosek, LIOS all of
+those folks
+I'm impressed with.
+Yeah. So they probably made a bunch of
+like you know dumb mistakes in
+retrospect. So what do you see happening
+today that you might be like actually
+these feel like maybe not you know not
+you know for instance you know we talked
+about this a little bit earlier that if
+you're really out there trying to build
+like a general purpose foundation model
+from scratch maybe that's not worth it
+you know um but are there other examples
+of this that you find that you know
+people are not being objective enough or
+cleareyed enough about where the value
+yeah I'll start with that example I
+think roughly I think there's there's
+probably more but the three areas of the
+AI market that I think are fairly clear
+and fairly exciting. One is uh frontier
+models. Um uh unfortunately for all of
+you in the room, unless you work at
+OpenAI or Anthropic or Google, you know,
+or or Meta, you know, you're probably
+not, you know, building one of those
+RXs, uh excuse me. There it requires so
+much capital that it is uh will tend
+towards consolidation. um there's not
+really a way to finance the level of
+compute that you need to build one of
+these models unless you're a hyperscaler
+or in partnership one of these
+hyperscalers. Um and as a consequence
+just like there's not a like indie data
+center market uh right now there's not
+going to be an indie frontier model
+market either. Um, but it's it's
+obviously an extremely important market
+and and all of the companies in the room
+will probably pay taxes to all of these
+companies to license and lease their
+models to run inference. Then there's
+the AI tools market. Um, I think this is
+a tough market to be in, but really
+interesting because, you know, this is
+sort of the proverbial pickaxes in the
+gold rush. So, if you're a company or
+trying to find success using AI, what
+are all the things that you need to do?
+There's some really interesting
+companies in this space um you know uh
+and and you know from 11 Labs and others
+that are sort of like selling I think
+really valuable technology around it. Um
+it's a dangerous space though because I
+think there's a lot of things that are
+you know scratching an itch today that
+the foundation model providers might do
+tomorrow. So you're sort of playing with
+fire. But if you look at the cloud
+market as an analogy there's a lot of
+big companies in the space too. uh
+Snowflake, Data Bricks, Confluent, you
+know, like all these kind of like if
+you're going to the cloud, what what
+tools do you need to be successful? So,
+you're going to find a lot of
+competition with the foundation model
+providers, but you also there can be
+some really meaningful companies um
+created from it as well. And then
+there's the applied AI company and I
+think the what were SAS applications and
+and you know 2010 will be agent
+companies and and uh 2030 in my opinion.
+Um, I think they'll I I obviously a huge
+believer in in Sierra, my company.
+There's others like Harvey that I love
+as well serving the legal market. I
+think for a lot of uh job functions
+departments, um, you're going to have a
+company that builds an agent or agents
+that serve the needs of that department,
+the need of that job function. uh
+whether it's being a parallegal or
+answering the phone for a customer
+service call and and just like the cloud
+market sometimes you want to lease a
+server someone you want sometimes you
+want to buy a solution to a problem and
+I think that's what these agents
+companies will do so going back to your
+question what's a good way to destroy
+your capital in the age of AI if you're
+an applied AI company pre-train a model
+that's a good way to burn through
+millions of dollars these are very fast
+depreciating assets there's ones you can
+lease there's open source ones like what
+the are you doing don't do it. Um
+similarly I I think broadly speaking you
+know I think
+if you look at like the prototypical SAS
+company you probably don't think of them
+as like an R&amp;D lab just you just like
+pick you know pick there's big ones SAP
+service now Salesforce Adobe you know
+etc but even the you know more modest
+sized ones you know ramp rippling and
+all these others are just like, you
+know, really, really great companies.
+You think of them as product companies.
+At least that's how my mental model of
+them. You know, they're using all the
+amazing cloud technology and others to
+basically make a really great product
+that solves a problem really, really
+well. I think that's the way we should
+think of agent companies. And I think
+too many agent companies focus on trying
+to feel hip in a room like this. And you
+know they think that means like the more
+fancy AI stuff I can say I do daily the
+more respect I'll have from my peers
+when really if you're you know uh doing
+some parallegal task with the customer
+cares about that it does it well and if
+there's off-the-shelf technologies that
+get you there faster and solve your
+customer's problem better you should use
+them more so broadly speaking I think
+there's going to be sort of a
+bifurcation of like the research
+community towards foundation models and
+the alkai full stack engineering
+community towards agents. And I think
+that's good. I I think that's like I
+actually think the world so many
+companies right now have to build on the
+foundation models directly because
+there's not a like an agent that they
+can just hire to do the job. And
+software is like a lawn. You have to
+tend it. No one want no company wants to
+uh maintain software. It's just a cost
+center. And we've spent the past 25
+years convincing them that the total
+cost of ownership of building software
+is worse than software as a service like
+successfully. by the way. Now, like
+let's deliver on that value. So, I'm
+really excited about the applied AI
+market um broadly.
+Two more technical questions that I'm
+curious about. Um how do you think I
+mean what's your take on how are we
+going to make progress in terms of just
+solving you know memory and longunning
+context for these models. It doesn't
+feel like we quite have a kind of like a
+paradigm for this that makes sense right
+now. Curious if you have a point of view
+on that. I sort of question the premise
+mainly just to like intellectually spar
+with you like do you complain that your
+computer CPU doesn't have memory
+um not cash but yeah
+and then you have then you have like and
+and similarly if you're like if you have
+you know memory in your computer and you
+turn off your computer like it didn't
+remember what I did and then you like
+well that's why you have a hard disk and
+they say oh but then if that computer
+blows up it doesn't remember and like
+well then you have a network data
+storage like we've built these layers of
+abstraction
+computers.
+I think with the model I think we've put
+a lot of burden on what the model does
+and certainly
+I what is an agent versus what is a
+model and there's like blurry lines
+between them and we don't need to get
+into like an intellectual debate but I
+do think of I think
+models you know are extremely effective
+at reasoning and especially with really
+long context windows and chain of
+thought reasoning and you know all the
+new techniques of these amazing models
+they're really really effective at
+reasoning Do we need them to have memory
+too or can we build that on the side?
+Does every application need the same
+memory? Uh what is even memory? You
+know, and so my sense is that's to some
+degree you're describing the market for
+the agent companies in a lot of ways. Um
+in the same way if you're building an
+analytics tool, your data infrastructure
+looks different than if you're building
+a CRM. Uh you probably have a columner
+data store rather than a traditional
+transactional database. Your customers
+don't care about any of that. But but we
+as engineers know the difference. And so
+that's sort of my point on like which
+models you choose, what storage systems
+facilitate it. Um just like in the early
+days of the PC, you know, you had the
+spinning disc hard drive and memory and
+then we had, you know, flash hard drives
+and all these other things like that. I
+love that. Uh, if you haven't found it,
+there's this Jeff Dean slide on just
+like latency numbers all the way from
+spinning discs to or like the like CPU
+all the way to like going across the
+Atlantic and it was like if you're a
+systems engineer at Google, you had to
+memorize that. I I'm hopeful that we'll
+have something similarly kind of like
+gnarly for AI because, you know, you
+might want uh like ra like a really fast
+model with really long context windows
+for one thing and you might want to
+think a really long time for something
+else. And I think that's great. I think
+we're going to have different models
+with different behaviors that serve
+different needs. I think we'll have
+different companies that and that's
+where some of the AI tooling can be like
+maybe there is a canonical correct way
+to do memory and that's a interesting
+company built around that but maybe it's
+different for high frequency trading
+than it is for this and that's all
+great. So my view is that like do the
+models need memory maybe. But I think as
+we're building agents on these things,
+this is where like the next, you know,
+four or five years of innovation, that's
+like the help wanted sign for for
+companies in this room.
+Yeah. Maybe the analogy that I'm
+actually searching for is we still don't
+know like, you know, like the best part
+about Unix is that it's a bunch of like
+small decomposible tools that you can
+isolate and then kind of like recombine
+on the fly. But it it feels as though
+not knowing how to do that right now for
+models means that we're trying to stuff
+everything into the model itself. Uh
+which feels yeah it's like pretty hard
+to modify an operating system you know.
+So I think there's some analogy there.
+Yeah it's a really good point actually.
+Um showing you know going back to like
+when I my first startup which you didn't
+mention was my web design company in
+high school.
+Oh you know
+um yeah come on you missed one man. Um,
+yeah, at the time like no one knew how
+to make websites. So like, you know,
+16-year-olds could make a business out
+of it. Just like no one knows how to
+make agents today. Like we're doing our
+best. You're all doing your best.
+The LAMP stack, you know, Linux, Apache,
+my SQL, PHP. Um, someone said Pearl. I'm
+like, no, it's PHP.
+PHP. It's definitely PHP.
+Get the P right. Um,
+you know that by the time it was like
+probably when did the I someone could
+look it up. Someone could ask Chad to be
+call 2001 2002 I don't know somewhere in
+there the lamp stuck came into fashion
+and then you know by the time if you
+were uh you know 19-year-old you'd be
+like oh lamp is how you make a website
+and it's what you do
+and then you know later you had uh you
+right it's thanks to things like Google
+maps you ended up with this er this word
+no one uses anymore called Ajax which is
+like but then you ended up with uh like
+a lot of early JavaScript
+uh frameworks to make web applications
+interactive. And then you had things
+like React and and Next
+and you now if you're making a website,
+you know, there's a way you do it and
+and it's a billion little lessons we
+collectively learned as a software
+engineering like you know uh a community
+over time and it's just so much easier
+to make a website now and so much easier
+to make a really complicated website
+that like runs client side. It could
+even work offline. Like that stuff would
+have been a research problem in 1997.
+And now it's like, oh, your website
+doesn't work offline. What are you a
+clown? You know, um, and this is where I
+think I think this is how we're going to
+evolve on agency. Like I don't I think I
+hope like I'll be disappointed if we
+look back at the like prompt stuffing,
+you know, orchestration garbage we're
+doing today and be like, "God, do you
+remember back then? Oh, we were such
+idiots, you know." And so that's that's
+the fun part about this is like what is
+the lampstack of building agents? Um is
+there a company in that space? Maybe
+maybe not. Maybe it's open source. Maybe
+it's a best practice. Maybe it's a
+design pattern. But this is what we're
+all figuring out in real time. And
+that's why it's so fun to be a
+technologist at this point because, you
+know, as much as like maybe writing code
+is more of a commodity than it was, the
+big ideas and how to make robust agents
+at scale have not been invented yet. And
+that's pretty awesome. I mean, like what
+a fun time to be present and explore
+that design space. I I think it's just
+like incredibly intellectually
+rewarding.
+The reason I'm smiling is because every
+time I'm vibe coding and I say it
+doesn't work, I'm just like, oh, the try
+harder like take longer. And I kind of
+you should try like there's a gun to my
+head and he says he'll shoot me if the
+app doesn't work.
+That's like this is the best I have.
+Just like think harder. Take your time.
+You got to play for the empathy on the
+models. Yeah.
+what I'm curious what makes a great
+board member
+[Laughter]
+I'm like the board fixer of Silicon
+Valley at this point. Um I really
+believe in boards actually. It's
+interesting when I started Sierra
+uh the first thing I did was raise
+traditional venture capital and create a
+board. Uh and Peter Fenton joined our
+board. And I had one person ask me like
+why'd you do that? You could afford to
+finance it yourself. I really believe in
+boards. I really believe in surround I
+mean
+with a uh technology startup um there's
+kind of threeish outcomes. Uh one is uh
+it goes to zero. Another is you know
+some modest outcome because you get
+acquired or whatever the heck people are
+doing nowadays hiring the founders and
+screwing over the employees. Um
+the uh sorry salty face.
+It's true. I think it's true. Um, and
+number three is you create an enduring
+company. Uh, and that last outcome is is
+what most of us in this room are trying
+to do. And it's very hard, but you're
+really trying to maximize that out for
+the likelihood of that outcome. or even
+if you're more just financially
+motivated, maximizing expected value
+equation. But, you know, adding
+surrounding yourself with people who
+have an equal stake in what you're
+producing and give you good advice and
+help you make better decisions is an
+extremely valuable thing to do to
+maximize the likelihood that you uh
+achieve that outcome. And I and I uh
+there's actually I I you might know more
+about this, but I I wonder what the most
+successful like self-funded company of
+all time is, but there's not that many
+of them. There's a few um you know, like
+I think Atlassian was somewhat famously
+sort of waited very late, but there's
+just you look at most of them and I and
+I just like, you know, you don't need to
+be a mathematician. Like it's very
+statistically unlikely. And I think it's
+hard because you know uh do you have
+other people vested in your success or
+helping you see around corners who have
+an angle of the market that you don't
+see? So number one which is I think it's
+really important to think about who you
+whom you uh ask to join your board and
+uh finding a great board can I think uh
+the the proverbialism is a bad board is
+more likely to destroy your company than
+a good board to improve. probably true,
+but I think you should seek out a great
+board, one that actually improves the
+likelihood that your company's
+successful. Um, the reason why I joined
+uh boards was actually
+I think being an adviser is very
+different than being an operator. Um,
+and uh I I really enjoyed exercising
+that muscle. Um it's very hard when you
+see a problem to not just go fix it if
+you're someone like me. And to learn how
+to affect outcomes through giving advice
+is actually like a really unique skill.
+And because I had experienced people
+very good at that, you know, I felt that
+it was something that uh partly to sort
+of pay for the great advice that I had
+gotten. I said I want to, you know, play
+that role in in other people's lives as
+well. Um I I think there's a delicate
+balance as a board member on how to be
+engaged and involved and not bleed into
+you know the operating roles of the
+people on the management team. Um I
+think it really for me I only work with
+boards like I want to work with the
+founder or work with the CEO and work
+with the management team. So I think it
+really comes down to developing like a
+great trusted relationship where they
+pull you in at the right times and and
+you have enough trust that you can give
+uh you know real advice that that
+changes the shape of the company. I
+think it's really valuable though for
+those of you who have the maybe you're
+already there in your career but if you
+started something successful like
+whether it's investing like you've done
+or joining a board I think this is what
+part of the magic of Silicon Valley. Uh
+there's just so much great advice. Uh
+there's so much capital. Uh, I think
+it's a great way to pay it forward. And
+I think like I view it as sort of like
+an obligation of we're so privileged to
+be in this amazing community, uh, find
+opportunities for success. Like you you
+should help other people, too. And it's
+a great way to do it.
+Yeah. I mean, that's really well put. I
+mean, I I'd say that two things I took
+away from that that I think are worth
+repeating for most founders is that I
+think as a founder, if you're in the
+mindset of let me make sure the worstc
+case outcome doesn't happen, I think
+that's a shitty way of thinking. like
+it's much more interesting to say that
+what if the best case happens then like
+you know do I have the best people
+around the table to kind of help me
+guide through that. Uh but you're the
+you know the common case outcome is that
+the company fails right like you
+shouldn't be in some ways like trying to
+like prevent that unnaturally in some
+ways.
+Yeah. I mean like we're you're in it to
+change the world, right? And so how can
+you maximize the chance that you have
+the privilege of doing that? And uh and
+I think you should have the humility to
+know like you don't have all the
+answers. None of us do. And and finding
+someone who's your intellectual equal
+and then having the humility to listen
+to their advice too for some people
+like Peter is great like I would you
+know if I he would be an amazing first
+board member at any company. Um, the
+second one, at least for boards, is that
+I think that I I don't take a ton of
+board seats myself, but when I do, my
+mental model is I'm going to spend the
+time with the founder anyways because I
+love what they're working on. I really
+want them to succeed. So, if it makes
+sense to do it in a way that might be a
+little bit more structural, like that
+resonates. Um, try to leave some time
+for questions from people, but what is
+good advice you received the last time
+you were an entrepreneur that you think
+is BS? Now,
+let me think. I don't have a great
+answer and that's a very good question
+that deserves a good answer. Let me
+think I if I background process that and
+navigate that into your you know your
+context window. Um
+you know Brett I mean you you you
+started to cover a little bit of this in
+terms of wanting to give back uh in the
+community. But I'm curious like what
+motivates you now? You've had a bunch of
+great hits. Um
+like how do you stay curious? How do you
+stay motivated? like is there something
+that is you know the the deeper
+underlying reason because some of it
+could just be I love playing the game.
+What a privilege.
+I am more motivated by having an impact
+on the world than the game or or which I
+you didn't explicitly say it but sort of
+the game of of money and fundraising all
+that stuff. I that's great. I'm a I'm a
+card carrying capitalist. It's a great
+way to motivate people but
+the only way
+but I am motivated by the impact these
+technologies have on society and you
+know I had left Salesforce and Chat GBT
+came out and and I like everyone else
+you know was blown away and started
+reading a bunch of research papers and
+wondering like god where was I for the
+past five years like you know I had to
+realize all this was going on and uh
+there's a Allen K quote which really
+captures my mindset here, which is the
+best way to predict the future is invent
+it. Um, and I I could not like fathom
+sitting on the sidelines while this
+technology was impacting my life and not
+helping shape it in some way. Um, so I'd
+be doing it for free if I weren't
+starting a company to do it. I or or,
+you know, working with OpenAI. Um, I
+just I just love this stuff. I mean,
+it's so amazing. I mean, we've created
+something that like just imagine showing
+someone chat GPT2 today like four years
+ago. I mean, it's the most science
+fiction thing and we kind of just like
+it happened. We're like, yeah, we passed
+the touring test. No big deal. Let's
+keep going. You know, and like it's
+amazing. Like, and so to just
+sit there and be like, I'm just going to
+like watch it all happen. I'm like, no,
+this is like I want to be in the middle
+of it. I want to have debates with you
+about memory and models and I want to
+like I want to help shape the way this
+technology impacts our lives and like
+that's what it means to be a builder,
+right? And so uh I just love this stuff.
+Like I would do it for free. It's a
+privilege to be able to do it for more
+than free. Um and I just I just love it.
+I mean I I couldn't agree more. I think
+that this it's Silicon Valley is so much
+more developed today in terms of the
+game than it was two decades ago. But I
+think if you just need to pause every
+once in a while and just appreciate like
+what we are building collectively. I
+mean like like chat GPT like in the last
+24 hours I asked it for you know uh like
+you know some medical advice because you
+know was dealing with some essentially
+like shoulder pain. I asked it for some
+legal advice uh you know all the things
+and it's I was completely like yeah
+these are great answers. this makes a
+ton of sense. And if you had asked me
+four years ago if this was a thing, I
+would have been like, there's no system
+that is capable of
+Well, just imagine, you know, there was
+this period where um if you'd been born
+in like, I don't know, 1890 or
+something, you could go from like the
+development of electricity through like
+putting someone on the moon in your
+lifetime. Just imagine being alive
+there. I might get the dates wrong, but
+there was a period you're like, God,
+imagine living that life, right? Like a
+light bulb to moon landing. like we
+might be in an era like that. You know,
+we we brought the marginal cost of power
+down, electricity, transportation. I
+wouldn't say it's gone down quite as
+far, but it's definitely gone down a
+lot. And now we're going to bring the
+marginal cost of intelligence down as
+well. And I just don't know like I can't
+imagine going to a room and not being
+able to flip on a light switch and like
+imagine years from now just being like,
+of course there's a super intelligence
+in my pocket. Like gosh, can you imagine
+not having that? And that's the world
+we're about to run into. And so that's
+exciting to me and I um as you said it's
+just like what a cool time to be alive
+in my opinion.
+So I'll end with this question before
+maybe having a couple of questions from
+the audience. Um but you know I think
+it's it's a tricky time to to raise
+children and to kind of like know how
+best to in some ways educate and prepare
+them from a for a world that might look
+pretty different. So I know you have
+three three children yourself. I have
+three myself which is so h how do you
+think about that like do you have a
+framework do you have guiding kind of
+principles there
+you know there was a adage in in higher
+education you go there to learn how to
+learn um it had been sort of maligned as
+the cost of higher education went up uh
+you know it's like learn how to learn
+and get a bunch of debt in the process
+doesn't sound quite so you know
+appealing um but I do think the
+principle is roughly right I think
+there's a danger to become sort of
+oified in the tools that you use to use
+your job. Uh I've used the metaphor, but
+I like it, which is like if you're an
+accountant and Microsoft Excel came into
+existence in full maturity overnight,
+how quick are you to abandon your HP
+calculator and your binder and learn
+pivot tables, right? And it's a very
+different job at that point, but your
+job of being an accountant is roughly
+the same, but the way you do it has
+changed dramatically as a software
+engineer. you know that the the infamous
+story of me rewriting Google maps like
+that's no longer differentiated that's
+not like a that's a cool story because
+of the period in which it happened now
+it's like how do you become the best
+operator of a code generating machine
+but you're still making products for
+your customers it's just a very
+different job so I think when you think
+about raising children in this
+environment uh I think I first of all I
+have a ton of empathy for teachers my
+sister's a public school teacher
+everything is just doesn't contemplate
+the existence of things like ChachiBT.
+So like take-home essays, all these
+things are just like not the right way
+to judge progress anymore and that's
+tough. So we was just in this awkward
+phase of the technology exceeding the
+systems that we use. But if you I
+actually I don't know if the same but
+like when I took the AP calculus test we
+were able to use calculators. Um I
+imagine
+T89.
+Yeah. T89 I think it's like the same
+calculator now amusingly.
+I I imagine the test changed you know
+through that. I would be interested
+someone who's like a history and AP test
+like but they sort of said hey look like
+a calculator is a calculator let's make
+sure the AP exam and math doesn't like
+advantage people for using a calculator
+or maybe advantages people for using it
+well but not like and I think so I
+certainly think we haven't gone through
+that transition but let's assume we sort
+of figure all that out the question I
+have is like how do you help people grow
+as a person and how do you set up a
+child to be successful in an age
+surrounded by all these like incredible
+uh tools tools and and and uh uh
+powerful systems of intelligence.
+I I feel more optimistic than many on
+this. I think there's an MIT study
+talking about people using I didn't I
+don't know if it's a study. There's so
+many things like on archive that aren't
+reviewed. I have no idea. It could be
+total BS, but I read it online. People
+using chat GBT for something didn't
+exercise part of their brain and and
+we're all doomed or something.
+Maybe, maybe not. Um I I am a optimistic
+person. I'm very optimistic about
+humanity. I think it will amplify
+people's ambition. Uh, you know, if
+you're a filmmaker or an aspiring
+filmmaker, you probably can make
+something as powerful as Inception in
+terms of visual effects quality without
+a lot of help or financing. Now, I think
+that's really cool. Uh, if you're a
+product designer, you can probably make
+an app now without uh spending as much
+money through, you know, what we call
+vibe coding. I think that will go the
+way of Ajax and information
+superighhighway. We'll probably call it
+something different in the future. Um, I
+think all of this leverage that we're
+giving to individuals is incredibly
+powerful. I think it removes
+gatekeepers. You know, if you have
+someone with a vision, they don't need
+as many people to give them permission
+to, you know, affect change in the
+world. Um, so I do think like anything
+that amplifies ambition. Um, you know,
+it can have the opposite effect and I
+think we've we've, you know, seen that
+in various parts of our economy. But I
+also think there's great equalizing and
+democratizing force with this technology
+too. Um, you mentioned legal and medical
+advice. That's really powerful for
+people. I mean, both of us can afford
+human medical advice, but that is a
+widely available to anyone. Same with
+legal advice. Same with a lot of other
+financial advice.
+So, I think there's a lot to be played
+out here. And so, I always like to say
+like with my children, it's like I'm
+trying to teach them how to use these
+tools in their everyday lives. uh not
+crossing line with they're not thinking
+but using it to sort of uh like when
+we're walking around and they ask a
+question we'll pull out chat TPT and and
+have a conversation with it and it's a
+way to expand their minds change the way
+they think learns about a topic my
+favorite example you're not quite to
+this stage yet but my daughter came home
+with Shakespeare and she asked me about
+it I was like oh I was like I had this
+Pavlovian like or this PTSD response
+because I was just like not very good at
+it the first time and we took a picture
+put chat GPT and I was like and big
+pentameter blah blah blah blah blah and
+I was like this is saved my life I
+didn't have to remember it as a parent
+and it was so cool I mean we're chatting
+about I don't remember which Shakespeare
+uh play it was and so I want to create
+that world and I think it's on all of us
+to do so but I bring up the area of like
+public school teachers and like kids
+cheating on essays is we need to have a
+ton of empathy for parents and teachers
+right now and I think we need to like
+really as technologists like participate
+in these systems a little bit more
+actively because uh banning this stuff
+from schools is untenable because kids
+will just cheat, you know, and but we
+need to help like what does it mean to
+teach someone, you know, uh competence
+in in literature, comp reading
+comprehension, which is still very
+important in this world uh in a world
+where these are available and I think we
+just need to it's going to be an awkward
+few years, but I'm very optimistic for
+the future.
+No, I love that answer. I mean, I think
+that to kind of build upon that, I think
+agency is something that you can
+actually teach kids like a lot of what I
+tell my kids and my kids are younger
+than Brett is just these computers work
+for you like you can make them do things
+like you don't you know like they can do
+a lot of things but you have to learn
+how to use them and ultimately you're in
+charge right but that is a message that
+I think they need to hear. So you talk
+about apply AI and building enterprise.
+Um how do you build scalability in
+enterprise software AI companies? Um for
+example as startups you know seed or
+series A you build cool demo you win the
+contract. It could be a one million
+could be multi-million
+but it's it's easy to fall into the
+pitfall of let me just build demos and
+win contracts. And you know for example
+in the Sierra
+successful cases you probably have uh
+your customer success agents your uh
+customer agent is solving a lot of
+problems but all the pro customer
+problems are have slight variations. How
+do you build commonality and scalability
+in your company in your product uh so
+that you don't fall into demo driven
+sales and actually both scalability in
+the activation and future long-term uh
+enduring stage?
+Yeah. Um as it relates to enterprise
+software, I'm a big believer in industry
+focus. Um, I think for this reason, uh,
+if you talk to a
+mid-market clothing retailer,
+um, and you talk to 20 of them, they'll
+have very similar, uh, business
+problems. Uh, they probably have very
+similar software stacks as well. Um, and
+uh, if you talk to the four largest big
+box retailers, they're different in
+their own way, but they will have
+similar shapes of problems with their
+supply chain and fulfillment and all
+these other things and their partners
+and international distribution. If you
+talk to the, you know, five biggest
+property and casualty insurance
+providers and you look at any part of
+their business, whether it's the actuary
+part of their business or their uh ERP
+system or their customer experience or
+claims processing, they'll look very
+similar as well. So, one uh thing I like
+to say with with enterprise software is
+like you really want to like turn your
+uh good tactics into great strategies
+over time. So once you have one customer
+so you can get two they look alike and
+then make it 10 and then you have uh you
+know you've you've done what you
+accomplish there. I think it is as if
+you're getting off the ground. Uh it
+starts what I said is have a thesis
+about where you're going and then from
+first principles think about which
+industries would probably benefit most
+and then through the act of actually
+trying to find success in that industry
+validate and and question where your
+your thesis was incomplete or incorrect
+or imprecise and then with that you can
+really you know grow um and I think most
+like if you look at the large SAS
+companies out there like Service Now SAP
+Adobe Salesforce
+etc. Shopify, they roughly followed a
+pattern like this. Sometimes it was a
+shape of a company, sometimes it was an
+industry, but you know, I think you
+really want to find customers that look
+like other customers. One of the nuance
+challenges if you're going from negative
+one to zero as this place is is
+really helpful if your first couple
+customers are actually representative
+and you can end up you know in this sort
+of like unhappy culde-sac of uh where if
+you end up with the wrong design
+partners for your company that were
+turned out not to be representative. I
+say that because it's uh there's a bit
+of an art form for your first five or so
+customers to uh I think there's some
+benefits to heterogeneity in those first
+five customers just so that you don't
+accidentally uh end up overfit for
+something that turns out to be a smaller
+market. Uh because most of the companies
+I talked to that sort of got past escape
+velocity, they'll have one company like,
+"Yeah, I'm so glad we didn't only go
+there." You know, there's everyone has
+that the the anecdote around that. So my
+suggestion is industries design partner
+programs having some heterogeneity based
+on a thesis and then replicate what
+success you see in the market.
+Yeah. I think one of the things based on
+this conversation that we frankly you
+know we've been working on kind of the
+minus one methodology for the last 7 8
+years and I don't actually think we're
+sophisticated enough in terms of for
+this set of founders who want to do more
+structured discovery. I just don't think
+we are great at knowing how to do that
+well. So I think that's something that
+we'll work on like you know how do you
+enable some of those initial customer
+conversations without overindexing on
+the precise thing that they're asking
+for. I think very few people know how to
+do it well.
+It's really hard.
+Thank you Brett for coming by this.
+That was another episode of minus one
+from the team at South Park Commons.
+Make sure to subscribe to our show
+wherever you listen to podcasts and find
+us on social at South Park Commons. And
+thanks to our friends at Atomic Growth
+for their support in bringing this
+episode to

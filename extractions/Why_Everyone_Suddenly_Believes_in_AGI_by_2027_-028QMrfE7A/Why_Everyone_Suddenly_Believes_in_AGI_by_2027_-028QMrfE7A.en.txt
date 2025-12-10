@@ -1,0 +1,505 @@
+**Transcript extracted from YouTube video**
+
+Kind: captions
+Language: en
+The godfather of AI is so terrified of
+his creation, he is now tidying up his
+affairs. He believes that we maybe, I
+guess by now, have four years left. He
+thinks there is a greater than 50%
+chance of AI taking over. So I actually
+think the risk is more than 50% of the
+existential threat. Imagine NASA's chief
+planetary defense officer estimating a
+greater than 50% chance of an asteroid
+wiping out humanity in the next 4 years.
+But why? We have examples like Deepseek
+R1 teaching itself a novel reasoning
+technique entirely on its own. We're
+witnessing an AI have an original
+insight without any prompting or
+instruction. It's not copying humans.
+It's thinking independently. And that
+self-awareness is happening much faster
+than researchers predicted. It is
+strikingly plausible that by 2027 models
+will be able to do the work of an AI
+researcher or engineer. That doesn't
+require believing in sci-fi. It just
+requires believing in straight lines on
+a graph. This video is based on the
+report by ex OpenAI researcher Leopold
+Ashen Brener. According to Washington
+insiders, the report is circulating
+among senior officials. Find the full
+paper in the description. Only 2 years
+ago, OpenAI released GPT4 and it shook
+the very foundation of what we believed
+AI was capable of. GPT4 was an AI system
+that could write code and essays, could
+reason through difficult math problems,
+and ace college exams. A few years ago,
+most thought these were impenetrable
+walls. A decade earlier, models could
+barely identify simple images of cats
+and dogs. Four years earlier, GPT2 could
+barely string together semi-plausible
+sentences. Now, we're rapidly reaching a
+point where we can't even design
+benchmarks difficult enough to challenge
+frontier AI models. Benchmarks used to
+take decades to crack and now often take
+just months. These models are acing
+everything we can throw at them. There
+have been people who have seen this for
+far longer. They were scoffed at, but
+all they did was trust the trend lines.
+The trend lines are intense and they
+were right. To appreciate just how far
+we've come in such a short time,
+consider this evolution. In 2019, GPT2
+was the equivalent of a preschooler who
+could barely count to five. Just one
+year later, GPT3 could tell actual
+coherent stories and write simple code
+comparable to an elementary school
+student. By 2022, GPT4 had leaped to
+producing complex code and solving
+advanced high school math problems,
+outscoring most humans on standardized
+tests. We've witnessed AI progress go
+from preschooler to gifted high schooler
+in just 4 years. The pace of advancement
+in AI compared to other fields is
+unprecedented in human history. The
+progress over the the recent scale is
+quite amazing. Our our very first
+reasoning was like a top 1 millionth
+competitive programmer in the world.
+People thought that was very impressive.
+It's like wow in AI it's you know in the
+millionth best people that do this.
+That's pretty good. We then had a model
+that got to like top 10,000. Uh 03 is
+the 175th best program competitive
+programmer in the world. I think our
+internal benchmark is now around 50 and
+maybe we'll hit number one by the end of
+this year. So that's like an amazing
+rate of scale for more compute in this
+new paradigm and we don't see any signs
+of that stopping. The godfather of AI,
+Jeffrey Hinton, warns that every few
+years they say, "Hey, neural nets are
+overhyped and it's all about to come
+crashing down and stop and they've been
+wrong every time." Soon we won't be able
+to measure how competent an AI is by
+giving it tests. Dan Hendris also
+created humanity's last exam, the most
+challenging AI benchmark ever. It's
+composed of 3,000 questions that seem
+like complete gibberish to everyone but
+the most experienced domain experts.
+Once AI can solve problems that only the
+top in their field can comprehend, it
+becomes too difficult to design even
+harder tests. Just think about how crazy
+that is for a second. We're already
+shifting to measuring AI agents ability
+to make money rather than test scores.
+OpenAI's latest benchmark already
+evaluates if Frontier LM can earn $1
+million from real world freelance
+software engineering tasks. Yes, AIS are
+already 40% of the way to becoming
+self-made millionaires. Initially,
+Frontier AI models couldn't score over
+10% on humanity's last exam. 2 weeks
+later, OpenI's Deep Research scored 26%.
+At the current rate of progress, experts
+predict that humanity's last exam will
+most likely be solved within the next 1
+to two years. But how did this seemingly
+impossible acceleration happen? The
+magic of deep learning is that it just
+works. The trend lines have been
+astonishingly consistent despite
+naysayers at every turn. The next few
+years will bring another leap as
+dramatic as GPT2 to GPT4, potentially
+taking us from high school to PhD level
+intelligence across all domains. Three
+main drivers of AI progress make this
+possible. Let's dive into the first
+computing power. When looking at how
+OpenAI trains Sora, notice that at the
+base compute, you start seeing vague
+outlines of images, but scale it up to
+32x and they transform completely.
+Picture a single computer. Now imagine a
+warehouse filled with them. Then
+visualize thousands of warehouses
+worldwide, all dedicated to a single
+purpose, training increasingly smarter
+AI systems. Let's take a look at why
+this seemingly simple approach throw
+more computers at the problem has worked
+so well over the last decade. The most
+famous example is Moore's law. For
+decades, this law predicted that
+computer processing power would double
+roughly every two years. An increase of
+about 1 to one and a half per decade. We
+can count thems or orders of magnitude
+of improvement. A 3x improvement is 0.5.
+10x is 1 and 100x is 2 and so on. It's
+hard to understate just how big of an
+impact this has had on society, but AI
+compute growth has completely blown
+Moore's law out of the water. We're now
+seeing improvements that are five times
+faster than Moore's law predicted. Yes,
+five times faster than Moore's law. But
+even this pales in comparison to what's
+coming. OpenAI and the US government
+have already announced plans for Project
+Stargate, a data center rollout plus a
+training run rumored to use 3M or 1,000
+times more compute than GPT4 with an
+estimated budget exceeding hundred
+billion. Yes, 1,000 times more than GPT4
+all in the next few years. The growth is
+so extreme that we have to use
+logarithmic charts just to display it on
+a single graph. But when we convert this
+to a regular linear scale, the true
+magnitude becomes clear. It's quite
+literally off the charts. While compute
+gets most of the headlines, algorithmic
+efficiency, the ability to do more with
+less, has been quietly revolutionizing
+AI. It's the second main driver of AI
+progress. Think of it like developing
+better learning techniques instead of
+just studying longer. It's just as
+important as computing power, but
+relatively underappreciated. Let's look
+at a concrete example. Going back to the
+math benchmark, in just 2 years, the
+cost to achieve 50% accuracy on this
+test plummeted by a factor of 1,000 or
+3. What once required a massive data
+center can now be accomplished on your
+iPhone. Algorithmic progress in the
+moment often feels random. Think Newton
+stumbling upon the theory of gravity by
+watching an apple fall from a tree. But
+when you zoom out enough, you can see
+the long run trend is remarkably
+consistent. You have slow growth, then
+rapid growth, then a leveling off as the
+particular paradigm matures. Over the
+past decade, researchers have found that
+we've consistently gained a half anom of
+compute efficiency per year. 1 of
+compute efficiency means that we can run
+a model at the same level of
+effectiveness for 10 times lower cost.
+To put this in perspective, what
+required 10 GPUs 2 years ago can now be
+done with just one. Leopold Ashen
+Brener's analysis shows that the
+algorithmic efficiency gains between
+GPT2 and GPT4 were massive, roughly 1
+to2 of effective compute gains. That
+means a 10 to 100 times cheaper model
+just because researchers discovered some
+better algorithms. If this trend
+continues, and there's no sign it's
+slowing down, by 2027, we'll be able to
+run a GPT4 level AI for 100 times
+cheaper. Imagine this. If cars had
+improved at AI's rate, a $50,000 Tesla
+would cost $500 and travel as fast as a
+rocket in just 4 years. These
+perspective estimates aren't set in
+stone, though. As we find more
+breakthroughs, it becomes harder to find
+the next one. We might fall short of
+these estimates. However, it's also just
+as possible we might surpass them with
+breakthroughs that accelerate this
+process even faster. The transformer
+architecture was introduced in 2017 and
+delivered a t-fold improvement in
+efficiency, doubling the yearly usual
+gain in a single breakthrough. Of
+course, every exponential growth story
+faces potential limitations. What used
+to be one of the most widely discussed
+concerns is what experts called the data
+wall, where we might run out of useful
+training data for the AI models. It was
+a compelling argument. After all,
+there's only so much highquality human
+generated content in the world that the
+models can learn from. But recent
+breakthroughs by Deep Seeks R1 in
+OpenAIS03 proved we likely already found
+ways around this limitation. As Goran
+notes, much of the point of a model like
+01 is not to deploy it, but to generate
+training data for the next model. Every
+problem that an 01 solves is now a
+training data point for 03. This creates
+a self-improving cycle where each
+generation trains the next, effectively
+demolishing the data wall through
+synthetic data generation. We're now
+witnessing AI systems that improve
+themselves faster than human engineers
+could improve them. The third and most
+unpredictable driver of AI progress is
+what Leopold Ashen Brener calls
+unhoblings, where we remove limitations
+that hold AI systems back from using
+their incredible raw intelligence. For
+example, imagine you're trying to solve
+a complex math problem with one major
+restriction. You must blurt out the
+first answer that comes to mind. You
+can't use paper or show your work.
+That's how early AI models operated. To
+solve this, researchers started giving
+LLMs their own chain of thought,
+allowing AIS to break down problems step
+by step, dramatically improving their
+problem solving abilities. All it took
+to solve an obvious hobbling was a small
+algorithmic tweak. Deepseeks R1 and
+OpenAI's 01 and 03 are a continuation of
+this. We were able to unhubble them by
+letting them think about a problem for
+even longer, for minutes instead of
+seconds. But perhaps the most striking
+example of an unhoubbling came with the
+leap from GPT 3.5 to ChatGpt.
+Researchers were able to go from a base
+model to a useful chatbot because of
+reinforcement learning from human
+feedback or RLHF. An RLHF small model
+was equivalent to a non Rlf 100 times
+larger model. Right now, leading AI labs
+are racing to implement the next major
+unhobling technique, giving their models
+what researchers call scaffolding.
+Rather than just asking a model to solve
+a problem, have one model make a plan of
+attack, have another propose a bunch of
+possible solutions, have another
+critique it, and so on. It's similar to
+how a team of experts might tackle a
+complex project, and it massively
+improves performance on benchmarks.
+Without scaffolding, AIs won't make the
+leap from being chat bots to drop in
+remote workers. Giving AIs access to
+tools can skyrocket their performance
+almost overnight. Imagine trying to
+multiply 463 by 78 in your head or drive
+somewhere without GPS. AIS without tools
+face similar limitations. OpenAI's Deep
+Research scored 26% on humanity's last
+exam when their model was allowed to
+browse the internet and use Python for
+coding. But OpenAI's 03 Mini scored 15%
+for comparison. Another critical
+limitation researchers are working on is
+the context length. The amount of
+information an AI can keep in its memory
+at once. When GPT3 was first released,
+it could only process about 2,000
+tokens. One token is roughly equivalent
+to about one word. So approximately four
+pages of text. GPT4 expanded this to
+32,000 tokens or about 64 pages. Gemini
+1.5 Pro shattered all expectations with
+a context window of 1 million tokens,
+easily 10 large books worth of text.
+Gemini 1.5 Pro was even able to learn a
+new language, a low resource language
+not on the internet, from scratch, just
+by putting a dictionary and grammar
+reference materials in context. Imagine
+dropping a new employee into a software
+company. No matter how brilliant they
+are, they can't be effective without
+first understanding the codebase,
+reading documentation, and learning from
+their co-workers. AI faces the same
+challenge. And the difference between
+2,000 tokens then and 1 million tokens
+now is like the difference between
+remembering only your last meeting
+versus recalling every conversation from
+your entire first month on the job.
+Perhaps the most significant recent
+breakthrough in unhubbling comes from a
+fundamental shift in how we scale AI
+systems. Traditionally, we'd feed the
+model the entire internet in every book
+ever written, piling on as much data as
+possible. This approach, called
+pre-training, is like trying to create a
+genius by stuffing their brain with as
+much info as possible. But we've hit
+diminishing returns with pre-training.
+However, researchers have discovered the
+next leading paradigm, post-training
+improvements. They're continuing to
+teach existing AIs after the base model
+has already been trained. One of the
+biggest new post-training improvements
+is surprisingly simple. The ability to
+think longer before responding. When
+OpenAI tested their unreleased O3 model,
+they allowed it to spend 30 minutes of
+thinking time on the ARC AGI benchmark
+rather than forcing 03 to answer
+immediately. To put this in perspective,
+these models think roughly 50 times
+faster than humans. This is like giving
+someone 25 hours to carefully consider a
+single question on a test. A survey by
+Epoch AI found that these unhoblings
+made AI systems 5 to 30 times more
+powerful. For scale, these improvements
+rival the gains from both massive
+computing power increases and
+breakthrough algorithmic advances.
+Today's most advanced AI models are
+still significantly hobbled. Consider
+what remains to be unlocked. They don't
+have long-term memory. Their ability to
+use tools is extremely limited. While
+OpenAI's operator allows basic computer
+use, it still gets confused and stuck
+all the time. They can mostly only
+engage in short back and forth
+dialogues. Rather than going away for a
+day or a week, thinking about a problem,
+researching different approaches,
+consulting other humans, and then
+writing you a longer report or poll
+request. They're mostly not personalized
+to you, just a generic chat bot with a
+short prompt, rather than having all the
+relevant background on your company and
+your work. If you're imagining GPD6 in
+2027 as just a more intelligent version
+of today's chatbt, you're missing the
+bigger picture. We're not moving toward
+better chat bots. We're moving toward
+true AI agents that can function like
+skilled remote co-workers. But to
+achieve this transformation, researchers
+need to solve the onboarding problem.
+GPT4 has the raw intelligence to handle
+many professional tasks, but it doesn't
+have any relevant context. Hasn't read
+the company docs or Slack history or had
+conversations with members of the team.
+A smart new hire isn't that useful 5
+minutes after arriving, but they are
+quite useful a month in. It seems like
+it should be possible, for example, via
+very long context to onboard models like
+we would a new human coworker. Right
+now, Chat GBT is like a smart high
+schooler trapped in an isolated box that
+you can only text with. But with
+multimodal models like OpenAI's
+operator, you have AI systems that can
+interact with computers much like humans
+do. Future AI systems will have digital
+avatars to join video calls, conduct
+research, collaborate with colleagues,
+and use the same software tools as human
+workers. They'll be true digital
+colleagues who can independently handle
+complex projects from start to finish.
+This unhoubling process could create a
+sonic boom effect in AI adoption.
+Companies today must build extensive
+custom infrastructure to make AI systems
+useful in the workplace. But once these
+limitations are removed, implementing AI
+might become as simple as clicking the
+add new remote team member button. You
+can see here the distinction between
+what we currently have and what is
+projected in future models. The leap
+from chatbot to true AI agent is driven
+by even larger improvements across all
+three factors. What Leopold Ashen Brener
+is projecting for 2027 isn't just
+another incremental improvement. It's a
+transformation as dramatic as the leap
+from GPD2 to GPT4. Think about that
+comparison for a moment. GPD2 could
+barely write coherent sentences, while
+GPT4 can ace advanced exams and write
+sophisticated code. This next leap could
+potentially launch AI's past PhD level
+expertise across a wide variety of
+fields. The math is striking. We're
+expecting a total increase of 5MS in
+effective compute combined with major
+breakthroughs in removing AI's current
+limitations. That's a 100,000 times
+increase. To grasp the sheer magnitude
+of this improvements, if GPT4 required 3
+months to train, a model with GPT4 level
+capabilities in 2027 could be trained in
+just 1 minute. What makes this
+particularly significant is the
+possibility of AI beginning to improve
+itself. Once these systems can
+effectively perform AI research,
+something the trend lines suggest could
+happen by 2027, the pace of progress
+could become unfathomable. Imagine tens
+of thousands of AI researchers working
+around the clock, potentially
+compressing a decade of algorithmic
+progress into a single year. This isn't
+just about creating a more sophisticated
+version of chatbt. We're talking about
+systems that could automate all
+cognitive jobs. As with every generation
+before them, every new generation of
+models will dumbfound most onlookers.
+They'll be incredulous when very soon
+models solve incredibly difficult
+science problems that would take PhDs
+days. when they're whizzing around your
+computer doing your job. When they're
+writing code bases with millions of
+lines of code from scratch, when every
+year or two the economic value generated
+by these models 10xes, it won't be
+longer before they're smarter than us.
+Forget sci-fi, count thems. It's what we
+should expect. AGI is no longer a
+distant fantasy. Scaling up simple deep
+learning techniques has just worked. The
+models just want to learn and we're
+about to do another
+100,000x the end of
+2027. Hey, I'm Drew. For a deeper dive
+into the timeline for achieving AGI,
+check out this video next. I'm a small
+channel and this video took me a month
+to make, so your support really helps
+out. Thanks a lot.

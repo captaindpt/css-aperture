@@ -1,0 +1,525 @@
+**Transcript extracted from YouTube video**
+
+Kind: captions
+Language: en
+Welcome back to my 10 favorite people.
+Hope you're doing well. I'm incredibly
+excited for today's video because
+Bitcoin held our major support level at
+109,000 and our macro structure remains
+fully intact. Believe it or not, since
+we last spoke this weekend, Bitcoin
+dropped a little bit over 3% and somehow
+we saw another roughly $1 billion in
+liquidations. And this is why I never
+recommend leverage trading on this
+channel. It's so much easier to zoom out
+and focus on the larger time frames and
+the major support and resistance levels
+so you're not flipping between bullish
+and bearish on every 1% move and getting
+liquidated and losing capital over and
+over and over again. I like to keep it
+very simple. If Bitcoin is holding above
+109,000, bullish structure is still
+intact. And as long as Bitcoin is
+holding the 50-week moving average, our
+bull market is still underway. Until one
+of those two things changes, my bias is
+that Bitcoin still has higher to go. And
+this is what I wrote about in Monday's
+free weekly report called holding the
+line. As long as we stay above that
+previous range high, my base case is
+that Bitcoin still has higher to go. And
+I believe there are three main scenarios
+we have to watch out for. a bounce off
+support that results in new highs and
+price discovery, which is my base case
+with about a 60% likelihood as of right
+now. And then we have the scenario where
+we do bounce off support but only make a
+lower high before new lows and testing
+the 50week moving average. This would be
+our full reset scenario. I would perhaps
+put a 30% likelihood on that one. And
+then we have to face the fact that there
+is always a chance the cycle could be
+over and Bitcoin just falls through all
+these support levels or we end up having
+a black swan event we didn't see coming.
+But I would only put that at a 10%
+likelihood. And I believe the best way
+to navigate markets is to have multiple
+scenarios you're watching out for, but
+then you change your portfolio based on
+what you think is most likely and least
+likely. And this is why my portfolio is
+set up the way it is. I'm convinced this
+is the most optimal portfolio that one
+can have because it makes just about
+everyone upset. People get mad at the
+cash position being 30%, because it's a
+melting ice cube and it's losing money
+to the basement and if you're not 100%
+Bitcoin, you're falling behind. And then
+you have a bunch of people upset about
+the Bitcoin position because Bitcoin is
+already above 100,000 and the upside is
+limited and it doesn't make sense to
+hold Bitcoin when everybody is piling
+into Ethereum because Ethereum has way
+more upside and alt season's around the
+corner and Bitcoin's dead. And then you
+have the Bitcoin maximalists that are
+upset about my altcoin position because
+all altcoins are trash and Bitcoin is
+king and if you hold any altcoins,
+you're just going to lose money. Even
+though Ethereum and Salana have done so
+well this cycle and I think they're
+going to continue to outperform Bitcoin
+between now and when the cycle ends. And
+I do think this portfolio prepares me
+for all possible outcomes. And I did
+take some profits on my Ethereum
+holdings this week and rotated them into
+Bitcoin because my Bitcoin holdings were
+getting quite small compared to my
+Ethereum holdings with the incredible
+move we've seen from Ethereum recently.
+And I know that might sound crazy
+because everybody is in love with
+Ethereum right now. And I do expect
+Ethereum to outperform Bitcoin for the
+remainder of the cycle, but Ethereum
+does also have more downside risk. So, I
+don't want Ethereum to become too big of
+a portion of my portfolio. And I feel
+more comfortable having Bitcoin being my
+biggest holding. And as always, if you'd
+like to learn more about my portfolio
+automation system or mental models I use
+to navigate this market or common
+mistakes I see so many investors making,
+especially at this phase in the cycle,
+you can check out the crypto enjoyers
+program and community in the video
+description. But for now, in terms of
+answering how low Bitcoin will go, I do
+believe it'll hold this support level
+because of the previous swing high and
+the 20week moving average. But it's
+possible that we come down and retest
+that 50 week somewhere around 100K. That
+would just complicate things quite a bit
+because it would be a false breakout
+above 110,000.
+And usually false breakouts result in
+pretty large corrections and it's
+usually not a great sign for what's to
+come. But we'll adjust to that as needed
+once price action tells us to be
+concerned about it. And speaking of
+being concerned about it, let's talk
+about the Bitcoin cycle top and why most
+investors will likely be wrong about
+timing it. I know this Coin Glass 30
+bull market peak indicators is
+incredibly popular and I get questions
+about it all the time, but I do believe
+it's going to get investors wrecked this
+cycle because it doesn't do a great job
+of accounting for diminishing returns.
+And I'm going to go over exactly why.
+Let's start with a fan favorite that I
+see commented all the time, the PI cycle
+top indicator, which is calling for a
+Bitcoin price this cycle above
+But what most people don't notice is
+that although this indicator has not
+failed in any Bitcoin cycle, the
+diminishing returns have been making it
+harder and harder to use. And in case
+you aren't familiar with this indicator,
+the PI cycle top indicator flashes a
+sell signal when the 111day moving
+average gets above two times the 350day
+moving average. If we take a look at
+2011, we can see that the green moving
+average spent quite a bit of time above
+the blue, giving investors a pretty
+prolonged sell signal. In 2013 with the
+double bubble, we had two crosses, but
+they were quite a bit shallower than the
+cross we saw in 2011. In 2017, the green
+moving average barely crossed above the
+blue. And then in 2021, the moving
+averages barely touched. So based on
+that diminishing returns trend of the
+crosses getting smaller and smaller and
+2021 being a very very brief touch, you
+would imagine that because of
+diminishing returns, they would not
+cross this cycle. And I know a lot of
+people say diminishing returns don't
+matter anymore because of institutions
+and bigger players, but Bitcoin's market
+cap is also a lot bigger. So the laws of
+markets don't change. You just have
+bigger players moving a bigger market
+cap. So you still end up with
+diminishing returns even if the main
+players have changed. Let's take a look
+at another quick example. The 2year MA
+multiplier or the Mayor multiple calling
+for a Bitcoin top above 350,000
+this cycle. But what do you know? The
+sell signals have been getting smaller
+and smaller. The sell signal for this
+one is price going higher than five
+times the 2-year moving average. And
+notice how the time spent above that red
+line has been less and less. It couldn't
+even get above it in the last cycle
+because as an asset gets bigger and less
+volatile, it becomes harder and harder
+to get very extended away from moving
+averages because the returns get smaller
+and smaller and diminish over time. So,
+I don't believe we're going to cross the
+red this cycle. And I don't believe
+Bitcoin is going to trade above 350,000
+even though a bunch of people are going
+to be waiting for these peak indicators
+to flash a sell signal. And real quick,
+a lot of people talk about the Pwell
+multiple. This looks at minor revenue
+divided by the 360day average of minor
+revenue. And as you can see, lower high,
+lower high, lower high, lower high,
+lower high. I don't think this one is
+going to be able to reach levels it
+reached previously because minor
+revenues are getting squeezed. Same
+thing with the MVRV. Probably the most
+popular onchain indicator for Bitcoin.
+This looks at the market value divised
+by the realized value or the market cap
+divided by the realized cap. You can see
+it's lower high, lower high, lower high,
+lower high. and diminishing returns make
+it very hard to use these indicators
+unless you actually take diminishing
+returns into account. So for example, in
+the previous cycle it reached a reading
+of almost 8 and before that it was
+almost 12. So maybe this cycle you get
+close to four or slightly above it as a
+top for the MVRVZ score. So most
+investors, especially retail investors,
+are going to be waiting for the red box
+up here because they're being told this
+time is different. So diminishing
+returns don't matter because
+institutions play by different rules.
+And it's likely going to play out the
+same way once again with diminishing
+returns. And this is why I prefer to use
+data points that work across asset
+classes and aren't as impacted by
+diminishing returns like market
+sentiment with the fear and greed index
+and seeing whether we're in extreme
+greed or normal greed or neutral or fear
+or extreme fear or taking a look at
+seasonality not because it has to repeat
+but just to give us an idea of what has
+happened in the past. And it's also why
+I love looking at macro indicators like
+the global liquidity index that exist
+outside of Bitcoin and seem to be one of
+the main drivers of risk assets,
+especially Bitcoin, which doesn't have
+things like earnings driving it. So,
+we'll see what happens, but for now, it
+looks like Bitcoin is putting in another
+false breakdown that have resulted in
+some pretty solid rallies recently. We
+have MetaPlanet announcing they're going
+to be buying more Bitcoin. Strategy is
+also buying more Bitcoin even though the
+purchases are starting to get smaller
+because Sailor is facing a lot of
+pressure for MSTR's underperformance
+over the past few months as he's been
+using the premium to buy Bitcoin which
+is upsetting shareholders. And we
+finally saw some spot ETF inflows once
+again after a 6day outflow streak. But
+these Bitcoin ETF inflows are still
+pretty lackluster. You can see that
+August and July have been pretty
+lackluster in terms of Bitcoin spot ETF
+inflows. And that's almost entirely
+because all of that capital is chasing
+Ethereum instead. And this is usually
+what results in a cycle top for Bitcoin.
+Bitcoin dominates the narrative. Bitcoin
+dominates all of the money flow like
+what we saw in 2021. But then eventually
+Bitcoin gets high enough that everybody
+starts rotating into and chasing
+altcoins. And people said this cycle
+would be different because institutions
+only want Bitcoin. Corporate treasuries
+only want Bitcoin. But what do you know?
+The main thing that institutions,
+treasuries, whales and investors care
+about alike is profits and number go up.
+So, as soon as Ethereum got a narrative,
+and as soon as Ethereum got their own
+Michael Sailor, who keeps bulling on
+Twitter and talking about it on CNBC,
+now Ethereum puts in its incredible
+rally as investors go further out on the
+risk curve from Bitcoin. And Bitcoin
+ends up flatlining and languishing a bit
+here. And usually the cycle tops once
+the experiment is done on Ethereum and
+all of these corporate treasuries start
+chasing assets even further out on the
+risk curve causing Bitcoin and Ethereum
+to top and ending the cycle. But for
+now, things still look pretty solid for
+Ethereum. Bit mine is still buying a ton
+of ETH. Sharplink is also buying a ton
+of ETH. And we see these strategic
+reserves accumulating more and more of
+the supply alongside the ETFs as the
+ETFs try to frontr run the treasuries.
+and a bunch of normal investors and
+smart money are trying to frontr run
+those ETF inflows. So, as long as we see
+these big inflows coming into Ethereum
+and as long as it keeps dominating the
+narrative, I believe it's going to go
+higher until eventually perhaps that
+attention moves on to something else
+like Salana. I do believe it's possible
+for us to see a 6 to7,000 Ethereum. But
+I still am not in the camp that Ethereum
+is going to get anywhere near 20,000
+because like we talked about earlier in
+this video, diminishing returns are a
+thing. Right now, we are in the belief
+phase of the long-term holder. Net
+unrealized profit and loss. This just
+measures how much unrealized profits
+long-term holders are sitting on. Once
+we're in the blue region, that means
+they're sitting on a ton of unrealized
+profits, hence euphoria. And usually
+once we enter that region, we're very
+near a top. We're still in the green
+region for now, but we will be entering
+the blue region very soon. Similar story
+from the MVRV and similar to Bitcoin.
+You see a very high reading in the 2017
+cycle because the multiples were insane.
+Lower high in the 2021 cycle because the
+asset was bigger and diminishing returns
+took effect. So, I expect to see
+diminishing returns here once again now
+that Ethereum has a market cap of nearly
+$500 billion. We also have Ethereum
+Bitcoin sitting at a resistance level
+here, which also made it easier to
+rotate some of my Ethereum into Bitcoin.
+Ethereum is up, I believe, around 140%
+against Bitcoin just over the past few
+months. And I'll rotate even more
+Ethereum to Bitcoin if we get up to that
+0.5 Fibonacci retracement and 2022 low
+because I do expect a lot of profit
+taking on Ethereum at that level. But
+I'm more than happy to take things week
+by week and see what the price action
+and market data tells us. But we are
+entering a difficult seasonality period
+for Ethereum, which is September. Every
+single time Ethereum has had an
+incredible August. We've had a red
+September. That doesn't mean this has to
+happen again, but mean reversion is a
+thing and profit taking is likely going
+to happen sometime soon. So, we'll
+continue to monitor that as we get
+closer. But this gave me even more peace
+of mind and conviction rotating just
+some of those Ethereum profits back into
+Bitcoin after the recent outperformance.
+And speaking of recent outperformance,
+it is great to see Salana waking up a
+little bit. It seems like more and more
+people are waking up to what I've been
+talking about and what I said in the
+past video about Salana being the best
+risk adjusted returns after Bitcoin and
+Ethereum. Much better than XRP, much
+better than Cardano, and better than
+just about every other asset of that
+size. And for a couple of reasons,
+there's really three main catalysts for
+Salana that I think make it special. For
+one, the network usage is insane. You
+can say that it's mostly bots. You can
+say that it's mostly not real
+transactions, but if that's true, why
+aren't these other teams doing the same
+thing so their metrics can look better?
+Why is Salana higher than everything
+else by multiple orders of magnitude?
+And anybody who says Salana isn't the
+best user experience in this asset class
+hasn't used any blockchain ever because
+anytime I have to send stable coins or
+do anything on chain, it is 10 times
+easier to do on Salana. Only thing that
+comes close is base which is a layer 2
+on Ethereum. And I do believe it's good
+to have two separate approaches. You
+have Ethereum with the decentralized
+layer 2 approach. You have Salana with
+the slightly more centralized layer 1
+high throughput blockchain. And I think
+it's going to be very hard for any other
+chain to out compete one of those two in
+their current methodologies. I do
+believe the window for becoming the
+Ethereum killer for other chains is
+closing and Salana is now the clear
+number two after Ethereum. And I believe
+institutional investors realize this.
+They're already setting up corporate
+treasuries to run the playbook that we
+saw on Bitcoin and Ethereum again on
+Salana. The reason why I don't think
+it's going to happen for something like
+BNB or Tron, even though those chains
+get a lot of usage is because they're
+not going to get the same US institution
+inflows that Ethereum, Bitcoin, and
+Salana could because Salana is a bit
+more US-based. It's going to be easier
+for these corporate treasuries to buy
+Salana just because we're going to get
+those Salana ETFs by October. So, it
+makes a lot of sense to me that after
+the Ethereum Treasury playbook begins to
+slow down and the diminishing return
+starts take effect, investors start
+rotating into Salana as the next one
+that's going to have that move. We see
+Sharp's technology announcing they're
+going to buy $400 million of Salana as
+well. And it seems like the main
+narrative for alt season this cycle is
+crypto ETFs and crypto treasuries. So, I
+don't know how that's going to make the
+whole market go up like alt seasons in
+the past. Maybe some other narrative is
+going to pop up, but as of right now,
+really the only way these projects are
+getting attention is if they have a lot
+of corporate treasuries buying them or
+if they have ETFs coming later this
+year. So, I do think things like Cardano
+and XRP can do well because of that ETF
+narrative. But I do believe assets like
+Ethereum and Salana separate themselves
+a little bit because they are the ones
+with the most usage and users which
+allows investors to dream very big on
+what the potential future could look
+like on those blockchains. Salana
+Bitcoin also looks quite solid here
+clearing resistance levels one by one
+and getting very close to our previous
+range low. A reclaim of that level
+likely results in a big move. And we now
+have Salana and Ethereum getting very
+close to Bitcoin's one-year performance.
+Ethereum almost flipped Bitcoin for
+one-year performance last week. And I do
+expect Ethereum and Salana to end this
+cycle outperforming Bitcoin. And I do
+believe they are the lowest risk
+projects outside of Bitcoin with that
+potential upside. And it's great to see
+the global liquidity index slowly
+grinding higher here and getting very
+close to making new highs. It's all
+going to come down to the September FOMC
+meeting. If Powell is more dovish than
+anticipated, that probably sends the
+global liquidity index higher and the
+dollar index lower. If Powell surprises
+us with more hawkishness because of
+tomorrow's inflation data coming in
+hotter than expected or the labor market
+being stronger than expected between now
+and the FOMC meeting, that could result
+in some downward pressure in the short
+term. So, I'm going to be keeping a very
+close eye on that FOMC. We want to see
+global liquidity higher and we want to
+see the dollar index lower if we want
+risk assets to rally and that's going to
+have a huge impact on what we see from
+these rate cut expectations. Right now,
+everybody agrees we're going to see a
+rate cut in September for the most part,
+but we're expecting a pause in October
+and another rate cut in December. Based
+on current data and based on current Fed
+commentary, we really want to see more
+rate cuts than this if we're going to
+get some type of extended cycle into
+2026. But with the data as it stands, I
+do believe we're going to have a major
+correction in September because these
+are not enough rate cuts to keep the
+economy and markets going. But we'll see
+what happens. As I said, we are getting
+an update to the Fed's preferred measure
+of inflation. Core PCE tomorrow. We want
+to see it in line or below expectations.
+A hot print would spook markets and push
+back rate cut expectations because we
+know the labor market is weakening under
+the surface but still looking quite
+resilient with headline data. We know
+the economy is weakening under the
+surface, but GDP is still positive. And
+we know markets are still doing fine if
+you take a look at the S&amp;P 500 making
+new all-time highs and Bitcoin making
+new all-time highs. So, we really don't
+want stubborn inflation to ruin the
+party. But as we look forward, the
+federal government is still running huge
+deficits. That's a trend that seems to
+be worsening year after year. And
+exponential debt growth means
+exponential money supply growth when
+that debt eventually has to get
+monetized. And that's bullish for our
+risk assets like the S&amp;P 500 until the
+bubble pops. And it's bullish for our
+fixed supply risk assets like Bitcoin.
+But as always, let me know what you
+expect. Thank you so much for the
+support on the recent videos. Thank you
+so much for watching and I'll talk to
+you

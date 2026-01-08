@@ -83,6 +83,12 @@ This creates organized, meaningful folder names that make it easy to identify co
 # YouTube (subtitles - fast, requires internet)
 ./css-aprtr extract "https://youtube.com/watch?v=VIDEO_ID"
 
+# YouTube channel (index videos for later fetching)
+./css-aprtr channel index "https://www.youtube.com/@plus1software/videos"
+
+# Fetch one or more channel videos into the indexed channel folder
+./css-aprtr channel fetch extractions/PLUS1_Software_Videos_UCxxxxxxxxxxxxxxxx 2GPNKKeXSyQ DYTo38TAg0w -l en
+
 # YouTube (Whisper local - offline capable)
 ./css-aprtr extract "https://youtube.com/watch?v=VIDEO_ID" -w
 

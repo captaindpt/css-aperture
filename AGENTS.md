@@ -19,6 +19,19 @@ This is Content Semantic Search - a unified tool for extracting and searching co
 - Handles multiple languages and auto-generated subtitles
 - Removes timing information and duplicates
 
+**src/core/playlist_extractor.py** - YouTube playlist extraction with `YouTubePlaylistExtractor` class that:
+- Extracts subtitles from all videos in a YouTube playlist
+- Automatically retrieves playlist title for organized folder naming
+- Creates nested directory structure (playlist folder → video subfolders)
+- Generates combined transcript file for easy cross-playlist searching
+- Saves playlist metadata in JSON format
+- Handles individual video failures gracefully
+
+**src/core/channel_extractor.py** - YouTube channel indexing with `YouTubeChannelExtractor` class that:
+- Indexes a channel’s Videos tab (no transcript download during indexing)
+- Saves `channel_info.json` + `channel_videos.md` for traceable “what’s in the channel”
+- Enables later per-video fetching into the channel folder (so you can search across fetched videos)
+
 **src/core/epub_extractor.py** - EPUB text extraction with `EPUBExtractor` class that:
 - Extracts text content from EPUB files
 - Automatically retrieves book titles from metadata
@@ -27,7 +40,7 @@ This is Content Semantic Search - a unified tool for extracting and searching co
 - Removes HTML formatting and navigation elements
 
 **src/core/extractor_factory.py** - Factory for creating appropriate extractors:
-- Automatically detects content type (YouTube URL vs EPUB file)
+- Automatically detects content type (YouTube URL, YouTube playlist, YouTube channel, EPUB file, media file)
 - Creates appropriate extractor instance
 - Provides unified interface for different content types
 
@@ -37,6 +50,7 @@ This is Content Semantic Search - a unified tool for extracting and searching co
 - Generates sentence embeddings using `all-MiniLM-L6-v2` model
 - Implements semantic search via cosine similarity
 - Provides expandable context viewing
+- Supports cross-playlist/channel directory search (`css search -p ...`)
 
 **src/core/processor.py** - Text processing utilities with `TextProcessor` class that:
 - Handles both speaker-formatted and generic transcripts
@@ -53,6 +67,7 @@ This is Content Semantic Search - a unified tool for extracting and searching co
 - `extract` - Extract content from YouTube videos or EPUB books
 - `search` - Search existing transcripts or extracted text
 - `auto` - Extract and search in one command
+- `channel` - Index a channel and fetch specific videos
 
 ### Key Files
 
@@ -84,6 +99,15 @@ pip install -e .
 # Extract YouTube video subtitles with automatic title naming (recommended)
 ./css-aprtr extract "https://youtube.com/watch?v=abc123"
 
+# Extract entire YouTube playlist (creates a playlist folder with video subfolders)
+./css-aprtr extract "https://youtube.com/playlist?list=PLxxxxxx"
+
+# Index a YouTube channel (Videos tab) for later fetching
+./css-aprtr channel index "https://www.youtube.com/@plus1software/videos"
+
+# Fetch specific channel videos into the indexed channel folder
+./css-aprtr channel fetch extractions/PLUS1_Software_Videos_UCxxxxxxxxxxxxxxxx 2GPNKKeXSyQ DYTo38TAg0w -l en
+
 # Extract EPUB book text with automatic title naming
 ./css-aprtr extract "/path/to/book.epub"
 
@@ -93,6 +117,9 @@ pip install -e .
 
 # Search existing transcript or text
 ./css-aprtr search "consciousness artificial intelligence" -t transcript.md -r 10
+
+# Search across a playlist/channel directory (after extracting/fetching videos into it)
+./css-aprtr search "CAN communications" -p extractions/PLUS1_Software_Videos_UCxxxxxxxxxxxxxxxx/ -r 10
 
 # Extract and search in one command with automatic naming
 ./css-aprtr auto "https://youtube.com/watch?v=xyz789" "neural networks" -r 15
@@ -165,25 +192,31 @@ This tool is designed to work seamlessly with Claude Code and other AI agents. H
 ## Command Line Arguments
 
 ### Extract Command
-- `source`: YouTube video URL or EPUB file path (required)
+- `source`: YouTube video URL, YouTube playlist URL, YouTube channel URL, or EPUB file path (required)
 - `-l, --language`: Subtitle language code for YouTube (default: en)
 - `-n, --name`: Custom output filename
 - `-o, --output-dir`: Output directory (default: current)
+- `--max-videos`: For channel indexing: limit number of videos to index
 
 ### Search Command
 - `query`: Search query (required for search mode)
 - `-t, --transcript`: Transcript file path (required)
+- `-p, --playlist-dir`: Playlist/channel directory to search (searches all videos inside subfolders)
 - `-r, --results`: Number of results (default: 10)
 - `-e, --expand`: Expand specific result ID
 - `-c, --context`: Context chunks for expand (default: 3)
 
 ### Auto Command (Extract + Search)
-- `source`: YouTube video URL or EPUB file path (required)
+- `source`: YouTube video URL, YouTube playlist URL, or EPUB file path (required)
 - `query`: Search query (required)
 - `-l, --language`: Subtitle language code for YouTube (default: en)
 - `-n, --name`: Custom output filename
 - `-o, --output-dir`: Output directory (default: current)
 - `-r, --results`: Number of results (default: 10)
+
+### Channel Command
+- `channel index <channel_url>`: Create `extractions/<ChannelName_ChannelId>/channel_info.json` + `channel_videos.md`
+- `channel fetch <channel_dir> <video_id_or_url...>`: Fetch transcripts for one or more videos into that folder (then search with `css search -p <channel_dir>`)
 
 ## AI Analysis Examples
 

@@ -121,6 +121,7 @@ class YouTubeExtractor(ContentExtractor):
             # Extract subtitles using yt-dlp
             cmd = [
                 "yt-dlp",
+                "--no-update",
                 "--write-subs",
                 "--write-auto-subs", 
                 "--sub-langs", language,
@@ -132,7 +133,24 @@ class YouTubeExtractor(ContentExtractor):
             result = subprocess.run(cmd, capture_output=True, text=True, check=True)
             
             if not vtt_file.exists():
-                raise RuntimeError(f"Subtitle extraction failed. VTT file not found: {vtt_file}")
+                # yt-dlp may write a slightly different language tag (e.g., en-US) or only auto-subs.
+                candidates = sorted(self.output_dir.glob(f"{output_name}.*.vtt"))
+                preferred = [p for p in candidates if p.name.startswith(f"{output_name}.{language}")]
+                chosen = (preferred[0] if preferred else (candidates[0] if candidates else None))
+                if chosen:
+                    vtt_file = chosen
+                else:
+                    extra = (result.stderr or result.stdout or "").strip()
+                    extra = extra[-500:] if extra else ""
+                    hint = (
+                        "\nTip: If the video has no subtitles, try Whisper: "
+                        "`./css-aprtr extract <url> -w`"
+                    )
+                    raise RuntimeError(
+                        f"Subtitle extraction failed. VTT file not found: {vtt_file}"
+                        + (f"\n\nyt-dlp output:\n{extra}" if extra else "")
+                        + hint
+                    )
             
             # Convert to clean text
             text_file = self._vtt_to_text(vtt_file)

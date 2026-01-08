@@ -19,6 +19,19 @@ This is Content Semantic Search - a unified tool for extracting and searching co
 - Handles multiple languages and auto-generated subtitles
 - Removes timing information and duplicates
 
+**src/core/playlist_extractor.py** - YouTube playlist extraction with `YouTubePlaylistExtractor` class that:
+- Extracts subtitles from all videos in a YouTube playlist
+- Automatically retrieves playlist title for organized folder naming
+- Creates nested directory structure (playlist folder → video subfolders)
+- Generates combined transcript file for easy cross-playlist searching
+- Saves playlist metadata in JSON format
+- Handles individual video failures gracefully
+
+**src/core/channel_extractor.py** - YouTube channel indexing with `YouTubeChannelExtractor` class that:
+- Indexes a channel’s Videos tab (no transcript download during indexing)
+- Saves `channel_info.json` + `channel_videos.md` for traceable “what’s in the channel”
+- Enables later per-video fetching into the channel folder (so you can search across fetched videos)
+
 **src/core/epub_extractor.py** - EPUB text extraction with `EPUBExtractor` class that:
 - Extracts text content from EPUB files
 - Automatically retrieves book titles from metadata
@@ -27,7 +40,7 @@ This is Content Semantic Search - a unified tool for extracting and searching co
 - Removes HTML formatting and navigation elements
 
 **src/core/extractor_factory.py** - Factory for creating appropriate extractors:
-- Automatically detects content type (YouTube URL vs EPUB file)
+- Automatically detects content type (YouTube URL, YouTube playlist, EPUB file, media file)
 - Creates appropriate extractor instance
 - Provides unified interface for different content types
 
@@ -37,6 +50,7 @@ This is Content Semantic Search - a unified tool for extracting and searching co
 - Generates sentence embeddings using `all-MiniLM-L6-v2` model
 - Implements semantic search via cosine similarity
 - Provides expandable context viewing
+- Supports cross-playlist search (searches all videos, shows which video each result is from)
 
 **src/core/processor.py** - Text processing utilities with `TextProcessor` class that:
 - Handles both speaker-formatted and generic transcripts
@@ -53,6 +67,7 @@ This is Content Semantic Search - a unified tool for extracting and searching co
 - `extract` - Extract content from YouTube videos or EPUB books
 - `search` - Search existing transcripts or extracted text
 - `auto` - Extract and search in one command
+- `channel` - Index a channel and fetch specific videos
 
 ### Key Files
 
@@ -99,6 +114,15 @@ pip install openai          # API (requires OPENAI_API_KEY)
 # YouTube (subtitles - fast)
 ./css-aprtr extract "https://youtube.com/watch?v=abc123"
 
+# YouTube Playlist (extracts all videos)
+./css-aprtr extract "https://youtube.com/playlist?list=PLxxxxxx"
+
+# YouTube Channel (index videos for later fetching)
+./css-aprtr channel index "https://www.youtube.com/@plus1software/videos"
+
+# Fetch specific channel videos into the indexed channel folder
+./css-aprtr channel fetch extractions/PLUS1_Software_Videos_UCxxxxxxxxxxxxxxxx 2GPNKKeXSyQ DYTo38TAg0w -l en
+
 # YouTube (Whisper local)
 ./css-aprtr extract "https://youtube.com/watch?v=abc123" -w
 
@@ -113,12 +137,18 @@ pip install openai          # API (requires OPENAI_API_KEY)
 # EPUB books
 ./css-aprtr extract "/path/to/book.epub"
 
-# Search
+# Search single transcript
 ./css-aprtr search "consciousness" -t transcript.txt -r 10
+
+# Search across entire playlist
+./css-aprtr search "topic" -p extractions/Playlist_Name_PLxxxxxx/
+
+# Search across an indexed channel folder (after fetching some videos)
+./css-aprtr search "topic" -p extractions/PLUS1_Software_Videos_UCxxxxxxxxxxxxxxxx/
 
 # Extract and search
 ./css-aprtr auto video.mp4 "machine learning" -r 15
-./css-aprtr auto podcast.mp3 "philosophy" --api -r 20
+./css-aprtr auto "https://youtube.com/playlist?list=PLxxxxxx" "AI" -r 20
 
 # Expand context
 ./css-aprtr search "topic" -t text.txt --expand 950 --context 4
@@ -153,6 +183,9 @@ This tool is designed to work seamlessly with Claude Code and other AI agents. H
 # Extract YouTube videos with automatic title naming (recommended) - AI gets meaningful folder names
 ./css-aprtr extract "https://youtube.com/watch?v=abc123"
 
+# Extract entire YouTube playlist (all videos at once)
+./css-aprtr extract "https://youtube.com/playlist?list=PLxxxxxx"
+
 # Extract EPUB books with automatic title naming
 ./css-aprtr extract "/path/to/book.epub"
 
@@ -169,6 +202,9 @@ This tool is designed to work seamlessly with Claude Code and other AI agents. H
 # Search content using natural language - perfect for AI queries
 ./css-aprtr search "artificial intelligence" -t transcript.txt -r 10
 
+# Search across entire playlist (shows which video each result is from)
+./css-aprtr search "machine learning" -p extractions/Playlist_Name_PLxxxxxx/ -r 15
+
 # Expand specific results with full context for deeper AI analysis
 ./css-aprtr search "consciousness" -t extracted_text.txt --expand 45 --context 5
 ```
@@ -179,6 +215,9 @@ This tool is designed to work seamlessly with Claude Code and other AI agents. H
 ./css-aprtr auto "https://youtube.com/watch?v=abc123" "neural networks" -r 15
 ./css-aprtr auto "/path/to/book.epub" "consciousness" -r 20
 
+# Extract and search entire playlist
+./css-aprtr auto "https://youtube.com/playlist?list=PLxxxxxx" "machine learning" -r 20
+
 # With custom name when needed
 ./css-aprtr auto "https://youtube.com/watch?v=abc123" "neural networks" -n interview -r 15
 ./css-aprtr auto "/path/to/book.epub" "philosophy" -n philosophy_book -r 25
@@ -187,25 +226,53 @@ This tool is designed to work seamlessly with Claude Code and other AI agents. H
 ## Command Line Arguments
 
 ### Extract Command
-- `source`: YouTube video URL or EPUB file path (required)
+- `source`: YouTube video URL, YouTube playlist URL, YouTube channel URL, or EPUB file path (required)
 - `-l, --language`: Subtitle language code for YouTube (default: en)
 - `-n, --name`: Custom output filename
 - `-o, --output-dir`: Output directory (default: current)
+- `--max-videos`: For channel indexing: limit number of videos to index
 
 ### Search Command
 - `query`: Search query (required for search mode)
-- `-t, --transcript`: Transcript file path (required)
+- `-t, --transcript`: Transcript file path (use for single file search)
+- `-p, --playlist-dir`: Playlist directory to search (searches all videos in playlist)
 - `-r, --results`: Number of results (default: 10)
 - `-e, --expand`: Expand specific result ID
 - `-c, --context`: Context chunks for expand (default: 3)
 
 ### Auto Command (Extract + Search)
-- `source`: YouTube video URL or EPUB file path (required)
+- `source`: YouTube video URL, YouTube playlist URL, or EPUB file path (required)
 - `query`: Search query (required)
 - `-l, --language`: Subtitle language code for YouTube (default: en)
 - `-n, --name`: Custom output filename
 - `-o, --output-dir`: Output directory (default: current)
 - `-r, --results`: Number of results (default: 10)
+
+### Channel Command
+- `channel index <channel_url>`: Create `extractions/<ChannelName_ChannelId>/channel_info.json` + `channel_videos.md`
+- `channel fetch <channel_dir> <video_id_or_url...>`: Fetch transcripts for one or more videos into that folder (then search with `css search -p <channel_dir>`)
+
+## Playlist Output Structure
+
+When extracting a YouTube playlist, the tool creates a nested directory structure:
+
+```
+extractions/
+└── Playlist_Title_PLxxxxxx/
+    ├── playlist_info.json           # Metadata about the playlist
+    ├── Playlist_Title_PLxxxxxx_combined.txt  # All transcripts merged
+    ├── Video_1_Title_videoID1/
+    │   └── Video_1_Title_videoID1.en.txt
+    ├── Video_2_Title_videoID2/
+    │   └── Video_2_Title_videoID2.en.txt
+    └── ...
+```
+
+The `playlist_info.json` contains:
+- Playlist name and source URL
+- Total video count and extraction statistics
+- List of successfully extracted videos
+- List of any failed extractions with error messages
 
 ## AI Analysis Examples
 
@@ -213,6 +280,9 @@ This tool is designed to work seamlessly with Claude Code and other AI agents. H
 ```bash
 # YouTube videos with automatic title naming (creates: Rick_Astley_Never_Gonna_Give_You_Up_Official_Video_4K_Remaster_dQw4w9WgXcQ/)
 ./css-aprtr extract "https://youtube.com/watch?v=dQw4w9WgXcQ"
+
+# YouTube playlist (creates: Playlist_Name_PLxxxxxx/ with nested video folders)
+./css-aprtr extract "https://youtube.com/playlist?list=PLxxxxxx"
 
 # EPUB books with automatic title naming (creates: The_Art_of_War_Sun_Tzu/)
 ./css-aprtr extract "/path/to/the_art_of_war.epub"
@@ -227,9 +297,13 @@ This tool is designed to work seamlessly with Claude Code and other AI agents. H
 
 ### Search Content
 ```bash
+# Search single transcript
 ./css-aprtr search "machine learning algorithms" -t extractions/interview/interview.en.txt -r 15
 ./css-aprtr search "startup advice" -t extracted_text.txt --expand 123 --context 4
 ./css-aprtr search "philosophy of war" -t extractions/The_Art_of_War_Sun_Tzu/The_Art_of_War_Sun_Tzu.txt -r 10
+
+# Search across entire playlist (shows which video each result is from)
+./css-aprtr search "neural networks" -p extractions/AI_Course_Playlist_PLxxxxxx/ -r 20
 ```
 
 ### One-Step Extract and Search
@@ -237,6 +311,9 @@ This tool is designed to work seamlessly with Claude Code and other AI agents. H
 # With automatic title naming (recommended for organized AI analysis)
 ./css-aprtr auto "https://youtube.com/watch?v=abc123" "artificial intelligence" -r 20
 ./css-aprtr auto "/path/to/book.epub" "philosophy" -r 15
+
+# Extract and search entire playlist
+./css-aprtr auto "https://youtube.com/playlist?list=PLxxxxxx" "deep learning" -r 25
 
 # With custom name when needed
 ./css-aprtr auto "https://youtube.com/watch?v=abc123" "artificial intelligence" -n ai_talk -r 20
@@ -253,7 +330,7 @@ This tool is designed to work seamlessly with Claude Code and other AI agents. H
 
 ## Sample Output for AI Analysis
 
-### Search Results
+### Search Results (Single Transcript)
 ```
 🔍 Searching for: 'Ruby on Rails'
 
@@ -269,6 +346,27 @@ This tool is designed to work seamlessly with Claude Code and other AI agents. H
     Rails has been used to build millions of applications including Shopify and GitHub. That's incredibly gratifying to see.
 
 💡 Use --expand [ID] to see full context around a specific result
+```
+
+### Playlist Search Results
+```
+📋 Loading 15 transcripts from playlist...
+✅ Loaded 4521 chunks from 15 videos
+🔍 Searching for: 'neural networks'
+
+🎯 Found 10 results across playlist:
+
+[1247] Transcript (Score: 0.891)
+    📺 Lecture 3 Deep Learning Basics
+    Neural networks are computational models inspired by the human brain. They consist of layers of interconnected nodes.
+
+[892] Transcript (Score: 0.867)
+    📺 Lecture 7 Backpropagation
+    The backpropagation algorithm is how neural networks learn from their mistakes by adjusting weights.
+
+[2103] Transcript (Score: 0.845)
+    📺 Lecture 12 Convolutional Networks
+    Convolutional neural networks are specialized for processing grid-like data such as images.
 ```
 
 ### Expanded Context for Deep Analysis
@@ -316,7 +414,10 @@ This tool is designed to work seamlessly with Claude Code and other AI agents. H
 
 ## Files and Structure
 
-- `extractions/`: Directory containing extracted content from YouTube videos and EPUB books (created on first extraction)
+- `extractions/`: Directory containing extracted content from YouTube videos, playlists, and EPUB books
+  - Single videos: `extractions/Video_Title_videoID/`
+  - Playlists: `extractions/Playlist_Title_PLxxxxxx/` (with nested video subfolders)
+  - EPUB books: `extractions/Book_Title/`
 - `cache/`: Directory containing cached embeddings (created on first search)
 - `src/core/`: Core functionality modules
 - `css-aprtr`: Main executable script (use `./css-aprtr` for all commands)
@@ -382,3 +483,4 @@ This ensures analysis is preserved, referenceable, and provides a structured rec
 2. **Research**: Use semantic queries to find related concepts across the transcript
 3. **Analysis**: Extract quotes and context for specific topics or themes → Create analysis.md
 4. **Comparative Study**: Analyze multiple videos on similar topics → Cross-reference insights
+5. **Playlist Analysis**: Extract entire playlist → Search across all videos → Identify patterns across lectures/episodes

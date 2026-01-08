@@ -7,6 +7,8 @@ from typing import Union, Optional
 from .base import ContentExtractor
 from .extractor import YouTubeExtractor
 from .epub_extractor import EPUBExtractor
+from .playlist_extractor import YouTubePlaylistExtractor
+from .channel_extractor import YouTubeChannelExtractor
 
 
 class ExtractorFactory:
@@ -36,7 +38,17 @@ class ExtractorFactory:
         Raises:
             ValueError: If source type is not supported
         """
-        if ExtractorFactory.is_youtube_url(source):
+        # Check playlist first (before single video)
+        if ExtractorFactory.is_youtube_playlist_url(source):
+            return YouTubePlaylistExtractor(
+                output_dir,
+                use_whisper=use_whisper,
+                whisper_model=whisper_model,
+                use_api=use_api
+            )
+        elif ExtractorFactory.is_youtube_channel_url(source):
+            return YouTubeChannelExtractor(output_dir)
+        elif ExtractorFactory.is_youtube_url(source):
             if use_whisper:
                 from .whisper_extractor import WhisperYouTubeExtractor
                 return WhisperYouTubeExtractor(output_dir, model=whisper_model, use_api=use_api)
@@ -51,13 +63,24 @@ class ExtractorFactory:
                 f"Unsupported source type: {source}\n"
                 "Supported types:\n"
                 "  - YouTube URLs\n"
+                "  - YouTube channel URLs\n"
                 "  - EPUB files (.epub)\n"
                 "  - Audio/Video files (.mp3, .mp4, .m4a, .wav, .webm, etc.)"
             )
     
     @staticmethod
+    def is_youtube_playlist_url(source: str) -> bool:
+        """Check if source is a YouTube playlist URL."""
+        playlist_patterns = [
+            r'youtube\.com/playlist\?list=',
+            r'youtube\.com/watch\?.*list=PL',
+            r'youtu\.be/.*\?list=PL'
+        ]
+        return any(re.search(pattern, source, re.IGNORECASE) for pattern in playlist_patterns)
+
+    @staticmethod
     def is_youtube_url(source: str) -> bool:
-        """Check if source is a YouTube URL."""
+        """Check if source is a YouTube video URL (not playlist)."""
         youtube_patterns = [
             r'youtube\.com/watch\?v=',
             r'youtu\.be/',
@@ -66,6 +89,17 @@ class ExtractorFactory:
             r'm\.youtube\.com/watch\?v='
         ]
         return any(re.search(pattern, source, re.IGNORECASE) for pattern in youtube_patterns)
+
+    @staticmethod
+    def is_youtube_channel_url(source: str) -> bool:
+        """Check if source is a YouTube channel URL (handle/channel/user/c)."""
+        channel_patterns = [
+            r'youtube\.com/@[^/?#]+(?:/[^?#]+)?',
+            r'youtube\.com/channel/[^/?#]+(?:/[^?#]+)?',
+            r'youtube\.com/user/[^/?#]+(?:/[^?#]+)?',
+            r'youtube\.com/c/[^/?#]+(?:/[^?#]+)?'
+        ]
+        return any(re.search(pattern, source, re.IGNORECASE) for pattern in channel_patterns)
     
     @staticmethod
     def is_epub_file(source: str) -> bool:
@@ -99,7 +133,11 @@ class ExtractorFactory:
         Returns:
             Source type string
         """
-        if ExtractorFactory.is_youtube_url(source):
+        if ExtractorFactory.is_youtube_playlist_url(source):
+            return "youtube_playlist"
+        elif ExtractorFactory.is_youtube_channel_url(source):
+            return "youtube_channel"
+        elif ExtractorFactory.is_youtube_url(source):
             return "youtube"
         elif ExtractorFactory.is_epub_file(source):
             return "epub"

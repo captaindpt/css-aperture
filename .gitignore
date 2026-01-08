@@ -38,8 +38,24 @@ ENV/
 .DS_Store
 Thumbs.db
 
+# Pytest / coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Type checking / lint caches
+.mypy_cache/
+.ruff_cache/
+
 # Cache directory - contains computed embeddings
 cache/
+
+# Extracted content (generated)
+extractions/
+
+# Local agent configuration / scratch
+.claude/
+archive/
 
 # Project development files - not needed for tool publication
 LOGBOOK.md

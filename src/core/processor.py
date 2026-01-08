@@ -249,7 +249,7 @@ class TextProcessor:
                     if not sub_chunk_content.endswith('.'):
                         sub_chunk_content += '.'
                     
-                    if len(sub_chunk_content.strip()) > 30:  # Minimum meaningful size
+                    if sentence_group:
                         final_chunks.append({
                             'id': len(final_chunks),
                             'content': sub_chunk_content,

@@ -1,10 +1,10 @@
 """Whisper-based audio/video transcription extractor."""
 
+import os
+import re
 import subprocess
 from pathlib import Path
 from typing import Optional, Tuple
-import re
-import os
 
 from .base import ContentExtractor
 
@@ -12,7 +12,9 @@ from .base import ContentExtractor
 class WhisperExtractor(ContentExtractor):
     """Extract transcriptions from audio/video files using OpenAI Whisper."""
 
-    def __init__(self, output_dir: str = ".", model: str = "base", use_api: bool = False):
+    def __init__(
+        self, output_dir: str = ".", model: str = "base", use_api: bool = False
+    ):
         """
         Initialize Whisper extractor.
 
@@ -52,11 +54,7 @@ class WhisperExtractor(ContentExtractor):
     def _check_whisper_installed(self):
         """Check if Whisper is installed and install if needed."""
         try:
-            subprocess.run(
-                ["whisper", "--help"],
-                capture_output=True,
-                check=True
-            )
+            subprocess.run(["whisper", "--help"], capture_output=True, check=True)
         except (subprocess.CalledProcessError, FileNotFoundError):
             raise RuntimeError(
                 "OpenAI Whisper is not installed. Install it with:\n"
@@ -87,12 +85,12 @@ class WhisperExtractor(ContentExtractor):
         base_name = source_path.stem
 
         # Clean the name for directory usage
-        clean_name = re.sub(r'[^\w\s-]', '', base_name)
-        clean_name = re.sub(r'[-\s]+', '_', clean_name)
-        clean_name = clean_name.strip('_')
+        clean_name = re.sub(r"[^\w\s-]", "", base_name)
+        clean_name = re.sub(r"[-\s]+", "_", clean_name)
+        clean_name = clean_name.strip("_")
 
         # Use file extension as identifier
-        identifier = source_path.suffix.lstrip('.')
+        identifier = source_path.suffix.lstrip(".")
 
         return clean_name, identifier
 
@@ -101,7 +99,7 @@ class WhisperExtractor(ContentExtractor):
         source: str,
         output_name: Optional[str] = None,
         language: Optional[str] = None,
-        **kwargs
+        **kwargs,
     ) -> Tuple[str, str]:
         """
         Transcribe audio/video file using Whisper.
@@ -140,10 +138,7 @@ class WhisperExtractor(ContentExtractor):
             return self._transcribe_locally(source_path, output_dir, language)
 
     def _transcribe_with_api(
-        self,
-        source_path: Path,
-        output_dir: Path,
-        language: Optional[str]
+        self, source_path: Path, output_dir: Path, language: Optional[str]
     ) -> Tuple[str, str]:
         """Transcribe using OpenAI API."""
         import openai
@@ -154,7 +149,11 @@ class WhisperExtractor(ContentExtractor):
         try:
             with open(source_path, "rb") as audio_file:
                 # Use the appropriate model
-                model = self.model if self.model in ["whisper-1", "gpt-4o-transcribe"] else "whisper-1"
+                model = (
+                    self.model
+                    if self.model in ["whisper-1", "gpt-4o-transcribe"]
+                    else "whisper-1"
+                )
 
                 params = {
                     "model": model,
@@ -180,20 +179,21 @@ class WhisperExtractor(ContentExtractor):
             raise RuntimeError(f"API transcription failed: {str(e)}")
 
     def _transcribe_locally(
-        self,
-        source_path: Path,
-        output_dir: Path,
-        language: Optional[str]
+        self, source_path: Path, output_dir: Path, language: Optional[str]
     ) -> Tuple[str, str]:
         """Transcribe using local Whisper model."""
         # Build Whisper command
         cmd = [
             "whisper",
             str(source_path),
-            "--model", self.model,
-            "--output_dir", str(output_dir),
-            "--output_format", "txt",
-            "--verbose", "False"
+            "--model",
+            self.model,
+            "--output_dir",
+            str(output_dir),
+            "--output_format",
+            "txt",
+            "--verbose",
+            "False",
         ]
 
         if language:
@@ -204,12 +204,7 @@ class WhisperExtractor(ContentExtractor):
         print("   (This may take a few minutes depending on file size and model)")
 
         try:
-            result = subprocess.run(
-                cmd,
-                capture_output=True,
-                text=True,
-                check=True
-            )
+            result = subprocess.run(cmd, capture_output=True, text=True, check=True)
 
             # Whisper creates output file with same name as input
             transcript_file = output_dir / f"{source_path.stem}.txt"
@@ -227,16 +222,16 @@ class WhisperExtractor(ContentExtractor):
 
         except subprocess.CalledProcessError as e:
             raise RuntimeError(
-                f"Whisper transcription failed:\n"
-                f"stdout: {e.stdout}\n"
-                f"stderr: {e.stderr}"
+                f"Whisper transcription failed:\nstdout: {e.stdout}\nstderr: {e.stderr}"
             )
 
 
 class WhisperYouTubeExtractor(ContentExtractor):
     """Download YouTube video and transcribe using Whisper."""
 
-    def __init__(self, output_dir: str = ".", model: str = "base", use_api: bool = False):
+    def __init__(
+        self, output_dir: str = ".", model: str = "base", use_api: bool = False
+    ):
         """
         Initialize YouTube+Whisper extractor.
 
@@ -276,12 +271,16 @@ class WhisperYouTubeExtractor(ContentExtractor):
         try:
             subprocess.run(["yt-dlp", "--version"], capture_output=True, check=True)
         except (subprocess.CalledProcessError, FileNotFoundError):
-            raise RuntimeError("yt-dlp is not installed. Install it with: pip install yt-dlp")
+            raise RuntimeError(
+                "yt-dlp is not installed. Install it with: pip install yt-dlp"
+            )
 
         try:
             subprocess.run(["whisper", "--help"], capture_output=True, check=True)
         except (subprocess.CalledProcessError, FileNotFoundError):
-            raise RuntimeError("OpenAI Whisper is not installed. Install it with: pip install openai-whisper")
+            raise RuntimeError(
+                "OpenAI Whisper is not installed. Install it with: pip install openai-whisper"
+            )
 
     def get_source_type(self) -> str:
         """Return the type of content this extractor handles."""
@@ -298,7 +297,7 @@ class WhisperYouTubeExtractor(ContentExtractor):
             Tuple of (clean_title, video_id)
         """
         # Extract video ID
-        video_id_match = re.search(r'(?:v=|youtu\.be/)([a-zA-Z0-9_-]{11})', source)
+        video_id_match = re.search(r"(?:v=|youtu\.be/)([a-zA-Z0-9_-]{11})", source)
         if not video_id_match:
             raise ValueError(f"Invalid YouTube URL: {source}")
         video_id = video_id_match.group(1)
@@ -310,16 +309,16 @@ class WhisperYouTubeExtractor(ContentExtractor):
                 capture_output=True,
                 text=True,
                 check=True,
-                timeout=30
+                timeout=30,
             )
             title = result.stdout.strip()
         except (subprocess.CalledProcessError, subprocess.TimeoutExpired):
             title = "YouTube_Video"
 
         # Clean title for directory name
-        clean_title = re.sub(r'[^\w\s-]', '', title)
-        clean_title = re.sub(r'[-\s]+', '_', clean_title)
-        clean_title = clean_title.strip('_')[:100]  # Limit length
+        clean_title = re.sub(r"[^\w\s-]", "", title)
+        clean_title = re.sub(r"[-\s]+", "_", clean_title)
+        clean_title = clean_title.strip("_")[:100]  # Limit length
 
         return clean_title, video_id
 
@@ -328,7 +327,7 @@ class WhisperYouTubeExtractor(ContentExtractor):
         source: str,
         output_name: Optional[str] = None,
         language: Optional[str] = None,
-        **kwargs
+        **kwargs,
     ) -> Tuple[str, str]:
         """
         Download YouTube video and transcribe using Whisper.
@@ -360,13 +359,17 @@ class WhisperYouTubeExtractor(ContentExtractor):
             subprocess.run(
                 [
                     "yt-dlp",
-                    "-f", "bestaudio[ext=m4a]",
-                    "-o", str(audio_file),
-                    source
+                    "--extractor-args",
+                    "youtube:player_client=ios,web",
+                    "-f",
+                    "bestaudio[ext=m4a]/bestaudio/best",
+                    "-o",
+                    str(audio_file),
+                    source,
                 ],
                 capture_output=True,
                 text=True,
-                check=True
+                check=True,
             )
         except subprocess.CalledProcessError as e:
             raise RuntimeError(f"Failed to download video: {e.stderr}")
@@ -384,9 +387,13 @@ class WhisperYouTubeExtractor(ContentExtractor):
             print(f"🌐 Language: {language}")
 
         if self.use_api:
-            final_transcript = self._transcribe_with_api(audio_file, output_dir, output_name, language)
+            final_transcript = self._transcribe_with_api(
+                audio_file, output_dir, output_name, language
+            )
         else:
-            final_transcript = self._transcribe_locally(audio_file, output_dir, output_name, language)
+            final_transcript = self._transcribe_locally(
+                audio_file, output_dir, output_name, language
+            )
 
         # Optional: clean up audio file to save space
         # audio_file.unlink()
@@ -398,7 +405,7 @@ class WhisperYouTubeExtractor(ContentExtractor):
         audio_file: Path,
         output_dir: Path,
         output_name: str,
-        language: Optional[str]
+        language: Optional[str],
     ) -> Path:
         """Transcribe using OpenAI API."""
         import openai
@@ -407,7 +414,11 @@ class WhisperYouTubeExtractor(ContentExtractor):
 
         try:
             with open(audio_file, "rb") as f:
-                model = self.model if self.model in ["whisper-1", "gpt-4o-transcribe"] else "whisper-1"
+                model = (
+                    self.model
+                    if self.model in ["whisper-1", "gpt-4o-transcribe"]
+                    else "whisper-1"
+                )
 
                 params = {
                     "model": model,
@@ -437,16 +448,20 @@ class WhisperYouTubeExtractor(ContentExtractor):
         audio_file: Path,
         output_dir: Path,
         output_name: str,
-        language: Optional[str]
+        language: Optional[str],
     ) -> Path:
         """Transcribe using local Whisper model."""
         cmd = [
             "whisper",
             str(audio_file),
-            "--model", self.model,
-            "--output_dir", str(output_dir),
-            "--output_format", "txt",
-            "--verbose", "False"
+            "--model",
+            self.model,
+            "--output_dir",
+            str(output_dir),
+            "--output_format",
+            "txt",
+            "--verbose",
+            "False",
         ]
 
         if language:
@@ -460,7 +475,9 @@ class WhisperYouTubeExtractor(ContentExtractor):
             transcript_file = output_dir / "audio.txt"
 
             if not transcript_file.exists():
-                raise RuntimeError(f"Transcription failed. Expected output not found: {transcript_file}")
+                raise RuntimeError(
+                    f"Transcription failed. Expected output not found: {transcript_file}"
+                )
 
             # Rename transcript to match output name
             final_transcript = output_dir / f"{output_name}.txt"

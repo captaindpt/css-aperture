@@ -49,6 +49,25 @@ pip install openai          # API mode (requires OPENAI_API_KEY)
 brew install ffmpeg  # macOS
 ```
 
+### YouTube Authentication (required as of 2026)
+
+YouTube now blocks unauthenticated yt-dlp with *"Sign in to confirm you're not a bot"* on most public videos. css-aperture handles this automatically by passing cookies from your browser via `--cookies-from-browser chrome` (default).
+
+**To make the default work:** sign into YouTube in Chrome at least once. On macOS the first run may trigger a keychain prompt that must be approved.
+
+**Override via env vars:**
+```bash
+# Use a different browser
+export YSS_YT_COOKIES_BROWSER=firefox   # or edge, brave, safari, "chrome:Profile 1"
+
+# Or point at an exported cookies.txt instead
+export YSS_YT_COOKIES_FILE=/path/to/cookies.txt
+
+# Disable cookie injection entirely
+export YSS_YT_COOKIES_BROWSER=none
+```
+See `CLAUDE.md` for full troubleshooting details.
+
 ## Automatic Content Naming
 
 When you don't specify a custom name with the `-n` option, css-aperture automatically:

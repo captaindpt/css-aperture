@@ -7,6 +7,7 @@ from pathlib import Path
 from typing import Optional, Tuple
 
 from .base import ContentExtractor
+from .ytdlp_helpers import inject_auth
 
 
 class WhisperExtractor(ContentExtractor):
@@ -305,7 +306,7 @@ class WhisperYouTubeExtractor(ContentExtractor):
         # Get video title
         try:
             result = subprocess.run(
-                ["yt-dlp", "--get-title", source],
+                inject_auth(["yt-dlp", "--get-title", source]),
                 capture_output=True,
                 text=True,
                 check=True,
@@ -357,7 +358,7 @@ class WhisperYouTubeExtractor(ContentExtractor):
 
         try:
             subprocess.run(
-                [
+                inject_auth([
                     "yt-dlp",
                     "--extractor-args",
                     "youtube:player_client=ios,web",
@@ -366,7 +367,7 @@ class WhisperYouTubeExtractor(ContentExtractor):
                     "-o",
                     str(audio_file),
                     source,
-                ],
+                ]),
                 capture_output=True,
                 text=True,
                 check=True,

@@ -7,6 +7,7 @@ from pathlib import Path
 from typing import Optional, Tuple
 
 from .base import ContentExtractor
+from .ytdlp_helpers import inject_auth
 
 
 class YouTubeExtractor(ContentExtractor):
@@ -42,7 +43,7 @@ class YouTubeExtractor(ContentExtractor):
             RuntimeError: If title retrieval fails
         """
         try:
-            info_cmd = ["yt-dlp", "--get-title", "--get-id", url]
+            info_cmd = inject_auth(["yt-dlp", "--get-title", "--get-id", url])
             result = subprocess.run(
                 info_cmd, capture_output=True, text=True, check=True
             )
@@ -114,7 +115,7 @@ class YouTubeExtractor(ContentExtractor):
 
             # Extract subtitles using yt-dlp
             # Use ios,web player clients to bypass PO token requirement for subtitles
-            cmd = [
+            cmd = inject_auth([
                 "yt-dlp",
                 "--no-update",
                 "--extractor-args",
@@ -127,7 +128,7 @@ class YouTubeExtractor(ContentExtractor):
                 "--output",
                 str(self.output_dir / f"{output_name}.%(ext)s"),
                 url,
-            ]
+            ])
 
             result = subprocess.run(cmd, capture_output=True, text=True, check=True)
 

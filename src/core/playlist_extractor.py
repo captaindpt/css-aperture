@@ -8,6 +8,7 @@ from typing import Optional, Tuple, List, Dict, Any
 
 from .base import ContentExtractor
 from .extractor import YouTubeExtractor
+from .ytdlp_helpers import inject_auth
 
 
 class YouTubePlaylistExtractor(ContentExtractor):
@@ -50,7 +51,7 @@ class YouTubePlaylistExtractor(ContentExtractor):
             RuntimeError: If info retrieval fails
         """
         try:
-            cmd = [
+            cmd = inject_auth([
                 "yt-dlp",
                 "--no-update",
                 "--flat-playlist",
@@ -58,7 +59,7 @@ class YouTubePlaylistExtractor(ContentExtractor):
                 "--print", "playlist_id",
                 "--playlist-items", "1",
                 url
-            ]
+            ])
             result = subprocess.run(cmd, capture_output=True, text=True, check=True)
             lines = result.stdout.strip().split('\n')
 
@@ -87,13 +88,13 @@ class YouTubePlaylistExtractor(ContentExtractor):
             List of dicts with video_id and title
         """
         try:
-            cmd = [
+            cmd = inject_auth([
                 "yt-dlp",
                 "--no-update",
                 "--flat-playlist",
                 "--print", "%(id)s|||%(title)s",
                 url
-            ]
+            ])
             result = subprocess.run(cmd, capture_output=True, text=True, check=True)
 
             videos = []

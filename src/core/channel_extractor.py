@@ -12,6 +12,7 @@ from typing import Optional, Tuple, List, Dict, Any
 from urllib.parse import urlparse, urlunparse
 
 from .base import ContentExtractor
+from .ytdlp_helpers import inject_auth
 
 
 @dataclass(frozen=True)
@@ -68,7 +69,7 @@ class YouTubeChannelExtractor(ContentExtractor):
         url = self.normalize_channel_videos_url(url)
 
         try:
-            cmd = [
+            cmd = inject_auth([
                 "yt-dlp",
                 "--no-update",
                 "--flat-playlist",
@@ -76,7 +77,7 @@ class YouTubeChannelExtractor(ContentExtractor):
                 "--print", "playlist_id",
                 "--playlist-items", "1",
                 url,
-            ]
+            ])
             result = subprocess.run(cmd, capture_output=True, text=True, check=True)
             lines = result.stdout.strip().split("\n")
 
@@ -107,6 +108,7 @@ class YouTubeChannelExtractor(ContentExtractor):
             if max_videos is not None:
                 cmd.extend(["--playlist-end", str(max_videos)])
             cmd.append(url)
+            cmd = inject_auth(cmd)
 
             result = subprocess.run(cmd, capture_output=True, text=True, check=True)
 

@@ -98,6 +98,26 @@ pip install openai          # API (requires OPENAI_API_KEY)
 4. Then install dependencies: `pip install -e .`
 5. All css-aprtr commands must be prefixed with: `source venv/bin/activate && ./css-aprtr ...`
 
+### YouTube Bot-Detection Workaround (2026+)
+
+As of early 2026, YouTube blocks most unauthenticated yt-dlp requests with **"Sign in to confirm you're not a bot"** — even for public videos, across every player_client (`ios`, `tv`, `web_safari`, `mweb`, `web_embedded`). Switching clients no longer helps; YouTube requires either signed-in cookies or a PO Token.
+
+**How this repo handles it:** `src/core/ytdlp_helpers.py` centralizes a `inject_auth()` helper that all four extractors (`extractor`, `playlist_extractor`, `channel_extractor`, `whisper_extractor`) call on every yt-dlp command. By default it injects `--cookies-from-browser chrome`.
+
+**Prerequisites for the default path:**
+1. **Google Chrome must be signed into a YouTube account.** An empty Chrome profile will extract cookies successfully but YouTube will still refuse.
+2. On macOS, Chrome's keychain must be unlockable — running the extract interactively may trigger a one-time keychain prompt that must be approved.
+3. **Safari cookies don't work** — the Cookies.binarycookies file is sandboxed (Operation not permitted).
+
+**Configuration env vars:**
+- `YSS_YT_COOKIES_BROWSER` — browser name for `--cookies-from-browser`. Default: `chrome`. Accepts any yt-dlp value (`firefox`, `edge`, `brave`, `chrome:Profile 1`, etc.). Set to `none` (or empty) to disable cookie injection.
+- `YSS_YT_COOKIES_FILE` — path to a Netscape-format `cookies.txt` exported from a signed-in browser. Takes precedence over `YSS_YT_COOKIES_BROWSER`. Use this when Chrome isn't available (e.g., a fresh machine or CI) — export via the "Get cookies.txt LOCALLY" browser extension.
+
+**If extraction fails with "Sign in to confirm you're not a bot" despite the above:**
+- Confirm Chrome is signed into YouTube (`youtube.com` shows your avatar).
+- Run `yt-dlp --cookies-from-browser chrome --get-title <url>` directly to surface keychain prompts.
+- Fall back to `YSS_YT_COOKIES_FILE=/path/to/cookies.txt` with a freshly-exported cookies.txt.
+
 ### Whisper Transcription Modes
 
 **Local Mode** (default): Free, offline, runs on your machine
@@ -160,6 +180,10 @@ pip install openai          # API (requires OPENAI_API_KEY)
 export YSS_MODEL_NAME="all-MiniLM-L6-v2"
 export YSS_CACHE_DIR="cache"
 export YSS_DEFAULT_RESULTS="10"
+
+# YouTube auth (see "YouTube Bot-Detection Workaround" section)
+export YSS_YT_COOKIES_BROWSER="chrome"   # default; set "none" to disable
+# export YSS_YT_COOKIES_FILE="/path/to/cookies.txt"  # alternative: explicit cookies.txt
 ```
 
 ### Development Notes
